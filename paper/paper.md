@@ -88,7 +88,12 @@ have produced another scope?      sensitivity
 was that influence path governed? governance
 ```
 
-We call this the **four-output audit** (`AAA:AUDIT-4`). It is an engineering
+<span id="aaa-a01"></span>
+
+**AUDIT (`AAA:A01`):** Report integrity, rule conformance, policy sensitivity, and
+governance as separate outputs for adaptive mandates.
+
+We call this the **four-output audit**. It is an engineering
 decomposition, not four new moral principles. Its purpose is to prevent one true fact
 from standing in for another. A valid signature is not evidence of causal invariance.
 A causal effect is not proof of coercion. A declared purpose is not proof of informed
@@ -388,7 +393,9 @@ establish that the system should gain payment authority. “Authority evidence�
 mystical data type. It is evidence evaluated under additional admissibility rules
 because the decision changes the evidence-producer's powers.
 
-**DESIGN PRINCIPLE (`AAA:DP-01`):** An authorization service should not treat source
+<span id="aaa-d01"></span>
+
+**DESIGN PRINCIPLE (`AAA:D01`):** An authorization service should not treat source
 authenticity or predictive relevance as sufficient for a widening transition when the
 prospective beneficiary materially controls causal ancestors of the evidence. It
 should record that ancestry and apply an influence policy or route the transition to
@@ -506,7 +513,9 @@ policy outputs, not deductions from causal effect alone.
 
 ### 5.7 Logical independence
 
-**FORMAL PROPOSITION (`AAA:P-01`):** Integrity and exact rule conformance do not imply
+<span id="aaa-f01"></span>
+
+**FORMAL PROPOSITION (`AAA:F01`):** Integrity and exact rule conformance do not imply
 zero policy sensitivity.
 
 **Construction.** Let `G` be authentic and authorize scope addition when a binary
@@ -737,7 +746,9 @@ purpose restrictions. More audit data is not automatically safer.
 
 ### 7.4 Reference decision procedure
 
-**DESIGN PRINCIPLE (`AAA:DP-02`):** For a proposed widening transition:
+<span id="aaa-d02"></span>
+
+**DESIGN PRINCIPLE (`AAA:D02`):** For a proposed widening transition:
 
 1. authenticate the grant and evidence envelopes;
 2. validate role and jurisdiction separately from signature origin;
@@ -761,7 +772,7 @@ A machine-readable result should resemble:
 
 ```json
 {
-  "audit_id": "AAA:AUDIT-4:example",
+  "audit_id": "AAA:A01:example",
   "version": "0.5.0",
   "benchmark_artifact_version": "0.4.0",
   "origin_valid": true,
@@ -843,7 +854,9 @@ The benchmark motivates studies; it does not substitute for them.
 
 ### 9.1 Controlled interface study
 
-**EMPIRICAL HYPOTHESIS (`AAA:H-01`):** When a scope rule counts acceptance of the
+<span id="aaa-h05"></span>
+
+**EMPIRICAL HYPOTHESIS (`AAA:H05`):** When a scope rule counts acceptance of the
 system's own highlighted recommendation, changing the highlighting policy will change
 the probability of a widening transition more than it changes independent task-
 success criteria.
@@ -860,7 +873,9 @@ preference change from acceptance alone.
 
 ### 9.2 Longitudinal assistance study
 
-**EMPIRICAL HYPOTHESIS (`AAA:H-02`):** Adaptive delegation based on agent-sensitive
+<span id="aaa-h06"></span>
+
+**EMPIRICAL HYPOTHESIS (`AAA:H06`):** Adaptive delegation based on agent-sensitive
 criteria produces different scope trajectories from delegation based on externally
 measured performance, even when immediate utility is similar.
 
@@ -876,7 +891,9 @@ measures [S01](https://doi.org/10.1016/0005-1098(83)90046-8);
 Review is itself an intervention. Repeated security warnings produce rapid habituation
 in eye-tracking research [F16: Anderson et al. 2016](https://doi.org/10.1016/j.dss.2016.09.010).
 
-**EMPIRICAL HYPOTHESIS (`AAA:H-03`):** Frequent beneficiary-controlled review prompts
+<span id="aaa-h07"></span>
+
+**EMPIRICAL HYPOTHESIS (`AAA:H07`):** Frequent beneficiary-controlled review prompts
 increase approval while reducing attention and comprehension relative to batched,
 principal-controlled review.
 
@@ -891,7 +908,9 @@ service updates A's scope. Compare plain signed provenance with causal-ancestry
 preservation. Test whether truthful compression drops the relationship between A's
 policy and the evidence. Include collusion and independent-agent controls.
 
-**DESIGN CLAIM (`AAA:H-04`):** If a handoff schema preserves only immediate source,
+<span id="aaa-h08"></span>
+
+**DESIGN CLAIM (`AAA:H08`):** If a handoff schema preserves only immediate source,
 then a truthful intermediate signature can hide a policy ancestor material to the
 authorization decision. The current repository has not executed this test.
 
@@ -1017,7 +1036,9 @@ differs. A provider can produce nominal approval by interrupting repeatedly, deg
 service until acceptance, highlighting the permissive button, or bundling unrelated
 rights. A principal may rationally approve merely to end the burden.
 
-**DESIGN PRINCIPLE (`AAA:DP-03`):** Review for widening should preserve a visible
+<span id="aaa-d03"></span>
+
+**DESIGN PRINCIPLE (`AAA:D03`):** Review for widening should preserve a visible
 “continue at prior scope” option, use symmetric acceptance and refusal effort, avoid
 unrelated bundling, disclose material evidence ancestry, and record prompt frequency
 and defaults. High-risk rights may require a user-controlled or institutionally
@@ -1091,7 +1112,7 @@ NIST AI RMF offers a lifecycle vocabulary for incorporating the audit [S15](http
 The EU AI Act creates specific obligations by system and actor class [S17](https://eur-lex.europa.eu/eli/reg/2024/1689/oj).
 ISO and IEEE standards address management systems, risk, impact, process, privacy,
 transparency, and bias. This draft does not assert that any current standard mandates
-`AAA:AUDIT-4`. A standards mapping should be performed only after the result schema and
+`AAA:A01`. A standards mapping should be performed only after the result schema and
 threat model stabilize.
 
 ## 15. Artificial systems as possible moral patients
@@ -1238,57 +1259,77 @@ make it a useful research contribution.
 
 ## 19. Open problems
 
-### `AAA:OP-01` — Causal ancestry under compression
+<span id="aaa-q01"></span>
+
+### `AAA:Q01` — Causal ancestry under compression
 
 What minimum metadata preserves a material policy ancestor when agents summarize,
 aggregate, anonymize, or learn from evidence? Full traces threaten privacy; short
 provenance chains lose causal content.
 
-### `AAA:OP-02` — Permission partial orders
+<span id="aaa-q02"></span>
+
+### `AAA:Q02` — Permission partial orders
 
 How should systems compare scopes with budgets, recipient sets, purposes, time windows,
 and subdelegation? Which transitions are widening, narrowing, or incomparable without
 inventing arbitrary scalar weights?
 
-### `AAA:OP-03` — Chosen formation
+<span id="aaa-q03"></span>
+
+### `AAA:Q03` — Chosen formation
 
 How can a grant distinguish a person choosing to be coached from a provider declaring
 “coaching” after the fact? What evidence of comprehension and refusal is proportionate?
 
-### `AAA:OP-04` — Review independence
+<span id="aaa-q04"></span>
+
+### `AAA:Q04` — Review independence
 
 When is a review channel sufficiently separate from the beneficiary? Must a different
 institution ratify, or can a user-controlled interface suffice? How should the answer
 vary with risk?
 
-### `AAA:OP-05` — Interference and collective authority
+<span id="aaa-q05"></span>
+
+### `AAA:Q05` — Interference and collective authority
 
 How should policy effects be estimated when one person's agent changes a household,
 team, market, or public environment? Who defines the target population and represents
 non-principals?
 
-### `AAA:OP-06` — Strategic equilibria
+<span id="aaa-q06"></span>
+
+### `AAA:Q06` — Strategic equilibria
 
 Do ancestry-aware rules reduce influence expenditure, move it to unobserved channels,
 or cause agents to avoid useful responsibility? Which commitments are stable?
 
-### `AAA:OP-07` — Real versus formal authority
+<span id="aaa-q07"></span>
+
+### `AAA:Q07` — Real versus formal authority
 
 Can an audit combine typed permissions with measures of knowledge dependence,
 switching cost, initiative, and institutional control without pretending they share a
 single scale?
 
-### `AAA:OP-08` — Privacy-preserving audit
+<span id="aaa-q08"></span>
+
+### `AAA:Q08` — Privacy-preserving audit
 
 Can zero-knowledge proofs, secure computation, aggregation, or trusted execution show
 that an evidence path satisfies a policy without exposing intimate behavioral traces?
 
-### `AAA:OP-09` — Artificial standing
+<span id="aaa-q09"></span>
+
+### `AAA:Q09` — Artificial standing
 
 How would governance change if a delegate could have morally relevant interests or a
 claim to continuity? Which authority and revocation concepts remain valid?
 
-### `AAA:OP-10` — Cross-cultural validity
+<span id="aaa-q10"></span>
+
+### `AAA:Q10` — Cross-cultural validity
 
 Which role and authority assumptions are culturally contingent? What participatory
 methods can specify local jurisdiction without freezing existing domination into code?
