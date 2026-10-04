@@ -73,7 +73,7 @@ appeal, expiry, or prohibition follows? A household, workplace, clinic, school,
 religious community, and state need not recognize the same authority structure.
 No causal estimator can settle political legitimacy.
 
-These answers implement [AAA:P01](https://authority-after-assistance.aaddy.chatgpt.site/concept/causal-mandate-audit).
+These answers implement [AAA:P01](https://authority-after-assistance.aaddy.chatgpt.site/principle/audit-evidence-authority).
 They must not collapse into an “ethical” badge. A signature can
 coexist with the wrong principal. A correct causal estimate can coexist with a
 chosen formative practice. A beneficial result can still exceed its mandate.
@@ -128,7 +128,7 @@ that humans struggle.
 ### Exit
 
 Revoking a token may stop an action without restoring a life. This is the
-lifecycle concern in [AAA:P03](https://authority-after-assistance.aaddy.chatgpt.site/concept/recovery-after-assistance).
+lifecycle concern in [AAA:P03](https://authority-after-assistance.aaddy.chatgpt.site/principle/evaluate-after-help).
 A long-serving
 agent can hold routines, explanations, contacts, memories, and the map of how
 institutions work. Exit can require self-reconstruction. Portability should
@@ -206,7 +206,7 @@ approval. Maintain the old valid scope when review is required, except where a
 separate, locally valid emergency rule applies.
 
 Allow chosen self-formation. [AAA:C02](https://authority-after-assistance.aaddy.chatgpt.site/concept/conditional-influence-contract)
-and [AAA:P02](https://authority-after-assistance.aaddy.chatgpt.site/concept/conditional-influence-contract)
+and [AAA:P02](https://authority-after-assistance.aaddy.chatgpt.site/principle/terms-of-chosen-change)
 cover its proposed implementation. A person may ask for coaching, discipline,
 friction, reminders, or environments that change future behavior. Check whether
 the actual intervention, measured evidence, acquired permission, duration, and
