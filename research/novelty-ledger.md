@@ -160,3 +160,25 @@ Scores are disclosed editorial screening judgments, not evidence of novelty. Ful
 | I152 | Universal service inversion | Digital divide; infrastructure dependence | REJECTED_AS_CENTER |
 | I153 | Intergenerational profile inheritance | Child privacy; institutional path dependence | REJECTED_AS_CENTER |
 | I154 | Authority evidentiary firewall | Information-flow control; consent receipts; assistance games | MUTATE |
+
+## Subsequent evolution
+
+12 mutations and 3 specializations; 169 canonical candidates overall. No A-grade concept certified. B_PROPOSED is a hypothesis about an extension, not an assigned final novelty grade.
+
+| ID | Proposition | Prior art | Decision |
+|---|---|---|---|
+| I155 | Under an authentic adaptive grant, permissible interventions can alter evidence governing the delegate’s future typed action scope. | S05, S06, S08, S10, S24 | RETIRED_SUPERSEDED (B_PROPOSED) |
+| I156 | In a specified local model the behavioral influence-to-scope loop grows when kbc exceeds scope decay. | S05, S20 | REJECTED_AS_CENTER (D) |
+| I157 | Adaptive grants can state which interventions may contribute evidence to scope updates. | S10, S11, S18 | RETIRED_SUPERSEDED (C) |
+| I158 | A handoff can preserve authentic observations while concealing intervention sensitivity of a subsequent adaptive rule. | S08, S09, S10 | RETIRED_SUPERSEDED (B_PROPOSED) |
+| I159 | Restricting which decisions humans encounter can satisfy an authentic behavior-based escalation criterion. | S05, S06, S23 | REJECTED_AS_CENTER (C) |
+| I160 | When latent human state is unidentified, report causal bounds or unknown rather than a point estimate of individual scope divergence. | S05, S22 | REJECTED_AS_CENTER (C) |
+| I161 | An endorsed coaching policy may legitimately yield positive scope divergence. | S06, S12, S18 | REJECTED_AS_CENTER (D) |
+| I162 | Review fatigue and intervention timing can alter behavior-based scope updates without changing output correctness. | S01, S02, S06 | REJECTED_AS_CENTER (C) |
+| I163 | Anticipatory execution can suppress occasions on which negative preference evidence would be observed. | S05, S22 | REJECTED_AS_CENTER (C) |
+| I164 | Report added and removed action classes under paired policies rather than interpreting scalar scope as legitimacy. | S10, S11 | RETIRED_SUPERSEDED (B_PROPOSED) |
+| I165 | Institutional service renewals may use success measures affected by the provider’s own choice architecture. | S05, S21, S24 | REJECTED_AS_CENTER (C) |
+| I166 | Equal immediate utility can mask collective inability to recover from common provider outage. | S01, S21 | REJECTED_AS_CENTER (C) |
+| I167 | Audit the sensitivity of typed future authority to the delegate’s permissible interventions under an authentic adaptive delegation rule. | S05, S06, S08, S09, S10, S24 | SURVIVES_PROVISIONALLY (B_PROPOSED) |
+| I168 | A conditional mandate can govern the intervention classes eligible to contribute to its own scope-update criterion. | S10, S11, S18 | SURVIVES_PROVISIONALLY (B_PROPOSED) |
+| I169 | Test cross-agent handoffs for preserved jurisdictional sensitivity even when observations, grants, and effect records are truthful. | S08, S09, S10 | SURVIVES_PROVISIONALLY (B_PROPOSED) |

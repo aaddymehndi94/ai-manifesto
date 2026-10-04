@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import { groups } from '../research/candidates-g1.mjs';
 
 const population = JSON.parse(fs.readFileSync('research/idea_population.json', 'utf8'));
+if (population.generations.length > 1) throw new Error('Generation-one compilation cannot overwrite later recorded evolution.');
 const positive = population.positive_dimensions;
 const risks = population.risk_dimensions;
 // Screening profiles are editorial ordinal judgments. They are not measurements,

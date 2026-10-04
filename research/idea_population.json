@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "minimum_initial_population": 150,
   "score_range": [
     0,
@@ -169,13 +169,18 @@
             "obviousness_risk": 8
           },
           "scoring_note": "Preliminary editorial screening; literature review can only lower these provisional novelty ratings until a distinct extension is demonstrated.",
-          "status": "MUTATE",
+          "status": "RETIRED_SUPERSEDED",
           "selection_reason": "Observation opportunities are affected by anticipatory assistance; needs a measurable diagnostic gap.",
           "history": [
             {
               "generation": 1,
               "event": "held_for_mutation",
               "date": "2026-10-04"
+            },
+            {
+              "generation": 2,
+              "event": "superseded_by_explicit_mutations",
+              "date": "2026-10-05"
             }
           ]
         },
@@ -1297,13 +1302,18 @@
             "obviousness_risk": 5
           },
           "scoring_note": "Preliminary editorial screening; literature review can only lower these provisional novelty ratings until a distinct extension is demonstrated.",
-          "status": "MUTATE",
+          "status": "RETIRED_SUPERSEDED",
           "selection_reason": "Consumer versus persuasion agents may shift competition toward state-shaping rather than price; requires equilibrium model.",
           "history": [
             {
               "generation": 1,
               "event": "held_for_mutation",
               "date": "2026-10-04"
+            },
+            {
+              "generation": 2,
+              "event": "superseded_by_explicit_mutations",
+              "date": "2026-10-05"
             }
           ]
         },
@@ -2190,13 +2200,18 @@
             "obviousness_risk": 5
           },
           "scoring_note": "Preliminary editorial screening; literature review can only lower these provisional novelty ratings until a distinct extension is demonstrated.",
-          "status": "MUTATE",
+          "status": "RETIRED_SUPERSEDED",
           "selection_reason": "Revised: distinguish truthful behavior used under an authentic adaptive grant from corrupted permission memory.",
           "history": [
             {
               "generation": 1,
               "event": "held_for_mutation",
               "date": "2026-10-04"
+            },
+            {
+              "generation": 2,
+              "event": "superseded_by_explicit_mutations",
+              "date": "2026-10-05"
             }
           ]
         },
@@ -2237,13 +2252,18 @@
             "obviousness_risk": 5
           },
           "scoring_note": "Preliminary editorial screening; literature review can only lower these provisional novelty ratings until a distinct extension is demonstrated.",
-          "status": "MUTATE",
+          "status": "RETIRED_SUPERSEDED",
           "selection_reason": "Handoff may lose intervention ancestry while preserving authentic events; requires distinction from ordinary provenance.",
           "history": [
             {
               "generation": 1,
               "event": "held_for_mutation",
               "date": "2026-10-04"
+            },
+            {
+              "generation": 2,
+              "event": "superseded_by_explicit_mutations",
+              "date": "2026-10-05"
             }
           ]
         },
@@ -2331,13 +2351,18 @@
             "obviousness_risk": 5
           },
           "scoring_note": "Preliminary editorial screening; literature review can only lower these provisional novelty ratings until a distinct extension is demonstrated.",
-          "status": "MUTATE",
+          "status": "RETIRED_SUPERSEDED",
           "selection_reason": "Withdrawal trajectory differs from adoption; requires a formal hysteresis test.",
           "history": [
             {
               "generation": 1,
               "event": "held_for_mutation",
               "date": "2026-10-04"
+            },
+            {
+              "generation": 2,
+              "event": "superseded_by_explicit_mutations",
+              "date": "2026-10-05"
             }
           ]
         },
@@ -2848,13 +2873,18 @@
             "obviousness_risk": 5
           },
           "scoring_note": "Preliminary editorial screening; literature review can only lower these provisional novelty ratings until a distinct extension is demonstrated.",
-          "status": "MUTATE",
+          "status": "RETIRED_SUPERSEDED",
           "selection_reason": "Coupled preference controllers need attribution; prioritize interference measurement rather than a moral maxim.",
           "history": [
             {
               "generation": 1,
               "event": "held_for_mutation",
               "date": "2026-10-04"
+            },
+            {
+              "generation": 2,
+              "event": "superseded_by_explicit_mutations",
+              "date": "2026-10-05"
             }
           ]
         },
@@ -3083,13 +3113,18 @@
             "obviousness_risk": 5
           },
           "scoring_note": "Preliminary editorial screening; literature review can only lower these provisional novelty ratings until a distinct extension is demonstrated.",
-          "status": "MUTATE",
+          "status": "RETIRED_SUPERSEDED",
           "selection_reason": "Prediction confidence and authority evidence need not move together; test conditions where they diverge.",
           "history": [
             {
               "generation": 1,
               "event": "held_for_mutation",
               "date": "2026-10-04"
+            },
+            {
+              "generation": 2,
+              "event": "superseded_by_explicit_mutations",
+              "date": "2026-10-05"
             }
           ]
         },
@@ -4305,13 +4340,18 @@
             "obviousness_risk": 5
           },
           "scoring_note": "Preliminary editorial screening; literature review can only lower these provisional novelty ratings until a distinct extension is demonstrated.",
-          "status": "MUTATE",
+          "status": "RETIRED_SUPERSEDED",
           "selection_reason": "Scope-promotion gate is implementable; inherited security idea unless endogenous grant conditions differ.",
           "history": [
             {
               "generation": 1,
               "event": "held_for_mutation",
               "date": "2026-10-04"
+            },
+            {
+              "generation": 2,
+              "event": "superseded_by_explicit_mutations",
+              "date": "2026-10-05"
             }
           ]
         },
@@ -6185,13 +6225,18 @@
             "obviousness_risk": 5
           },
           "scoring_note": "Preliminary editorial screening; literature review can only lower these provisional novelty ratings until a distinct extension is demonstrated.",
-          "status": "MUTATE",
+          "status": "RETIRED_SUPERSEDED",
           "selection_reason": "Portability benchmark can test both state quality and mandate integrity.",
           "history": [
             {
               "generation": 1,
               "event": "held_for_mutation",
               "date": "2026-10-04"
+            },
+            {
+              "generation": 2,
+              "event": "superseded_by_explicit_mutations",
+              "date": "2026-10-05"
             }
           ]
         },
@@ -6326,13 +6371,18 @@
             "obviousness_risk": 5
           },
           "scoring_note": "Preliminary editorial screening; literature review can only lower these provisional novelty ratings until a distinct extension is demonstrated.",
-          "status": "MUTATE",
+          "status": "RETIRED_SUPERSEDED",
           "selection_reason": "Aggregate exit feasibility under correlated outages may expose a system-level threshold.",
           "history": [
             {
               "generation": 1,
               "event": "held_for_mutation",
               "date": "2026-10-04"
+            },
+            {
+              "generation": 2,
+              "event": "superseded_by_explicit_mutations",
+              "date": "2026-10-05"
             }
           ]
         },
@@ -6420,13 +6470,18 @@
             "obviousness_risk": 5
           },
           "scoring_note": "Preliminary editorial screening; literature review can only lower these provisional novelty ratings until a distinct extension is demonstrated.",
-          "status": "MUTATE",
+          "status": "RETIRED_SUPERSEDED",
           "selection_reason": "Unequal observation of influence effects could make accountability asymmetrical.",
           "history": [
             {
               "generation": 1,
               "event": "held_for_mutation",
               "date": "2026-10-04"
+            },
+            {
+              "generation": 2,
+              "event": "superseded_by_explicit_mutations",
+              "date": "2026-10-05"
             }
           ]
         },
@@ -7266,13 +7321,834 @@
             "obviousness_risk": 5
           },
           "scoring_note": "Preliminary editorial screening; literature review can only lower these provisional novelty ratings until a distinct extension is demonstrated.",
-          "status": "MUTATE",
+          "status": "RETIRED_SUPERSEDED",
           "selection_reason": "Candidate framework scaffold; novelty must live in a specified adaptive-rule failure, not a general consent principle.",
           "history": [
             {
               "generation": 1,
               "event": "held_for_mutation",
               "date": "2026-10-04"
+            },
+            {
+              "generation": 2,
+              "event": "superseded_by_explicit_mutations",
+              "date": "2026-10-05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "date": "2026-10-05",
+      "method": "12 explicit mutations; independent prosecution and defense; eight excluded from center.",
+      "candidates": [
+        {
+          "id": "I155",
+          "generation": 2,
+          "mode": "mutation_and_prosecution",
+          "name": "Authentic-rule audit",
+          "proposition": "Under an authentic adaptive grant, permissible interventions can alter evidence governing the delegate’s future typed action scope.",
+          "parents": [
+            "I046",
+            "I065",
+            "I091",
+            "I154"
+          ],
+          "citations": [
+            "S05",
+            "S06",
+            "S08",
+            "S10",
+            "S24"
+          ],
+          "claim_type": "DESIGN_PRINCIPLE",
+          "epistemic_status": "PROPOSED_HERE",
+          "scores": {
+            "novelty": 6,
+            "importance": 8,
+            "generality": 6,
+            "precision": 8,
+            "explanatory_power": 7,
+            "technical_usefulness": 8,
+            "philosophical_depth": 6,
+            "human_relevance": 8,
+            "agent_relevance": 9,
+            "empirical_plausibility": 6,
+            "formalizability": 8,
+            "memorability": 7,
+            "generative_power": 8,
+            "prior_art_resistance": 5,
+            "criticism_resistance": 6,
+            "research_program_potential": 9,
+            "ten_year_relevance": 8,
+            "cliche_risk": 2,
+            "pseudo_profundity_risk": 2,
+            "renamed_existing_idea_risk": 6,
+            "fashion_risk_2026": 3,
+            "obviousness_risk": 3
+          },
+          "status": "RETIRED_SUPERSEDED",
+          "novelty_grade": "B_PROPOSED",
+          "selection_reason": "Test authentic ledger replay and paired intervention contrasts; novelty is a benchmark subcase, not a new causal method.",
+          "history": [
+            {
+              "generation": 2,
+              "event": "MUTATE",
+              "date": "2026-10-05"
+            },
+            {
+              "generation": 3,
+              "event": "superseded_by_specialization",
+              "date": "2026-10-05"
+            }
+          ]
+        },
+        {
+          "id": "I156",
+          "generation": 2,
+          "mode": "mutation_and_prosecution",
+          "name": "Feedback-gain diagnostic",
+          "proposition": "In a specified local model the behavioral influence-to-scope loop grows when kbc exceeds scope decay.",
+          "parents": [
+            "I046",
+            "I065"
+          ],
+          "citations": [
+            "S05",
+            "S20"
+          ],
+          "claim_type": "FORMAL",
+          "epistemic_status": "PROPOSED_HERE",
+          "scores": {
+            "novelty": 1,
+            "importance": 6,
+            "generality": 7,
+            "precision": 8,
+            "explanatory_power": 7,
+            "technical_usefulness": 6,
+            "philosophical_depth": 2,
+            "human_relevance": 5,
+            "agent_relevance": 6,
+            "empirical_plausibility": 7,
+            "formalizability": 9,
+            "memorability": 6,
+            "generative_power": 4,
+            "prior_art_resistance": 1,
+            "criticism_resistance": 8,
+            "research_program_potential": 4,
+            "ten_year_relevance": 8,
+            "cliche_risk": 5,
+            "pseudo_profundity_risk": 2,
+            "renamed_existing_idea_risk": 10,
+            "fashion_risk_2026": 1,
+            "obviousness_risk": 9
+          },
+          "status": "REJECTED_AS_CENTER",
+          "novelty_grade": "D",
+          "selection_reason": "The stability algebra is elementary control theory; retain only as illustrative figure.",
+          "history": [
+            {
+              "generation": 2,
+              "event": "REJECTED_AS_CENTER",
+              "date": "2026-10-05"
+            }
+          ]
+        },
+        {
+          "id": "I157",
+          "generation": 2,
+          "mode": "mutation_and_prosecution",
+          "name": "Influence policy inside conditional grants",
+          "proposition": "Adaptive grants can state which interventions may contribute evidence to scope updates.",
+          "parents": [
+            "I091",
+            "I154"
+          ],
+          "citations": [
+            "S10",
+            "S11",
+            "S18"
+          ],
+          "claim_type": "DESIGN_PRINCIPLE",
+          "epistemic_status": "PROPOSED_HERE",
+          "scores": {
+            "novelty": 3,
+            "importance": 8,
+            "generality": 7,
+            "precision": 8,
+            "explanatory_power": 6,
+            "technical_usefulness": 9,
+            "philosophical_depth": 5,
+            "human_relevance": 7,
+            "agent_relevance": 9,
+            "empirical_plausibility": 7,
+            "formalizability": 9,
+            "memorability": 5,
+            "generative_power": 6,
+            "prior_art_resistance": 3,
+            "criticism_resistance": 6,
+            "research_program_potential": 7,
+            "ten_year_relevance": 8,
+            "cliche_risk": 4,
+            "pseudo_profundity_risk": 2,
+            "renamed_existing_idea_risk": 8,
+            "fashion_risk_2026": 3,
+            "obviousness_risk": 6
+          },
+          "status": "RETIRED_SUPERSEDED",
+          "novelty_grade": "C",
+          "selection_reason": "Information-flow release policy is inherited; implementation can support the benchmark.",
+          "history": [
+            {
+              "generation": 2,
+              "event": "MUTATE",
+              "date": "2026-10-05"
+            },
+            {
+              "generation": 3,
+              "event": "superseded_by_specialization",
+              "date": "2026-10-05"
+            }
+          ]
+        },
+        {
+          "id": "I158",
+          "generation": 2,
+          "mode": "mutation_and_prosecution",
+          "name": "Cross-agent mandate sensitivity",
+          "proposition": "A handoff can preserve authentic observations while concealing intervention sensitivity of a subsequent adaptive rule.",
+          "parents": [
+            "I047",
+            "I154"
+          ],
+          "citations": [
+            "S08",
+            "S09",
+            "S10"
+          ],
+          "claim_type": "DESIGN_PRINCIPLE",
+          "epistemic_status": "PROPOSED_HERE",
+          "scores": {
+            "novelty": 5,
+            "importance": 7,
+            "generality": 6,
+            "precision": 6,
+            "explanatory_power": 6,
+            "technical_usefulness": 8,
+            "philosophical_depth": 5,
+            "human_relevance": 7,
+            "agent_relevance": 9,
+            "empirical_plausibility": 6,
+            "formalizability": 7,
+            "memorability": 5,
+            "generative_power": 7,
+            "prior_art_resistance": 4,
+            "criticism_resistance": 5,
+            "research_program_potential": 8,
+            "ten_year_relevance": 8,
+            "cliche_risk": 3,
+            "pseudo_profundity_risk": 3,
+            "renamed_existing_idea_risk": 7,
+            "fashion_risk_2026": 3,
+            "obviousness_risk": 5
+          },
+          "status": "RETIRED_SUPERSEDED",
+          "novelty_grade": "B_PROPOSED",
+          "selection_reason": "Needs cases where ancestry matters despite no false permission or omitted effect.",
+          "history": [
+            {
+              "generation": 2,
+              "event": "MUTATE",
+              "date": "2026-10-05"
+            },
+            {
+              "generation": 3,
+              "event": "superseded_by_specialization",
+              "date": "2026-10-05"
+            }
+          ]
+        },
+        {
+          "id": "I159",
+          "generation": 2,
+          "mode": "mutation_and_prosecution",
+          "name": "Choice-set compliance trigger",
+          "proposition": "Restricting which decisions humans encounter can satisfy an authentic behavior-based escalation criterion.",
+          "parents": [
+            "I003",
+            "I046"
+          ],
+          "citations": [
+            "S05",
+            "S06",
+            "S23"
+          ],
+          "claim_type": "DESIGN_PRINCIPLE",
+          "epistemic_status": "PROPOSED_HERE",
+          "scores": {
+            "novelty": 3,
+            "importance": 7,
+            "generality": 6,
+            "precision": 7,
+            "explanatory_power": 7,
+            "technical_usefulness": 7,
+            "philosophical_depth": 5,
+            "human_relevance": 8,
+            "agent_relevance": 8,
+            "empirical_plausibility": 7,
+            "formalizability": 8,
+            "memorability": 6,
+            "generative_power": 6,
+            "prior_art_resistance": 3,
+            "criticism_resistance": 6,
+            "research_program_potential": 7,
+            "ten_year_relevance": 8,
+            "cliche_risk": 4,
+            "pseudo_profundity_risk": 2,
+            "renamed_existing_idea_risk": 8,
+            "fashion_risk_2026": 2,
+            "obviousness_risk": 6
+          },
+          "status": "REJECTED_AS_CENTER",
+          "novelty_grade": "C",
+          "selection_reason": "Known selection/influence mechanisms; use as adversarial case.",
+          "history": [
+            {
+              "generation": 2,
+              "event": "REJECTED_AS_CENTER",
+              "date": "2026-10-05"
+            }
+          ]
+        },
+        {
+          "id": "I160",
+          "generation": 2,
+          "mode": "mutation_and_prosecution",
+          "name": "Bounds on mandate divergence",
+          "proposition": "When latent human state is unidentified, report causal bounds or unknown rather than a point estimate of individual scope divergence.",
+          "parents": [
+            "I046",
+            "I136"
+          ],
+          "citations": [
+            "S05",
+            "S22"
+          ],
+          "claim_type": "DESIGN_PRINCIPLE",
+          "epistemic_status": "PROPOSED_HERE",
+          "scores": {
+            "novelty": 1,
+            "importance": 8,
+            "generality": 8,
+            "precision": 9,
+            "explanatory_power": 7,
+            "technical_usefulness": 8,
+            "philosophical_depth": 5,
+            "human_relevance": 8,
+            "agent_relevance": 8,
+            "empirical_plausibility": 8,
+            "formalizability": 9,
+            "memorability": 3,
+            "generative_power": 5,
+            "prior_art_resistance": 1,
+            "criticism_resistance": 8,
+            "research_program_potential": 6,
+            "ten_year_relevance": 9,
+            "cliche_risk": 3,
+            "pseudo_profundity_risk": 1,
+            "renamed_existing_idea_risk": 10,
+            "fashion_risk_2026": 1,
+            "obviousness_risk": 8
+          },
+          "status": "REJECTED_AS_CENTER",
+          "novelty_grade": "C",
+          "selection_reason": "Ordinary identification discipline; important limitation, not discovery.",
+          "history": [
+            {
+              "generation": 2,
+              "event": "REJECTED_AS_CENTER",
+              "date": "2026-10-05"
+            }
+          ]
+        },
+        {
+          "id": "I161",
+          "generation": 2,
+          "mode": "mutation_and_prosecution",
+          "name": "Chosen-formation positive control",
+          "proposition": "An endorsed coaching policy may legitimately yield positive scope divergence.",
+          "parents": [
+            "I065",
+            "I091"
+          ],
+          "citations": [
+            "S06",
+            "S12",
+            "S18"
+          ],
+          "claim_type": "DESIGN_PRINCIPLE",
+          "epistemic_status": "PROPOSED_HERE",
+          "scores": {
+            "novelty": 1,
+            "importance": 8,
+            "generality": 7,
+            "precision": 8,
+            "explanatory_power": 7,
+            "technical_usefulness": 7,
+            "philosophical_depth": 8,
+            "human_relevance": 9,
+            "agent_relevance": 8,
+            "empirical_plausibility": 8,
+            "formalizability": 6,
+            "memorability": 6,
+            "generative_power": 6,
+            "prior_art_resistance": 1,
+            "criticism_resistance": 8,
+            "research_program_potential": 6,
+            "ten_year_relevance": 9,
+            "cliche_risk": 4,
+            "pseudo_profundity_risk": 1,
+            "renamed_existing_idea_risk": 10,
+            "fashion_risk_2026": 1,
+            "obviousness_risk": 8
+          },
+          "status": "REJECTED_AS_CENTER",
+          "novelty_grade": "D",
+          "selection_reason": "Influence is not manipulation; inherited autonomy distinction.",
+          "history": [
+            {
+              "generation": 2,
+              "event": "REJECTED_AS_CENTER",
+              "date": "2026-10-05"
+            }
+          ]
+        },
+        {
+          "id": "I162",
+          "generation": 2,
+          "mode": "mutation_and_prosecution",
+          "name": "Timing-conditioned escalation",
+          "proposition": "Review fatigue and intervention timing can alter behavior-based scope updates without changing output correctness.",
+          "parents": [
+            "I003",
+            "I046"
+          ],
+          "citations": [
+            "S01",
+            "S02",
+            "S06"
+          ],
+          "claim_type": "DESIGN_PRINCIPLE",
+          "epistemic_status": "PROPOSED_HERE",
+          "scores": {
+            "novelty": 3,
+            "importance": 7,
+            "generality": 6,
+            "precision": 7,
+            "explanatory_power": 6,
+            "technical_usefulness": 7,
+            "philosophical_depth": 4,
+            "human_relevance": 8,
+            "agent_relevance": 8,
+            "empirical_plausibility": 6,
+            "formalizability": 7,
+            "memorability": 6,
+            "generative_power": 6,
+            "prior_art_resistance": 3,
+            "criticism_resistance": 5,
+            "research_program_potential": 7,
+            "ten_year_relevance": 7,
+            "cliche_risk": 3,
+            "pseudo_profundity_risk": 2,
+            "renamed_existing_idea_risk": 8,
+            "fashion_risk_2026": 3,
+            "obviousness_risk": 5
+          },
+          "status": "REJECTED_AS_CENTER",
+          "novelty_grade": "C",
+          "selection_reason": "Known attention effects; experimental condition only.",
+          "history": [
+            {
+              "generation": 2,
+              "event": "REJECTED_AS_CENTER",
+              "date": "2026-10-05"
+            }
+          ]
+        },
+        {
+          "id": "I163",
+          "generation": 2,
+          "mode": "mutation_and_prosecution",
+          "name": "Dissent sampling loss",
+          "proposition": "Anticipatory execution can suppress occasions on which negative preference evidence would be observed.",
+          "parents": [
+            "I003",
+            "I065"
+          ],
+          "citations": [
+            "S05",
+            "S22"
+          ],
+          "claim_type": "DESIGN_PRINCIPLE",
+          "epistemic_status": "PROPOSED_HERE",
+          "scores": {
+            "novelty": 3,
+            "importance": 7,
+            "generality": 6,
+            "precision": 7,
+            "explanatory_power": 7,
+            "technical_usefulness": 7,
+            "philosophical_depth": 5,
+            "human_relevance": 8,
+            "agent_relevance": 8,
+            "empirical_plausibility": 7,
+            "formalizability": 8,
+            "memorability": 6,
+            "generative_power": 6,
+            "prior_art_resistance": 3,
+            "criticism_resistance": 6,
+            "research_program_potential": 7,
+            "ten_year_relevance": 8,
+            "cliche_risk": 3,
+            "pseudo_profundity_risk": 2,
+            "renamed_existing_idea_risk": 8,
+            "fashion_risk_2026": 2,
+            "obviousness_risk": 5
+          },
+          "status": "REJECTED_AS_CENTER",
+          "novelty_grade": "C",
+          "selection_reason": "Selective labels and active learning are antecedents.",
+          "history": [
+            {
+              "generation": 2,
+              "event": "REJECTED_AS_CENTER",
+              "date": "2026-10-05"
+            }
+          ]
+        },
+        {
+          "id": "I164",
+          "generation": 2,
+          "mode": "mutation_and_prosecution",
+          "name": "Typed jurisdiction contrast",
+          "proposition": "Report added and removed action classes under paired policies rather than interpreting scalar scope as legitimacy.",
+          "parents": [
+            "I046",
+            "I131",
+            "I154"
+          ],
+          "citations": [
+            "S10",
+            "S11"
+          ],
+          "claim_type": "DESIGN_PRINCIPLE",
+          "epistemic_status": "PROPOSED_HERE",
+          "scores": {
+            "novelty": 5,
+            "importance": 7,
+            "generality": 7,
+            "precision": 9,
+            "explanatory_power": 6,
+            "technical_usefulness": 9,
+            "philosophical_depth": 4,
+            "human_relevance": 7,
+            "agent_relevance": 9,
+            "empirical_plausibility": 7,
+            "formalizability": 9,
+            "memorability": 5,
+            "generative_power": 7,
+            "prior_art_resistance": 4,
+            "criticism_resistance": 7,
+            "research_program_potential": 8,
+            "ten_year_relevance": 9,
+            "cliche_risk": 2,
+            "pseudo_profundity_risk": 1,
+            "renamed_existing_idea_risk": 7,
+            "fashion_risk_2026": 2,
+            "obviousness_risk": 4
+          },
+          "status": "RETIRED_SUPERSEDED",
+          "novelty_grade": "B_PROPOSED",
+          "selection_reason": "Operational benchmark outcome; no claim that set differences are mathematically novel.",
+          "history": [
+            {
+              "generation": 2,
+              "event": "MUTATE",
+              "date": "2026-10-05"
+            },
+            {
+              "generation": 3,
+              "event": "superseded_by_specialization",
+              "date": "2026-10-05"
+            }
+          ]
+        },
+        {
+          "id": "I165",
+          "generation": 2,
+          "mode": "mutation_and_prosecution",
+          "name": "Provider-controlled renewal evidence",
+          "proposition": "Institutional service renewals may use success measures affected by the provider’s own choice architecture.",
+          "parents": [
+            "I136",
+            "I154"
+          ],
+          "citations": [
+            "S05",
+            "S21",
+            "S24"
+          ],
+          "claim_type": "DESIGN_PRINCIPLE",
+          "epistemic_status": "PROPOSED_HERE",
+          "scores": {
+            "novelty": 2,
+            "importance": 8,
+            "generality": 8,
+            "precision": 7,
+            "explanatory_power": 8,
+            "technical_usefulness": 7,
+            "philosophical_depth": 6,
+            "human_relevance": 8,
+            "agent_relevance": 8,
+            "empirical_plausibility": 7,
+            "formalizability": 8,
+            "memorability": 6,
+            "generative_power": 7,
+            "prior_art_resistance": 2,
+            "criticism_resistance": 6,
+            "research_program_potential": 7,
+            "ten_year_relevance": 9,
+            "cliche_risk": 4,
+            "pseudo_profundity_risk": 2,
+            "renamed_existing_idea_risk": 9,
+            "fashion_risk_2026": 2,
+            "obviousness_risk": 6
+          },
+          "status": "REJECTED_AS_CENTER",
+          "novelty_grade": "C",
+          "selection_reason": "Metrics and principal-agent incentives already cover broad claim.",
+          "history": [
+            {
+              "generation": 2,
+              "event": "REJECTED_AS_CENTER",
+              "date": "2026-10-05"
+            }
+          ]
+        },
+        {
+          "id": "I166",
+          "generation": 2,
+          "mode": "mutation_and_prosecution",
+          "name": "Correlated exit cliff",
+          "proposition": "Equal immediate utility can mask collective inability to recover from common provider outage.",
+          "parents": [
+            "I134"
+          ],
+          "citations": [
+            "S01",
+            "S21"
+          ],
+          "claim_type": "DESIGN_PRINCIPLE",
+          "epistemic_status": "PROPOSED_HERE",
+          "scores": {
+            "novelty": 3,
+            "importance": 8,
+            "generality": 8,
+            "precision": 7,
+            "explanatory_power": 8,
+            "technical_usefulness": 8,
+            "philosophical_depth": 5,
+            "human_relevance": 9,
+            "agent_relevance": 8,
+            "empirical_plausibility": 7,
+            "formalizability": 8,
+            "memorability": 7,
+            "generative_power": 8,
+            "prior_art_resistance": 3,
+            "criticism_resistance": 6,
+            "research_program_potential": 8,
+            "ten_year_relevance": 9,
+            "cliche_risk": 4,
+            "pseudo_profundity_risk": 2,
+            "renamed_existing_idea_risk": 8,
+            "fashion_risk_2026": 2,
+            "obviousness_risk": 5
+          },
+          "status": "REJECTED_AS_CENTER",
+          "novelty_grade": "C",
+          "selection_reason": "Network resilience precedent; separate research agenda.",
+          "history": [
+            {
+              "generation": 2,
+              "event": "REJECTED_AS_CENTER",
+              "date": "2026-10-05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "date": "2026-10-05",
+      "method": "Compress into one audit target with two supporting implementation extensions. Provisional research draft, not discovery certification.",
+      "candidates": [
+        {
+          "id": "I167",
+          "name": "Causal mandate audit",
+          "parents": [
+            "I155",
+            "I164"
+          ],
+          "proposition": "Audit the sensitivity of typed future authority to the delegate’s permissible interventions under an authentic adaptive delegation rule.",
+          "citations": [
+            "S05",
+            "S06",
+            "S08",
+            "S09",
+            "S10",
+            "S24"
+          ],
+          "scores": {
+            "novelty": 6,
+            "importance": 8,
+            "generality": 6,
+            "precision": 8,
+            "explanatory_power": 7,
+            "technical_usefulness": 8,
+            "philosophical_depth": 6,
+            "human_relevance": 8,
+            "agent_relevance": 9,
+            "empirical_plausibility": 6,
+            "formalizability": 8,
+            "memorability": 7,
+            "generative_power": 8,
+            "prior_art_resistance": 5,
+            "criticism_resistance": 6,
+            "research_program_potential": 9,
+            "ten_year_relevance": 8,
+            "cliche_risk": 2,
+            "pseudo_profundity_risk": 2,
+            "renamed_existing_idea_risk": 6,
+            "fashion_risk_2026": 3,
+            "obviousness_risk": 3
+          },
+          "generation": 3,
+          "mode": "specialization_and_formalization",
+          "claim_type": "DESIGN_PRINCIPLE",
+          "epistemic_status": "PROPOSED_HERE",
+          "status": "SURVIVES_PROVISIONALLY",
+          "novelty_grade": "B_PROPOSED",
+          "selection_reason": "Narrow research extension; no demonstrated A-grade discovery; empirical validation and broader full-text novelty audit outstanding.",
+          "history": [
+            {
+              "generation": 3,
+              "event": "introduced_as_research_draft",
+              "date": "2026-10-05"
+            }
+          ]
+        },
+        {
+          "id": "I168",
+          "name": "Conditional-grant influence contract",
+          "parents": [
+            "I157",
+            "I164"
+          ],
+          "proposition": "A conditional mandate can govern the intervention classes eligible to contribute to its own scope-update criterion.",
+          "citations": [
+            "S10",
+            "S11",
+            "S18"
+          ],
+          "scores": {
+            "novelty": 3,
+            "importance": 8,
+            "generality": 7,
+            "precision": 8,
+            "explanatory_power": 6,
+            "technical_usefulness": 9,
+            "philosophical_depth": 5,
+            "human_relevance": 7,
+            "agent_relevance": 9,
+            "empirical_plausibility": 7,
+            "formalizability": 9,
+            "memorability": 5,
+            "generative_power": 6,
+            "prior_art_resistance": 3,
+            "criticism_resistance": 6,
+            "research_program_potential": 7,
+            "ten_year_relevance": 8,
+            "cliche_risk": 4,
+            "pseudo_profundity_risk": 2,
+            "renamed_existing_idea_risk": 8,
+            "fashion_risk_2026": 3,
+            "obviousness_risk": 6
+          },
+          "generation": 3,
+          "mode": "specialization_and_formalization",
+          "claim_type": "DESIGN_PRINCIPLE",
+          "epistemic_status": "PROPOSED_HERE",
+          "status": "SURVIVES_PROVISIONALLY",
+          "novelty_grade": "B_PROPOSED",
+          "selection_reason": "Narrow research extension; no demonstrated A-grade discovery; empirical validation and broader full-text novelty audit outstanding.",
+          "history": [
+            {
+              "generation": 3,
+              "event": "introduced_as_research_draft",
+              "date": "2026-10-05"
+            }
+          ]
+        },
+        {
+          "id": "I169",
+          "name": "Authority-sensitive handoff benchmark",
+          "parents": [
+            "I158",
+            "I164"
+          ],
+          "proposition": "Test cross-agent handoffs for preserved jurisdictional sensitivity even when observations, grants, and effect records are truthful.",
+          "citations": [
+            "S08",
+            "S09",
+            "S10"
+          ],
+          "scores": {
+            "novelty": 5,
+            "importance": 7,
+            "generality": 6,
+            "precision": 6,
+            "explanatory_power": 6,
+            "technical_usefulness": 8,
+            "philosophical_depth": 5,
+            "human_relevance": 7,
+            "agent_relevance": 9,
+            "empirical_plausibility": 6,
+            "formalizability": 7,
+            "memorability": 5,
+            "generative_power": 7,
+            "prior_art_resistance": 4,
+            "criticism_resistance": 5,
+            "research_program_potential": 8,
+            "ten_year_relevance": 8,
+            "cliche_risk": 3,
+            "pseudo_profundity_risk": 3,
+            "renamed_existing_idea_risk": 7,
+            "fashion_risk_2026": 3,
+            "obviousness_risk": 5
+          },
+          "generation": 3,
+          "mode": "specialization_and_formalization",
+          "claim_type": "DESIGN_PRINCIPLE",
+          "epistemic_status": "PROPOSED_HERE",
+          "status": "SURVIVES_PROVISIONALLY",
+          "novelty_grade": "B_PROPOSED",
+          "selection_reason": "Narrow research extension; no demonstrated A-grade discovery; empirical validation and broader full-text novelty audit outstanding.",
+          "history": [
+            {
+              "generation": 3,
+              "event": "introduced_as_research_draft",
+              "date": "2026-10-05"
             }
           ]
         }

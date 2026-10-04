@@ -1421,3 +1421,53 @@ Rejection means excluded from the intellectual center, not asserted false. These
 **Reason:** Child data and consent strong precedent. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.
 
 **Potential test:** Test adult mandate grants using inherited profiles.
+
+# Generation two
+
+## I156: Feedback-gain diagnostic
+
+In a specified local model the behavioral influence-to-scope loop grows when kbc exceeds scope decay.
+
+Ancestry: S05, S20. Rejection: The stability algebra is elementary control theory; retain only as illustrative figure.
+
+## I159: Choice-set compliance trigger
+
+Restricting which decisions humans encounter can satisfy an authentic behavior-based escalation criterion.
+
+Ancestry: S05, S06, S23. Rejection: Known selection/influence mechanisms; use as adversarial case.
+
+## I160: Bounds on mandate divergence
+
+When latent human state is unidentified, report causal bounds or unknown rather than a point estimate of individual scope divergence.
+
+Ancestry: S05, S22. Rejection: Ordinary identification discipline; important limitation, not discovery.
+
+## I161: Chosen-formation positive control
+
+An endorsed coaching policy may legitimately yield positive scope divergence.
+
+Ancestry: S06, S12, S18. Rejection: Influence is not manipulation; inherited autonomy distinction.
+
+## I162: Timing-conditioned escalation
+
+Review fatigue and intervention timing can alter behavior-based scope updates without changing output correctness.
+
+Ancestry: S01, S02, S06. Rejection: Known attention effects; experimental condition only.
+
+## I163: Dissent sampling loss
+
+Anticipatory execution can suppress occasions on which negative preference evidence would be observed.
+
+Ancestry: S05, S22. Rejection: Selective labels and active learning are antecedents.
+
+## I165: Provider-controlled renewal evidence
+
+Institutional service renewals may use success measures affected by the provider’s own choice architecture.
+
+Ancestry: S05, S21, S24. Rejection: Metrics and principal-agent incentives already cover broad claim.
+
+## I166: Correlated exit cliff
+
+Equal immediate utility can mask collective inability to recover from common provider outage.
+
+Ancestry: S01, S21. Rejection: Network resilience precedent; separate research agenda.

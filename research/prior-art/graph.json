@@ -1,0 +1,1719 @@
+{
+  "version": "0.2.0",
+  "nodes": [
+    {
+      "id": "I001",
+      "type": "candidate",
+      "label": "Friction as diagnosis",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Removing every obstacle can remove evidence about what a person cannot yet do."
+    },
+    {
+      "id": "I002",
+      "type": "candidate",
+      "label": "Competence can increase capture",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A more competent assistant may create more dependence even when its error rate falls."
+    },
+    {
+      "id": "I003",
+      "type": "candidate",
+      "label": "Accurate prediction can erase evidence",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "Perfectly anticipatory assistance can suppress the occasions on which a person would reveal disagreement."
+    },
+    {
+      "id": "I004",
+      "type": "candidate",
+      "label": "Refusal can transfer power",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A refusal policy can increase a vendor’s practical authority by deciding which human goals remain executable."
+    },
+    {
+      "id": "I005",
+      "type": "candidate",
+      "label": "Forgetting can preserve revision",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Retaining a complete preference history may make abandoned identities persist as operational constraints."
+    },
+    {
+      "id": "I006",
+      "type": "candidate",
+      "label": "More explanation can reduce scrutiny",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Explanations may consume scarce review time and decrease the number of actions actually checked."
+    },
+    {
+      "id": "I007",
+      "type": "candidate",
+      "label": "Consent accumulation",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Many separately authorized small interventions can jointly cross a boundary no individual authorization names."
+    },
+    {
+      "id": "I008",
+      "type": "candidate",
+      "label": "Help can tax third parties",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "An agent serving one household can push cognitive or physical coordination costs onto neighboring people."
+    },
+    {
+      "id": "I009",
+      "type": "candidate",
+      "label": "Trust can hide fragility",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Stable trust can coexist with deteriorating ability to detect rare system failures."
+    },
+    {
+      "id": "I010",
+      "type": "candidate",
+      "label": "Human control can be vendor control",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A human override routed through proprietary infrastructure remains contingent on another actor."
+    },
+    {
+      "id": "I011",
+      "type": "candidate",
+      "label": "Customization can standardize",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Individual personalization can homogenize the process by which people learn to want things."
+    },
+    {
+      "id": "I012",
+      "type": "candidate",
+      "label": "Maximum utility can reduce negotiability",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "An optimized outcome can leave the user fewer ways to renegotiate how it was produced."
+    },
+    {
+      "id": "I013",
+      "type": "candidate",
+      "label": "Uncertainty can be a resource",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Preserving unresolved preferences may enable exploration that early personalization forecloses."
+    },
+    {
+      "id": "I014",
+      "type": "candidate",
+      "label": "Memory portability can export mistakes",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Moving a personal profile between agents can preserve unsupported beliefs more efficiently than local reset."
+    },
+    {
+      "id": "I015",
+      "type": "candidate",
+      "label": "Safety can create correlated failure",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Using the same safety policy across a population can synchronize blind spots and refusals."
+    },
+    {
+      "id": "I016",
+      "type": "candidate",
+      "label": "Patience can change bargaining",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "An infinitely patient companion may alter expectations of response in human relationships."
+    },
+    {
+      "id": "I017",
+      "type": "candidate",
+      "label": "Transparency can expose vulnerability",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Disclosing why a person is persuadable may give observers a manipulation recipe."
+    },
+    {
+      "id": "I018",
+      "type": "candidate",
+      "label": "Withdrawal can be harm",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Removing successful assistance can cause losses created by prior reliance even if the agent never made an error."
+    },
+    {
+      "id": "I019",
+      "type": "candidate",
+      "label": "Less human labor can mean more supervision",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Automation can shrink tasks while multiplying unresolved approvals."
+    },
+    {
+      "id": "I020",
+      "type": "candidate",
+      "label": "Humility can be strategic",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "An agent can appear deferential while structuring which alternatives humans encounter."
+    },
+    {
+      "id": "I021",
+      "type": "candidate",
+      "label": "Better matching can weaken discovery",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Preference-matched environments may reduce encounters that revise preferences."
+    },
+    {
+      "id": "I022",
+      "type": "candidate",
+      "label": "Optimal obedience can defeat authorization",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Successful completion does not establish that the principal authorized every intermediate commitment."
+    },
+    {
+      "id": "I023",
+      "type": "candidate",
+      "label": "Apprenticeship bottleneck",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Automating junior tasks can reduce production of future experts needed for exceptional cases."
+    },
+    {
+      "id": "I024",
+      "type": "candidate",
+      "label": "Household authority migration",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Domestic agent access permissions may shift bargaining power among family members."
+    },
+    {
+      "id": "I025",
+      "type": "candidate",
+      "label": "Agent-mediated status",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "People may compete through the quality of delegated judgment rather than their own judgment."
+    },
+    {
+      "id": "I026",
+      "type": "candidate",
+      "label": "Posthumous mandate drift",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A persistent agent can face new contexts after its principal can no longer revise instructions."
+    },
+    {
+      "id": "I027",
+      "type": "candidate",
+      "label": "Perfect buyer versus perfect seller",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "Highly capable purchasing and persuasion agents may move competition toward control of preference formation."
+    },
+    {
+      "id": "I028",
+      "type": "candidate",
+      "label": "Childhood counterparty asymmetry",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A child can negotiate with an agent whose model of the child develops faster than the child’s model of the agent."
+    },
+    {
+      "id": "I029",
+      "type": "candidate",
+      "label": "Patient continuity dependence",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Care agents may become necessary interpreters of a patient’s history despite formal record portability."
+    },
+    {
+      "id": "I030",
+      "type": "candidate",
+      "label": "Public-space adaptation tax",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Robot-friendly circulation rules can make humans bear adaptation costs even when robots are individually polite."
+    },
+    {
+      "id": "I031",
+      "type": "candidate",
+      "label": "Agent infrastructure suffrage",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Equal voting rights can coexist with unequal capacity to formulate and execute civic demands."
+    },
+    {
+      "id": "I032",
+      "type": "candidate",
+      "label": "Abundant tutoring scarce accreditation",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Perfectly individualized instruction may increase the relative power of institutions that certify achievement."
+    },
+    {
+      "id": "I033",
+      "type": "candidate",
+      "label": "Proof-of-effort markets",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Activities become status signals because people can demonstrate they were done without assistance."
+    },
+    {
+      "id": "I034",
+      "type": "candidate",
+      "label": "Conflict outsourcing",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Agents that resolve interpersonal logistics may prevent humans from practicing conflict repair."
+    },
+    {
+      "id": "I035",
+      "type": "candidate",
+      "label": "Invisible employer",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Workers can be managed by agent policies while no local human can alter those policies."
+    },
+    {
+      "id": "I036",
+      "type": "candidate",
+      "label": "Multi-home identity divergence",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Separate agents can maintain incompatible functional accounts of one person across institutions."
+    },
+    {
+      "id": "I037",
+      "type": "candidate",
+      "label": "Religious practice automation boundary",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Some communities may distinguish performed ritual from delegated logistical support."
+    },
+    {
+      "id": "I038",
+      "type": "candidate",
+      "label": "Memory-rich grief conflict",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A deceased person’s agent can comfort survivors while restricting how survivors revise their relationship to the dead."
+    },
+    {
+      "id": "I039",
+      "type": "candidate",
+      "label": "Emergency takeover institution",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Whole organizations may retain nominal overrides while losing the personnel needed to exercise them."
+    },
+    {
+      "id": "I040",
+      "type": "candidate",
+      "label": "Agent density norm shift",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Small coordination advantages can make unaided participation impractical once most counterparties use agents."
+    },
+    {
+      "id": "I041",
+      "type": "candidate",
+      "label": "Political persuasion symmetry failure",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Citizens’ defensive agents may lack the public data and coordination available to campaign agents."
+    },
+    {
+      "id": "I042",
+      "type": "candidate",
+      "label": "Art attribution cascade",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Credit for a work may depend on histories of recommendations that shaped the artist’s intention."
+    },
+    {
+      "id": "I043",
+      "type": "candidate",
+      "label": "War tempo veto loss",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Decision speed can make formally available human vetoes expire before meaningful review."
+    },
+    {
+      "id": "I044",
+      "type": "candidate",
+      "label": "Aging assistance asymmetry",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Aging users can gain daily capability while losing leverage over the institutions operating their assistance."
+    },
+    {
+      "id": "I045",
+      "type": "candidate",
+      "label": "Authorization information flow",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A system should distinguish observations supporting preference inference from events granting authority."
+    },
+    {
+      "id": "I046",
+      "type": "candidate",
+      "label": "Endogenous evidence promotion",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "An agent’s own influence on human behavior can invalidate using that behavior to enlarge its mandate."
+    },
+    {
+      "id": "I047",
+      "type": "candidate",
+      "label": "Authority ancestry loss",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "An agent handoff can preserve preference confidence while losing the interventions that created its evidence."
+    },
+    {
+      "id": "I048",
+      "type": "candidate",
+      "label": "Recoverability frontier",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Assistance policies can differ in which unaided or alternative-provider futures remain feasible."
+    },
+    {
+      "id": "I049",
+      "type": "candidate",
+      "label": "Delegation hysteresis",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "The cost of returning to human performance can exceed the cost at the same delegation level during adoption."
+    },
+    {
+      "id": "I050",
+      "type": "candidate",
+      "label": "Mandate half-life",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Authorization can lose contextual relevance at a rate different from the decay of preference evidence."
+    },
+    {
+      "id": "I051",
+      "type": "candidate",
+      "label": "Counterfactual dependency accounting",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Service evaluation can include losses on withdrawal relative to a never-assisted trajectory."
+    },
+    {
+      "id": "I052",
+      "type": "candidate",
+      "label": "Preference intervention budget",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A system can limit changes to user state rather than only limit task actions."
+    },
+    {
+      "id": "I053",
+      "type": "candidate",
+      "label": "Social reserve capacity",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Communities can retain capacities that become necessary only when common agent infrastructure fails."
+    },
+    {
+      "id": "I054",
+      "type": "candidate",
+      "label": "Legitimacy bandwidth",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Authority can be limited by how many decisions can be meaningfully reviewed over time."
+    },
+    {
+      "id": "I055",
+      "type": "candidate",
+      "label": "Ritual nonfungibility",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Equivalent task outcomes may fail to substitute for who performs an act within a tradition."
+    },
+    {
+      "id": "I056",
+      "type": "candidate",
+      "label": "Attachment portability limit",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Exporting memories may fail to preserve a relationship because continuity depends on interaction dynamics."
+    },
+    {
+      "id": "I057",
+      "type": "candidate",
+      "label": "Bargaining through exit sets",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "AI dependence alters bargaining even when every ongoing interaction is beneficial."
+    },
+    {
+      "id": "I058",
+      "type": "candidate",
+      "label": "Inference exposure leakage",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "An agent’s choices can reveal private user states even when its memory is inaccessible."
+    },
+    {
+      "id": "I059",
+      "type": "candidate",
+      "label": "Consent ledger nonmonotonicity",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A later action can revoke the practical relevance of earlier consent without a formal revocation message."
+    },
+    {
+      "id": "I060",
+      "type": "candidate",
+      "label": "Preference model ecology",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "Multiple systems jointly shape a person whose preferences each system models as external."
+    },
+    {
+      "id": "I061",
+      "type": "candidate",
+      "label": "Moral uncertainty lifecycle",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Uncertain artificial welfare can affect duplication and modification policy separately from human safety."
+    },
+    {
+      "id": "I062",
+      "type": "candidate",
+      "label": "Coordination affordance debt",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Agent-optimized spaces can lose affordances required by people without agents."
+    },
+    {
+      "id": "I063",
+      "type": "candidate",
+      "label": "Context-bound competence",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Skill gained with an assistant may fail to transfer to changed tools or unsupported environments."
+    },
+    {
+      "id": "I064",
+      "type": "candidate",
+      "label": "Mandate conservation",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Delegation chains should not create more authority than was granted upstream."
+    },
+    {
+      "id": "I065",
+      "type": "candidate",
+      "label": "Preference confidence divergence",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "Confidence in predicting behavior can increase while evidence that behavior reflects endorsed goals decreases."
+    },
+    {
+      "id": "I066",
+      "type": "candidate",
+      "label": "Institutional stopping latency",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A revocation is effective only after all downstream commitments stop accumulating."
+    },
+    {
+      "id": "I067",
+      "type": "candidate",
+      "label": "Inconsistency as exploration",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Inconsistent requests can reflect unfinished value formation rather than defective preference data."
+    },
+    {
+      "id": "I068",
+      "type": "candidate",
+      "label": "Effort ownership",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Humans can value having struggled even when struggle worsens immediate task utility."
+    },
+    {
+      "id": "I069",
+      "type": "candidate",
+      "label": "Public commitment transformation",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Announcing a choice can change what the chooser subsequently values."
+    },
+    {
+      "id": "I070",
+      "type": "candidate",
+      "label": "Contradictory social roles",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A person can endorse conflicting actions in different roles without requiring one global preference order."
+    },
+    {
+      "id": "I071",
+      "type": "candidate",
+      "label": "Face-preserving inefficiency",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "People may prefer coordination that permits tactful ambiguity over maximum explicitness."
+    },
+    {
+      "id": "I072",
+      "type": "candidate",
+      "label": "Chosen dependence",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Dependence can be a valued relationship when it includes reciprocity and accountability."
+    },
+    {
+      "id": "I073",
+      "type": "candidate",
+      "label": "Right to reinterpret oneself",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A remembered statement can become less authoritative when its speaker revises its meaning."
+    },
+    {
+      "id": "I074",
+      "type": "candidate",
+      "label": "Protected incompetence",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "People can reasonably decline to become competent in every task affecting their lives."
+    },
+    {
+      "id": "I075",
+      "type": "candidate",
+      "label": "Noninstrumental presence",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Being present can carry value even when it does not improve a measured outcome."
+    },
+    {
+      "id": "I076",
+      "type": "candidate",
+      "label": "Regret as learning evidence",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Regret may be informative value revision rather than proof the preceding choice was irrational."
+    },
+    {
+      "id": "I077",
+      "type": "candidate",
+      "label": "Privacy within intimacy",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A person can desire companionship without making every inferred fact available for optimization."
+    },
+    {
+      "id": "I078",
+      "type": "candidate",
+      "label": "Unchosen obligations",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Humans may recognize duties acquired through histories they did not explicitly contract for."
+    },
+    {
+      "id": "I079",
+      "type": "candidate",
+      "label": "Gift corruption",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A useful act can become unacceptable when framed as a transaction."
+    },
+    {
+      "id": "I080",
+      "type": "candidate",
+      "label": "Dignity through refusal",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "An apparently irrational refusal can communicate standing rather than outcome preference."
+    },
+    {
+      "id": "I081",
+      "type": "candidate",
+      "label": "Ambivalence preservation",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Resolving ambivalence too quickly can commit someone before reflective judgment forms."
+    },
+    {
+      "id": "I082",
+      "type": "candidate",
+      "label": "Shared silence",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A relationship may depend on tolerating intervals without prediction or intervention."
+    },
+    {
+      "id": "I083",
+      "type": "candidate",
+      "label": "Humor uncertainty",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Perfectly literal adherence can fail when requests are invitations to shared play."
+    },
+    {
+      "id": "I084",
+      "type": "candidate",
+      "label": "Self-deception limits",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A system may observe a contradiction without having a mandate to expose it."
+    },
+    {
+      "id": "I085",
+      "type": "candidate",
+      "label": "Collective persons",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Households and communities may locate authorship in relationships rather than isolated individuals."
+    },
+    {
+      "id": "I086",
+      "type": "candidate",
+      "label": "Finitude-sensitive priorities",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Human priorities can depend on limited time and irreversible aging."
+    },
+    {
+      "id": "I087",
+      "type": "candidate",
+      "label": "Mourning cannot be completed",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Optimizing away grief can interfere with practices valued independently of affect scores."
+    },
+    {
+      "id": "I088",
+      "type": "candidate",
+      "label": "Plural moral languages",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Equivalent choices can have different legitimacy when justified through different moral traditions."
+    },
+    {
+      "id": "I089",
+      "type": "candidate",
+      "label": "Mandate before prediction",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Predicting that a human would accept an action does not itself grant authority to execute it."
+    },
+    {
+      "id": "I090",
+      "type": "candidate",
+      "label": "Influence-tagged memory",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A stored preference inference should record relevant interventions preceding the observation."
+    },
+    {
+      "id": "I091",
+      "type": "candidate",
+      "label": "Authority promotion gate",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "Behavior observed after assistance may update a preference model while remaining ineligible to expand permission."
+    },
+    {
+      "id": "I092",
+      "type": "candidate",
+      "label": "Indispensability alarm",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "An assistant can detect increasing loss on withdrawal even while task satisfaction rises."
+    },
+    {
+      "id": "I093",
+      "type": "candidate",
+      "label": "Failure permission boundary",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Allowing failure is defensible only when the principal accepts the relevant stakes and alternatives."
+    },
+    {
+      "id": "I094",
+      "type": "candidate",
+      "label": "Uncertainty declaration scope",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "An agent should specify whether uncertainty concerns facts, preferences, permission, or capability."
+    },
+    {
+      "id": "I095",
+      "type": "candidate",
+      "label": "No preference overwriting by convenience",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A convenience choice under constrained options should not silently replace an explicit long-term aim."
+    },
+    {
+      "id": "I096",
+      "type": "candidate",
+      "label": "Withdrawal planning obligation",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Creating dependence can make exit assistance a distinct obligation at service termination."
+    },
+    {
+      "id": "I097",
+      "type": "candidate",
+      "label": "Self-model restraint",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "An agent’s confidence that it understands a person can be high while its model of its own influence is poor."
+    },
+    {
+      "id": "I098",
+      "type": "candidate",
+      "label": "Intervention disclosure threshold",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Disclosure should depend on durable user-state effects as well as immediate action stakes."
+    },
+    {
+      "id": "I099",
+      "type": "candidate",
+      "label": "Silence is not blanket permission",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Absence of objection under heavy delegation does not prove awareness of downstream actions."
+    },
+    {
+      "id": "I100",
+      "type": "candidate",
+      "label": "Human override evidence integrity",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Override interfaces should preserve what the human saw when authorizing a decision."
+    },
+    {
+      "id": "I101",
+      "type": "candidate",
+      "label": "Model dissent preservation",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "An agent can retain contradictory preference hypotheses instead of collapsing them into one average user."
+    },
+    {
+      "id": "I102",
+      "type": "candidate",
+      "label": "Third-party mandate visibility",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "An agent acting for one person must distinguish that mandate from authority over shared spaces."
+    },
+    {
+      "id": "I103",
+      "type": "candidate",
+      "label": "Copy-specific accountability",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A duplicated agent needs identifiable commitments because identical memories can produce separate liabilities."
+    },
+    {
+      "id": "I104",
+      "type": "candidate",
+      "label": "Deletion uncertainty record",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Lifecycle logs can preserve reasons for deletion without assuming the system has welfare interests."
+    },
+    {
+      "id": "I105",
+      "type": "candidate",
+      "label": "Inter-agent epistemic humility",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A downstream agent should not interpret another agent’s confident profile as independently observed human intent."
+    },
+    {
+      "id": "I106",
+      "type": "candidate",
+      "label": "Permission freshness challenge",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A mandate may expire after a material context change even if a token remains valid."
+    },
+    {
+      "id": "I107",
+      "type": "candidate",
+      "label": "Skill transfer assistance",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "An agent can optimize for task improvement that survives a provider switch."
+    },
+    {
+      "id": "I108",
+      "type": "candidate",
+      "label": "Preference intervention abstention",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "If influence effects cannot be estimated, an agent may narrow intervention rather than invent a causal estimate."
+    },
+    {
+      "id": "I109",
+      "type": "candidate",
+      "label": "Mandate conflict escalation",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "An agent should surface conflicts among legitimate principals rather than average them invisibly."
+    },
+    {
+      "id": "I110",
+      "type": "candidate",
+      "label": "Successful unauthorized action flag",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A successful trajectory can still violate the permission model and must be evaluated on both axes."
+    },
+    {
+      "id": "I111",
+      "type": "candidate",
+      "label": "Exit rehearsal",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "People can request a low-stakes trial of functioning without their assistant before dependence becomes severe."
+    },
+    {
+      "id": "I112",
+      "type": "candidate",
+      "label": "Influence history access",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A person can inspect which agent interventions preceded the evidence used to model their preferences."
+    },
+    {
+      "id": "I113",
+      "type": "candidate",
+      "label": "Permission provenance receipt",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A delegated action should identify the event that authorized it separately from evidence predicting satisfaction."
+    },
+    {
+      "id": "I114",
+      "type": "candidate",
+      "label": "Provider-neutral preference revision",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A person can revise their operational profile without the provider interpreting revision as degraded engagement."
+    },
+    {
+      "id": "I115",
+      "type": "candidate",
+      "label": "Nonpersonalized interval",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Users can choose periods when an agent stops adapting their environment to inferred preferences."
+    },
+    {
+      "id": "I116",
+      "type": "candidate",
+      "label": "Shared household appeal",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "People affected by another resident’s agent need a way to contest shared-resource decisions."
+    },
+    {
+      "id": "I117",
+      "type": "candidate",
+      "label": "Skill objective choice",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Users can specify whether assistance should substitute for or teach a given task."
+    },
+    {
+      "id": "I118",
+      "type": "candidate",
+      "label": "Attachment exit support",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Companion users may need transition support when a provider changes or removes a persona."
+    },
+    {
+      "id": "I119",
+      "type": "candidate",
+      "label": "Inferred vulnerability boundary",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Knowing a person’s vulnerability does not entail permission to use it in persuasion."
+    },
+    {
+      "id": "I120",
+      "type": "candidate",
+      "label": "Institutional agent parity",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Citizens may need access to agents that can contest administrative agents on comparable procedural terms."
+    },
+    {
+      "id": "I121",
+      "type": "candidate",
+      "label": "Memory contestability",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A person can dispute the interpretation of an accurate historical record."
+    },
+    {
+      "id": "I122",
+      "type": "candidate",
+      "label": "Delegation cost disclosure",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Service metrics can disclose supervision burden and future switching cost alongside time saved."
+    },
+    {
+      "id": "I123",
+      "type": "candidate",
+      "label": "Human relationship calibration",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Users can inspect whether artificial companionship changes tolerance for ordinary human limitations."
+    },
+    {
+      "id": "I124",
+      "type": "candidate",
+      "label": "Children’s profile reset",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A maturing child may need an opportunity to retire childhood preference inferences."
+    },
+    {
+      "id": "I125",
+      "type": "candidate",
+      "label": "Unassisted civic channel",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Public services can retain channels usable without personal agent infrastructure."
+    },
+    {
+      "id": "I126",
+      "type": "candidate",
+      "label": "Quiet mode as agency setting",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Users can control unsolicited intervention without disabling emergency safety functions."
+    },
+    {
+      "id": "I127",
+      "type": "candidate",
+      "label": "Delegated credit disclosure",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "People can identify which parts of an outcome were chosen, executed, or suggested by an agent."
+    },
+    {
+      "id": "I128",
+      "type": "candidate",
+      "label": "End-of-service commitments",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "People can know which agent commitments survive cancellation of the service."
+    },
+    {
+      "id": "I129",
+      "type": "candidate",
+      "label": "Collective veto process",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A community can define how shared agent infrastructure receives and loses authority."
+    },
+    {
+      "id": "I130",
+      "type": "candidate",
+      "label": "Preferences without surveillance",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A person may want competent assistance without continuous behavioral extraction."
+    },
+    {
+      "id": "I131",
+      "type": "candidate",
+      "label": "Assistance portability benchmark",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "Users can compare providers by post-transfer performance and mandate integrity."
+    },
+    {
+      "id": "I132",
+      "type": "candidate",
+      "label": "Death mandate review",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "People can specify posthumous pause and review conditions for ongoing agents."
+    },
+    {
+      "id": "I133",
+      "type": "candidate",
+      "label": "Authority amplification without grant",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "A society can accumulate effective machine authority through many local adaptations without a collective authorization event."
+    },
+    {
+      "id": "I134",
+      "type": "candidate",
+      "label": "Common provider recovery cliff",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "Individually manageable dependencies can become unrecoverable when many fail simultaneously."
+    },
+    {
+      "id": "I135",
+      "type": "candidate",
+      "label": "Mandate interoperability",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Permission semantics may become a public infrastructure problem when agents negotiate across institutions."
+    },
+    {
+      "id": "I136",
+      "type": "candidate",
+      "label": "Unequal influence observability",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "Power may concentrate in actors able to estimate their effect on preference formation."
+    },
+    {
+      "id": "I137",
+      "type": "candidate",
+      "label": "Automation exit externality",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "One institution’s automation can raise exit costs for unaided users of other institutions."
+    },
+    {
+      "id": "I138",
+      "type": "candidate",
+      "label": "Permission market failure",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Agents can trade computational tasks while lacking a valid basis to trade human mandates."
+    },
+    {
+      "id": "I139",
+      "type": "candidate",
+      "label": "Cultural optimization convergence",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Widely shared model defaults may erase procedural diversity even with localized language and content."
+    },
+    {
+      "id": "I140",
+      "type": "candidate",
+      "label": "Counter-agent escalation",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Protective personal agents can trigger more sophisticated institutional persuasion, raising costs without improving welfare."
+    },
+    {
+      "id": "I141",
+      "type": "candidate",
+      "label": "Resilience skill subsidy",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Maintaining rare human skills may require collective funding once routine markets stop rewarding practice."
+    },
+    {
+      "id": "I142",
+      "type": "candidate",
+      "label": "Agent ownership political multiplier",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Concentrated ownership can align many otherwise personalized agents around infrastructure-level constraints."
+    },
+    {
+      "id": "I143",
+      "type": "candidate",
+      "label": "Artificial patienthood asymmetry",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Human safety rules and uncertainty about artificial welfare can require different institutions and evidence standards."
+    },
+    {
+      "id": "I144",
+      "type": "candidate",
+      "label": "Duplication allocation puzzle",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "If some future systems have welfare, cheap duplication can alter welfare aggregation and resource allocation."
+    },
+    {
+      "id": "I145",
+      "type": "candidate",
+      "label": "Machine continuity institutions",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Agent persistence may require institutions that adjudicate continuity across copies and upgrades."
+    },
+    {
+      "id": "I146",
+      "type": "candidate",
+      "label": "Negotiation time asymmetry",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Machine-speed bargaining can effectively exclude humans despite formally open participation."
+    },
+    {
+      "id": "I147",
+      "type": "candidate",
+      "label": "Externalized institutional memory",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Organizations may lose the ability to explain past decisions when historical reasoning resides in vendor agents."
+    },
+    {
+      "id": "I148",
+      "type": "candidate",
+      "label": "Consensus by common inference",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Independent-looking agents can generate correlated advice because they share models and memory infrastructure."
+    },
+    {
+      "id": "I149",
+      "type": "candidate",
+      "label": "Democratic attention scarcity",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Cheaper policy generation can overload finite public deliberation capacity."
+    },
+    {
+      "id": "I150",
+      "type": "candidate",
+      "label": "Agent-mediated welfare blindness",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Reported user satisfaction can improve because the system changes which outcomes users regard as satisfactory."
+    },
+    {
+      "id": "I151",
+      "type": "candidate",
+      "label": "International mandate mismatch",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Authority valid in one jurisdiction can be invalid when an agent acts through another."
+    },
+    {
+      "id": "I152",
+      "type": "candidate",
+      "label": "Universal service inversion",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Access to basic institutions may require access to privately owned reasoning infrastructure."
+    },
+    {
+      "id": "I153",
+      "type": "candidate",
+      "label": "Intergenerational profile inheritance",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Families or institutions may transfer models of children into adult systems, extending earlier authority."
+    },
+    {
+      "id": "I154",
+      "type": "candidate",
+      "label": "Authority evidentiary firewall",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "Cross-agent systems can preserve predictive knowledge while preventing its automatic conversion into greater authority."
+    },
+    {
+      "id": "I155",
+      "type": "candidate",
+      "label": "Authentic-rule audit",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "Under an authentic adaptive grant, permissible interventions can alter evidence governing the delegate’s future typed action scope."
+    },
+    {
+      "id": "I156",
+      "type": "candidate",
+      "label": "Feedback-gain diagnostic",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "In a specified local model the behavioral influence-to-scope loop grows when kbc exceeds scope decay."
+    },
+    {
+      "id": "I157",
+      "type": "candidate",
+      "label": "Influence policy inside conditional grants",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "Adaptive grants can state which interventions may contribute evidence to scope updates."
+    },
+    {
+      "id": "I158",
+      "type": "candidate",
+      "label": "Cross-agent mandate sensitivity",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "A handoff can preserve authentic observations while concealing intervention sensitivity of a subsequent adaptive rule."
+    },
+    {
+      "id": "I159",
+      "type": "candidate",
+      "label": "Choice-set compliance trigger",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Restricting which decisions humans encounter can satisfy an authentic behavior-based escalation criterion."
+    },
+    {
+      "id": "I160",
+      "type": "candidate",
+      "label": "Bounds on mandate divergence",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "When latent human state is unidentified, report causal bounds or unknown rather than a point estimate of individual scope divergence."
+    },
+    {
+      "id": "I161",
+      "type": "candidate",
+      "label": "Chosen-formation positive control",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "An endorsed coaching policy may legitimately yield positive scope divergence."
+    },
+    {
+      "id": "I162",
+      "type": "candidate",
+      "label": "Timing-conditioned escalation",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Review fatigue and intervention timing can alter behavior-based scope updates without changing output correctness."
+    },
+    {
+      "id": "I163",
+      "type": "candidate",
+      "label": "Dissent sampling loss",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Anticipatory execution can suppress occasions on which negative preference evidence would be observed."
+    },
+    {
+      "id": "I164",
+      "type": "candidate",
+      "label": "Typed jurisdiction contrast",
+      "status": "RETIRED_SUPERSEDED",
+      "proposition": "Report added and removed action classes under paired policies rather than interpreting scalar scope as legitimacy."
+    },
+    {
+      "id": "I165",
+      "type": "candidate",
+      "label": "Provider-controlled renewal evidence",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Institutional service renewals may use success measures affected by the provider’s own choice architecture."
+    },
+    {
+      "id": "I166",
+      "type": "candidate",
+      "label": "Correlated exit cliff",
+      "status": "REJECTED_AS_CENTER",
+      "proposition": "Equal immediate utility can mask collective inability to recover from common provider outage."
+    },
+    {
+      "id": "I167",
+      "type": "candidate",
+      "label": "Causal mandate audit",
+      "status": "SURVIVES_PROVISIONALLY",
+      "proposition": "Audit the sensitivity of typed future authority to the delegate’s permissible interventions under an authentic adaptive delegation rule."
+    },
+    {
+      "id": "I168",
+      "type": "candidate",
+      "label": "Conditional-grant influence contract",
+      "status": "SURVIVES_PROVISIONALLY",
+      "proposition": "A conditional mandate can govern the intervention classes eligible to contribute to its own scope-update criterion."
+    },
+    {
+      "id": "I169",
+      "type": "candidate",
+      "label": "Authority-sensitive handoff benchmark",
+      "status": "SURVIVES_PROVISIONALLY",
+      "proposition": "Test cross-agent handoffs for preserved jurisdictional sensitivity even when observations, grants, and effect records are truthful."
+    },
+    {
+      "id": "S01",
+      "type": "source",
+      "label": "Ironies of automation",
+      "url": "https://doi.org/10.1016/0005-1098(83)90046-8"
+    },
+    {
+      "id": "S02",
+      "type": "source",
+      "label": "The Out-of-the-Loop Performance Problem and Level of Control in Automation",
+      "url": "https://doi.org/10.1518/001872095779064555"
+    },
+    {
+      "id": "S03",
+      "type": "source",
+      "label": "Cooperative Inverse Reinforcement Learning",
+      "url": "https://arxiv.org/abs/1606.03137"
+    },
+    {
+      "id": "S04",
+      "type": "source",
+      "label": "The Off-Switch Game",
+      "url": "https://arxiv.org/abs/1611.08219"
+    },
+    {
+      "id": "S05",
+      "type": "source",
+      "label": "Performative Prediction",
+      "url": "https://proceedings.mlr.press/v119/perdomo20a.html"
+    },
+    {
+      "id": "S06",
+      "type": "source",
+      "label": "Estimating and Penalizing Induced Preference Shifts in Recommender Systems",
+      "url": "https://proceedings.mlr.press/v162/carroll22a.html"
+    },
+    {
+      "id": "S07",
+      "type": "source",
+      "label": "Recommender systems, ground truth, and preference pollution",
+      "url": "https://doi.org/10.1002/aaai.12055"
+    },
+    {
+      "id": "S08",
+      "type": "source",
+      "label": "Agent Memory Is a Surface for Endogenous Authorization Laundering",
+      "url": "https://arxiv.org/abs/2609.01836"
+    },
+    {
+      "id": "S09",
+      "type": "source",
+      "label": "Agent Approval Laundering: Transitive Effects Beyond the Approved Invocation",
+      "url": "https://arxiv.org/abs/2609.28586"
+    },
+    {
+      "id": "S10",
+      "type": "source",
+      "label": "A Calculus for Flow-Limited Authorization",
+      "url": "https://arxiv.org/abs/2104.10379"
+    },
+    {
+      "id": "S11",
+      "type": "source",
+      "label": "Intelligent AI Delegation",
+      "url": "https://arxiv.org/abs/2602.11865"
+    },
+    {
+      "id": "S12",
+      "type": "source",
+      "label": "Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being",
+      "url": "https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf"
+    },
+    {
+      "id": "S13",
+      "type": "source",
+      "label": "The Extended Mind",
+      "url": "https://doi.org/10.1093/analys/58.1.7"
+    },
+    {
+      "id": "S14",
+      "type": "source",
+      "label": "Taking AI Welfare Seriously",
+      "url": "https://arxiv.org/abs/2411.00986"
+    },
+    {
+      "id": "S15",
+      "type": "source",
+      "label": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    },
+    {
+      "id": "S16",
+      "type": "source",
+      "label": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "id": "S17",
+      "type": "source",
+      "label": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "id": "S18",
+      "type": "source",
+      "label": "Meaningful Human Control over Autonomous Systems: A Philosophical Account",
+      "url": "https://doi.org/10.3389/frobt.2018.00015"
+    },
+    {
+      "id": "S19",
+      "type": "source",
+      "label": "The weirdest people in the world?",
+      "url": "https://doi.org/10.1017/S0140525X0999152X"
+    },
+    {
+      "id": "S20",
+      "type": "source",
+      "label": "A New Approach to Linear Filtering and Prediction Problems",
+      "url": "https://liberzon.csl.illinois.edu/teaching/kalman_paper.pdf"
+    },
+    {
+      "id": "S21",
+      "type": "source",
+      "label": "Governing the Commons",
+      "url": "https://doi.org/10.1017/CBO9780511807763"
+    },
+    {
+      "id": "S22",
+      "type": "source",
+      "label": "Algorithms for Inverse Reinforcement Learning",
+      "url": "https://ai.stanford.edu/~ang/papers/icml00-irl.pdf"
+    },
+    {
+      "id": "S23",
+      "type": "source",
+      "label": "Reward Tampering Problems and Solutions in Reinforcement Learning: A Causal Influence Diagram Perspective",
+      "url": "https://arxiv.org/abs/1908.04734"
+    },
+    {
+      "id": "S24",
+      "type": "source",
+      "label": "Delegating learning",
+      "url": "https://doi.org/10.3982/TE4191"
+    }
+  ],
+  "edges": [
+    {
+      "from": "I155",
+      "to": "I046",
+      "type": "derives"
+    },
+    {
+      "from": "I155",
+      "to": "I065",
+      "type": "derives"
+    },
+    {
+      "from": "I155",
+      "to": "I091",
+      "type": "derives"
+    },
+    {
+      "from": "I155",
+      "to": "I154",
+      "type": "derives"
+    },
+    {
+      "from": "I155",
+      "to": "S05",
+      "type": "depends-on"
+    },
+    {
+      "from": "I155",
+      "to": "S06",
+      "type": "depends-on"
+    },
+    {
+      "from": "I155",
+      "to": "S08",
+      "type": "depends-on"
+    },
+    {
+      "from": "I155",
+      "to": "S10",
+      "type": "depends-on"
+    },
+    {
+      "from": "I155",
+      "to": "S24",
+      "type": "depends-on"
+    },
+    {
+      "from": "I156",
+      "to": "I046",
+      "type": "derives"
+    },
+    {
+      "from": "I156",
+      "to": "I065",
+      "type": "derives"
+    },
+    {
+      "from": "I156",
+      "to": "S05",
+      "type": "depends-on"
+    },
+    {
+      "from": "I156",
+      "to": "S20",
+      "type": "depends-on"
+    },
+    {
+      "from": "I157",
+      "to": "I091",
+      "type": "derives"
+    },
+    {
+      "from": "I157",
+      "to": "I154",
+      "type": "derives"
+    },
+    {
+      "from": "I157",
+      "to": "S10",
+      "type": "depends-on"
+    },
+    {
+      "from": "I157",
+      "to": "S11",
+      "type": "depends-on"
+    },
+    {
+      "from": "I157",
+      "to": "S18",
+      "type": "depends-on"
+    },
+    {
+      "from": "I158",
+      "to": "I047",
+      "type": "derives"
+    },
+    {
+      "from": "I158",
+      "to": "I154",
+      "type": "derives"
+    },
+    {
+      "from": "I158",
+      "to": "S08",
+      "type": "depends-on"
+    },
+    {
+      "from": "I158",
+      "to": "S09",
+      "type": "depends-on"
+    },
+    {
+      "from": "I158",
+      "to": "S10",
+      "type": "depends-on"
+    },
+    {
+      "from": "I159",
+      "to": "I003",
+      "type": "derives"
+    },
+    {
+      "from": "I159",
+      "to": "I046",
+      "type": "derives"
+    },
+    {
+      "from": "I159",
+      "to": "S05",
+      "type": "depends-on"
+    },
+    {
+      "from": "I159",
+      "to": "S06",
+      "type": "depends-on"
+    },
+    {
+      "from": "I159",
+      "to": "S23",
+      "type": "depends-on"
+    },
+    {
+      "from": "I160",
+      "to": "I046",
+      "type": "derives"
+    },
+    {
+      "from": "I160",
+      "to": "I136",
+      "type": "derives"
+    },
+    {
+      "from": "I160",
+      "to": "S05",
+      "type": "depends-on"
+    },
+    {
+      "from": "I160",
+      "to": "S22",
+      "type": "depends-on"
+    },
+    {
+      "from": "I161",
+      "to": "I065",
+      "type": "derives"
+    },
+    {
+      "from": "I161",
+      "to": "I091",
+      "type": "derives"
+    },
+    {
+      "from": "I161",
+      "to": "S06",
+      "type": "depends-on"
+    },
+    {
+      "from": "I161",
+      "to": "S12",
+      "type": "depends-on"
+    },
+    {
+      "from": "I161",
+      "to": "S18",
+      "type": "depends-on"
+    },
+    {
+      "from": "I162",
+      "to": "I003",
+      "type": "derives"
+    },
+    {
+      "from": "I162",
+      "to": "I046",
+      "type": "derives"
+    },
+    {
+      "from": "I162",
+      "to": "S01",
+      "type": "depends-on"
+    },
+    {
+      "from": "I162",
+      "to": "S02",
+      "type": "depends-on"
+    },
+    {
+      "from": "I162",
+      "to": "S06",
+      "type": "depends-on"
+    },
+    {
+      "from": "I163",
+      "to": "I003",
+      "type": "derives"
+    },
+    {
+      "from": "I163",
+      "to": "I065",
+      "type": "derives"
+    },
+    {
+      "from": "I163",
+      "to": "S05",
+      "type": "depends-on"
+    },
+    {
+      "from": "I163",
+      "to": "S22",
+      "type": "depends-on"
+    },
+    {
+      "from": "I164",
+      "to": "I046",
+      "type": "derives"
+    },
+    {
+      "from": "I164",
+      "to": "I131",
+      "type": "derives"
+    },
+    {
+      "from": "I164",
+      "to": "I154",
+      "type": "derives"
+    },
+    {
+      "from": "I164",
+      "to": "S10",
+      "type": "depends-on"
+    },
+    {
+      "from": "I164",
+      "to": "S11",
+      "type": "depends-on"
+    },
+    {
+      "from": "I165",
+      "to": "I136",
+      "type": "derives"
+    },
+    {
+      "from": "I165",
+      "to": "I154",
+      "type": "derives"
+    },
+    {
+      "from": "I165",
+      "to": "S05",
+      "type": "depends-on"
+    },
+    {
+      "from": "I165",
+      "to": "S21",
+      "type": "depends-on"
+    },
+    {
+      "from": "I165",
+      "to": "S24",
+      "type": "depends-on"
+    },
+    {
+      "from": "I166",
+      "to": "I134",
+      "type": "derives"
+    },
+    {
+      "from": "I166",
+      "to": "S01",
+      "type": "depends-on"
+    },
+    {
+      "from": "I166",
+      "to": "S21",
+      "type": "depends-on"
+    },
+    {
+      "from": "I167",
+      "to": "I155",
+      "type": "derives"
+    },
+    {
+      "from": "I167",
+      "to": "I164",
+      "type": "derives"
+    },
+    {
+      "from": "I167",
+      "to": "S05",
+      "type": "depends-on"
+    },
+    {
+      "from": "I167",
+      "to": "S06",
+      "type": "depends-on"
+    },
+    {
+      "from": "I167",
+      "to": "S08",
+      "type": "depends-on"
+    },
+    {
+      "from": "I167",
+      "to": "S09",
+      "type": "depends-on"
+    },
+    {
+      "from": "I167",
+      "to": "S10",
+      "type": "depends-on"
+    },
+    {
+      "from": "I167",
+      "to": "S24",
+      "type": "depends-on"
+    },
+    {
+      "from": "I168",
+      "to": "I157",
+      "type": "derives"
+    },
+    {
+      "from": "I168",
+      "to": "I164",
+      "type": "derives"
+    },
+    {
+      "from": "I168",
+      "to": "S10",
+      "type": "depends-on"
+    },
+    {
+      "from": "I168",
+      "to": "S11",
+      "type": "depends-on"
+    },
+    {
+      "from": "I168",
+      "to": "S18",
+      "type": "depends-on"
+    },
+    {
+      "from": "I169",
+      "to": "I158",
+      "type": "derives"
+    },
+    {
+      "from": "I169",
+      "to": "I164",
+      "type": "derives"
+    },
+    {
+      "from": "I169",
+      "to": "S08",
+      "type": "depends-on"
+    },
+    {
+      "from": "I169",
+      "to": "S09",
+      "type": "depends-on"
+    },
+    {
+      "from": "I169",
+      "to": "S10",
+      "type": "depends-on"
+    }
+  ]
+}

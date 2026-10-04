@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "status_definitions": [
     "UNTESTED",
     "SEARCHING",
@@ -2632,6 +2632,466 @@
       "survives": true,
       "grade": null,
       "review_note": "Candidate framework scaffold; novelty must live in a specified adaptive-rule failure, not a general consent principle."
+    },
+    {
+      "candidate_id": "I155",
+      "exact_proposition": "Under an authentic adaptive grant, permissible interventions can alter evidence governing the delegate’s future typed action scope.",
+      "closest_known_precedent": "Performative Prediction",
+      "original_author": [
+        "Juan C. Perdomo",
+        "Tijana Zrnic",
+        "Celestine Mendler-Dünner",
+        "Moritz Hardt"
+      ],
+      "year": 2020,
+      "field": "machine learning",
+      "source": "https://proceedings.mlr.press/v119/perdomo20a.html",
+      "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+      "crucial_difference": "Under an authentic adaptive grant, permissible interventions can alter evidence governing the delegate’s future typed action scope.",
+      "difference_type": "PROPOSED_SUBSTANTIVE_EXTENSION",
+      "status": "RETIRED",
+      "survives": false,
+      "grade": null,
+      "proposed_grade": "B_PROPOSED",
+      "citations": [
+        "S05",
+        "S06",
+        "S08",
+        "S10",
+        "S24"
+      ],
+      "review_note": "Test authentic ledger replay and paired intervention contrasts; novelty is a benchmark subcase, not a new causal method.",
+      "review_files": [
+        "debates/round-1-human.md",
+        "debates/round-1-technical.md"
+      ]
+    },
+    {
+      "candidate_id": "I156",
+      "exact_proposition": "In a specified local model the behavioral influence-to-scope loop grows when kbc exceeds scope decay.",
+      "closest_known_precedent": "Performative Prediction",
+      "original_author": [
+        "Juan C. Perdomo",
+        "Tijana Zrnic",
+        "Celestine Mendler-Dünner",
+        "Moritz Hardt"
+      ],
+      "year": 2020,
+      "field": "machine learning",
+      "source": "https://proceedings.mlr.press/v119/perdomo20a.html",
+      "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+      "crucial_difference": "In a specified local model the behavioral influence-to-scope loop grows when kbc exceeds scope decay.",
+      "difference_type": "SEMANTIC_OR_SUPPORTING_SYNTHESIS",
+      "status": "REJECTED",
+      "survives": false,
+      "grade": "D",
+      "proposed_grade": "D",
+      "citations": [
+        "S05",
+        "S20"
+      ],
+      "review_note": "The stability algebra is elementary control theory; retain only as illustrative figure.",
+      "review_files": [
+        "debates/round-1-human.md",
+        "debates/round-1-technical.md"
+      ]
+    },
+    {
+      "candidate_id": "I157",
+      "exact_proposition": "Adaptive grants can state which interventions may contribute evidence to scope updates.",
+      "closest_known_precedent": "A Calculus for Flow-Limited Authorization",
+      "original_author": [
+        "Owen Arden",
+        "Anitha Gollamudi",
+        "Ethan Cecchetti",
+        "Stephen Chong",
+        "Andrew C. Myers"
+      ],
+      "year": 2021,
+      "field": "programming languages",
+      "source": "https://arxiv.org/abs/2104.10379",
+      "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+      "crucial_difference": "Adaptive grants can state which interventions may contribute evidence to scope updates.",
+      "difference_type": "SEMANTIC_OR_SUPPORTING_SYNTHESIS",
+      "status": "RETIRED",
+      "survives": false,
+      "grade": "C",
+      "proposed_grade": "C",
+      "citations": [
+        "S10",
+        "S11",
+        "S18"
+      ],
+      "review_note": "Information-flow release policy is inherited; implementation can support the benchmark.",
+      "review_files": [
+        "debates/round-1-human.md",
+        "debates/round-1-technical.md"
+      ]
+    },
+    {
+      "candidate_id": "I158",
+      "exact_proposition": "A handoff can preserve authentic observations while concealing intervention sensitivity of a subsequent adaptive rule.",
+      "closest_known_precedent": "Agent Memory Is a Surface for Endogenous Authorization Laundering",
+      "original_author": [
+        "Tommaso Cerruti",
+        "Mika Okamoto",
+        "Ansel Kaplan Erol"
+      ],
+      "year": 2026,
+      "field": "agent security",
+      "source": "https://arxiv.org/abs/2609.01836",
+      "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+      "crucial_difference": "A handoff can preserve authentic observations while concealing intervention sensitivity of a subsequent adaptive rule.",
+      "difference_type": "PROPOSED_SUBSTANTIVE_EXTENSION",
+      "status": "RETIRED",
+      "survives": false,
+      "grade": null,
+      "proposed_grade": "B_PROPOSED",
+      "citations": [
+        "S08",
+        "S09",
+        "S10"
+      ],
+      "review_note": "Needs cases where ancestry matters despite no false permission or omitted effect.",
+      "review_files": [
+        "debates/round-1-human.md",
+        "debates/round-1-technical.md"
+      ]
+    },
+    {
+      "candidate_id": "I159",
+      "exact_proposition": "Restricting which decisions humans encounter can satisfy an authentic behavior-based escalation criterion.",
+      "closest_known_precedent": "Performative Prediction",
+      "original_author": [
+        "Juan C. Perdomo",
+        "Tijana Zrnic",
+        "Celestine Mendler-Dünner",
+        "Moritz Hardt"
+      ],
+      "year": 2020,
+      "field": "machine learning",
+      "source": "https://proceedings.mlr.press/v119/perdomo20a.html",
+      "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+      "crucial_difference": "Restricting which decisions humans encounter can satisfy an authentic behavior-based escalation criterion.",
+      "difference_type": "SEMANTIC_OR_SUPPORTING_SYNTHESIS",
+      "status": "REJECTED",
+      "survives": false,
+      "grade": "C",
+      "proposed_grade": "C",
+      "citations": [
+        "S05",
+        "S06",
+        "S23"
+      ],
+      "review_note": "Known selection/influence mechanisms; use as adversarial case.",
+      "review_files": [
+        "debates/round-1-human.md",
+        "debates/round-1-technical.md"
+      ]
+    },
+    {
+      "candidate_id": "I160",
+      "exact_proposition": "When latent human state is unidentified, report causal bounds or unknown rather than a point estimate of individual scope divergence.",
+      "closest_known_precedent": "Performative Prediction",
+      "original_author": [
+        "Juan C. Perdomo",
+        "Tijana Zrnic",
+        "Celestine Mendler-Dünner",
+        "Moritz Hardt"
+      ],
+      "year": 2020,
+      "field": "machine learning",
+      "source": "https://proceedings.mlr.press/v119/perdomo20a.html",
+      "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+      "crucial_difference": "When latent human state is unidentified, report causal bounds or unknown rather than a point estimate of individual scope divergence.",
+      "difference_type": "SEMANTIC_OR_SUPPORTING_SYNTHESIS",
+      "status": "REJECTED",
+      "survives": false,
+      "grade": "C",
+      "proposed_grade": "C",
+      "citations": [
+        "S05",
+        "S22"
+      ],
+      "review_note": "Ordinary identification discipline; important limitation, not discovery.",
+      "review_files": [
+        "debates/round-1-human.md",
+        "debates/round-1-technical.md"
+      ]
+    },
+    {
+      "candidate_id": "I161",
+      "exact_proposition": "An endorsed coaching policy may legitimately yield positive scope divergence.",
+      "closest_known_precedent": "Estimating and Penalizing Induced Preference Shifts in Recommender Systems",
+      "original_author": [
+        "Micah D. Carroll",
+        "Anca Dragan",
+        "Stuart Russell",
+        "Dylan Hadfield-Menell"
+      ],
+      "year": 2022,
+      "field": "recommender systems",
+      "source": "https://proceedings.mlr.press/v162/carroll22a.html",
+      "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+      "crucial_difference": "An endorsed coaching policy may legitimately yield positive scope divergence.",
+      "difference_type": "SEMANTIC_OR_SUPPORTING_SYNTHESIS",
+      "status": "REJECTED",
+      "survives": false,
+      "grade": "D",
+      "proposed_grade": "D",
+      "citations": [
+        "S06",
+        "S12",
+        "S18"
+      ],
+      "review_note": "Influence is not manipulation; inherited autonomy distinction.",
+      "review_files": [
+        "debates/round-1-human.md",
+        "debates/round-1-technical.md"
+      ]
+    },
+    {
+      "candidate_id": "I162",
+      "exact_proposition": "Review fatigue and intervention timing can alter behavior-based scope updates without changing output correctness.",
+      "closest_known_precedent": "Ironies of automation",
+      "original_author": [
+        "Lisanne Bainbridge"
+      ],
+      "year": 1983,
+      "field": "human factors",
+      "source": "https://doi.org/10.1016/0005-1098(83)90046-8",
+      "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+      "crucial_difference": "Review fatigue and intervention timing can alter behavior-based scope updates without changing output correctness.",
+      "difference_type": "SEMANTIC_OR_SUPPORTING_SYNTHESIS",
+      "status": "REJECTED",
+      "survives": false,
+      "grade": "C",
+      "proposed_grade": "C",
+      "citations": [
+        "S01",
+        "S02",
+        "S06"
+      ],
+      "review_note": "Known attention effects; experimental condition only.",
+      "review_files": [
+        "debates/round-1-human.md",
+        "debates/round-1-technical.md"
+      ]
+    },
+    {
+      "candidate_id": "I163",
+      "exact_proposition": "Anticipatory execution can suppress occasions on which negative preference evidence would be observed.",
+      "closest_known_precedent": "Performative Prediction",
+      "original_author": [
+        "Juan C. Perdomo",
+        "Tijana Zrnic",
+        "Celestine Mendler-Dünner",
+        "Moritz Hardt"
+      ],
+      "year": 2020,
+      "field": "machine learning",
+      "source": "https://proceedings.mlr.press/v119/perdomo20a.html",
+      "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+      "crucial_difference": "Anticipatory execution can suppress occasions on which negative preference evidence would be observed.",
+      "difference_type": "SEMANTIC_OR_SUPPORTING_SYNTHESIS",
+      "status": "REJECTED",
+      "survives": false,
+      "grade": "C",
+      "proposed_grade": "C",
+      "citations": [
+        "S05",
+        "S22"
+      ],
+      "review_note": "Selective labels and active learning are antecedents.",
+      "review_files": [
+        "debates/round-1-human.md",
+        "debates/round-1-technical.md"
+      ]
+    },
+    {
+      "candidate_id": "I164",
+      "exact_proposition": "Report added and removed action classes under paired policies rather than interpreting scalar scope as legitimacy.",
+      "closest_known_precedent": "A Calculus for Flow-Limited Authorization",
+      "original_author": [
+        "Owen Arden",
+        "Anitha Gollamudi",
+        "Ethan Cecchetti",
+        "Stephen Chong",
+        "Andrew C. Myers"
+      ],
+      "year": 2021,
+      "field": "programming languages",
+      "source": "https://arxiv.org/abs/2104.10379",
+      "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+      "crucial_difference": "Report added and removed action classes under paired policies rather than interpreting scalar scope as legitimacy.",
+      "difference_type": "PROPOSED_SUBSTANTIVE_EXTENSION",
+      "status": "RETIRED",
+      "survives": false,
+      "grade": null,
+      "proposed_grade": "B_PROPOSED",
+      "citations": [
+        "S10",
+        "S11"
+      ],
+      "review_note": "Operational benchmark outcome; no claim that set differences are mathematically novel.",
+      "review_files": [
+        "debates/round-1-human.md",
+        "debates/round-1-technical.md"
+      ]
+    },
+    {
+      "candidate_id": "I165",
+      "exact_proposition": "Institutional service renewals may use success measures affected by the provider’s own choice architecture.",
+      "closest_known_precedent": "Performative Prediction",
+      "original_author": [
+        "Juan C. Perdomo",
+        "Tijana Zrnic",
+        "Celestine Mendler-Dünner",
+        "Moritz Hardt"
+      ],
+      "year": 2020,
+      "field": "machine learning",
+      "source": "https://proceedings.mlr.press/v119/perdomo20a.html",
+      "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+      "crucial_difference": "Institutional service renewals may use success measures affected by the provider’s own choice architecture.",
+      "difference_type": "SEMANTIC_OR_SUPPORTING_SYNTHESIS",
+      "status": "REJECTED",
+      "survives": false,
+      "grade": "C",
+      "proposed_grade": "C",
+      "citations": [
+        "S05",
+        "S21",
+        "S24"
+      ],
+      "review_note": "Metrics and principal-agent incentives already cover broad claim.",
+      "review_files": [
+        "debates/round-1-human.md",
+        "debates/round-1-technical.md"
+      ]
+    },
+    {
+      "candidate_id": "I166",
+      "exact_proposition": "Equal immediate utility can mask collective inability to recover from common provider outage.",
+      "closest_known_precedent": "Ironies of automation",
+      "original_author": [
+        "Lisanne Bainbridge"
+      ],
+      "year": 1983,
+      "field": "human factors",
+      "source": "https://doi.org/10.1016/0005-1098(83)90046-8",
+      "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+      "crucial_difference": "Equal immediate utility can mask collective inability to recover from common provider outage.",
+      "difference_type": "SEMANTIC_OR_SUPPORTING_SYNTHESIS",
+      "status": "REJECTED",
+      "survives": false,
+      "grade": "C",
+      "proposed_grade": "C",
+      "citations": [
+        "S01",
+        "S21"
+      ],
+      "review_note": "Network resilience precedent; separate research agenda.",
+      "review_files": [
+        "debates/round-1-human.md",
+        "debates/round-1-technical.md"
+      ]
+    },
+    {
+      "candidate_id": "I167",
+      "exact_proposition": "Audit the sensitivity of typed future authority to the delegate’s permissible interventions under an authentic adaptive delegation rule.",
+      "closest_known_precedent": "Performative Prediction",
+      "original_author": [
+        "Juan C. Perdomo",
+        "Tijana Zrnic",
+        "Celestine Mendler-Dünner",
+        "Moritz Hardt"
+      ],
+      "year": 2020,
+      "field": "machine learning",
+      "source": "https://proceedings.mlr.press/v119/perdomo20a.html",
+      "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+      "crucial_difference": "Audit the sensitivity of typed future authority to the delegate’s permissible interventions under an authentic adaptive delegation rule.",
+      "difference_type": "PROPOSED_SUBSTANTIVE_EXTENSION",
+      "status": "SURVIVES_PROVISIONALLY",
+      "survives": true,
+      "grade": null,
+      "proposed_grade": "B_PROPOSED",
+      "citations": [
+        "S05",
+        "S06",
+        "S08",
+        "S09",
+        "S10",
+        "S24"
+      ],
+      "review_note": "Narrow research extension; no demonstrated A-grade discovery; empirical validation and broader full-text novelty audit outstanding.",
+      "review_files": [
+        "debates/round-1-human.md",
+        "debates/round-1-technical.md"
+      ]
+    },
+    {
+      "candidate_id": "I168",
+      "exact_proposition": "A conditional mandate can govern the intervention classes eligible to contribute to its own scope-update criterion.",
+      "closest_known_precedent": "A Calculus for Flow-Limited Authorization",
+      "original_author": [
+        "Owen Arden",
+        "Anitha Gollamudi",
+        "Ethan Cecchetti",
+        "Stephen Chong",
+        "Andrew C. Myers"
+      ],
+      "year": 2021,
+      "field": "programming languages",
+      "source": "https://arxiv.org/abs/2104.10379",
+      "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+      "crucial_difference": "A conditional mandate can govern the intervention classes eligible to contribute to its own scope-update criterion.",
+      "difference_type": "PROPOSED_SUBSTANTIVE_EXTENSION",
+      "status": "SURVIVES_PROVISIONALLY",
+      "survives": true,
+      "grade": null,
+      "proposed_grade": "B_PROPOSED",
+      "citations": [
+        "S10",
+        "S11",
+        "S18"
+      ],
+      "review_note": "Narrow research extension; no demonstrated A-grade discovery; empirical validation and broader full-text novelty audit outstanding.",
+      "review_files": [
+        "debates/round-1-human.md",
+        "debates/round-1-technical.md"
+      ]
+    },
+    {
+      "candidate_id": "I169",
+      "exact_proposition": "Test cross-agent handoffs for preserved jurisdictional sensitivity even when observations, grants, and effect records are truthful.",
+      "closest_known_precedent": "Agent Memory Is a Surface for Endogenous Authorization Laundering",
+      "original_author": [
+        "Tommaso Cerruti",
+        "Mika Okamoto",
+        "Ansel Kaplan Erol"
+      ],
+      "year": 2026,
+      "field": "agent security",
+      "source": "https://arxiv.org/abs/2609.01836",
+      "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+      "crucial_difference": "Test cross-agent handoffs for preserved jurisdictional sensitivity even when observations, grants, and effect records are truthful.",
+      "difference_type": "PROPOSED_SUBSTANTIVE_EXTENSION",
+      "status": "SURVIVES_PROVISIONALLY",
+      "survives": true,
+      "grade": null,
+      "proposed_grade": "B_PROPOSED",
+      "citations": [
+        "S08",
+        "S09",
+        "S10"
+      ],
+      "review_note": "Narrow research extension; no demonstrated A-grade discovery; empirical validation and broader full-text novelty audit outstanding.",
+      "review_files": [
+        "debates/round-1-human.md",
+        "debates/round-1-technical.md"
+      ]
     }
   ]
 }
