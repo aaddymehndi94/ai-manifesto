@@ -147,9 +147,12 @@ function validateGraph(document, label, requiredNodeIds = []) {
   for (const [index, edge] of edges.entries()) {
     check(edge && typeof edge === 'object', `${label}.edges[${index}]: expected an object`);
     if (!edge || typeof edge !== 'object') continue;
-    check(nodeSet.has(edge.from), `${label}.edges[${index}]: missing source node ${JSON.stringify(edge.from)}`);
-    check(nodeSet.has(edge.to), `${label}.edges[${index}]: missing target node ${JSON.stringify(edge.to)}`);
-    check(typeof edge.type === 'string' && edge.type.length > 0, `${label}.edges[${index}]: missing edge type`);
+    const source = edge.from ?? edge.source;
+    const target = edge.to ?? edge.target;
+    const type = edge.type ?? edge.relation;
+    check(nodeSet.has(source), `${label}.edges[${index}]: missing source node ${JSON.stringify(source)}`);
+    check(nodeSet.has(target), `${label}.edges[${index}]: missing target node ${JSON.stringify(target)}`);
+    check(typeof type === 'string' && type.length > 0, `${label}.edges[${index}]: missing edge type`);
   }
   for (const id of requiredNodeIds) check(nodeSet.has(id), `${label}: missing required framework node ${id}`);
 }
@@ -238,6 +241,15 @@ for (const file of buildFiles) {
   if (!byBase.has(base)) byBase.set(base, []);
   byBase.get(base).push(file);
 }
+const normalizedRelative = file => relative(file).split(path.sep).join('/');
+const isCanonicalGraph = file => {
+  const rel = normalizedRelative(file);
+  return /(?:^|\/)api\/v1\/graph\.json$/.test(rel)
+    || /(?:^|\/)framework\/concept-graph\.json$/.test(rel)
+    || /^public\/(?:concept-)?graph\.json$/.test(rel)
+    || /^dist\/(?:concept-)?graph\.json$/.test(rel);
+};
+const canonicalGraphFiles = buildFiles.filter(file => ['graph.json', 'concept-graph.json'].includes(path.basename(file)) && isCanonicalGraph(file));
 
 if (buildRoots.length === 0) {
   if (requireBuilt) errors.push('--built: neither public/ nor dist/ exists');
@@ -246,7 +258,7 @@ if (buildRoots.length === 0) {
   const requiredBuiltNames = ['concepts.json', 'principles.json', 'citations.json', 'ontology.jsonld', 'llms.txt', 'llms-full.txt', 'manifesto.md', 'paper.md', 'references.bib'];
   if (requireBuilt) {
     for (const name of requiredBuiltNames) check(byBase.has(name), `--built: missing generated artifact ${name}`);
-    check(byBase.has('graph.json') || byBase.has('concept-graph.json'), '--built: missing graph.json or concept-graph.json');
+    check(canonicalGraphFiles.length > 0, '--built: missing canonical api/v1/graph.json, framework/concept-graph.json, or public graph');
   }
 
   for (const file of byBase.get('concepts.json') || []) {
@@ -280,7 +292,9 @@ if (buildRoots.length === 0) {
   }
 
   for (const name of ['graph.json', 'concept-graph.json']) {
-    for (const file of byBase.get(name) || []) validateGraph(readJson(relative(file)), relative(file), requireBuilt ? [...frameworkIds] : []);
+    for (const file of byBase.get(name) || []) {
+      validateGraph(readJson(relative(file)), relative(file), requireBuilt && isCanonicalGraph(file) ? [...frameworkIds] : []);
+    }
   }
 
   for (const file of byBase.get('ontology.jsonld') || []) {
