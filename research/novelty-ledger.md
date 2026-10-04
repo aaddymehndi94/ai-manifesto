@@ -1,5 +1,14 @@
 # Novelty ledger — generation 1
 
+## Public draft 0.5.0 decision
+
+The [final novelty audit](final-novelty-audit.md) establishes no A-grade discovery
+and no strong B. I167 / AAA:C01 is B-proposed only for a narrow benchmark/interface;
+its underlying causal proposition is inherited synthesis. I168 / AAA:C02 is C-level
+supporting synthesis. I169 is an unimplemented specialization of inherited provenance.
+Three surviving research directions are not three novel discoveries. Earlier
+generation judgments below remain preserved lab history.
+
 154 candidates; 142 rejected as intellectual centers; 12 held for mutation. No A-grade discoveries established. Source-family matches are leads pending proposition-level source mapping; missing author/year fields are intentional and do not certify prior art.
 
 Scores are disclosed editorial screening judgments, not evidence of novelty. Full propositions, tests, objections, and score vectors are in idea_population.json.

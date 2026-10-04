@@ -1,0 +1,226 @@
+{
+  "version": "0.5.0",
+  "derived_from": "paper/references.bib",
+  "sources": [
+    {
+      "id": "F01",
+      "title": "The Human in the Loop of a Delegated Agent: The Theory of Adjustable Social Autonomy",
+      "authors": [
+        "Falcone, Rino",
+        "Castelfranchi, Cristiano"
+      ],
+      "year": 2001,
+      "url": "https://doi.org/10.1109/3468.952715",
+      "doi": "10.1109/3468.952715",
+      "type": "article",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F02",
+      "title": "Planning under Incomplete Information and the Ratchet Effect",
+      "authors": [
+        "Freixas, Xavier",
+        "Guesnerie, Roger",
+        "Tirole, Jean"
+      ],
+      "year": 1985,
+      "url": "https://doi.org/10.2307/2297615",
+      "doi": "10.2307/2297615",
+      "type": "article",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F03",
+      "title": "The Dynamics of Incentive Contracts",
+      "authors": [
+        "Laffont, Jean-Jacques",
+        "Tirole, Jean"
+      ],
+      "year": 1988,
+      "url": "https://doi.org/10.2307/1911362",
+      "doi": "10.2307/1911362",
+      "type": "article",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F04",
+      "title": "Financial Contracting Theory Meets the Real World: An Empirical Analysis of Venture Capital Contracts",
+      "authors": [
+        "Kaplan, Steven N.",
+        "Str\\\"omberg, Per"
+      ],
+      "year": 2003,
+      "url": "https://doi.org/10.1111/1467-937X.00245",
+      "doi": "10.1111/1467-937X.00245",
+      "type": "article",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F05",
+      "title": "Formal and Real Authority in Organizations",
+      "authors": [
+        "Aghion, Philippe",
+        "Tirole, Jean"
+      ],
+      "year": 1997,
+      "url": "https://doi.org/10.1086/262063",
+      "doi": "10.1086/262063",
+      "type": "article",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F06",
+      "title": "Employment Contracts, Influence Activities, and Efficient Organization Design",
+      "authors": [
+        "Milgrom, Paul R."
+      ],
+      "year": 1988,
+      "url": "https://doi.org/10.1086/261523",
+      "doi": "10.1086/261523",
+      "type": "article",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F07",
+      "title": "Performative Power",
+      "authors": [
+        "Hardt, Moritz",
+        "Jagadeesan, Meena",
+        "Mendler-Dünner, Celestine"
+      ],
+      "year": 2022,
+      "url": "https://arxiv.org/abs/2203.17232",
+      "doi": null,
+      "type": "misc",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F08",
+      "title": "The Confused Deputy: (or Why Capabilities Might Have Been Invented)",
+      "authors": [
+        "Hardy, Norm"
+      ],
+      "year": 1988,
+      "url": "https://doi.org/10.1145/54289.871709",
+      "doi": "10.1145/54289.871709",
+      "type": "article",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F09",
+      "title": "Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud",
+      "authors": [
+        "Birgisson, Arnar",
+        "Politz, Joe Gibbs",
+        "Erlingsson, \\'Ulfar",
+        "Taly, Ankur",
+        "Vrable, Michael",
+        "Lentczner, Mark"
+      ],
+      "year": 2014,
+      "url": "https://research.google/pubs/macaroons-cookies-with-contextual-caveats-for-decentralized-authorization-in-the-cloud/",
+      "doi": null,
+      "type": "inproceedings",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F10",
+      "title": "Position: {AI} Agents Need Authenticated Delegation",
+      "authors": [
+        "South, Tobin",
+        "Marro, Samuele",
+        "Hardjono, Thomas",
+        "Mahari, Robert",
+        "Whitney, Cedric Deslandes",
+        "Chan, Alan",
+        "Pentland, Alex"
+      ],
+      "year": 2025,
+      "url": "https://proceedings.mlr.press/v267/south25a.html",
+      "doi": null,
+      "type": "inproceedings",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F11",
+      "title": "Nonmalleable Information Flow Control",
+      "authors": [
+        "Cecchetti, Ethan",
+        "Myers, Andrew C.",
+        "Arden, Owen"
+      ],
+      "year": 2017,
+      "url": "https://doi.org/10.1145/3133956.3134054",
+      "doi": "10.1145/3133956.3134054",
+      "type": "inproceedings",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F12",
+      "title": "Delegation Receipt Protocol for {AI} Agent Authorization",
+      "authors": [
+        "Nelson, Ryan"
+      ],
+      "year": 2026,
+      "url": "https://datatracker.ietf.org/doc/draft-nelson-agent-delegation-receipts/10/",
+      "doi": null,
+      "type": "misc",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F13",
+      "title": "Toward Causal Inference With Interference",
+      "authors": [
+        "Hudgens, Michael G.",
+        "Halloran, M. Elizabeth"
+      ],
+      "year": 2008,
+      "url": "https://doi.org/10.1198/016214508000000292",
+      "doi": "10.1198/016214508000000292",
+      "type": "article",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F14",
+      "title": "Estimating Average Causal Effects under General Interference, with Application to a Social Network Experiment",
+      "authors": [
+        "Aronow, Peter M.",
+        "Samii, Cyrus"
+      ],
+      "year": 2017,
+      "url": "https://doi.org/10.1214/16-AOAS1005",
+      "doi": "10.1214/16-AOAS1005",
+      "type": "article",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F15",
+      "title": "Summary of Comments on the Concept Paper",
+      "authors": [
+        "National Cybersecurity Center of Excellence, National Institute of Standards",
+        "Technology"
+      ],
+      "year": 2026,
+      "url": "https://pages.nist.gov/nccoe-ai-identity/summary-of-comments.html",
+      "doi": null,
+      "type": "misc",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F16",
+      "title": "Your Memory Is Working against You: How Eye Tracking and Memory Explain Habituation to Security Warnings",
+      "authors": [
+        "Anderson, Bonnie Brinton",
+        "Jenkins, Jeffrey L.",
+        "Vance, Anthony",
+        "Kirwan, C. Brock",
+        "Eargle, David"
+      ],
+      "year": 2016,
+      "url": "https://doi.org/10.1016/j.dss.2016.09.010",
+      "doi": "10.1016/j.dss.2016.09.010",
+      "type": "article",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    }
+  ]
+}

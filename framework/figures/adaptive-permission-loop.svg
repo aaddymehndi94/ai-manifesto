@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 320" role="img" aria-labelledby="title desc">
+  <title id="title">A conditional action-scope feedback loop</title>
+  <desc id="desc">Current permission enables an intervention. That intervention can influence authentic behavioral evidence. A stated adaptive rule can use this evidence to update future permission. Causal sensitivity and governance judgments remain distinct.</desc>
+  <rect width="840" height="320" fill="#f7f8f2"/>
+  <defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7" fill="#536149"/></marker></defs>
+  <g fill="none" stroke="#536149" stroke-width="1.5" marker-end="url(#arrow)"><path d="M203 100H247"/><path d="M411 100H455"/><path d="M619 100H663"/><path d="M745 139V232H121V139" stroke-dasharray="5 5"/></g>
+  <g fill="#edf1e4" stroke="#71815f"><rect x="39" y="62" width="164" height="77"/><rect x="247" y="62" width="164" height="77"/><rect x="455" y="62" width="164" height="77"/><rect x="663" y="62" width="164" height="77"/></g>
+  <g fill="#182013" font-family="Arial, sans-serif" text-anchor="middle" font-size="15"><text x="121" y="90">Qualified scope</text><text x="329" y="90">Allowed intervention</text><text x="537" y="90">Authentic evidence</text><text x="745" y="90">Adaptive rule</text></g>
+  <g fill="#59634f" font-family="Arial, sans-serif" text-anchor="middle" font-size="11"><text x="121" y="116">what the delegate may do</text><text x="329" y="116">one way of providing help</text><text x="537" y="116">behavior or task performance</text><text x="745" y="116">conditional future permission</text><text x="434" y="211">Causal audit: compare typed future scopes across permissible intervention policies.</text><text x="420" y="281">Conceptual diagram. Influence is not itself a finding of harm or invalid consent.</text></g>
+</svg>

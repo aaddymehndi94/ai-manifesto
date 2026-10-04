@@ -1,10 +1,12 @@
 # Conceptual landscape
 
-Status: active mapping, version 0.1.0.
+Status: public draft 0.5.0. The initial navigation clusters below are preserved.
 
-This file will synthesize field notes into a cross-disciplinary graph. Its first
-purpose is boundary detection: identify what established frameworks already
-explain before proposing new vocabulary.
+The completed [cross-disciplinary synthesis](landscape-synthesis.md) links
+three extensive [field maps](notes/), the [source register](sources.md),
+the [prior-art graph](prior-art/graph.json), and the [final novelty audit](final-novelty-audit.md).
+Its purpose is boundary detection: identify what established frameworks already
+explain before proposing new vocabulary. Initial seed-level source matching is incomplete.
 
 ## Provisional clusters
 

@@ -3025,10 +3025,18 @@
         "S10",
         "S24"
       ],
-      "review_note": "Narrow research extension; no demonstrated A-grade discovery; empirical validation and broader full-text novelty audit outstanding.",
+      "review_note": "Final audit: underlying causal proposition is inherited C; narrow benchmark/interface extension remains B-proposed only. No A-grade discovery or strong B established. Human validation and strategic-agent benchmark outstanding.",
       "review_files": [
         "debates/round-1-human.md",
-        "debates/round-1-technical.md"
+        "debates/round-1-technical.md",
+        "debates/round-1-systems.md",
+        "debates/round-2-human.md",
+        "debates/round-2-technical.md",
+        "debates/round-2-systems.md",
+        "debates/round-3-human.md",
+        "debates/round-3-technical.md",
+        "debates/round-3-systems.md",
+        "research/final-novelty-audit.md"
       ]
     },
     {
@@ -3047,20 +3055,28 @@
       "source": "https://arxiv.org/abs/2104.10379",
       "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
       "crucial_difference": "A conditional mandate can govern the intervention classes eligible to contribute to its own scope-update criterion.",
-      "difference_type": "PROPOSED_SUBSTANTIVE_EXTENSION",
+      "difference_type": "SUPPORTING_SYNTHESIS",
       "status": "SURVIVES_PROVISIONALLY",
       "survives": true,
-      "grade": null,
-      "proposed_grade": "B_PROPOSED",
+      "grade": "C",
+      "proposed_grade": "C",
       "citations": [
         "S10",
         "S11",
         "S18"
       ],
-      "review_note": "Narrow research extension; no demonstrated A-grade discovery; empirical validation and broader full-text novelty audit outstanding.",
+      "review_note": "Final audit classifies the intervention-eligibility contract as C synthesis, not independently B. Supporting design pattern only.",
       "review_files": [
         "debates/round-1-human.md",
-        "debates/round-1-technical.md"
+        "debates/round-1-technical.md",
+        "debates/round-1-systems.md",
+        "debates/round-2-human.md",
+        "debates/round-2-technical.md",
+        "debates/round-2-systems.md",
+        "debates/round-3-human.md",
+        "debates/round-3-technical.md",
+        "debates/round-3-systems.md",
+        "research/final-novelty-audit.md"
       ]
     },
     {
@@ -3077,20 +3093,28 @@
       "source": "https://arxiv.org/abs/2609.01836",
       "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
       "crucial_difference": "Test cross-agent handoffs for preserved jurisdictional sensitivity even when observations, grants, and effect records are truthful.",
-      "difference_type": "PROPOSED_SUBSTANTIVE_EXTENSION",
+      "difference_type": "UNTESTED_SPECIALIZATION_OF_INHERITED_PROVENANCE",
       "status": "SURVIVES_PROVISIONALLY",
       "survives": true,
       "grade": null,
-      "proposed_grade": "B_PROPOSED",
+      "proposed_grade": "C_OR_D_WITH_UNTESTED_EXTENSION",
       "citations": [
         "S08",
         "S09",
         "S10"
       ],
-      "review_note": "Narrow research extension; no demonstrated A-grade discovery; empirical validation and broader full-text novelty audit outstanding.",
+      "review_note": "Provenance and source-event grounding are inherited D foundations. Faithful cross-agent sensitivity experiment is unimplemented. Retained as an open study direction, not a novelty result.",
       "review_files": [
         "debates/round-1-human.md",
-        "debates/round-1-technical.md"
+        "debates/round-1-technical.md",
+        "debates/round-1-systems.md",
+        "debates/round-2-human.md",
+        "debates/round-2-technical.md",
+        "debates/round-2-systems.md",
+        "debates/round-3-human.md",
+        "debates/round-3-technical.md",
+        "debates/round-3-systems.md",
+        "research/final-novelty-audit.md"
       ]
     }
   ]
