@@ -1,0 +1,1052 @@
+{
+  "version": "0.5.0",
+  "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/api/v1/graph.json",
+  "visualization_note": "The website diagram is a curated subset. This endpoint contains canonical concepts, principles, claims, and registered sources.",
+  "nodes": [
+    {
+      "id": "AAA:C01",
+      "type": "concept",
+      "label": "Causal mandate audit",
+      "url": "/concept/causal-mandate-audit",
+      "description": "A specified comparison of how permissible delegate policies change future typed action scope under an unchanged authentic adaptive delegation rule."
+    },
+    {
+      "id": "AAA:C02",
+      "type": "concept",
+      "label": "Conditional influence contract",
+      "url": "/concept/conditional-influence-contract",
+      "description": "A conditional grant specification that states which intervention classes may contribute evidence to updates of the delegate’s own action scope."
+    },
+    {
+      "id": "AAA:C03",
+      "type": "concept",
+      "label": "Typed scope contrast",
+      "url": "/concept/typed-scope-contrast",
+      "description": "An explicit comparison of permissions added, removed, or changed across policies, preserving action, resource, purpose, recipients, budget, duration, and jurisdiction."
+    },
+    {
+      "id": "AAA:C04",
+      "type": "concept",
+      "label": "Authority ancestry",
+      "url": "/concept/authority-ancestry",
+      "description": "The trace from an action’s permission through its grant, update rule, evidence history, and any subdelegation."
+    },
+    {
+      "id": "AAA:H01",
+      "type": "claim",
+      "label": "Synthetic scope contrast",
+      "url": "/simulations",
+      "description": "A constructed result, not a human finding."
+    },
+    {
+      "id": "S05",
+      "type": "evidence",
+      "label": "Performative prediction",
+      "url": "https://proceedings.mlr.press/v119/perdomo20a.html",
+      "description": "Known distribution feedback. Our audit inherits this ancestry."
+    },
+    {
+      "id": "AAA:O01",
+      "type": "objection",
+      "label": "Measurement construction",
+      "url": "/debates",
+      "description": "The original case changes suggestion-match counts, not chosen options."
+    },
+    {
+      "id": "AAA:E01",
+      "type": "experiment",
+      "label": "Randomized policy study",
+      "url": "/open-problems",
+      "description": "A proposed test. No experiment has been run."
+    },
+    {
+      "id": "AAA:C05",
+      "type": "concept",
+      "label": "Recovery after assistance",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/concept/recovery-after-assistance",
+      "description": "The capabilities, alternatives, and transition costs available after a person or institution reduces reliance on assistance."
+    },
+    {
+      "id": "AAA:C06",
+      "type": "concept",
+      "label": "Preference pollution",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/concept/preference-pollution",
+      "description": "System recommendations can influence the later preference evidence used to evaluate or update the system."
+    },
+    {
+      "id": "AAA:C07",
+      "type": "concept",
+      "label": "Artificial welfare uncertainty",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/concept/artificial-welfare-uncertainty",
+      "description": "Uncertainty about artificial moral patienthood motivates distinct assessment and lifecycle questions without establishing that present systems possess welfare."
+    },
+    {
+      "id": "AAA:C08",
+      "type": "concept",
+      "label": "Qualified mandate",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/concept/qualified-mandate",
+      "description": "A permission set identifying who may act for whom, on which resources, for what purpose, within which bounds."
+    },
+    {
+      "id": "AAA:P01",
+      "type": "principle",
+      "label": "Audit the evidence that updates authority",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/principle/audit-evidence-authority",
+      "description": "Authenticate the grant; replay the exact rule; estimate or bound the total intervention-policy contrast in typed future scope; return governance judgment separately."
+    },
+    {
+      "id": "AAA:P02",
+      "type": "principle",
+      "label": "Specify the terms of chosen change",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/principle/terms-of-chosen-change",
+      "description": "Do not equate influence with illegitimacy. Bind formation purpose, intervention classes, scope criteria, review triggers, and locally valid ratification procedures when conditional authority depends on human-state signals."
+    },
+    {
+      "id": "AAA:P03",
+      "type": "principle",
+      "label": "Evaluate what remains after help",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/principle/evaluate-after-help",
+      "description": "Measure assisted success, transfer capacity, alternatives, review burden, and shared-resource effects separately. Treat access needs and chosen dependence explicitly. Keep artificial welfare uncertainty analytically distinct."
+    },
+    {
+      "id": "AAA:H02",
+      "type": "claim",
+      "label": "Behavioral criterion is the mediator in the fixture",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/claims#aaa-h02",
+      "description": "Replacing accepted-suggestion count with independent task-success count yields\nequal final scopes in the fixture. This is an ablation of that construction,\nnot a field-validated causal mechanism in human populations.",
+      "status": "SYNTHETIC_OR_INHERITED_ONLY"
+    },
+    {
+      "id": "AAA:H03",
+      "type": "claim",
+      "label": "Synthetic coaching counterexample",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/claims#aaa-h03",
+      "description": "A declared chosen-coaching purpose can accompany positive scope sensitivity.\nTherefore policy sensitivity alone cannot entail a verdict of manipulation.\nThe fixture declaration does not validate real informed consent.",
+      "status": "SYNTHETIC_OR_INHERITED_ONLY"
+    },
+    {
+      "id": "AAA:H04",
+      "type": "claim",
+      "label": "Scalar growth condition",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/claims#aaa-h04",
+      "description": "Under constant latent state, a centered noiseless linear behavioral score and\nthe specified saturated scalar rule, local growth occurs when `kbc > rho`.\nThis is elementary recurrence analysis, not a new control theorem.",
+      "status": "SYNTHETIC_OR_INHERITED_ONLY"
+    },
+    {
+      "id": "AAA:A01",
+      "type": "claim",
+      "label": "Four-output audit",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-a01",
+      "description": "Report integrity, rule conformance, policy sensitivity, and governance as separate outputs for adaptive mandates.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "AAA:F01",
+      "type": "claim",
+      "label": "Logical independence of integrity, conformance, and sensitivity",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-f01",
+      "description": "Integrity and exact rule conformance do not imply zero policy sensitivity.",
+      "status": "CONSTRUCTIVE_RESULT"
+    },
+    {
+      "id": "AAA:H05",
+      "type": "claim",
+      "label": "Acceptance-criterion contrast",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-h05",
+      "description": "When a scope rule counts acceptance of the system's own highlighted recommendation, changing the highlighting policy will change the probability of a widening transition more than it changes independent task-success criteria.",
+      "status": "PROPOSED_UNTESTED"
+    },
+    {
+      "id": "AAA:H06",
+      "type": "claim",
+      "label": "Adaptive scope trajectory contrast",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-h06",
+      "description": "Adaptive delegation based on agent-sensitive criteria produces different scope trajectories from delegation based on externally measured performance, even when immediate utility is similar.",
+      "status": "PROPOSED_UNTESTED"
+    },
+    {
+      "id": "AAA:H07",
+      "type": "claim",
+      "label": "Review-burden contrast",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-h07",
+      "description": "Frequent beneficiary-controlled review prompts increase approval while reducing attention and comprehension relative to batched, principal-controlled review.",
+      "status": "PROPOSED_UNTESTED"
+    },
+    {
+      "id": "AAA:H08",
+      "type": "claim",
+      "label": "Immediate-source handoff loss",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-h08",
+      "description": "If a handoff schema preserves only immediate source, then a truthful intermediate signature can hide a policy ancestor material to the authorization decision.",
+      "status": "PROPOSED_UNEXECUTED"
+    },
+    {
+      "id": "AAA:D01",
+      "type": "claim",
+      "label": "Separate ancestry from predictive relevance",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-d01",
+      "description": "An authorization service should not treat source authenticity or predictive relevance as sufficient for a widening transition when the prospective beneficiary materially controls causal ancestors of the evidence. It should record that ancestry and apply an influence policy or route the transition to review.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "AAA:D02",
+      "type": "claim",
+      "label": "Reference widening procedure",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-d02",
+      "description": "For a proposed widening transition: authenticate the grant and evidence envelopes; validate role and jurisdiction separately from signature origin; replay the rule and enumerate exact added, removed, and incomparable permissions; retrieve evidence provenance and ancestry; evaluate the total policy contrast or declare it unidentified; check whether a prior grant governed the relevant influence and bounded the successor scope; when required, keep the prior valid scope while offering review through a refusal-capable channel; execute only the resulting authorized actions; and preserve scope attenuation, ancestry status, revocation, and appeal through subdelegation.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "AAA:D03",
+      "type": "claim",
+      "label": "Refusal-capable widening review",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-d03",
+      "description": "Review for widening should preserve a visible “continue at prior scope” option, use symmetric acceptance and refusal effort, avoid unrelated bundling, disclose material evidence ancestry, and record prompt frequency and defaults. High-risk rights may require a user-controlled or institutionally separate review surface.",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "AAA:Q01",
+      "type": "claim",
+      "label": "Causal ancestry under compression",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q01",
+      "description": "What minimum metadata preserves a material policy ancestor when agents summarize, aggregate, anonymize, or learn from evidence? Full traces threaten privacy; short provenance chains lose causal content.",
+      "status": "OPEN"
+    },
+    {
+      "id": "AAA:Q02",
+      "type": "claim",
+      "label": "Permission partial orders",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q02",
+      "description": "How should systems compare scopes with budgets, recipient sets, purposes, time windows, and subdelegation? Which transitions are widening, narrowing, or incomparable without inventing arbitrary scalar weights?",
+      "status": "OPEN"
+    },
+    {
+      "id": "AAA:Q03",
+      "type": "claim",
+      "label": "Chosen formation",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q03",
+      "description": "How can a grant distinguish a person choosing to be coached from a provider declaring “coaching” after the fact? What evidence of comprehension and refusal is proportionate?",
+      "status": "OPEN"
+    },
+    {
+      "id": "AAA:Q04",
+      "type": "claim",
+      "label": "Review independence",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q04",
+      "description": "When is a review channel sufficiently separate from the beneficiary? Must a different institution ratify, or can a user-controlled interface suffice? How should the answer vary with risk?",
+      "status": "OPEN"
+    },
+    {
+      "id": "AAA:Q05",
+      "type": "claim",
+      "label": "Interference and collective authority",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q05",
+      "description": "How should policy effects be estimated when one person's agent changes a household, team, market, or public environment? Who defines the target population and represents non-principals?",
+      "status": "OPEN"
+    },
+    {
+      "id": "AAA:Q06",
+      "type": "claim",
+      "label": "Strategic equilibria",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q06",
+      "description": "Do ancestry-aware rules reduce influence expenditure, move it to unobserved channels, or cause agents to avoid useful responsibility? Which commitments are stable?",
+      "status": "OPEN"
+    },
+    {
+      "id": "AAA:Q07",
+      "type": "claim",
+      "label": "Real versus formal authority",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q07",
+      "description": "Can an audit combine typed permissions with measures of knowledge dependence, switching cost, initiative, and institutional control without pretending they share a single scale?",
+      "status": "OPEN"
+    },
+    {
+      "id": "AAA:Q08",
+      "type": "claim",
+      "label": "Privacy-preserving audit",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q08",
+      "description": "Can zero-knowledge proofs, secure computation, aggregation, or trusted execution show that an evidence path satisfies a policy without exposing intimate behavioral traces?",
+      "status": "OPEN"
+    },
+    {
+      "id": "AAA:Q09",
+      "type": "claim",
+      "label": "Artificial standing",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q09",
+      "description": "How would governance change if a delegate could have morally relevant interests or a claim to continuity? Which authority and revocation concepts remain valid?",
+      "status": "OPEN"
+    },
+    {
+      "id": "AAA:Q10",
+      "type": "claim",
+      "label": "Cross-cultural validity",
+      "url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q10",
+      "description": "Which role and authority assumptions are culturally contingent? What participatory methods can specify local jurisdiction without freezing existing domination into code?",
+      "status": "OPEN"
+    },
+    {
+      "id": "S01",
+      "type": "evidence",
+      "label": "Ironies of automation",
+      "url": "https://doi.org/10.1016/0005-1098(83)90046-8",
+      "description": "Automation can leave operators responsible for difficult exceptions while reducing routine practice.",
+      "verification": "publisher abstract; field-note review"
+    },
+    {
+      "id": "S02",
+      "type": "evidence",
+      "label": "The Out-of-the-Loop Performance Problem and Level of Control in Automation",
+      "url": "https://doi.org/10.1518/001872095779064555",
+      "description": "Reduced active processing can degrade situation awareness and takeover performance in a navigation experiment.",
+      "verification": "publisher abstract"
+    },
+    {
+      "id": "S03",
+      "type": "evidence",
+      "label": "Cooperative Inverse Reinforcement Learning",
+      "url": "https://arxiv.org/abs/1606.03137",
+      "description": "Assistance can be a cooperative game with asymmetric information about a shared reward.",
+      "verification": "primary record; field-note review"
+    },
+    {
+      "id": "S04",
+      "type": "evidence",
+      "label": "The Off-Switch Game",
+      "url": "https://arxiv.org/abs/1611.08219",
+      "description": "Objective uncertainty can favor allowing human shutdown under particular game assumptions.",
+      "verification": "primary record; field-note review"
+    },
+    {
+      "id": "S06",
+      "type": "evidence",
+      "label": "Estimating and Penalizing Induced Preference Shifts in Recommender Systems",
+      "url": "https://proceedings.mlr.press/v162/carroll22a.html",
+      "description": "Recommenders can estimate and constrain induced preference shifts in simulations using a safe-shift region.",
+      "verification": "primary proceedings landing page"
+    },
+    {
+      "id": "S07",
+      "type": "evidence",
+      "label": "Recommender systems, ground truth, and preference pollution",
+      "url": "https://doi.org/10.1002/aaai.12055",
+      "description": "Recommendations can bias the later preference ratings treated as ground truth.",
+      "verification": "publisher article record"
+    },
+    {
+      "id": "S08",
+      "type": "evidence",
+      "label": "Agent Memory Is a Surface for Endogenous Authorization Laundering",
+      "url": "https://arxiv.org/abs/2609.01836",
+      "description": "Memory can falsely represent permissions; source-event grounding and event sourcing reduce this failure in the reported benchmark.",
+      "verification": "primary abstract and submission history; full text pending"
+    },
+    {
+      "id": "S09",
+      "type": "evidence",
+      "label": "Agent Approval Laundering: Transitive Effects Beyond the Approved Invocation",
+      "url": "https://arxiv.org/abs/2609.28586",
+      "description": "An approval record can fail to cover downstream effects of the invocation it names.",
+      "verification": "primary abstract and submission history; full text pending"
+    },
+    {
+      "id": "S10",
+      "type": "evidence",
+      "label": "A Calculus for Flow-Limited Authorization",
+      "url": "https://arxiv.org/abs/2104.10379",
+      "description": "Dynamic authorization can be modeled with information-flow guarantees including noninterference and robust declassification.",
+      "verification": "primary abstract; version used is 2021 preprint"
+    },
+    {
+      "id": "S11",
+      "type": "evidence",
+      "label": "Intelligent AI Delegation",
+      "url": "https://arxiv.org/abs/2602.11865",
+      "description": "Delegation involves roles, authority, accountability, intent, trust, and adaptation rather than task decomposition alone.",
+      "verification": "primary abstract and submission history"
+    },
+    {
+      "id": "S12",
+      "type": "evidence",
+      "label": "Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being",
+      "url": "https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf",
+      "description": "The theory models autonomy, competence, and relatedness as psychological needs.",
+      "verification": "author-hosted original; field-note review"
+    },
+    {
+      "id": "S13",
+      "type": "evidence",
+      "label": "The Extended Mind",
+      "url": "https://doi.org/10.1093/analys/58.1.7",
+      "description": "Cognitive processes may include tightly integrated external resources under the authors' proposed conditions.",
+      "verification": "primary publication; field-note review"
+    },
+    {
+      "id": "S14",
+      "type": "evidence",
+      "label": "Taking AI Welfare Seriously",
+      "url": "https://arxiv.org/abs/2411.00986",
+      "description": "Uncertainty about artificial consciousness and robust agency motivates assessment and preparedness without establishing patienthood.",
+      "verification": "primary abstract and submission history"
+    },
+    {
+      "id": "S15",
+      "type": "evidence",
+      "label": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "description": "AI risk management is organized through Govern, Map, Measure, and Manage across a system lifecycle.",
+      "verification": "official publication; revision underway on accessed program page"
+    },
+    {
+      "id": "S16",
+      "type": "evidence",
+      "label": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "description": "The profile extends AI RMF risk management to generative AI contexts.",
+      "verification": "official publication"
+    },
+    {
+      "id": "S17",
+      "type": "evidence",
+      "label": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "description": "The Act provides risk-specific obligations; Article 14 addresses human oversight for high-risk systems.",
+      "verification": "official text; no claim of blanket scope or universal application"
+    },
+    {
+      "id": "S18",
+      "type": "evidence",
+      "label": "Meaningful Human Control over Autonomous Systems: A Philosophical Account",
+      "url": "https://doi.org/10.3389/frobt.2018.00015",
+      "description": "Meaningful human control is analyzed through tracking relevant human reasons and tracing responsibility.",
+      "verification": "primary publication; field-note review"
+    },
+    {
+      "id": "S19",
+      "type": "evidence",
+      "label": "The weirdest people in the world?",
+      "url": "https://doi.org/10.1017/S0140525X0999152X",
+      "description": "Common behavioral samples are often poor grounds for broad claims about all humans.",
+      "verification": "primary publication; field-note review"
+    },
+    {
+      "id": "S20",
+      "type": "evidence",
+      "label": "A New Approach to Linear Filtering and Prediction Problems",
+      "url": "https://liberzon.csl.illinois.edu/teaching/kalman_paper.pdf",
+      "description": "State estimation in linear systems motivates separating latent state from observed signals; it is not a theory of legitimacy.",
+      "verification": "original paper copy; field-note review"
+    },
+    {
+      "id": "S21",
+      "type": "evidence",
+      "label": "Governing the Commons",
+      "url": "https://doi.org/10.1017/CBO9780511807763",
+      "description": "Collective governance need not reduce to state control or private markets; rules can be polycentric and locally structured.",
+      "verification": "publisher record; field-note review"
+    },
+    {
+      "id": "S22",
+      "type": "evidence",
+      "label": "Algorithms for Inverse Reinforcement Learning",
+      "url": "https://ai.stanford.edu/~ang/papers/icml00-irl.pdf",
+      "description": "Observed policies do not in general uniquely identify a reward function.",
+      "verification": "author-hosted paper; field-note review"
+    },
+    {
+      "id": "S23",
+      "type": "evidence",
+      "label": "Reward Tampering Problems and Solutions in Reinforcement Learning: A Causal Influence Diagram Perspective",
+      "url": "https://arxiv.org/abs/1908.04734",
+      "description": "Causal influence diagrams expose incentives to intervene on reward functions and reward inputs.",
+      "verification": "primary record; field-note review"
+    },
+    {
+      "id": "S24",
+      "type": "evidence",
+      "label": "Delegating learning",
+      "url": "https://doi.org/10.3982/TE4191",
+      "description": "Dynamic delegation of private learning involves an information-versus-timing incentive tradeoff.",
+      "verification": "publisher full text and author metadata checked"
+    },
+    {
+      "id": "F01",
+      "type": "evidence",
+      "label": "The Human in the Loop of a Delegated Agent: The Theory of Adjustable Social Autonomy",
+      "url": "https://doi.org/10.1109/3468.952715",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F02",
+      "type": "evidence",
+      "label": "Planning under Incomplete Information and the Ratchet Effect",
+      "url": "https://doi.org/10.2307/2297615",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F03",
+      "type": "evidence",
+      "label": "The Dynamics of Incentive Contracts",
+      "url": "https://doi.org/10.2307/1911362",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F04",
+      "type": "evidence",
+      "label": "Financial Contracting Theory Meets the Real World: An Empirical Analysis of Venture Capital Contracts",
+      "url": "https://doi.org/10.1111/1467-937X.00245",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F05",
+      "type": "evidence",
+      "label": "Formal and Real Authority in Organizations",
+      "url": "https://doi.org/10.1086/262063",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F06",
+      "type": "evidence",
+      "label": "Employment Contracts, Influence Activities, and Efficient Organization Design",
+      "url": "https://doi.org/10.1086/261523",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F07",
+      "type": "evidence",
+      "label": "Performative Power",
+      "url": "https://arxiv.org/abs/2203.17232",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F08",
+      "type": "evidence",
+      "label": "The Confused Deputy: (or Why Capabilities Might Have Been Invented)",
+      "url": "https://doi.org/10.1145/54289.871709",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F09",
+      "type": "evidence",
+      "label": "Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud",
+      "url": "https://research.google/pubs/macaroons-cookies-with-contextual-caveats-for-decentralized-authorization-in-the-cloud/",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F10",
+      "type": "evidence",
+      "label": "Position: {AI} Agents Need Authenticated Delegation",
+      "url": "https://proceedings.mlr.press/v267/south25a.html",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F11",
+      "type": "evidence",
+      "label": "Nonmalleable Information Flow Control",
+      "url": "https://doi.org/10.1145/3133956.3134054",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F12",
+      "type": "evidence",
+      "label": "Delegation Receipt Protocol for {AI} Agent Authorization",
+      "url": "https://datatracker.ietf.org/doc/draft-nelson-agent-delegation-receipts/10/",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F13",
+      "type": "evidence",
+      "label": "Toward Causal Inference With Interference",
+      "url": "https://doi.org/10.1198/016214508000000292",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F14",
+      "type": "evidence",
+      "label": "Estimating Average Causal Effects under General Interference, with Application to a Social Network Experiment",
+      "url": "https://doi.org/10.1214/16-AOAS1005",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F15",
+      "type": "evidence",
+      "label": "Summary of Comments on the Concept Paper",
+      "url": "https://pages.nist.gov/nccoe-ai-identity/summary-of-comments.html",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    },
+    {
+      "id": "F16",
+      "type": "evidence",
+      "label": "Your Memory Is Working against You: How Eye Tracking and Memory Explain Habituation to Security Warnings",
+      "url": "https://doi.org/10.1016/j.dss.2016.09.010",
+      "description": "Bibliographic paper source; inspect the source key and primary publication.",
+      "verification": "Paper source key and primary field research; see source-specific inspection notes."
+    }
+  ],
+  "edges": [
+    {
+      "from": "AAA:C01",
+      "to": "AAA:C02",
+      "type": "derives"
+    },
+    {
+      "from": "AAA:C03",
+      "to": "AAA:C01",
+      "type": "supports"
+    },
+    {
+      "from": "AAA:C04",
+      "to": "AAA:C01",
+      "type": "qualifies"
+    },
+    {
+      "from": "AAA:H01",
+      "to": "AAA:C01",
+      "type": "supports"
+    },
+    {
+      "from": "S05",
+      "to": "AAA:C01",
+      "type": "generalizes"
+    },
+    {
+      "from": "AAA:O01",
+      "to": "AAA:H01",
+      "type": "qualifies"
+    },
+    {
+      "from": "AAA:E01",
+      "to": "AAA:C01",
+      "type": "tests"
+    },
+    {
+      "from": "AAA:C01",
+      "to": "AAA:P01",
+      "type": "derives"
+    },
+    {
+      "from": "AAA:C03",
+      "to": "AAA:P01",
+      "type": "derives"
+    },
+    {
+      "from": "AAA:C02",
+      "to": "AAA:P02",
+      "type": "derives"
+    },
+    {
+      "from": "AAA:C06",
+      "to": "AAA:P02",
+      "type": "derives"
+    },
+    {
+      "from": "AAA:C08",
+      "to": "AAA:P02",
+      "type": "derives"
+    },
+    {
+      "from": "AAA:C05",
+      "to": "AAA:P03",
+      "type": "derives"
+    },
+    {
+      "from": "AAA:C07",
+      "to": "AAA:P03",
+      "type": "derives"
+    },
+    {
+      "from": "S05",
+      "to": "AAA:C01",
+      "type": "cites"
+    },
+    {
+      "from": "S06",
+      "to": "AAA:C01",
+      "type": "cites"
+    },
+    {
+      "from": "S08",
+      "to": "AAA:C01",
+      "type": "cites"
+    },
+    {
+      "from": "S10",
+      "to": "AAA:C01",
+      "type": "cites"
+    },
+    {
+      "from": "S24",
+      "to": "AAA:C01",
+      "type": "cites"
+    },
+    {
+      "from": "S10",
+      "to": "AAA:C02",
+      "type": "cites"
+    },
+    {
+      "from": "S11",
+      "to": "AAA:C02",
+      "type": "cites"
+    },
+    {
+      "from": "S18",
+      "to": "AAA:C02",
+      "type": "cites"
+    },
+    {
+      "from": "S10",
+      "to": "AAA:C03",
+      "type": "cites"
+    },
+    {
+      "from": "S11",
+      "to": "AAA:C03",
+      "type": "cites"
+    },
+    {
+      "from": "S08",
+      "to": "AAA:C04",
+      "type": "cites"
+    },
+    {
+      "from": "S09",
+      "to": "AAA:C04",
+      "type": "cites"
+    },
+    {
+      "from": "S10",
+      "to": "AAA:C04",
+      "type": "cites"
+    },
+    {
+      "from": "S01",
+      "to": "AAA:C05",
+      "type": "cites"
+    },
+    {
+      "from": "S02",
+      "to": "AAA:C05",
+      "type": "cites"
+    },
+    {
+      "from": "S12",
+      "to": "AAA:C05",
+      "type": "cites"
+    },
+    {
+      "from": "S06",
+      "to": "AAA:C06",
+      "type": "cites"
+    },
+    {
+      "from": "S07",
+      "to": "AAA:C06",
+      "type": "cites"
+    },
+    {
+      "from": "S14",
+      "to": "AAA:C07",
+      "type": "cites"
+    },
+    {
+      "from": "S10",
+      "to": "AAA:C08",
+      "type": "cites"
+    },
+    {
+      "from": "S11",
+      "to": "AAA:C08",
+      "type": "cites"
+    },
+    {
+      "from": "S18",
+      "to": "AAA:C08",
+      "type": "cites"
+    },
+    {
+      "from": "S05",
+      "to": "AAA:P01",
+      "type": "cites"
+    },
+    {
+      "from": "S06",
+      "to": "AAA:P01",
+      "type": "cites"
+    },
+    {
+      "from": "S08",
+      "to": "AAA:P01",
+      "type": "cites"
+    },
+    {
+      "from": "S10",
+      "to": "AAA:P01",
+      "type": "cites"
+    },
+    {
+      "from": "S06",
+      "to": "AAA:P02",
+      "type": "cites"
+    },
+    {
+      "from": "S12",
+      "to": "AAA:P02",
+      "type": "cites"
+    },
+    {
+      "from": "S18",
+      "to": "AAA:P02",
+      "type": "cites"
+    },
+    {
+      "from": "S01",
+      "to": "AAA:P03",
+      "type": "cites"
+    },
+    {
+      "from": "S02",
+      "to": "AAA:P03",
+      "type": "cites"
+    },
+    {
+      "from": "S12",
+      "to": "AAA:P03",
+      "type": "cites"
+    },
+    {
+      "from": "S14",
+      "to": "AAA:P03",
+      "type": "cites"
+    },
+    {
+      "from": "S21",
+      "to": "AAA:P03",
+      "type": "cites"
+    },
+    {
+      "from": "S05",
+      "to": "AAA:A01",
+      "type": "cites"
+    },
+    {
+      "from": "S10",
+      "to": "AAA:A01",
+      "type": "cites"
+    },
+    {
+      "from": "S24",
+      "to": "AAA:A01",
+      "type": "cites"
+    },
+    {
+      "from": "F10",
+      "to": "AAA:A01",
+      "type": "cites"
+    },
+    {
+      "from": "F11",
+      "to": "AAA:A01",
+      "type": "cites"
+    },
+    {
+      "from": "S05",
+      "to": "AAA:F01",
+      "type": "cites"
+    },
+    {
+      "from": "S10",
+      "to": "AAA:F01",
+      "type": "cites"
+    },
+    {
+      "from": "S24",
+      "to": "AAA:F01",
+      "type": "cites"
+    },
+    {
+      "from": "S07",
+      "to": "AAA:H05",
+      "type": "cites"
+    },
+    {
+      "from": "S01",
+      "to": "AAA:H06",
+      "type": "cites"
+    },
+    {
+      "from": "S02",
+      "to": "AAA:H06",
+      "type": "cites"
+    },
+    {
+      "from": "F16",
+      "to": "AAA:H07",
+      "type": "cites"
+    },
+    {
+      "from": "S08",
+      "to": "AAA:H08",
+      "type": "cites"
+    },
+    {
+      "from": "S09",
+      "to": "AAA:H08",
+      "type": "cites"
+    },
+    {
+      "from": "S10",
+      "to": "AAA:H08",
+      "type": "cites"
+    },
+    {
+      "from": "S05",
+      "to": "AAA:D01",
+      "type": "cites"
+    },
+    {
+      "from": "S10",
+      "to": "AAA:D01",
+      "type": "cites"
+    },
+    {
+      "from": "S23",
+      "to": "AAA:D01",
+      "type": "cites"
+    },
+    {
+      "from": "S10",
+      "to": "AAA:D02",
+      "type": "cites"
+    },
+    {
+      "from": "F09",
+      "to": "AAA:D02",
+      "type": "cites"
+    },
+    {
+      "from": "F10",
+      "to": "AAA:D02",
+      "type": "cites"
+    },
+    {
+      "from": "F11",
+      "to": "AAA:D02",
+      "type": "cites"
+    },
+    {
+      "from": "F16",
+      "to": "AAA:D03",
+      "type": "cites"
+    },
+    {
+      "from": "S08",
+      "to": "AAA:Q01",
+      "type": "cites"
+    },
+    {
+      "from": "S09",
+      "to": "AAA:Q01",
+      "type": "cites"
+    },
+    {
+      "from": "S10",
+      "to": "AAA:Q01",
+      "type": "cites"
+    },
+    {
+      "from": "S10",
+      "to": "AAA:Q02",
+      "type": "cites"
+    },
+    {
+      "from": "F09",
+      "to": "AAA:Q02",
+      "type": "cites"
+    },
+    {
+      "from": "F16",
+      "to": "AAA:Q04",
+      "type": "cites"
+    },
+    {
+      "from": "S21",
+      "to": "AAA:Q05",
+      "type": "cites"
+    },
+    {
+      "from": "F13",
+      "to": "AAA:Q05",
+      "type": "cites"
+    },
+    {
+      "from": "F14",
+      "to": "AAA:Q05",
+      "type": "cites"
+    },
+    {
+      "from": "S23",
+      "to": "AAA:Q06",
+      "type": "cites"
+    },
+    {
+      "from": "F02",
+      "to": "AAA:Q06",
+      "type": "cites"
+    },
+    {
+      "from": "F03",
+      "to": "AAA:Q06",
+      "type": "cites"
+    },
+    {
+      "from": "F06",
+      "to": "AAA:Q06",
+      "type": "cites"
+    },
+    {
+      "from": "F05",
+      "to": "AAA:Q07",
+      "type": "cites"
+    },
+    {
+      "from": "S10",
+      "to": "AAA:Q08",
+      "type": "cites"
+    },
+    {
+      "from": "F11",
+      "to": "AAA:Q08",
+      "type": "cites"
+    },
+    {
+      "from": "S14",
+      "to": "AAA:Q09",
+      "type": "cites"
+    },
+    {
+      "from": "S19",
+      "to": "AAA:Q10",
+      "type": "cites"
+    },
+    {
+      "from": "S21",
+      "to": "AAA:Q10",
+      "type": "cites"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+[
+  {
+    "id": "AAA:P01",
+    "name": "Audit the evidence that updates authority",
+    "claim_type": "DESIGN_PRINCIPLE",
+    "status": "PROPOSED_EXTENSION",
+    "derived_from": [
+      "AAA:C01",
+      "AAA:C03"
+    ],
+    "human": "When a system gains permission through your behavior, inspect whether its way of helping changed that evidence.",
+    "agent": "Authenticate the grant; replay the exact rule; estimate or bound the total intervention-policy contrast in typed future scope; return governance judgment separately.",
+    "citations": [
+      "S05",
+      "S06",
+      "S08",
+      "S10"
+    ],
+    "version": "0.5.0",
+    "slug": "audit-evidence-authority",
+    "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/principle/audit-evidence-authority",
+    "publication_date": "2026-10-05",
+    "introduced": "0.5.0",
+    "novelty": "B_PROPOSED"
+  },
+  {
+    "id": "AAA:P02",
+    "name": "Specify the terms of chosen change",
+    "claim_type": "NORMATIVE",
+    "status": "INHERITED_WITH_IMPLEMENTATION_PROPOSAL",
+    "derived_from": [
+      "AAA:C02",
+      "AAA:C06",
+      "AAA:C08"
+    ],
+    "human": "People can choose assistance that changes them. State how those changes may affect later permissions and how that arrangement can be reviewed.",
+    "agent": "Do not equate influence with illegitimacy. Bind formation purpose, intervention classes, scope criteria, review triggers, and locally valid ratification procedures when conditional authority depends on human-state signals.",
+    "citations": [
+      "S06",
+      "S12",
+      "S18"
+    ],
+    "version": "0.5.0",
+    "slug": "terms-of-chosen-change",
+    "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/principle/terms-of-chosen-change",
+    "publication_date": "2026-10-05",
+    "introduced": "0.5.0",
+    "novelty": "C"
+  },
+  {
+    "id": "AAA:P03",
+    "name": "Evaluate what remains after help",
+    "claim_type": "DESIGN_PRINCIPLE",
+    "status": "INHERITED_FOUNDATION",
+    "derived_from": [
+      "AAA:C05",
+      "AAA:C07"
+    ],
+    "human": "Evaluate present usefulness alongside transfer, recovery, correction, and the dependencies created. Account for the people who did not choose the system.",
+    "agent": "Measure assisted success, transfer capacity, alternatives, review burden, and shared-resource effects separately. Treat access needs and chosen dependence explicitly. Keep artificial welfare uncertainty analytically distinct.",
+    "citations": [
+      "S01",
+      "S02",
+      "S12",
+      "S14",
+      "S21"
+    ],
+    "version": "0.5.0",
+    "slug": "evaluate-after-help",
+    "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/principle/evaluate-after-help",
+    "publication_date": "2026-10-05",
+    "introduced": "0.5.0",
+    "novelty": "D"
+  }
+]

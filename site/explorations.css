@@ -1,0 +1,10 @@
+/* Alternative layouts used in the final visual comparison, never loaded in production. */
+body[data-exploration="folio"] .hero-grid{grid-template-columns:1fr;text-align:center}
+body[data-exploration="folio"] .hero h1,body[data-exploration="folio"] .hero-intro{margin-left:auto;margin-right:auto}
+body[data-exploration="folio"] .hero .eyebrow,body[data-exploration="folio"] .hero-actions{justify-content:center}
+body[data-exploration="folio"] .instrument{max-width:780px;width:100%;margin:15px auto}
+body[data-exploration="ledger"] .hero h1{font-family:var(--mono);font-size:60px;letter-spacing:-.04em;line-height:1.12}
+body[data-exploration="ledger"] .hero-grid{grid-template-columns:1fr 1fr;gap:28px}
+body[data-exploration="ledger"] .hero-grid>div:first-child{border:1px solid var(--line);padding:28px}
+body[data-exploration="ledger"] .hero-topline{margin-bottom:25px}
+body[data-exploration="ledger"] .instrument{align-self:stretch;display:flex;flex-direction:column;justify-content:space-between}

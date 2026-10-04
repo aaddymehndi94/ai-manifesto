@@ -1,0 +1,186 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "aaa": "https://authority-after-assistance.aaddy.chatgpt.site/ontology#",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "definition": "schema:description",
+    "derived_from": {
+      "@id": "aaa:derivedFrom",
+      "@type": "@id"
+    },
+    "citations": {
+      "@id": "schema:citation",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "https://authority-after-assistance.aaddy.chatgpt.site/concept/causal-mandate-audit",
+      "@type": "schema:DefinedTerm",
+      "schema:termCode": "AAA:C01",
+      "name": "Causal mandate audit",
+      "definition": "A specified comparison of how permissible delegate policies change future typed action scope under an unchanged authentic adaptive delegation rule.",
+      "aaa:claimType": "DESIGN_PRINCIPLE",
+      "aaa:status": "PROPOSED",
+      "schema:version": "0.5.0",
+      "citations": [
+        "https://proceedings.mlr.press/v119/perdomo20a.html",
+        "https://proceedings.mlr.press/v162/carroll22a.html",
+        "https://arxiv.org/abs/2609.01836",
+        "https://arxiv.org/abs/2104.10379",
+        "https://doi.org/10.3982/TE4191"
+      ]
+    },
+    {
+      "@id": "https://authority-after-assistance.aaddy.chatgpt.site/concept/conditional-influence-contract",
+      "@type": "schema:DefinedTerm",
+      "schema:termCode": "AAA:C02",
+      "name": "Conditional influence contract",
+      "definition": "A conditional grant specification that states which intervention classes may contribute evidence to updates of the delegate’s own action scope.",
+      "aaa:claimType": "DESIGN_PRINCIPLE",
+      "aaa:status": "SUPPORTING_SYNTHESIS",
+      "schema:version": "0.5.0",
+      "citations": [
+        "https://arxiv.org/abs/2104.10379",
+        "https://arxiv.org/abs/2602.11865",
+        "https://doi.org/10.3389/frobt.2018.00015"
+      ]
+    },
+    {
+      "@id": "https://authority-after-assistance.aaddy.chatgpt.site/concept/typed-scope-contrast",
+      "@type": "schema:DefinedTerm",
+      "schema:termCode": "AAA:C03",
+      "name": "Typed scope contrast",
+      "definition": "An explicit comparison of permissions added, removed, or changed across policies, preserving action, resource, purpose, recipients, budget, duration, and jurisdiction.",
+      "aaa:claimType": "FORMAL",
+      "aaa:status": "PROPOSED_MEASURE",
+      "schema:version": "0.5.0",
+      "citations": [
+        "https://arxiv.org/abs/2104.10379",
+        "https://arxiv.org/abs/2602.11865"
+      ]
+    },
+    {
+      "@id": "https://authority-after-assistance.aaddy.chatgpt.site/concept/authority-ancestry",
+      "@type": "schema:DefinedTerm",
+      "schema:termCode": "AAA:C04",
+      "name": "Authority ancestry",
+      "definition": "The trace from an action’s permission through its grant, update rule, evidence history, and any subdelegation.",
+      "aaa:claimType": "DESIGN_PRINCIPLE",
+      "aaa:status": "INHERITED_FOUNDATION",
+      "schema:version": "0.5.0",
+      "citations": [
+        "https://arxiv.org/abs/2609.01836",
+        "https://arxiv.org/abs/2609.28586",
+        "https://arxiv.org/abs/2104.10379"
+      ]
+    },
+    {
+      "@id": "https://authority-after-assistance.aaddy.chatgpt.site/concept/recovery-after-assistance",
+      "@type": "schema:DefinedTerm",
+      "schema:termCode": "AAA:C05",
+      "name": "Recovery after assistance",
+      "definition": "The capabilities, alternatives, and transition costs available after a person or institution reduces reliance on assistance.",
+      "aaa:claimType": "EMPIRICAL",
+      "aaa:status": "INHERITED_RESEARCH_QUESTION",
+      "schema:version": "0.5.0",
+      "citations": [
+        "https://doi.org/10.1016/0005-1098(83)90046-8",
+        "https://doi.org/10.1518/001872095779064555",
+        "https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf"
+      ]
+    },
+    {
+      "@id": "https://authority-after-assistance.aaddy.chatgpt.site/concept/preference-pollution",
+      "@type": "schema:DefinedTerm",
+      "schema:termCode": "AAA:C06",
+      "name": "Preference pollution",
+      "definition": "System recommendations can influence the later preference evidence used to evaluate or update the system.",
+      "aaa:claimType": "EMPIRICAL",
+      "aaa:status": "INHERITED_FOUNDATION",
+      "schema:version": "0.5.0",
+      "citations": [
+        "https://proceedings.mlr.press/v162/carroll22a.html",
+        "https://doi.org/10.1002/aaai.12055"
+      ]
+    },
+    {
+      "@id": "https://authority-after-assistance.aaddy.chatgpt.site/concept/artificial-welfare-uncertainty",
+      "@type": "schema:DefinedTerm",
+      "schema:termCode": "AAA:C07",
+      "name": "Artificial welfare uncertainty",
+      "definition": "Uncertainty about artificial moral patienthood motivates distinct assessment and lifecycle questions without establishing that present systems possess welfare.",
+      "aaa:claimType": "PHILOSOPHICAL",
+      "aaa:status": "INHERITED_OPEN_QUESTION",
+      "schema:version": "0.5.0",
+      "citations": [
+        "https://arxiv.org/abs/2411.00986"
+      ]
+    },
+    {
+      "@id": "https://authority-after-assistance.aaddy.chatgpt.site/concept/qualified-mandate",
+      "@type": "schema:DefinedTerm",
+      "schema:termCode": "AAA:C08",
+      "name": "Qualified mandate",
+      "definition": "A permission set identifying who may act for whom, on which resources, for what purpose, within which bounds.",
+      "aaa:claimType": "DESIGN_PRINCIPLE",
+      "aaa:status": "INHERITED_FOUNDATION",
+      "schema:version": "0.5.0",
+      "citations": [
+        "https://arxiv.org/abs/2104.10379",
+        "https://arxiv.org/abs/2602.11865",
+        "https://doi.org/10.3389/frobt.2018.00015"
+      ]
+    },
+    {
+      "@id": "https://authority-after-assistance.aaddy.chatgpt.site/principle/audit-evidence-authority",
+      "@type": "schema:CreativeWork",
+      "schema:identifier": "AAA:P01",
+      "name": "Audit the evidence that updates authority",
+      "definition": "Authenticate the grant; replay the exact rule; estimate or bound the total intervention-policy contrast in typed future scope; return governance judgment separately.",
+      "aaa:claimType": "DESIGN_PRINCIPLE",
+      "aaa:status": "PROPOSED_EXTENSION",
+      "schema:version": "0.5.0",
+      "citations": [
+        "https://proceedings.mlr.press/v119/perdomo20a.html",
+        "https://proceedings.mlr.press/v162/carroll22a.html",
+        "https://arxiv.org/abs/2609.01836",
+        "https://arxiv.org/abs/2104.10379"
+      ]
+    },
+    {
+      "@id": "https://authority-after-assistance.aaddy.chatgpt.site/principle/terms-of-chosen-change",
+      "@type": "schema:CreativeWork",
+      "schema:identifier": "AAA:P02",
+      "name": "Specify the terms of chosen change",
+      "definition": "Do not equate influence with illegitimacy. Bind formation purpose, intervention classes, scope criteria, review triggers, and locally valid ratification procedures when conditional authority depends on human-state signals.",
+      "aaa:claimType": "NORMATIVE",
+      "aaa:status": "INHERITED_WITH_IMPLEMENTATION_PROPOSAL",
+      "schema:version": "0.5.0",
+      "citations": [
+        "https://proceedings.mlr.press/v162/carroll22a.html",
+        "https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf",
+        "https://doi.org/10.3389/frobt.2018.00015"
+      ]
+    },
+    {
+      "@id": "https://authority-after-assistance.aaddy.chatgpt.site/principle/evaluate-after-help",
+      "@type": "schema:CreativeWork",
+      "schema:identifier": "AAA:P03",
+      "name": "Evaluate what remains after help",
+      "definition": "Measure assisted success, transfer capacity, alternatives, review burden, and shared-resource effects separately. Treat access needs and chosen dependence explicitly. Keep artificial welfare uncertainty analytically distinct.",
+      "aaa:claimType": "DESIGN_PRINCIPLE",
+      "aaa:status": "INHERITED_FOUNDATION",
+      "schema:version": "0.5.0",
+      "citations": [
+        "https://doi.org/10.1016/0005-1098(83)90046-8",
+        "https://doi.org/10.1518/001872095779064555",
+        "https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf",
+        "https://arxiv.org/abs/2411.00986",
+        "https://doi.org/10.1017/CBO9780511807763"
+      ]
+    }
+  ]
+}

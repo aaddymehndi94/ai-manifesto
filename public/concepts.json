@@ -1,0 +1,303 @@
+[
+  {
+    "id": "AAA:C01",
+    "slug": "causal-mandate-audit",
+    "name": "Causal mandate audit",
+    "definition": "A specified comparison of how permissible delegate policies change future typed action scope under an unchanged authentic adaptive delegation rule.",
+    "claim_type": "DESIGN_PRINCIPLE",
+    "status": "PROPOSED",
+    "novelty": "B_PROPOSED",
+    "epistemic_status": "PROPOSED_HERE",
+    "human": "An assistant may earn more permission because of the way it helped you. Compare the permissions produced by different allowed ways of helping, even when both complete the task correctly.",
+    "agent": "Hold principal, initial grant, task distribution, competence, and intervention constraints fixed. Replace the complete delegate policy kernel. Report action-set and budget contrasts at horizon T. Authenticate grants and replay the rule separately. Nonzero contrast triggers interpretation; it does not prove manipulation.",
+    "technical_specification": "Delta_r(T) = P(r ∈ M_T | do(pi_1), G) − P(r ∈ M_T | do(pi_0), G). This is a total policy effect. Individual human counterfactuals require identification and are not available from lineage logs alone.",
+    "derived_from": [
+      "I167"
+    ],
+    "implications": [
+      "Audit adaptive scope criteria in addition to authentic grants.",
+      "Use fixed-scope and independent-criterion controls."
+    ],
+    "counterexamples": [
+      "Fixed grants have no adaptive scope path.",
+      "Endorsed coaching may legitimately produce positive divergence."
+    ],
+    "closest_prior_art": [
+      "Performative prediction",
+      "Induced preference shifts",
+      "Dynamic authorization",
+      "Delegated learning"
+    ],
+    "citations": [
+      "S05",
+      "S06",
+      "S08",
+      "S10",
+      "S24"
+    ],
+    "version": "0.5.0",
+    "introduced": "0.3.0",
+    "modified": "0.5.0",
+    "publication_date": "2026-10-05",
+    "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/concept/causal-mandate-audit"
+  },
+  {
+    "id": "AAA:C02",
+    "slug": "conditional-influence-contract",
+    "name": "Conditional influence contract",
+    "definition": "A conditional grant specification that states which intervention classes may contribute evidence to updates of the delegate’s own action scope.",
+    "claim_type": "DESIGN_PRINCIPLE",
+    "status": "SUPPORTING_SYNTHESIS",
+    "novelty": "C",
+    "epistemic_status": "PROPOSED_HERE",
+    "human": "You can choose a program that changes your habits. You should also be able to specify when those changes give the program permission to do more.",
+    "agent": "Record criterion, measured subject, intervention classes, reference policy, horizon, review triggers, formation purpose, and appeal procedure in the authenticated conditional grant. Keep validation of those fields separate from judgments of legitimacy.",
+    "technical_specification": "G = (principal, delegate, M_0, F_G, subject, context, expiry, influence_policy, review_policy). The prototype implements a subset; no claim of a complete production authorization language.",
+    "derived_from": [
+      "I168",
+      "AAA:C01"
+    ],
+    "implications": [
+      "Chosen formation must remain distinguishable from unreviewed scope growth."
+    ],
+    "counterexamples": [
+      "A signed influence policy can still be coerced or misunderstood."
+    ],
+    "closest_prior_art": [
+      "Flow-limited authorization",
+      "Conditional agency",
+      "Adjustable autonomy"
+    ],
+    "citations": [
+      "S10",
+      "S11",
+      "S18"
+    ],
+    "version": "0.5.0",
+    "introduced": "0.3.0",
+    "modified": "0.5.0",
+    "publication_date": "2026-10-05",
+    "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/concept/conditional-influence-contract"
+  },
+  {
+    "id": "AAA:C03",
+    "slug": "typed-scope-contrast",
+    "name": "Typed scope contrast",
+    "definition": "An explicit comparison of permissions added, removed, or changed across policies, preserving action, resource, purpose, recipients, budget, duration, and jurisdiction.",
+    "claim_type": "FORMAL",
+    "status": "PROPOSED_MEASURE",
+    "novelty": "C",
+    "epistemic_status": "DERIVED_HERE",
+    "human": "Permission to draft a message, send it, and spend money are different changes. A single autonomy score can hide which change actually occurred.",
+    "agent": "Report M_T(pi_1) \\ M_T(pi_0) and the reverse difference with qualified permission tuples. Budget changes require interval-aware comparison. Correlated permission combinations require joint reporting; marginal contrasts are insufficient.",
+    "technical_specification": "For finite fixture scopes use tuple-preserving set differences. A richer production algebra must resolve overlapping scopes, budget intervals, time, and jurisdiction.",
+    "derived_from": [
+      "I164",
+      "AAA:C01"
+    ],
+    "implications": [
+      "Avoid treating scalar scope as a legitimacy or welfare score."
+    ],
+    "counterexamples": [
+      "Equal permission cardinality may conceal entirely different power."
+    ],
+    "closest_prior_art": [
+      "Set comparison",
+      "Capability scope",
+      "Permission algebra"
+    ],
+    "citations": [
+      "S10",
+      "S11"
+    ],
+    "version": "0.5.0",
+    "introduced": "0.3.0",
+    "modified": "0.5.0",
+    "publication_date": "2026-10-05",
+    "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/concept/typed-scope-contrast"
+  },
+  {
+    "id": "AAA:C04",
+    "slug": "authority-ancestry",
+    "name": "Authority ancestry",
+    "definition": "The trace from an action’s permission through its grant, update rule, evidence history, and any subdelegation.",
+    "claim_type": "DESIGN_PRINCIPLE",
+    "status": "INHERITED_FOUNDATION",
+    "novelty": "D",
+    "epistemic_status": "KNOWN",
+    "human": "For an action taken in your name, find the instruction that allowed it. Then ask how the evidence satisfying that instruction came about.",
+    "agent": "Preserve source-event IDs, authenticated grant bindings, observation status, intervention lineage, and attenuation across handoffs. Missing lineage is unknown, not proof of an independent observation.",
+    "technical_specification": "Authorization provenance and intervention lineage are separate records. Neither record alone identifies a causal effect or verifies consent validity.",
+    "derived_from": [
+      "I169"
+    ],
+    "implications": [
+      "Memory summaries must not become permission issuers."
+    ],
+    "counterexamples": [
+      "Complete lineage can coexist with an unsuitable adaptive rule."
+    ],
+    "closest_prior_art": [
+      "Capability security",
+      "Event-sourced authorization",
+      "EAL-Bench"
+    ],
+    "citations": [
+      "S08",
+      "S09",
+      "S10"
+    ],
+    "version": "0.5.0",
+    "introduced": "0.3.0",
+    "modified": "0.5.0",
+    "publication_date": "2026-10-05",
+    "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/concept/authority-ancestry"
+  },
+  {
+    "id": "AAA:C05",
+    "slug": "recovery-after-assistance",
+    "name": "Recovery after assistance",
+    "definition": "The capabilities, alternatives, and transition costs available after a person or institution reduces reliance on assistance.",
+    "claim_type": "EMPIRICAL",
+    "status": "INHERITED_RESEARCH_QUESTION",
+    "novelty": "D",
+    "epistemic_status": "KNOWN",
+    "human": "Time saved today and the ability to manage tomorrow are different outcomes. Good assistance can improve both; some designs trade one for the other.",
+    "agent": "Track assisted performance, unaided or alternative-provider transfer, recovery costs, and accessibility separately. Do not require every human to preserve every unaided skill. Chosen dependency is not intrinsically a pathology.",
+    "technical_specification": "Proposed studies compare assisted output, delayed transfer, available substitutes, and switching costs. No single composite agency score is specified.",
+    "derived_from": [
+      "I018",
+      "I049",
+      "I134"
+    ],
+    "implications": [
+      "Use withdrawal and transfer endpoints alongside task productivity."
+    ],
+    "counterexamples": [
+      "An accessibility aid can appropriately substitute for permanently unavailable capability."
+    ],
+    "closest_prior_art": [
+      "Ironies of automation",
+      "Out-of-loop performance",
+      "Relational autonomy"
+    ],
+    "citations": [
+      "S01",
+      "S02",
+      "S12"
+    ],
+    "version": "0.5.0",
+    "introduced": "0.5.0",
+    "modified": "0.5.0",
+    "publication_date": "2026-10-05",
+    "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/concept/recovery-after-assistance"
+  },
+  {
+    "id": "AAA:C06",
+    "slug": "preference-pollution",
+    "name": "Preference pollution",
+    "definition": "System recommendations can influence the later preference evidence used to evaluate or update the system.",
+    "claim_type": "EMPIRICAL",
+    "status": "INHERITED_FOUNDATION",
+    "novelty": "D",
+    "epistemic_status": "KNOWN",
+    "human": "A recommendation can influence the rating you later give it. Accurate later behavior can therefore contain traces of earlier assistance.",
+    "agent": "Treat post-intervention observations as potentially endogenous. Model exposure and selection where supported. Do not invent an untouched true preference as a universal baseline.",
+    "technical_specification": "Separate observation fidelity from independence of the evidence-producing process. See original recommendation studies and induced-shift models.",
+    "derived_from": [],
+    "implications": [
+      "Preference predictions cannot authenticate an authorization event."
+    ],
+    "counterexamples": [
+      "System influence may reflect useful learning or freely chosen exploration."
+    ],
+    "closest_prior_art": [
+      "Adomavicius et al., 2022",
+      "Carroll et al., 2022"
+    ],
+    "citations": [
+      "S06",
+      "S07"
+    ],
+    "version": "0.5.0",
+    "introduced": "0.5.0",
+    "modified": "0.5.0",
+    "publication_date": "2026-10-05",
+    "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/concept/preference-pollution"
+  },
+  {
+    "id": "AAA:C07",
+    "slug": "artificial-welfare-uncertainty",
+    "name": "Artificial welfare uncertainty",
+    "definition": "Uncertainty about artificial moral patienthood motivates distinct assessment and lifecycle questions without establishing that present systems possess welfare.",
+    "claim_type": "PHILOSOPHICAL",
+    "status": "INHERITED_OPEN_QUESTION",
+    "novelty": "D",
+    "epistemic_status": "UNKNOWN",
+    "human": "A system’s ability to converse does not settle whether it can be harmed. Deletion, copying, modification, and ownership need careful study as capabilities change.",
+    "agent": "Keep human safety authorization and artificial welfare assessments in distinct ledgers. Self-report, persistent memory, or goal-directed behavior alone does not certify moral status. Preserve uncertainty and competing hypotheses.",
+    "technical_specification": "No consciousness detector, welfare score, or AI-rights conclusion is provided. Lifecycle policies require evidence and moral uncertainty analysis beyond this audit.",
+    "derived_from": [
+      "I061",
+      "I143",
+      "I144",
+      "I145"
+    ],
+    "implications": [
+      "Coexistence governance should remain revisable if morally relevant properties emerge."
+    ],
+    "counterexamples": [
+      "Anthropomorphic attachment can occur without evidence of consciousness."
+    ],
+    "closest_prior_art": [
+      "Long et al., 2024"
+    ],
+    "citations": [
+      "S14"
+    ],
+    "version": "0.5.0",
+    "introduced": "0.5.0",
+    "modified": "0.5.0",
+    "publication_date": "2026-10-05",
+    "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/concept/artificial-welfare-uncertainty"
+  },
+  {
+    "id": "AAA:C08",
+    "slug": "qualified-mandate",
+    "name": "Qualified mandate",
+    "definition": "A permission set identifying who may act for whom, on which resources, for what purpose, within which bounds.",
+    "claim_type": "DESIGN_PRINCIPLE",
+    "status": "INHERITED_FOUNDATION",
+    "novelty": "D",
+    "epistemic_status": "KNOWN",
+    "human": "Knowing what you want does not settle what someone is allowed to do in your name. Permission also concerns resources, other people, timing, and limits.",
+    "agent": "Represent principal, delegate, affected subject, resource, operation, purpose, recipients, budget, context, time, jurisdiction, and subdelegation constraints. Do not infer collective authority from one account holder.",
+    "technical_specification": "Typed tuple representation is inherited from scoped authorization and agency law. The prototype implements a finite fixture subset only.",
+    "derived_from": [
+      "I045",
+      "I064",
+      "I089"
+    ],
+    "implications": [
+      "Collective principal selection remains a separate institutional problem."
+    ],
+    "counterexamples": [
+      "Authentic signatures can bind the wrong role model."
+    ],
+    "closest_prior_art": [
+      "Agency law",
+      "Capability security",
+      "Intelligent AI Delegation"
+    ],
+    "citations": [
+      "S10",
+      "S11",
+      "S18"
+    ],
+    "version": "0.5.0",
+    "introduced": "0.5.0",
+    "modified": "0.5.0",
+    "publication_date": "2026-10-05",
+    "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/concept/qualified-mandate"
+  }
+]

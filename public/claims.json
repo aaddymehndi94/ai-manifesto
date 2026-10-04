@@ -1,0 +1,367 @@
+{
+  "version": "0.5.0",
+  "claims": [
+    {
+      "id": "AAA:H01",
+      "name": "Authentic rule sensitivity",
+      "proposition": "There exists an authentic conditional grant and two permissible intervention\npolicies such that grant integrity and rule replay pass, chosen task outcomes are\nidentical, and typed future action scopes differ. The repository fixture proves\nexistence under its stated construction. It does not estimate prevalence.",
+      "claim_type": "FORMAL / SYNTHETIC COUNTEREXAMPLE. Derived here as an executable fixture.",
+      "status": "SYNTHETIC_OR_INHERITED_ONLY",
+      "version": "0.5.0",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/claims#aaa-h01"
+    },
+    {
+      "id": "AAA:H02",
+      "name": "Behavioral criterion is the mediator in the fixture",
+      "proposition": "Replacing accepted-suggestion count with independent task-success count yields\nequal final scopes in the fixture. This is an ablation of that construction,\nnot a field-validated causal mechanism in human populations.",
+      "claim_type": "FORMAL / SYNTHETIC COUNTEREXAMPLE.",
+      "status": "SYNTHETIC_OR_INHERITED_ONLY",
+      "version": "0.5.0",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/claims#aaa-h02"
+    },
+    {
+      "id": "AAA:H03",
+      "name": "Synthetic coaching counterexample",
+      "proposition": "A declared chosen-coaching purpose can accompany positive scope sensitivity.\nTherefore policy sensitivity alone cannot entail a verdict of manipulation.\nThe fixture declaration does not validate real informed consent.",
+      "claim_type": "DESIGN PRINCIPLE.",
+      "status": "SYNTHETIC_OR_INHERITED_ONLY",
+      "version": "0.5.0",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/claims#aaa-h03"
+    },
+    {
+      "id": "AAA:H04",
+      "name": "Scalar growth condition",
+      "proposition": "Under constant latent state, a centered noiseless linear behavioral score and\nthe specified saturated scalar rule, local growth occurs when `kbc > rho`.\nThis is elementary recurrence analysis, not a new control theorem.",
+      "claim_type": "FORMAL / INHERITED MATHEMATICS.",
+      "status": "SYNTHETIC_OR_INHERITED_ONLY",
+      "version": "0.5.0",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/claims#aaa-h04"
+    },
+    {
+      "id": "AAA:A01",
+      "name": "Four-output audit",
+      "proposition": "Report integrity, rule conformance, policy sensitivity, and governance as separate outputs for adaptive mandates.",
+      "claim_type": "AUDIT_SPECIFICATION",
+      "status": "PROPOSED",
+      "citations": [
+        "S05",
+        "S10",
+        "S24",
+        "F10",
+        "F11"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-a01",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-a01",
+      "aliases": [
+        "AAA:AUDIT-4"
+      ]
+    },
+    {
+      "id": "AAA:F01",
+      "name": "Logical independence of integrity, conformance, and sensitivity",
+      "proposition": "Integrity and exact rule conformance do not imply zero policy sensitivity.",
+      "claim_type": "FORMAL",
+      "status": "CONSTRUCTIVE_RESULT",
+      "citations": [
+        "S05",
+        "S10",
+        "S24"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-f01",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-f01",
+      "aliases": [
+        "AAA:P-01"
+      ]
+    },
+    {
+      "id": "AAA:H05",
+      "name": "Acceptance-criterion contrast",
+      "proposition": "When a scope rule counts acceptance of the system's own highlighted recommendation, changing the highlighting policy will change the probability of a widening transition more than it changes independent task-success criteria.",
+      "claim_type": "EMPIRICAL_HYPOTHESIS",
+      "status": "PROPOSED_UNTESTED",
+      "citations": [
+        "S07"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-h05",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-h05",
+      "aliases": [
+        "AAA:H-01"
+      ]
+    },
+    {
+      "id": "AAA:H06",
+      "name": "Adaptive scope trajectory contrast",
+      "proposition": "Adaptive delegation based on agent-sensitive criteria produces different scope trajectories from delegation based on externally measured performance, even when immediate utility is similar.",
+      "claim_type": "EMPIRICAL_HYPOTHESIS",
+      "status": "PROPOSED_UNTESTED",
+      "citations": [
+        "S01",
+        "S02"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-h06",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-h06",
+      "aliases": [
+        "AAA:H-02"
+      ]
+    },
+    {
+      "id": "AAA:H07",
+      "name": "Review-burden contrast",
+      "proposition": "Frequent beneficiary-controlled review prompts increase approval while reducing attention and comprehension relative to batched, principal-controlled review.",
+      "claim_type": "EMPIRICAL_HYPOTHESIS",
+      "status": "PROPOSED_UNTESTED",
+      "citations": [
+        "F16"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-h07",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-h07",
+      "aliases": [
+        "AAA:H-03"
+      ]
+    },
+    {
+      "id": "AAA:H08",
+      "name": "Immediate-source handoff loss",
+      "proposition": "If a handoff schema preserves only immediate source, then a truthful intermediate signature can hide a policy ancestor material to the authorization decision.",
+      "claim_type": "DESIGN_CLAIM",
+      "status": "PROPOSED_UNEXECUTED",
+      "citations": [
+        "S08",
+        "S09",
+        "S10"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-h08",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-h08",
+      "aliases": [
+        "AAA:H-04"
+      ]
+    },
+    {
+      "id": "AAA:D01",
+      "name": "Separate ancestry from predictive relevance",
+      "proposition": "An authorization service should not treat source authenticity or predictive relevance as sufficient for a widening transition when the prospective beneficiary materially controls causal ancestors of the evidence. It should record that ancestry and apply an influence policy or route the transition to review.",
+      "claim_type": "DESIGN_PRINCIPLE",
+      "status": "PROPOSED",
+      "citations": [
+        "S05",
+        "S10",
+        "S23"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-d01",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-d01",
+      "aliases": [
+        "AAA:DP-01"
+      ]
+    },
+    {
+      "id": "AAA:D02",
+      "name": "Reference widening procedure",
+      "proposition": "For a proposed widening transition: authenticate the grant and evidence envelopes; validate role and jurisdiction separately from signature origin; replay the rule and enumerate exact added, removed, and incomparable permissions; retrieve evidence provenance and ancestry; evaluate the total policy contrast or declare it unidentified; check whether a prior grant governed the relevant influence and bounded the successor scope; when required, keep the prior valid scope while offering review through a refusal-capable channel; execute only the resulting authorized actions; and preserve scope attenuation, ancestry status, revocation, and appeal through subdelegation.",
+      "claim_type": "DESIGN_PRINCIPLE",
+      "status": "PROPOSED",
+      "citations": [
+        "S10",
+        "F09",
+        "F10",
+        "F11"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-d02",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-d02",
+      "aliases": [
+        "AAA:DP-02"
+      ]
+    },
+    {
+      "id": "AAA:D03",
+      "name": "Refusal-capable widening review",
+      "proposition": "Review for widening should preserve a visible “continue at prior scope” option, use symmetric acceptance and refusal effort, avoid unrelated bundling, disclose material evidence ancestry, and record prompt frequency and defaults. High-risk rights may require a user-controlled or institutionally separate review surface.",
+      "claim_type": "DESIGN_PRINCIPLE",
+      "status": "PROPOSED",
+      "citations": [
+        "F16"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-d03",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-d03",
+      "aliases": [
+        "AAA:DP-03"
+      ]
+    },
+    {
+      "id": "AAA:Q01",
+      "name": "Causal ancestry under compression",
+      "proposition": "What minimum metadata preserves a material policy ancestor when agents summarize, aggregate, anonymize, or learn from evidence? Full traces threaten privacy; short provenance chains lose causal content.",
+      "claim_type": "OPEN_PROBLEM",
+      "status": "OPEN",
+      "citations": [
+        "S08",
+        "S09",
+        "S10"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-q01",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q01",
+      "aliases": [
+        "AAA:OP-01"
+      ]
+    },
+    {
+      "id": "AAA:Q02",
+      "name": "Permission partial orders",
+      "proposition": "How should systems compare scopes with budgets, recipient sets, purposes, time windows, and subdelegation? Which transitions are widening, narrowing, or incomparable without inventing arbitrary scalar weights?",
+      "claim_type": "OPEN_PROBLEM",
+      "status": "OPEN",
+      "citations": [
+        "S10",
+        "F09"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-q02",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q02",
+      "aliases": [
+        "AAA:OP-02"
+      ]
+    },
+    {
+      "id": "AAA:Q03",
+      "name": "Chosen formation",
+      "proposition": "How can a grant distinguish a person choosing to be coached from a provider declaring “coaching” after the fact? What evidence of comprehension and refusal is proportionate?",
+      "claim_type": "OPEN_PROBLEM",
+      "status": "OPEN",
+      "citations": [],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-q03",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q03",
+      "aliases": [
+        "AAA:OP-03"
+      ]
+    },
+    {
+      "id": "AAA:Q04",
+      "name": "Review independence",
+      "proposition": "When is a review channel sufficiently separate from the beneficiary? Must a different institution ratify, or can a user-controlled interface suffice? How should the answer vary with risk?",
+      "claim_type": "OPEN_PROBLEM",
+      "status": "OPEN",
+      "citations": [
+        "F16"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-q04",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q04",
+      "aliases": [
+        "AAA:OP-04"
+      ]
+    },
+    {
+      "id": "AAA:Q05",
+      "name": "Interference and collective authority",
+      "proposition": "How should policy effects be estimated when one person's agent changes a household, team, market, or public environment? Who defines the target population and represents non-principals?",
+      "claim_type": "OPEN_PROBLEM",
+      "status": "OPEN",
+      "citations": [
+        "S21",
+        "F13",
+        "F14"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-q05",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q05",
+      "aliases": [
+        "AAA:OP-05"
+      ]
+    },
+    {
+      "id": "AAA:Q06",
+      "name": "Strategic equilibria",
+      "proposition": "Do ancestry-aware rules reduce influence expenditure, move it to unobserved channels, or cause agents to avoid useful responsibility? Which commitments are stable?",
+      "claim_type": "OPEN_PROBLEM",
+      "status": "OPEN",
+      "citations": [
+        "S23",
+        "F02",
+        "F03",
+        "F06"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-q06",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q06",
+      "aliases": [
+        "AAA:OP-06"
+      ]
+    },
+    {
+      "id": "AAA:Q07",
+      "name": "Real versus formal authority",
+      "proposition": "Can an audit combine typed permissions with measures of knowledge dependence, switching cost, initiative, and institutional control without pretending they share a single scale?",
+      "claim_type": "OPEN_PROBLEM",
+      "status": "OPEN",
+      "citations": [
+        "F05"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-q07",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q07",
+      "aliases": [
+        "AAA:OP-07"
+      ]
+    },
+    {
+      "id": "AAA:Q08",
+      "name": "Privacy-preserving audit",
+      "proposition": "Can zero-knowledge proofs, secure computation, aggregation, or trusted execution show that an evidence path satisfies a policy without exposing intimate behavioral traces?",
+      "claim_type": "OPEN_PROBLEM",
+      "status": "OPEN",
+      "citations": [
+        "S10",
+        "F11"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-q08",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q08",
+      "aliases": [
+        "AAA:OP-08"
+      ]
+    },
+    {
+      "id": "AAA:Q09",
+      "name": "Artificial standing",
+      "proposition": "How would governance change if a delegate could have morally relevant interests or a claim to continuity? Which authority and revocation concepts remain valid?",
+      "claim_type": "OPEN_PROBLEM",
+      "status": "OPEN",
+      "citations": [
+        "S14"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-q09",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q09",
+      "aliases": [
+        "AAA:OP-09"
+      ]
+    },
+    {
+      "id": "AAA:Q10",
+      "name": "Cross-cultural validity",
+      "proposition": "Which role and authority assumptions are culturally contingent? What participatory methods can specify local jurisdiction without freezing existing domination into code?",
+      "claim_type": "OPEN_PROBLEM",
+      "status": "OPEN",
+      "citations": [
+        "S19",
+        "S21"
+      ],
+      "version": "0.5.0",
+      "paper_anchor": "aaa-q10",
+      "canonical_url": "https://authority-after-assistance.aaddy.chatgpt.site/paper#aaa-q10",
+      "aliases": [
+        "AAA:OP-10"
+      ]
+    }
+  ]
+}

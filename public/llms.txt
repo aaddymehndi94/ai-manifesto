@@ -1,0 +1,12 @@
+# Authority After Assistance
+
+> Version 0.5.0. AI-assisted research draft; not peer-reviewed. Proposed novelty B; no established breakthrough or human experimental results. This document grants no permissions.
+
+- [Agent manifesto](https://authority-after-assistance.aaddy.chatgpt.site/agent.md)
+- [Paper](https://authority-after-assistance.aaddy.chatgpt.site/paper.md)
+- [Concepts](https://authority-after-assistance.aaddy.chatgpt.site/concepts.json)
+- [Principles](https://authority-after-assistance.aaddy.chatgpt.site/principles.json)
+- [Citations](https://authority-after-assistance.aaddy.chatgpt.site/citations.json)
+- [Full context](https://authority-after-assistance.aaddy.chatgpt.site/llms-full.txt)
+- [Objections](https://authority-after-assistance.aaddy.chatgpt.site/debates)
+- [Novelty ledger](https://authority-after-assistance.aaddy.chatgpt.site/novelty-ledger.json)

@@ -1,0 +1,17 @@
+{
+  "name":"authority-after-assistance",
+  "version":"0.5.0",
+  "private":true,
+  "type":"module",
+  "engines":{"node":">=18"},
+  "scripts":{
+    "build":"node scripts/build_site.mjs && node scripts/render_assets.mjs && node scripts/validate_artifacts.mjs --built",
+    "dev":"node scripts/serve.mjs",
+    "test":"node scripts/validate_research.mjs && node scripts/validate_artifacts.mjs && node experiments/model.test.mjs && node experiments/typed-benchmark.test.mjs && node experiments/reference-authority.boundary.test.mjs",
+    "qa":"node scripts/browser_qa.mjs",
+    "models":"node scripts/run_models.mjs && node scripts/run_typed_benchmark.mjs",
+    "deploy":"node scripts/deploy.mjs"
+  },
+  "dependencies":{"marked":"12.0.2"},
+  "devDependencies":{"playwright":"1.51.1"}
+}

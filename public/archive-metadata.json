@@ -1,0 +1,33 @@
+{
+  "title": "Authority After Assistance: Causal Audits of Adaptive Delegation",
+  "version": "0.5.0",
+  "publication_date": "2026-10-05",
+  "resource_type": "research draft",
+  "creators": [
+    {
+      "name": "Authority After Assistance research project (AI-assisted draft)"
+    }
+  ],
+  "description": "Provisional causal audits of adaptive delegation; synthetic fixtures and proposed empirical studies. Not peer-reviewed.",
+  "doi": null,
+  "rights": "License decision pending; public accessibility does not grant a reuse license.",
+  "keywords": [
+    "AI delegation",
+    "causal inference",
+    "human-agent interaction",
+    "authorization"
+  ],
+  "requires_before_deposit": [
+    "Named accountable human editorial sign-off",
+    "Rights and licensing decision",
+    "Repository selection",
+    "Source/full-text audit"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://authority-after-assistance.aaddy.chatgpt.site",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
+}

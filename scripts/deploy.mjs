@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { spawnSync } from 'node:child_process';
+const run=(cmd,args)=>{const r=spawnSync(cmd,args,{stdio:'inherit'});if(r.status!==0)process.exit(r.status??1);};
+run('npm',['run','build']);run('npm',['test']);run('npm',['run','qa']);
+fs.mkdirSync('.site-workflow',{recursive:true});
+const archive=path.resolve('.site-workflow/site.tar.gz');
+run('tar',['-czf',archive,'.openai/hosting.json','dist']);
+const manifest=JSON.parse(fs.readFileSync('.openai/hosting.json','utf8'));
+const head=spawnSync('git',['rev-parse','HEAD'],{encoding:'utf8'});
+console.log(JSON.stringify({project_id:manifest.project_id,archive,local_head:head.stdout.trim(),next:'Push the exact source through the Sites workflow, save this archive against that pushed commit, then deploy the saved version. This command packages; it does not authenticate or publish.'},null,2));
