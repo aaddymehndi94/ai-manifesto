@@ -3,8 +3,10 @@
 Reviewer: one independent reviewer agent simulating eight disciplinary
 perspectives. This is an adversarial review, not eight independent reviews.
 
-Artifact reviewed: `research/candidate-framework-v0.md`  
-Review date: 2026-10-04  
+Artifact reviewed: `research/candidate-framework-v0.md`
+
+Review date: 2026-10-04
+
 Recommendation: **major revision; retain as a B-candidate, not an A-claim**
 
 ## Verdict
