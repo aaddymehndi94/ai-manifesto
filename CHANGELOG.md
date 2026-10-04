@@ -13,6 +13,8 @@ than settled doctrine.
 - Added the responsive website, context switch, interactive synthetic models,
   candidate search, browser checks, no-JavaScript reading, and print styles.
 - Preserved earlier paper and manifesto states through version records and Git.
+  [Earlier paper draft](/downloads/versions/paper-0.3.md) and
+  [manifesto version record](/downloads/manifesto/versions/0.3.0.md) remain retrievable.
 - Final audit established no A-grade novelty; C01 remains B-proposed only for a
   narrow benchmark/interface. C02 is synthesis. Underlying causal ideas are inherited.
 - No human evidence, strategic optimizer, calibrated forecast, production-safe
