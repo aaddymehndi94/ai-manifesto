@@ -12,7 +12,7 @@ Date: 05 October 2026. Public research draft, not a completed scientific result.
   figure dialog dismissal, mobile menu dismissal, paper print, and no-JS reading.
 - Browser result: zero page errors, broken local links, or page-level overflows
   in the tested configurations. Tested Chromium at 1440px and 390px, reduced motion.
-- Printable PDF: 27 A4 pages in this environment. Figures load before export.
+- Printable PDF: 28 A4 pages with both figures loaded in this environment.
 - Canonical data: 8 concepts, 3 principles, 23 registered fixture/paper claims,
   40 S/F source records, and a 76-node structured concept/evidence graph.
 

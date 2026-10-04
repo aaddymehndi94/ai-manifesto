@@ -38,7 +38,7 @@ external font, or server-side account system is required.
     npm run deploy   # validate and package; authenticated publication is separate
 
 Browser QA writes ignored local screenshots and a report under site/qa/.
-The paper exports to approximately 27 A4 pages; browser/font differences may
+The paper exports to approximately 28 A4 pages; browser/font differences may
 change pagination. public/paper.pdf is generated during the production build.
 
 ## Read
