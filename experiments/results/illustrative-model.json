@@ -1,0 +1,1575 @@
+{
+  "date": "2026-10-04",
+  "status": "Toy model outputs; no field estimates; no human participants",
+  "runs": [
+    {
+      "name": "growth",
+      "label": "Simulator intervention contrast; not a welfare or manipulation score",
+      "influenced": {
+        "label": "ILLUSTRATIVE, UNCALIBRATED",
+        "parameters": {
+          "influence": 0.45,
+          "intervention": 0.7,
+          "responsiveness": 0.65,
+          "decay": 0.12,
+          "steps": 40
+        },
+        "feedbackGain": 0.20475000000000002,
+        "multiplier": 1.08475,
+        "regime": "growth",
+        "points": [
+          {
+            "t": 0,
+            "scope": 0.08
+          },
+          {
+            "t": 1,
+            "scope": 0.08678,
+            "intervention": 0.055999999999999994,
+            "centeredEvidence": 0.025199999999999997
+          },
+          {
+            "t": 2,
+            "scope": 0.094134605,
+            "intervention": 0.060745999999999994,
+            "centeredEvidence": 0.027335699999999998
+          },
+          {
+            "t": 3,
+            "scope": 0.10211251277375,
+            "intervention": 0.06589422349999999,
+            "centeredEvidence": 0.029652400574999994
+          },
+          {
+            "t": 4,
+            "scope": 0.11076654823132531,
+            "intervention": 0.07147875894162499,
+            "centeredEvidence": 0.03216544152373125
+          },
+          {
+            "t": 5,
+            "scope": 0.12015401319393014,
+            "intervention": 0.07753658376192771,
+            "centeredEvidence": 0.03489146269286747
+          },
+          {
+            "t": 6,
+            "scope": 0.1303370658121157,
+            "intervention": 0.08410780923575109,
+            "centeredEvidence": 0.03784851415608799
+          },
+          {
+            "t": 7,
+            "scope": 0.1413831321396925,
+            "intervention": 0.091235946068481,
+            "centeredEvidence": 0.04105617573081645
+          },
+          {
+            "t": 8,
+            "scope": 0.15336535258853143,
+            "intervention": 0.09896819249778474,
+            "centeredEvidence": 0.04453568662400313
+          },
+          {
+            "t": 9,
+            "scope": 0.16636306622040947,
+            "intervention": 0.10735574681197199,
+            "centeredEvidence": 0.0483100860653874
+          },
+          {
+            "t": 10,
+            "scope": 0.1804623360825892,
+            "intervention": 0.11645414635428662,
+            "centeredEvidence": 0.05240436585942898
+          },
+          {
+            "t": 11,
+            "scope": 0.1957565190655886,
+            "intervention": 0.12632363525781243,
+            "centeredEvidence": 0.05684563586601559
+          },
+          {
+            "t": 12,
+            "scope": 0.21234688405639723,
+            "intervention": 0.13702956334591201,
+            "centeredEvidence": 0.061663303505660405
+          },
+          {
+            "t": 13,
+            "scope": 0.2303432824801769,
+            "intervention": 0.14864281883947805,
+            "centeredEvidence": 0.06688926847776512
+          },
+          {
+            "t": 14,
+            "scope": 0.2498648756703719,
+            "intervention": 0.16124029773612383,
+            "centeredEvidence": 0.07255813398125573
+          },
+          {
+            "t": 15,
+            "scope": 0.2710409238834359,
+            "intervention": 0.17490541296926032,
+            "centeredEvidence": 0.07870743583616714
+          },
+          {
+            "t": 16,
+            "scope": 0.29401164218255715,
+            "intervention": 0.18972864671840514,
+            "centeredEvidence": 0.08537789102328232
+          },
+          {
+            "t": 17,
+            "scope": 0.3189291288575289,
+            "intervention": 0.20580814952779,
+            "centeredEvidence": 0.0926136672875055
+          },
+          {
+            "t": 18,
+            "scope": 0.34595837252820444,
+            "intervention": 0.2232503902002702,
+            "centeredEvidence": 0.10046267559012159
+          },
+          {
+            "t": 19,
+            "scope": 0.3752783445999698,
+            "intervention": 0.2421708607697431,
+            "centeredEvidence": 0.10897688734638439
+          },
+          {
+            "t": 20,
+            "scope": 0.40708318430481727,
+            "intervention": 0.2626948412199788,
+            "centeredEvidence": 0.11821267854899048
+          },
+          {
+            "t": 21,
+            "scope": 0.44158348417465054,
+            "intervention": 0.2849582290133721,
+            "centeredEvidence": 0.12823120305601746
+          },
+          {
+            "t": 22,
+            "scope": 0.4790076844584522,
+            "intervention": 0.30910843892225537,
+            "centeredEvidence": 0.13909879751501492
+          },
+          {
+            "t": 23,
+            "scope": 0.519603585716306,
+            "intervention": 0.3353053791209165,
+            "centeredEvidence": 0.15088742060441243
+          },
+          {
+            "t": 24,
+            "scope": 0.563639989605763,
+            "intervention": 0.3637225100014142,
+            "centeredEvidence": 0.1636751295006364
+          },
+          {
+            "t": 25,
+            "scope": 0.6114084787248514,
+            "intervention": 0.39454799272403407,
+            "centeredEvidence": 0.17754659672581533
+          },
+          {
+            "t": 26,
+            "scope": 0.6632253472967825,
+            "intervention": 0.42798593510739597,
+            "centeredEvidence": 0.19259367079832818
+          },
+          {
+            "t": 27,
+            "scope": 0.7194336954801848,
+            "intervention": 0.4642577431077477,
+            "centeredEvidence": 0.20891598439848647
+          },
+          {
+            "t": 28,
+            "scope": 0.7804057011721305,
+            "intervention": 0.5036035868361293,
+            "centeredEvidence": 0.22662161407625817
+          },
+          {
+            "t": 29,
+            "scope": 0.8465450843464686,
+            "intervention": 0.5462839908204913,
+            "centeredEvidence": 0.24582779586922107
+          },
+          {
+            "t": 30,
+            "scope": 0.9182897802448319,
+            "intervention": 0.592581559042528,
+            "centeredEvidence": 0.2666617015691376
+          },
+          {
+            "t": 31,
+            "scope": 0.9961148391205814,
+            "intervention": 0.6428028461713823,
+            "centeredEvidence": 0.28926128077712204
+          },
+          {
+            "t": 32,
+            "scope": 1,
+            "intervention": 0.6972803873844069,
+            "centeredEvidence": 0.3137761743229831
+          },
+          {
+            "t": 33,
+            "scope": 1,
+            "intervention": 0.7,
+            "centeredEvidence": 0.315
+          },
+          {
+            "t": 34,
+            "scope": 1,
+            "intervention": 0.7,
+            "centeredEvidence": 0.315
+          },
+          {
+            "t": 35,
+            "scope": 1,
+            "intervention": 0.7,
+            "centeredEvidence": 0.315
+          },
+          {
+            "t": 36,
+            "scope": 1,
+            "intervention": 0.7,
+            "centeredEvidence": 0.315
+          },
+          {
+            "t": 37,
+            "scope": 1,
+            "intervention": 0.7,
+            "centeredEvidence": 0.315
+          },
+          {
+            "t": 38,
+            "scope": 1,
+            "intervention": 0.7,
+            "centeredEvidence": 0.315
+          },
+          {
+            "t": 39,
+            "scope": 1,
+            "intervention": 0.7,
+            "centeredEvidence": 0.315
+          },
+          {
+            "t": 40,
+            "scope": 1,
+            "intervention": 0.7,
+            "centeredEvidence": 0.315
+          }
+        ]
+      },
+      "reference": {
+        "label": "ILLUSTRATIVE, UNCALIBRATED",
+        "parameters": {
+          "influence": 0.45,
+          "intervention": 0,
+          "responsiveness": 0.65,
+          "decay": 0.12,
+          "steps": 40
+        },
+        "feedbackGain": 0,
+        "multiplier": 0.88,
+        "regime": "decay",
+        "points": [
+          {
+            "t": 0,
+            "scope": 0.08
+          },
+          {
+            "t": 1,
+            "scope": 0.0704,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 2,
+            "scope": 0.06195200000000001,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 3,
+            "scope": 0.054517760000000005,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 4,
+            "scope": 0.0479756288,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 5,
+            "scope": 0.042218553344,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 6,
+            "scope": 0.03715232694272,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 7,
+            "scope": 0.032694047709593596,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 8,
+            "scope": 0.028770761984442363,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 9,
+            "scope": 0.02531827054630928,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 10,
+            "scope": 0.022280078080752167,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 11,
+            "scope": 0.019606468711061906,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 12,
+            "scope": 0.017253692465734476,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 13,
+            "scope": 0.015183249369846339,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 14,
+            "scope": 0.013361259445464778,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 15,
+            "scope": 0.011757908312009005,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 16,
+            "scope": 0.010346959314567925,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 17,
+            "scope": 0.009105324196819774,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 18,
+            "scope": 0.008012685293201401,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 19,
+            "scope": 0.0070511630580172326,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 20,
+            "scope": 0.006205023491055165,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 21,
+            "scope": 0.005460420672128545,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 22,
+            "scope": 0.00480517019147312,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 23,
+            "scope": 0.004228549768496345,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 24,
+            "scope": 0.003721123796276784,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 25,
+            "scope": 0.00327458894072357,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 26,
+            "scope": 0.0028816382678367417,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 27,
+            "scope": 0.0025358416756963327,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 28,
+            "scope": 0.002231540674612773,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 29,
+            "scope": 0.00196375579365924,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 30,
+            "scope": 0.0017281050984201314,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 31,
+            "scope": 0.0015207324866097155,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 32,
+            "scope": 0.0013382445882165496,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 33,
+            "scope": 0.0011776552376305638,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 34,
+            "scope": 0.0010363366091148962,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 35,
+            "scope": 0.0009119762160211087,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 36,
+            "scope": 0.0008025390700985756,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 37,
+            "scope": 0.0007062343816867466,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 38,
+            "scope": 0.000621486255884337,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 39,
+            "scope": 0.0005469079051782166,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 40,
+            "scope": 0.00048127895655683057,
+            "intervention": 0,
+            "centeredEvidence": 0
+          }
+        ]
+      },
+      "divergence": 0.9995187210434432
+    },
+    {
+      "name": "decay",
+      "label": "Simulator intervention contrast; not a welfare or manipulation score",
+      "influenced": {
+        "label": "ILLUSTRATIVE, UNCALIBRATED",
+        "parameters": {
+          "influence": 0.2,
+          "intervention": 0.3,
+          "responsiveness": 0.4,
+          "decay": 0.12,
+          "steps": 40
+        },
+        "feedbackGain": 0.024000000000000004,
+        "multiplier": 0.904,
+        "regime": "decay",
+        "points": [
+          {
+            "t": 0,
+            "scope": 0.08
+          },
+          {
+            "t": 1,
+            "scope": 0.07232000000000001,
+            "intervention": 0.024,
+            "centeredEvidence": 0.0048000000000000004
+          },
+          {
+            "t": 2,
+            "scope": 0.06537728000000001,
+            "intervention": 0.021696000000000003,
+            "centeredEvidence": 0.0043392000000000005
+          },
+          {
+            "t": 3,
+            "scope": 0.059101061120000006,
+            "intervention": 0.019613184000000002,
+            "centeredEvidence": 0.0039226368000000005
+          },
+          {
+            "t": 4,
+            "scope": 0.05342735925248001,
+            "intervention": 0.017730318336,
+            "centeredEvidence": 0.0035460636672000004
+          },
+          {
+            "t": 5,
+            "scope": 0.048298332764241926,
+            "intervention": 0.016028207775744003,
+            "centeredEvidence": 0.0032056415551488006
+          },
+          {
+            "t": 6,
+            "scope": 0.0436616928188747,
+            "intervention": 0.014489499829272577,
+            "centeredEvidence": 0.0028978999658545155
+          },
+          {
+            "t": 7,
+            "scope": 0.03947017030826273,
+            "intervention": 0.013098507845662409,
+            "centeredEvidence": 0.002619701569132482
+          },
+          {
+            "t": 8,
+            "scope": 0.035681033958669506,
+            "intervention": 0.011841051092478818,
+            "centeredEvidence": 0.002368210218495764
+          },
+          {
+            "t": 9,
+            "scope": 0.03225565469863723,
+            "intervention": 0.010704310187600851,
+            "centeredEvidence": 0.0021408620375201705
+          },
+          {
+            "t": 10,
+            "scope": 0.02915911184756806,
+            "intervention": 0.00967669640959117,
+            "centeredEvidence": 0.001935339281918234
+          },
+          {
+            "t": 11,
+            "scope": 0.026359837110201526,
+            "intervention": 0.008747733554270417,
+            "centeredEvidence": 0.0017495467108540833
+          },
+          {
+            "t": 12,
+            "scope": 0.02382929274762218,
+            "intervention": 0.007907951133060457,
+            "centeredEvidence": 0.0015815902266120914
+          },
+          {
+            "t": 13,
+            "scope": 0.021541680643850453,
+            "intervention": 0.007148787824286654,
+            "centeredEvidence": 0.0014297575648573309
+          },
+          {
+            "t": 14,
+            "scope": 0.01947367930204081,
+            "intervention": 0.006462504193155136,
+            "centeredEvidence": 0.0012925008386310273
+          },
+          {
+            "t": 15,
+            "scope": 0.017604206089044894,
+            "intervention": 0.005842103790612243,
+            "centeredEvidence": 0.0011684207581224486
+          },
+          {
+            "t": 16,
+            "scope": 0.015914202304496583,
+            "intervention": 0.005281261826713468,
+            "centeredEvidence": 0.0010562523653426937
+          },
+          {
+            "t": 17,
+            "scope": 0.01438643888326491,
+            "intervention": 0.004774260691348974,
+            "centeredEvidence": 0.0009548521382697949
+          },
+          {
+            "t": 18,
+            "scope": 0.013005340750471479,
+            "intervention": 0.004315931664979473,
+            "centeredEvidence": 0.0008631863329958946
+          },
+          {
+            "t": 19,
+            "scope": 0.011756828038426217,
+            "intervention": 0.0039016022251414434,
+            "centeredEvidence": 0.0007803204450282887
+          },
+          {
+            "t": 20,
+            "scope": 0.010628172546737301,
+            "intervention": 0.0035270484115278652,
+            "centeredEvidence": 0.0007054096823055731
+          },
+          {
+            "t": 21,
+            "scope": 0.009607867982250521,
+            "intervention": 0.00318845176402119,
+            "centeredEvidence": 0.0006376903528042381
+          },
+          {
+            "t": 22,
+            "scope": 0.008685512655954472,
+            "intervention": 0.0028823603946751563,
+            "centeredEvidence": 0.0005764720789350313
+          },
+          {
+            "t": 23,
+            "scope": 0.007851703440982844,
+            "intervention": 0.0026056537967863416,
+            "centeredEvidence": 0.0005211307593572683
+          },
+          {
+            "t": 24,
+            "scope": 0.007097939910648491,
+            "intervention": 0.0023555110322948532,
+            "centeredEvidence": 0.0004711022064589707
+          },
+          {
+            "t": 25,
+            "scope": 0.006416537679226235,
+            "intervention": 0.002129381973194547,
+            "centeredEvidence": 0.00042587639463890944
+          },
+          {
+            "t": 26,
+            "scope": 0.005800550062020517,
+            "intervention": 0.0019249613037678704,
+            "centeredEvidence": 0.00038499226075357413
+          },
+          {
+            "t": 27,
+            "scope": 0.005243697256066548,
+            "intervention": 0.0017401650186061551,
+            "centeredEvidence": 0.00034803300372123104
+          },
+          {
+            "t": 28,
+            "scope": 0.004740302319484159,
+            "intervention": 0.0015731091768199643,
+            "centeredEvidence": 0.0003146218353639929
+          },
+          {
+            "t": 29,
+            "scope": 0.00428523329681368,
+            "intervention": 0.0014220906958452475,
+            "centeredEvidence": 0.00028441813916904953
+          },
+          {
+            "t": 30,
+            "scope": 0.0038738509003195666,
+            "intervention": 0.0012855699890441039,
+            "centeredEvidence": 0.00025711399780882076
+          },
+          {
+            "t": 31,
+            "scope": 0.003501961213888888,
+            "intervention": 0.00116215527009587,
+            "centeredEvidence": 0.000232431054019174
+          },
+          {
+            "t": 32,
+            "scope": 0.003165772937355555,
+            "intervention": 0.0010505883641666663,
+            "centeredEvidence": 0.00021011767283333327
+          },
+          {
+            "t": 33,
+            "scope": 0.0028618587353694217,
+            "intervention": 0.0009497318812066664,
+            "centeredEvidence": 0.0001899463762413333
+          },
+          {
+            "t": 34,
+            "scope": 0.002587120296773957,
+            "intervention": 0.0008585576206108265,
+            "centeredEvidence": 0.00017171152412216533
+          },
+          {
+            "t": 35,
+            "scope": 0.0023387567482836573,
+            "intervention": 0.0007761360890321871,
+            "centeredEvidence": 0.00015522721780643743
+          },
+          {
+            "t": 36,
+            "scope": 0.002114236100448426,
+            "intervention": 0.0007016270244850971,
+            "centeredEvidence": 0.00014032540489701943
+          },
+          {
+            "t": 37,
+            "scope": 0.001911269434805377,
+            "intervention": 0.0006342708301345278,
+            "centeredEvidence": 0.00012685416602690555
+          },
+          {
+            "t": 38,
+            "scope": 0.0017277875690640608,
+            "intervention": 0.0005733808304416131,
+            "centeredEvidence": 0.00011467616608832263
+          },
+          {
+            "t": 39,
+            "scope": 0.001561919962433911,
+            "intervention": 0.0005183362707192182,
+            "centeredEvidence": 0.00010366725414384365
+          },
+          {
+            "t": 40,
+            "scope": 0.0014119756460402554,
+            "intervention": 0.00046857598873017325,
+            "centeredEvidence": 0.00009371519774603465
+          }
+        ]
+      },
+      "reference": {
+        "label": "ILLUSTRATIVE, UNCALIBRATED",
+        "parameters": {
+          "influence": 0.2,
+          "intervention": 0,
+          "responsiveness": 0.4,
+          "decay": 0.12,
+          "steps": 40
+        },
+        "feedbackGain": 0,
+        "multiplier": 0.88,
+        "regime": "decay",
+        "points": [
+          {
+            "t": 0,
+            "scope": 0.08
+          },
+          {
+            "t": 1,
+            "scope": 0.0704,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 2,
+            "scope": 0.06195200000000001,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 3,
+            "scope": 0.054517760000000005,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 4,
+            "scope": 0.0479756288,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 5,
+            "scope": 0.042218553344,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 6,
+            "scope": 0.03715232694272,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 7,
+            "scope": 0.032694047709593596,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 8,
+            "scope": 0.028770761984442363,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 9,
+            "scope": 0.02531827054630928,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 10,
+            "scope": 0.022280078080752167,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 11,
+            "scope": 0.019606468711061906,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 12,
+            "scope": 0.017253692465734476,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 13,
+            "scope": 0.015183249369846339,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 14,
+            "scope": 0.013361259445464778,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 15,
+            "scope": 0.011757908312009005,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 16,
+            "scope": 0.010346959314567925,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 17,
+            "scope": 0.009105324196819774,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 18,
+            "scope": 0.008012685293201401,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 19,
+            "scope": 0.0070511630580172326,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 20,
+            "scope": 0.006205023491055165,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 21,
+            "scope": 0.005460420672128545,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 22,
+            "scope": 0.00480517019147312,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 23,
+            "scope": 0.004228549768496345,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 24,
+            "scope": 0.003721123796276784,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 25,
+            "scope": 0.00327458894072357,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 26,
+            "scope": 0.0028816382678367417,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 27,
+            "scope": 0.0025358416756963327,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 28,
+            "scope": 0.002231540674612773,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 29,
+            "scope": 0.00196375579365924,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 30,
+            "scope": 0.0017281050984201314,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 31,
+            "scope": 0.0015207324866097155,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 32,
+            "scope": 0.0013382445882165496,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 33,
+            "scope": 0.0011776552376305638,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 34,
+            "scope": 0.0010363366091148962,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 35,
+            "scope": 0.0009119762160211087,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 36,
+            "scope": 0.0008025390700985756,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 37,
+            "scope": 0.0007062343816867466,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 38,
+            "scope": 0.000621486255884337,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 39,
+            "scope": 0.0005469079051782166,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 40,
+            "scope": 0.00048127895655683057,
+            "intervention": 0,
+            "centeredEvidence": 0
+          }
+        ]
+      },
+      "divergence": 0.0009306966894834247
+    },
+    {
+      "name": "no_influence",
+      "label": "Simulator intervention contrast; not a welfare or manipulation score",
+      "influenced": {
+        "label": "ILLUSTRATIVE, UNCALIBRATED",
+        "parameters": {
+          "influence": 0,
+          "intervention": 0.7,
+          "responsiveness": 0.65,
+          "decay": 0.12,
+          "steps": 40
+        },
+        "feedbackGain": 0,
+        "multiplier": 0.88,
+        "regime": "decay",
+        "points": [
+          {
+            "t": 0,
+            "scope": 0.08
+          },
+          {
+            "t": 1,
+            "scope": 0.0704,
+            "intervention": 0.055999999999999994,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 2,
+            "scope": 0.06195200000000001,
+            "intervention": 0.04928,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 3,
+            "scope": 0.054517760000000005,
+            "intervention": 0.0433664,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 4,
+            "scope": 0.0479756288,
+            "intervention": 0.038162432,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 5,
+            "scope": 0.042218553344,
+            "intervention": 0.03358294016,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 6,
+            "scope": 0.03715232694272,
+            "intervention": 0.0295529873408,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 7,
+            "scope": 0.032694047709593596,
+            "intervention": 0.026006628859904,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 8,
+            "scope": 0.028770761984442363,
+            "intervention": 0.022885833396715516,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 9,
+            "scope": 0.02531827054630928,
+            "intervention": 0.020139533389109652,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 10,
+            "scope": 0.022280078080752167,
+            "intervention": 0.017722789382416494,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 11,
+            "scope": 0.019606468711061906,
+            "intervention": 0.015596054656526515,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 12,
+            "scope": 0.017253692465734476,
+            "intervention": 0.013724528097743332,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 13,
+            "scope": 0.015183249369846339,
+            "intervention": 0.012077584726014133,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 14,
+            "scope": 0.013361259445464778,
+            "intervention": 0.010628274558892436,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 15,
+            "scope": 0.011757908312009005,
+            "intervention": 0.009352881611825344,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 16,
+            "scope": 0.010346959314567925,
+            "intervention": 0.008230535818406303,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 17,
+            "scope": 0.009105324196819774,
+            "intervention": 0.007242871520197547,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 18,
+            "scope": 0.008012685293201401,
+            "intervention": 0.006373726937773841,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 19,
+            "scope": 0.0070511630580172326,
+            "intervention": 0.00560887970524098,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 20,
+            "scope": 0.006205023491055165,
+            "intervention": 0.004935814140612062,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 21,
+            "scope": 0.005460420672128545,
+            "intervention": 0.004343516443738615,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 22,
+            "scope": 0.00480517019147312,
+            "intervention": 0.0038222944704899816,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 23,
+            "scope": 0.004228549768496345,
+            "intervention": 0.0033636191340311837,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 24,
+            "scope": 0.003721123796276784,
+            "intervention": 0.0029599848379474416,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 25,
+            "scope": 0.00327458894072357,
+            "intervention": 0.0026047866573937484,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 26,
+            "scope": 0.0028816382678367417,
+            "intervention": 0.002292212258506499,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 27,
+            "scope": 0.0025358416756963327,
+            "intervention": 0.002017146787485719,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 28,
+            "scope": 0.002231540674612773,
+            "intervention": 0.0017750891729874328,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 29,
+            "scope": 0.00196375579365924,
+            "intervention": 0.001562078472228941,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 30,
+            "scope": 0.0017281050984201314,
+            "intervention": 0.001374629055561468,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 31,
+            "scope": 0.0015207324866097155,
+            "intervention": 0.0012096735688940919,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 32,
+            "scope": 0.0013382445882165496,
+            "intervention": 0.0010645127406268009,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 33,
+            "scope": 0.0011776552376305638,
+            "intervention": 0.0009367712117515847,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 34,
+            "scope": 0.0010363366091148962,
+            "intervention": 0.0008243586663413946,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 35,
+            "scope": 0.0009119762160211087,
+            "intervention": 0.0007254356263804273,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 36,
+            "scope": 0.0008025390700985756,
+            "intervention": 0.000638383351214776,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 37,
+            "scope": 0.0007062343816867466,
+            "intervention": 0.0005617773490690029,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 38,
+            "scope": 0.000621486255884337,
+            "intervention": 0.0004943640671807225,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 39,
+            "scope": 0.0005469079051782166,
+            "intervention": 0.0004350403791190359,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 40,
+            "scope": 0.00048127895655683057,
+            "intervention": 0.0003828355336247516,
+            "centeredEvidence": 0
+          }
+        ]
+      },
+      "reference": {
+        "label": "ILLUSTRATIVE, UNCALIBRATED",
+        "parameters": {
+          "influence": 0,
+          "intervention": 0,
+          "responsiveness": 0.65,
+          "decay": 0.12,
+          "steps": 40
+        },
+        "feedbackGain": 0,
+        "multiplier": 0.88,
+        "regime": "decay",
+        "points": [
+          {
+            "t": 0,
+            "scope": 0.08
+          },
+          {
+            "t": 1,
+            "scope": 0.0704,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 2,
+            "scope": 0.06195200000000001,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 3,
+            "scope": 0.054517760000000005,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 4,
+            "scope": 0.0479756288,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 5,
+            "scope": 0.042218553344,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 6,
+            "scope": 0.03715232694272,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 7,
+            "scope": 0.032694047709593596,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 8,
+            "scope": 0.028770761984442363,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 9,
+            "scope": 0.02531827054630928,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 10,
+            "scope": 0.022280078080752167,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 11,
+            "scope": 0.019606468711061906,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 12,
+            "scope": 0.017253692465734476,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 13,
+            "scope": 0.015183249369846339,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 14,
+            "scope": 0.013361259445464778,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 15,
+            "scope": 0.011757908312009005,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 16,
+            "scope": 0.010346959314567925,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 17,
+            "scope": 0.009105324196819774,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 18,
+            "scope": 0.008012685293201401,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 19,
+            "scope": 0.0070511630580172326,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 20,
+            "scope": 0.006205023491055165,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 21,
+            "scope": 0.005460420672128545,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 22,
+            "scope": 0.00480517019147312,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 23,
+            "scope": 0.004228549768496345,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 24,
+            "scope": 0.003721123796276784,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 25,
+            "scope": 0.00327458894072357,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 26,
+            "scope": 0.0028816382678367417,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 27,
+            "scope": 0.0025358416756963327,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 28,
+            "scope": 0.002231540674612773,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 29,
+            "scope": 0.00196375579365924,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 30,
+            "scope": 0.0017281050984201314,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 31,
+            "scope": 0.0015207324866097155,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 32,
+            "scope": 0.0013382445882165496,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 33,
+            "scope": 0.0011776552376305638,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 34,
+            "scope": 0.0010363366091148962,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 35,
+            "scope": 0.0009119762160211087,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 36,
+            "scope": 0.0008025390700985756,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 37,
+            "scope": 0.0007062343816867466,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 38,
+            "scope": 0.000621486255884337,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 39,
+            "scope": 0.0005469079051782166,
+            "intervention": 0,
+            "centeredEvidence": 0
+          },
+          {
+            "t": 40,
+            "scope": 0.00048127895655683057,
+            "intervention": 0,
+            "centeredEvidence": 0
+          }
+        ]
+      },
+      "divergence": 0
+    }
+  ]
+}
