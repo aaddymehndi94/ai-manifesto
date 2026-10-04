@@ -167,16 +167,24 @@ function allStringValues(value, output = new Set()) {
 const concepts = readJson('framework/concepts.json');
 const principles = readJson('framework/principles.json');
 const sourcesDocument = readJson('research/sources.json');
+const paperSourcesDocument = readJson('research/paper-sources.json', false);
 const ledger = readJson('research/novelty-ledger.json');
-const sources = collectionFrom(sourcesDocument, ['sources', 'citations'], 'research/sources.json');
+const centralSources = collectionFrom(sourcesDocument, ['sources', 'citations'], 'research/sources.json');
+const paperSources = paperSourcesDocument
+  ? collectionFrom(paperSourcesDocument, ['sources', 'citations'], 'research/paper-sources.json')
+  : [];
+const sources = [...centralSources, ...paperSources];
 
 validateRecordIds(concepts, /^AAA:C\d{2}$/, 'framework/concepts.json');
 validateRecordIds(principles, /^AAA:P\d{2}$/, 'framework/principles.json');
-validateRecordIds(sources, /^S\d{2,}$/, 'research/sources.json');
+validateRecordIds(centralSources, /^S\d{2,}$/, 'research/sources.json');
+if (paperSourcesDocument) validateRecordIds(paperSources, /^F\d{2,}$/, 'research/paper-sources.json');
 
 const conceptIds = new Set((concepts || []).map(record => record.id));
 const principleIds = new Set((principles || []).map(record => record.id));
 const sourceIds = new Set(sources.map(record => record.id));
+check(sourceIds.size === sources.length, `research source registries: duplicate IDs across sources.json and paper-sources.json: ${duplicateValues(sources.map(record => record.id)).join(', ')}`);
+const sourceById = new Map(sources.map(record => [record.id, record]));
 const candidateIdList = Array.isArray(ledger?.entries) ? ledger.entries.map(entry => entry.candidate_id) : [];
 const candidateIds = new Set(candidateIdList);
 const frameworkIds = new Set([...conceptIds, ...principleIds]);
@@ -218,7 +226,7 @@ for (const principle of principles || []) {
   for (const reference of derived) check(conceptIds.has(reference), `${label}: unresolved concept reference ${reference}`);
 }
 
-for (const source of sources) {
+for (const source of centralSources) {
   requireFields(source, ['id', 'title', 'authors', 'year', 'field', 'type', 'url', 'proposition', 'verification'], `research/sources.json:${source.id ?? '?'}`);
   validateStringArray(source.authors, `research/sources.json:${source.id ?? '?'}.authors`);
   try {
@@ -226,6 +234,17 @@ for (const source of sources) {
     check(['https:', 'http:'].includes(url.protocol), `research/sources.json:${source.id}: unsupported URL protocol`);
   } catch {
     errors.push(`research/sources.json:${source.id}: invalid source URL ${JSON.stringify(source.url)}`);
+  }
+}
+
+for (const source of paperSources) {
+  requireFields(source, ['id', 'title', 'authors', 'year', 'type', 'url', 'verification'], `research/paper-sources.json:${source.id ?? '?'}`);
+  validateStringArray(source.authors, `research/paper-sources.json:${source.id ?? '?'}.authors`);
+  try {
+    const url = new URL(source.url);
+    check(['https:', 'http:'].includes(url.protocol), `research/paper-sources.json:${source.id}: unsupported URL protocol`);
+  } catch {
+    errors.push(`research/paper-sources.json:${source.id}: invalid source URL ${JSON.stringify(source.url)}`);
   }
 }
 
@@ -285,10 +304,14 @@ if (buildRoots.length === 0) {
 
   for (const file of byBase.get('citations.json') || []) {
     const published = collectionFrom(readJson(relative(file)), ['sources', 'citations'], relative(file));
-    validateRecordIds(published, /^S\d{2,}$/, relative(file));
+    validateRecordIds(published, /^[SF]\d{2,}$/, relative(file));
     const ids = new Set(published.map(record => record.id));
     for (const id of sourceIds) check(ids.has(id), `${relative(file)}: missing source ${id}`);
     for (const id of ids) check(sourceIds.has(id), `${relative(file)}: unknown source ${id}`);
+    const publishedById = new Map(published.map(record => [record.id, record]));
+    for (const [id, source] of sourceById) {
+      if (publishedById.has(id)) deepSubset(source, publishedById.get(id), `${relative(file)}:${id}`);
+    }
   }
 
   for (const name of ['graph.json', 'concept-graph.json']) {
