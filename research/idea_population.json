@@ -1,0 +1,33 @@
+{
+  "schema_version": "0.1.0",
+  "updated": "2026-10-04",
+  "minimum_initial_population": 150,
+  "score_range": [0, 10],
+  "positive_dimensions": [
+    "novelty",
+    "importance",
+    "generality",
+    "precision",
+    "explanatory_power",
+    "technical_usefulness",
+    "philosophical_depth",
+    "human_relevance",
+    "agent_relevance",
+    "empirical_plausibility",
+    "formalizability",
+    "memorability",
+    "generative_power",
+    "prior_art_resistance",
+    "criticism_resistance",
+    "research_program_potential",
+    "ten_year_relevance"
+  ],
+  "risk_dimensions": [
+    "cliche_risk",
+    "pseudo_profundity_risk",
+    "renamed_existing_idea_risk",
+    "fashion_risk_2026",
+    "obviousness_risk"
+  ],
+  "generations": []
+}

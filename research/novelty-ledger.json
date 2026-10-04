@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1.0",
+  "updated": "2026-10-04",
+  "status_definitions": [
+    "UNTESTED",
+    "SEARCHING",
+    "SURVIVES_PROVISIONALLY",
+    "REJECTED",
+    "RETIRED"
+  ],
+  "grade_definitions": {
+    "A": "strong evidence of substantive novelty",
+    "B": "novel extension or formulation with distinct consequences",
+    "C": "synthesis",
+    "D": "established idea"
+  },
+  "entries": []
+}
