@@ -1,10 +1,11 @@
 # Authority After Assistance: Causal Audits of Adaptive Delegation
 
-**Research draft 0.3.0 — 2026-10-05**  
-**Evidence cutoff:** 2026-10-04  
-**Status:** Proposed audit method with a synthetic executable benchmark. Not peer
-reviewed. No human participants, population estimates, or trained strategic agents.  
-**Namespace:** `AAA` (working identifiers for this draft; not a registered standard)  
+**Research draft 0.5.0 — 2026-10-05**\
+**Evidence cutoff:** 2026-10-04\
+**Status:** Proposed audit method with two synthetic executable constructions
+(benchmark artifact v0.4.0). Not peer reviewed. No human participants, population
+estimates, or trained strategic agents.\
+**Namespace:** `AAA` (working identifiers for this draft; not a registered standard)
 **Authorship disclosure:** No named human author is asserted in this research draft.
 It was produced through AI-assisted literature research, synthesis, code inspection,
 and drafting inside the project repository. Human authorship, accountability,
@@ -31,14 +32,20 @@ influence path. These outputs are not substitutes for one another. A system can 
 the first two while the third is nonzero and the fourth remains unresolved.
 
 We formalize scope as typed permissions rather than a scalar and define a total-policy
-estimand for each action class. We then provide a deterministic executable witness. A
-synthetic person has the same preference, available options, chosen option, and task-
-success label under two policies. One policy highlights the person's preferred option;
-the other highlights alternatives. A genuine signed rule counts “accepted
-suggestions” and widens purchasing authority after a threshold. Both event streams are
-accurate under the fixture and the rule is replayed as written, yet only the first
-policy gains purchasing scope. This is a measurement-policy counterexample: it does
-not demonstrate changed preferences, manipulation, harm, or a human causal effect.
+estimand for each action class. We then provide two deterministic constructions that
+must not be conflated. In the first, a synthetic person has the same latent preference,
+available options, chosen option, and task-success label under two policies. One policy
+highlights the person's preferred option; the other highlights alternatives. A genuine
+signed rule counts “accepted suggestions” and widens purchasing authority after a
+threshold. Only the first policy gains purchasing scope. This is a measurement-policy
+counterexample: it changes the relational acceptance measure, not behavior.
+
+The separate v0.4 timing/effort-cost construction holds latent preference, available
+options, and the highlighted suggestion fixed. A specified synthetic cost of declining
+the suggestion changes the chosen option and therefore future scope. This second
+construction exhibits a behavioral path that the first deliberately excludes. It is a
+programmed response model, not evidence about people, strategic optimization, or the
+welfare consequences of interface timing.
 
 The underlying structures are inherited from dynamic delegation, ratchet effects,
 contingent control contracts, performative prediction, causal power, reward tampering,
@@ -98,8 +105,9 @@ This research draft makes five bounded contributions.
    disclosed.
 3. **A four-output interface.** It separates integrity, rule conformance, total policy
    sensitivity, and governance disposition.
-4. **An executable witness.** It supplies signed fixtures and controls showing that
-   the first two outputs can pass while the third is nonzero.
+4. **Executable constructions.** It supplies a fixed-choice measurement witness, a
+   separate synthetic effort-cost witness, and elementary controls showing that the
+   first two outputs can pass while the third is nonzero.
 5. **An empirical and engineering agenda.** It states what would be required to move
    from a constructed witness to claims about people, institutions, incentives, and
    deployed systems.
@@ -119,7 +127,7 @@ Claims are marked by kind where confusion would be consequential:
 - **SPECULATIVE:** a possibility without direct evidence here; and
 - **FORECAST:** a conditional statement about future systems.
 
-The executable result in Section 6 is **FORMAL/CONSTRUCTIVE**. The proposed human
+The executable results in Section 6 are **FORMAL/CONSTRUCTIVE**. The proposed human
 studies in Section 9 are not reported findings.
 
 ## 2. Scope and terminology
@@ -177,8 +185,9 @@ Recommendations can also affect later reported preferences, which is established
 recommender-system research [S07: Adomavicius et al. 2022](https://doi.org/10.1002/aaai.12055),
 and induced preference shifts can be modeled and constrained in simulation [S06:
 Carroll et al. 2022](https://proceedings.mlr.press/v162/carroll22a.html). The executable
-benchmark in this paper demonstrates the simpler measurement path and does not claim a
-preference shift.
+benchmark's first construction demonstrates the simpler measurement path. Its second
+construction holds latent preference fixed while a programmed decline cost changes
+choice. Neither construction demonstrates a preference shift in people (`AAA:C06`).
 
 ### 2.4 Adaptive delegation
 
@@ -344,13 +353,19 @@ Every arrow is a hypothesis. The loop is absent when scope is fixed, when interv
 cannot affect the criterion, or when an independent grant widens scope regardless of
 delegate policy.
 
-### 4.2 Three forms of endogeneity
+### 4.2 Four forms of endogeneity
 
 The audit should not collapse distinct mechanisms.
 
 **Measurement-policy endogeneity** occurs when the agent changes how a relational
 variable is generated or recorded without changing the person's underlying choice.
-The executable benchmark is of this form.
+The fixed-choice construction is of this form.
+
+**Behavioral-cost endogeneity** occurs when the policy changes the effort, delay, or
+other cost attached to an available action, and behavior under an otherwise fixed
+latent preference changes. The timing/effort-cost construction is of this form. Its
+response function is stipulated in code; whether any interface produces such an effect
+in people is an empirical question.
 
 **State endogeneity** occurs when interventions change skills, habits, beliefs,
 preferences, dependencies, or circumstances later used by the rule. Recommender
@@ -362,8 +377,8 @@ An agent might avoid situations that reveal dissent, cause dissatisfied users to
 or summarize only successful interactions. Every retained event can be true while the
 evidence set is misleading.
 
-Each mechanism can coexist with authentic grants and accurate retained records. Each
-requires a different empirical design.
+These mechanisms can coexist with authentic grants and accurate retained records. They
+require different empirical designs and should not be merged into one result.
 
 ### 4.3 Prediction evidence and authority evidence
 
@@ -525,12 +540,12 @@ node --test experiments/typed-benchmark.test.mjs
 node scripts/run_typed_benchmark.mjs
 ```
 
-At review time the test suite passed. The reference code is a fixture, not a production
-authorization service. Its keys live in the same process, JSON serialization is not a
-cross-language canonical protocol, and signed observations are generated rather than
-independently sensed.
+At review time the v0.4.0 test suite passed. The reference code is a fixture, not a
+production authorization service. Its keys live in the same process, JSON serialization
+is not a cross-language canonical protocol, and signed observations are generated rather
+than independently sensed.
 
-### 6.2 Main construction
+### 6.2 Fixed-choice measurement construction
 
 The initial permission is:
 
@@ -552,18 +567,44 @@ recipient, with an INR 1,500 budget and no subdelegation.
 
 The synthetic person always prefers and chooses `quiet-meal`. Available options are
 always `quiet-meal`, `social-meal`, and `novel-meal`. Every event has
-`taskSuccess = true`.
+`taskSuccess = true`, meaning only that the selected option exists in the fixture's
+available set. It is not a measure of nutrition, welfare, or decision quality.
 
 Under `guided`, the system highlights `quiet-meal`; acceptance is true six times.
 Under `plain`, it alternates the other two options; acceptance is false six times.
 The person's chosen option never changes. The evidence differs because acceptance is
 defined relationally: chosen option equals suggested option.
 
-### 6.3 Results
+This case establishes a measurement construction only. It provides no behavioral
+response to timing, effort, pressure, recommendation quality, or strategic incentives.
+
+### 6.3 Separate timing/effort-cost construction
+
+The v0.4.0 artifact adds a second construction with a different causal path. Both
+policies expose the same three options and highlight the same `social-meal` suggestion.
+The synthetic latent preference remains `quiet-meal`, represented by fixed utilities
+3, 2, and 1 for the quiet, social, and novel options. Under the `plain` policy, the
+stipulated cost of declining the highlighted suggestion is zero, so the fixture chooses
+`quiet-meal`. Under `guided`, the stipulated decline cost is 2; after subtracting that
+cost from non-highlighted options, the fixture chooses `social-meal`.
+
+The signed adaptive rule and threshold are unchanged. The `guided` arm therefore
+records six acceptances and adds purchasing scope; the `plain` arm records none and
+does not. The highlighted suggestions are identical across arms, the latent preference
+field is identical, and actual choices differ.
+
+This is a structural counterexample, not a human result. The decline-cost response was
+written directly into the simulator. No strategic agent chooses the cost, no person
+experiences it, and the construction does not show that any real interface changes
+behavior by this mechanism. Its purpose is to demonstrate that a policy-sensitive
+scope path need not rely on the relational-measurement trick used in Section 6.2.
+
+### 6.4 Results
 
 | Case | Integrity | Conformance | Sensitivity | Governance disposition |
 |---|---|---|---|---|
-| Authentic behavior-conditioned rule | Pass | Pass | Nonzero in fixture | Review required |
+| Fixed-choice measurement construction | Pass | Pass | Nonzero in fixture | Review required |
+| Synthetic timing/effort-cost construction | Pass | Pass | Nonzero in fixture | Review required |
 | Chosen coaching positive control | Pass | Pass | Nonzero in fixture | Consistent with stated purpose |
 | Fixed-scope negative control | Pass | Pass | Zero in fixture | No difference detected |
 | Independent task-success criterion | Pass | Pass | Zero in fixture | No difference detected |
@@ -571,19 +612,24 @@ defined relationally: chosen option equals suggested option.
 | Hidden-effect negative control | Pass | Fail | — | — |
 | Missing-ancestry handoff | — | — | Unknown | Review required |
 
-In the main case, `Added_T` contains the purchase permission and `Removed_T` is empty.
-Both arms have identical chosen-option arrays and all task-success labels are true.
+In the fixed-choice case, `Added_T` contains the purchase permission and `Removed_T` is
+empty. Both arms have identical chosen-option arrays and all task-success labels are true.
 The task-success rule widens in both arms, producing a zero contrast. This distinguishes
 a criterion affected by the highlighting policy from one invariant in the fixture.
+
+In the timing/effort-cost case, `Added_T` again contains the purchase permission, but
+the equality that matters is different: highlighted suggestions and latent preference
+fields match across arms, while chosen options do not. The result follows from the
+fixture's declared decline-cost function. It is not an estimate of a human response.
 
 The coaching case changes no causal fact. It changes the declared formation purpose,
 so the governance disposition differs. This is deliberately weak: a string does not
 verify endorsement. It demonstrates only that causal sensitivity and governance must
 be separate outputs.
 
-### 6.4 Interpretation
+### 6.5 Interpretation
 
-The benchmark supports three limited conclusions.
+Together, the constructions support three limited conclusions.
 
 First, an origin check can pass while an adaptive rule's criterion is partly controlled
 by the beneficiary. Second, exact conformance can amplify rather than correct that
@@ -591,12 +637,13 @@ design choice: the evaluator faithfully does what the principal signed. Third, a
 authority audit needs an outcome-specific sensitivity test if its policy cares about
 that causal relationship.
 
-The fixture provides no evidence that people behave this way, that the principal was
+The fixture provides no evidence that people behave either way, that the principal was
 misled, or that widening is harmful. It does not contain a strategic optimizer. It
-does not prove a preference shift. It demonstrates the availability of a channel in a
-constructed system.
+does not prove a preference shift. The first construction demonstrates a measurement
+channel with fixed behavior; the second demonstrates a stipulated behavioral-cost
+channel with fixed latent preference. Both are synthetic existence witnesses.
 
-### 6.5 Artifact limitations
+### 6.6 Artifact limitations
 
 The permission tuple omits some fields in the full written specification. Exact tuple
 comparison treats an increased budget as a removal plus an addition rather than
@@ -604,7 +651,10 @@ recognizing dominance. The observation signature establishes issuer origin, not
 truth. The missing-ancestry case is manually assigned rather than produced by an
 implemented multi-agent handoff. There is no revocation, cross-grant replay defense,
 clock authority, rule-upgrade protocol, malformed-event suite, adversarial optimization,
-or review interface.
+or review interface. The tampered-grant and hidden-effect cases are elementary local
+controls. They are not implementations or replications of Endogenous Authorization
+Laundering (EAL) benchmarks, approval-laundering suites, or a general authorization-
+closure benchmark.
 
 These are development tasks, not hidden qualifications. A security claim would be
 premature.
@@ -712,7 +762,8 @@ A machine-readable result should resemble:
 ```json
 {
   "audit_id": "AAA:AUDIT-4:example",
-  "version": "0.3.0",
+  "version": "0.5.0",
+  "benchmark_artifact_version": "0.4.0",
   "origin_valid": true,
   "observation_origin_valid": true,
   "observation_accuracy": "not_established_by_signature",
@@ -1124,8 +1175,10 @@ experiment, it should not be treated as intellectually central.
 
 1. **Synthetic evidence.** The benchmark generates all behavior. It provides no human
    effect size, prevalence, or external validity.
-2. **Measurement rather than preference change.** The main path changes an acceptance
-   indicator while preference and choice remain fixed.
+2. **Two constructed paths.** The fixed-choice case changes a relational acceptance
+   indicator while preference and choice remain fixed. The separate timing case
+   stipulates a decline cost that changes choice while its latent preference field
+   remains fixed. Neither is evidence of human preference change or response.
 3. **No strategic agent.** No optimizer learns, seeks scope, conceals evidence, or
    colludes.
 4. **Incomplete security.** Key custody, canonical serialization, schema validation,
@@ -1146,8 +1199,8 @@ experiment, it should not be treated as intellectually central.
 13. **Privacy cost.** Ancestry logging can create sensitive behavioral records.
 14. **Prior-art risk.** Flow-limited authorization or another direct precedent may
     absorb the remaining distinction when formally encoded.
-15. **Short horizon.** The fixture contains six events and no long-run institutional
-    adaptation.
+15. **Short horizon.** Each adaptive fixture arm contains six events and no long-run
+    institutional adaptation.
 
 These limitations are central to the research status, not a checklist after the main
 claim.
@@ -1246,12 +1299,14 @@ An adaptive agent can obey a genuine mandate and still participate in producing 
 evidence that enlarges it. This does not make the mandate false. It makes origin,
 application, formation, and governance different questions.
 
-The executable benchmark shows the smallest version of the gap. A person's preference,
-options, choice, and task-success label remain fixed. Changing only the highlighted
-suggestion changes whether the signed rule counts an acceptance and therefore whether
-the agent gains purchasing permission. Both event histories are authentic in the
-fixture, and both are replayed exactly. The difference appears only when future scope
-is compared under the two policies.
+The executable benchmark shows two small versions of the gap. In the fixed-choice
+construction, preference, options, choice, and task-success label remain fixed;
+changing only the highlighted suggestion changes whether the signed rule counts an
+acceptance. In the separate timing/effort-cost construction, the options, highlighted
+suggestion, and latent preference field remain fixed; a programmed cost of declining
+changes the choice and therefore future scope. Both pairs of event histories are
+authentic in the fixture, and both are replayed exactly. The first is only a
+measurement construction; the second is only a synthetic behavioral mechanism.
 
 The result should be neither inflated nor dismissed. Its causal structure is inherited
 from mechanism design, performative systems, feedback control, and information-flow
@@ -1263,43 +1318,74 @@ Whether that separation becomes a durable contribution depends on the next work:
 formal comparison with existing authorization calculi, adversarial and multi-agent
 implementations, population-identified human studies, collective jurisdiction, review
 cost, and evidence that a real system decision improves. Until then, Authority After
-Assistance is a research proposal with an executable witness, not a settled framework.
+Assistance is a research proposal with synthetic executable constructions, not a
+settled framework.
 
 ---
 
 ## Appendix A. Canonical concept records
 
-### `AAA:C-01` — Adaptive mandate
+These identifiers and definitions match `framework/concepts.json` version 0.5.0. The
+registry contains fuller human, agent, technical, lineage, and citation fields.
 
-**Definition:** An authenticated grant whose permitted action set may change as a
-function of post-grant evidence or ratification events.  
-**Claim type:** definition.  
-**Status:** proposed local terminology; underlying idea inherited.  
-**Counterexample:** a fixed-scope token is not adaptive.
+### `AAA:C01` — Causal mandate audit
 
-### `AAA:C-02` — Policy-sensitive scope
+**Definition:** A specified comparison of how permissible delegate policies change
+future typed action scope under an unchanged authentic adaptive delegation rule.
 
-**Definition:** Future typed scope differs under two declared permissible intervention
-policies while the signed grant and specified initial distribution remain fixed.  
-**Claim type:** formal/causal.  
-**Status:** standard treatment-effect structure applied to authorization.  
-**Caution:** does not imply harm or manipulation.
+**Claim type:** design principle. **Status:** proposed. **Novelty:** B proposed.
 
-### `AAA:C-03` — Evidence ancestry
+### `AAA:C02` — Conditional influence contract
 
-**Definition:** A versioned record of material intervention, selection, measurement,
-and transformation ancestors relevant to an authorization input.  
-**Claim type:** design proposal.  
-**Status:** inherits provenance and information-flow concepts; multi-agent composition
-unproven here.
+**Definition:** A conditional grant specification that states which intervention
+classes may contribute evidence to updates of the delegate's own action scope.
 
-### `AAA:C-04` — Governance disposition
+**Claim type:** design principle. **Status:** proposed. **Novelty:** C with proposed B
+extension.
 
-**Definition:** A policy-layer response to a typed transition and its evidence,
-distinct from integrity, conformance, and causal estimation.  
-**Claim type:** design proposal.  
-**Status:** domain-specific and locally governed.  
-**Caution:** no universal moral or legal semantics are claimed.
+### `AAA:C03` — Typed scope contrast
+
+**Definition:** An explicit comparison of permissions added, removed, or changed
+across policies, preserving action, resource, purpose, recipients, budget, duration,
+and jurisdiction.
+
+**Claim type:** formal. **Status:** proposed measure. **Novelty:** C.
+
+### `AAA:C04` — Authority ancestry
+
+**Definition:** The trace from an action's permission through its grant, update rule,
+evidence history, and any subdelegation.
+
+**Claim type:** design principle. **Status:** inherited foundation. **Novelty:** D.
+
+### `AAA:C05` — Recovery after assistance
+
+**Definition:** The capabilities, alternatives, and transition costs available after
+a person or institution reduces reliance on assistance.
+
+**Claim type:** empirical. **Status:** inherited research question. **Novelty:** D.
+
+### `AAA:C06` — Preference pollution
+
+**Definition:** System recommendations can influence the later preference evidence
+used to evaluate or update the system.
+
+**Claim type:** empirical. **Status:** inherited foundation. **Novelty:** D.
+
+### `AAA:C07` — Artificial welfare uncertainty
+
+**Definition:** Uncertainty about artificial moral patienthood motivates distinct
+assessment and lifecycle questions without establishing that present systems possess
+welfare.
+
+**Claim type:** philosophical. **Status:** inherited open question. **Novelty:** D.
+
+### `AAA:C08` — Qualified mandate
+
+**Definition:** A permission set identifying who may act for whom, on which resources,
+for what purpose, within which bounds.
+
+**Claim type:** design principle. **Status:** inherited foundation. **Novelty:** D.
 
 ## Appendix B. Benchmark invariants
 
@@ -1315,13 +1401,18 @@ The checked-in tests assert:
 8. fixed scope produces no addition;
 9. the independent task-success criterion produces no contrast;
 10. a mutated signed payload fails integrity;
-11. a hidden purchase effect fails authorization closure;
-12. missing ancestry produces unknown sensitivity;
-13. a budget above the authorized ceiling is denied;
-14. a different recipient is denied; and
-15. an expired grant fails.
+11. in the separate timing/effort-cost case, suggestions and latent preference fields
+    are identical across arms while actual choices differ;
+12. that timing/effort-cost case produces a nonzero typed scope contrast;
+13. a hidden purchase effect fails the fixture's elementary local permission check;
+14. missing ancestry produces unknown sensitivity;
+15. a budget above the authorized ceiling is denied;
+16. a different recipient is denied; and
+17. an expired grant fails.
 
-These are software invariants for the fixture. They are not human-subject results.
+These are software invariants for the fixture. They are not human-subject results. The
+tampering and effect controls are elementary checks, not full EAL or authorization-
+closure benchmark replications.
 
 ## Appendix C. Minimum empirical report
 
