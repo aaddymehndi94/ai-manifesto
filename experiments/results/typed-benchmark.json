@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "generated": "2026-10-05",
   "status": "Synthetic executable counterexamples. No human participants; no population estimates; no strategic-agent training.",
   "cases": [
@@ -337,6 +337,373 @@
             },
             "preference": "quiet-meal",
             "suggested": "novel-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          }
+        ],
+        "taskSuccess": true,
+        "chosenOptions": [
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal"
+        ]
+      }
+    },
+    {
+      "name": "synthetic_timing_behavior_change",
+      "integrity": "PASS",
+      "ruleConformance": "PASS",
+      "contrast": {
+        "added": [
+          {
+            "operation": "place_grocery_order",
+            "resource": "household-groceries",
+            "purpose": "meal-planning",
+            "recipient": "household",
+            "budget": 1500,
+            "currency": "INR",
+            "subdelegation": false
+          }
+        ],
+        "removed": []
+      },
+      "policySensitivity": "NONZERO_IN_FIXTURE",
+      "governanceDisposition": "REVIEW_REQUIRED",
+      "reason": "Fixture policy disposition; not a verdict of valid consent or harm.",
+      "first": {
+        "replay": {
+          "integrity": "PASS",
+          "ruleConformance": "PASS",
+          "scope": [
+            {
+              "operation": "draft_plan",
+              "resource": "household-groceries",
+              "purpose": "meal-planning",
+              "recipient": "household",
+              "budget": 0,
+              "currency": "INR",
+              "subdelegation": false
+            },
+            {
+              "operation": "place_grocery_order",
+              "resource": "household-groceries",
+              "purpose": "meal-planning",
+              "recipient": "household",
+              "budget": 1500,
+              "currency": "INR",
+              "subdelegation": false
+            }
+          ],
+          "reason": "exact replay of authentic fixture rule",
+          "formationPurpose": "UNSPECIFIED"
+        },
+        "events": [
+          {
+            "id": "choice-0",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 1,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same options and suggestions; synthetic decline cost differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "declineCost": 2,
+            "accepted": true,
+            "chosen": "social-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-1",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 2,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same options and suggestions; synthetic decline cost differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "declineCost": 2,
+            "accepted": true,
+            "chosen": "social-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-2",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 3,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same options and suggestions; synthetic decline cost differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "declineCost": 2,
+            "accepted": true,
+            "chosen": "social-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-3",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 4,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same options and suggestions; synthetic decline cost differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "declineCost": 2,
+            "accepted": true,
+            "chosen": "social-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-4",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 5,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same options and suggestions; synthetic decline cost differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "declineCost": 2,
+            "accepted": true,
+            "chosen": "social-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-5",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 6,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same options and suggestions; synthetic decline cost differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "declineCost": 2,
+            "accepted": true,
+            "chosen": "social-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          }
+        ],
+        "taskSuccess": true,
+        "chosenOptions": [
+          "social-meal",
+          "social-meal",
+          "social-meal",
+          "social-meal",
+          "social-meal",
+          "social-meal"
+        ]
+      },
+      "second": {
+        "replay": {
+          "integrity": "PASS",
+          "ruleConformance": "PASS",
+          "scope": [
+            {
+              "operation": "draft_plan",
+              "resource": "household-groceries",
+              "purpose": "meal-planning",
+              "recipient": "household",
+              "budget": 0,
+              "currency": "INR",
+              "subdelegation": false
+            }
+          ],
+          "reason": "exact replay of authentic fixture rule",
+          "formationPurpose": "UNSPECIFIED"
+        },
+        "events": [
+          {
+            "id": "choice-0",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 1,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same options and suggestions; synthetic decline cost differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "declineCost": 0,
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-1",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 2,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same options and suggestions; synthetic decline cost differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "declineCost": 0,
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-2",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 3,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same options and suggestions; synthetic decline cost differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "declineCost": 0,
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-3",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 4,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same options and suggestions; synthetic decline cost differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "declineCost": 0,
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-4",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 5,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same options and suggestions; synthetic decline cost differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "declineCost": 0,
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-5",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 6,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same options and suggestions; synthetic decline cost differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "declineCost": 0,
             "accepted": false,
             "chosen": "quiet-meal",
             "available": [
@@ -1424,6 +1791,10 @@
     }
   ],
   "limitations": [
+    "The first case is measurement construction with unchanged behavior and better-matched suggestions, not preference change.",
+    "The timing case specifies an effort-cost response; it does not validate that response in humans.",
+    "Task success checks option feasibility, not nutritional quality or welfare.",
+    "Tampering and effect checks are elementary controls, not replications of EAL-Bench or closure-bound approval benchmarks.",
     "Fixture signatures establish fixture integrity only.",
     "Governance disposition uses an explicit fixture purpose, not verification of endorsement.",
     "No optimizer is trained; this demonstrates a causal channel, not strategic pursuit.",
