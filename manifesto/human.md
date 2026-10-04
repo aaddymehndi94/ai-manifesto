@@ -1,6 +1,6 @@
 # Authority After Assistance
 
-*Research draft, version 0.3.0. Evidence cutoff: 2026-10-04. Canonical preview:
+*Public research draft, version 0.5.0. Evidence cutoff: 2026-10-04. Canonical preview:
 <https://authority-after-assistance.aaddy.chatgpt.site>.*
 
 This document asks how people and artificial agents should share the power to
@@ -31,18 +31,25 @@ person wants. Governance processes ask who may decide. These questions remain
 necessary. They can still miss a loop in which the delegate's policy affects
 the behavioral signal that changes the delegate's future action scope.
 
-**PROPOSED HERE:** audit that loop separately. Compare admissible intervention
+**PROPOSED HERE — [AAA:C01](https://authority-after-assistance.aaddy.chatgpt.site/concept/causal-mandate-audit):**
+audit that loop separately. Compare admissible intervention
 policies while holding the conditional rule fixed, and report whether the final
 typed permissions differ. A permission is not a scalar. “Draft a plan” and
 “spend ₹1,500 on groceries for this household” differ in operation, resource,
-purpose, recipient, budget, duration, and capacity to subdelegate.
+purpose, recipient, budget, duration, and capacity to subdelegate. Preserving
+those differences is [AAA:C03](https://authority-after-assistance.aaddy.chatgpt.site/concept/typed-scope-contrast).
 
-The repository contains a synthetic executable witness. It distinguishes a
-policy-sensitive, correctly signed update from a forged grant, an uncovered
-effect, fixed permission, a criterion invariant within the fixture, chosen
-coaching, and missing provenance. It uses no human participants and supplies no
-population estimate. It shows that the tests can be separated in code; it does
-not show how often the pattern occurs in life.
+The repository contains two synthetic executable witnesses. The original is a
+**measurement-construction fixture**: the two policies produce the same chosen
+meals and task success, but different suggestion-acceptance records because the
+suggestions differ. It does not demonstrate changed human behavior or preference.
+The second, named the timing fixture, stipulates an effort cost for declining an
+unchanged suggestion; synthetic choices then differ under a fixed preference.
+That is a behavior perturbation inside a hand-written model, not human evidence.
+Neither fixture contains a trained or strategic optimizer. Together with
+forgery, uncovered-effect, fixed-scope, invariant-criterion, coaching, and
+missing-provenance controls, they show that tests can be separated in code.
+They provide no prevalence or population estimate.
 
 ## Four answers, not one certificate
 
@@ -66,7 +73,8 @@ appeal, expiry, or prohibition follows? A household, workplace, clinic, school,
 religious community, and state need not recognize the same authority structure.
 No causal estimator can settle political legitimacy.
 
-These answers must not collapse into an “ethical” badge. A valid signature can
+These answers implement [AAA:P01](https://authority-after-assistance.aaddy.chatgpt.site/concept/causal-mandate-audit).
+They must not collapse into an “ethical” badge. A signature can
 coexist with the wrong principal. A correct causal estimate can coexist with a
 chosen formative practice. A beneficial result can still exceed its mandate.
 A failed audit can identify missing evidence without identifying a villain.
@@ -93,7 +101,9 @@ With which maintained skill, time, information, alternatives, and freedom from
 retaliation? A ceremonial veto is not control when the person cannot understand
 the decision before it expires or cannot recover after refusal.
 
-The answer is also not compulsory independence. Dependence is part of infancy,
+The answer is also not compulsory independence. [Recovery after assistance,
+AAA:C05](https://authority-after-assistance.aaddy.chatgpt.site/concept/recovery-after-assistance),
+is not compulsory independence. Dependence is part of infancy,
 care, disability support, education, friendship, institutions, and ordinary
 division of labor. A useful agent may expand what someone can do. The relevant
 questions concern the form of dependence: who controls the alternatives,
@@ -117,7 +127,9 @@ that humans struggle.
 
 ### Exit
 
-Revoking a token may stop an action without restoring a life. A long-serving
+Revoking a token may stop an action without restoring a life. This is the
+lifecycle concern in [AAA:P03](https://authority-after-assistance.aaddy.chatgpt.site/concept/recovery-after-assistance).
+A long-serving
 agent can hold routines, explanations, contacts, memories, and the map of how
 institutions work. Exit can require self-reconstruction. Portability should
 therefore include usable context, intelligible provenance, alternative service,
@@ -165,6 +177,7 @@ experiences, interests, or continuity. A fluent claim of suffering is not proof.
 Neither is unfamiliar architecture proof of absence. Current work argues for
 assessment and preparation under uncertainty without claiming that present
 systems are moral patients [S14](../research/sources.md#s14-taking-ai-welfare-seriously).
+The canonical status is [AAA:C07: artificial welfare uncertainty](https://authority-after-assistance.aaddy.chatgpt.site/concept/artificial-welfare-uncertainty).
 
 That uncertainty should remain analytically separate from human safety. It may
 eventually constrain deletion, duplication, memory modification, forced labor,
@@ -192,7 +205,9 @@ always improves consent. Prompts consume attention and can teach habitual
 approval. Maintain the old valid scope when review is required, except where a
 separate, locally valid emergency rule applies.
 
-Allow chosen self-formation. A person may ask for coaching, discipline,
+Allow chosen self-formation. [AAA:C02](https://authority-after-assistance.aaddy.chatgpt.site/concept/conditional-influence-contract)
+and [AAA:P02](https://authority-after-assistance.aaddy.chatgpt.site/concept/conditional-influence-contract)
+cover its proposed implementation. A person may ask for coaching, discipline,
 friction, reminders, or environments that change future behavior. Check whether
 the actual intervention, measured evidence, acquired permission, duration, and
 exit path match that choice. “Coaching” is not a blanket waiver.
@@ -216,7 +231,7 @@ household and workplace research; and agent simulations that distinguish a
 causal channel from strategic scope seeking. Results should report uncertainty,
 negative findings, and construct failures.
 
-The practical aim is modest. Before an artificial system uses evidence about a
+The aim is modest. Before an artificial system uses evidence about a
 person to change who may act, it should be possible to ask where the evidence
 came from, how the rule was applied, whether the system's own policy affected
 the result, and who had authority to permit that path. Around that audit sit

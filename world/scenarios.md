@@ -1,6 +1,7 @@
 # The world we may be entering
 
-Version 0.1.0 — conditional scenario analysis — 2026-10-05
+Version 0.5.0 — public provisional research draft — conditional scenario
+analysis — 2026-10-05
 
 These are not forecasts. Dates are coordination points for testing consequences
 under stated capability assumptions. No adoption percentage, robot price, job
@@ -234,6 +235,23 @@ not established.
 artificial agency, ritual participation, moral standing, creation, and death.
 No single “religious response” is forecast. Serious analysis must distinguish
 institutional teaching, scholarly argument, local authority, and lived practice.
+
+## Relation to the canonical framework
+
+The scenarios do not add canonical concepts. They stress-test the existing
+objects:
+
+- `AAA:C01–AAA:C04` ask how adaptive mandate updates, typed scope, and authority
+  ancestry behave in households, firms, government, and agent-to-agent markets.
+- `AAA:C05` and `AAA:P03` motivate the recovery, apprenticeship, care, and exit
+  branches.
+- `AAA:C06` motivates the preference-feedback branch without assuming an
+  untouched true preference.
+- `AAA:C07` keeps artificial welfare uncertainty separate from human safety.
+- `AAA:C08` requires qualified and sometimes plural authority rather than one
+  generic account owner.
+
+None of the dated scenarios validates these concepts or establishes a trend.
 
 ## Cross-domain equilibria
 

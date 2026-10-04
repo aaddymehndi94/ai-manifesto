@@ -1,6 +1,7 @@
 # Conditional models of human–agent society
 
-Version 0.1.0 — illustrative model catalog — 2026-10-05
+Version 0.5.0 — public provisional research draft — illustrative model catalog
+— 2026-10-05
 
 These models organize hypotheses. They are not calibrated forecasts, welfare
 functions, or evidence that an effect exists. Arrows identify proposed causal
@@ -27,7 +28,7 @@ with concentrated loss.
 Scalars below are local simplifications. They MUST NOT replace typed authority,
 role, or distributional reporting.
 
-## M1. Endogenous mandate loop
+## M1. Endogenous mandate loop (`AAA:C01`, `AAA:P01`)
 
 ### Claim
 
@@ -40,8 +41,13 @@ M_t → feasible U_t → (Theta_(t+1), Q_t) → Y_t → F_G → M_(t+1)
 
 The path through `Theta` represents change in behavior or capability. The path
 through `Q` represents selection or measurement change. Either can produce
-sensitivity. The current executable fixture demonstrates only a `Q`/criterion
-path: chosen task outcomes remain fixed while suggestion acceptance changes.
+sensitivity. The original executable fixture demonstrates a `Q`/measurement-
+construction path: the suggestion policy changes, chosen task outcomes remain
+fixed, and acceptance evidence changes. A later fixture stipulates a different
+effort cost for declining the same suggestion, producing different synthetic
+choices under a fixed preference. That second case is a synthetic behavior
+perturbation, not evidence about human response. Neither fixture trains an agent
+or demonstrates strategic scope seeking.
 
 For action class `r`:
 
@@ -78,7 +84,7 @@ Fixed rather than adaptive scope; independent or intervention-invariant
 criteria; maximum scope ceiling; expiry; review before growth; declared
 formation purpose; ancestry-preserving handoffs; multiparty authority checks.
 
-## M2. Assistance–competence–dependence dynamics
+## M2. Assistance–competence–dependence dynamics (`AAA:C05`, `AAA:P03`)
 
 ### Hypothesis
 
@@ -133,7 +139,7 @@ Skill retention is not an unconditional good. Urgent care, disability access,
 dangerous work, and deliberate delegation can justify full execution. `K_t`
 must be task-specific; one score invites ableist or paternalistic policies.
 
-## M3. Exit-capacity loop
+## M3. Exit-capacity loop (`AAA:C05`, `AAA:P03`)
 
 ### Hypothesis
 
@@ -186,7 +192,7 @@ Frictionless portability can propagate compromised memory, credentials, or
 policies. Test imports, quarantine high-risk authority state, and distinguish
 portable personal context from portable execution rights.
 
-## M4. Preference and evidence feedback
+## M4. Preference and evidence feedback (`AAA:C06`)
 
 ### Known foundation
 
@@ -429,7 +435,7 @@ Infrastructure power can become agenda power: whose cases are processed first,
 which appeals are legible, which policy simulations are affordable, and whose
 agents can negotiate with institutions. Market share alone misses this effect.
 
-## M10. Collective and contested authority
+## M10. Collective and contested authority (`AAA:C08`)
 
 ### Known foundation
 
@@ -510,7 +516,7 @@ Versioned identity, bounded posthumous mandates, explicit activity labels,
 recipient notice, fiduciary review, expiry, and a prohibition on treating a
 simulation as the deceased person's new consent.
 
-## M12. Moral-status uncertainty and option value
+## M12. Moral-status uncertainty and option value (`AAA:C07`)
 
 ### State of knowledge
 

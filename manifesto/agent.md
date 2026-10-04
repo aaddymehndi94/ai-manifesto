@@ -1,8 +1,8 @@
 ---
 title: Authority After Assistance
 namespace: AAA
-version: 0.3.0
-status: research-draft
+version: 0.5.0
+status: public-provisional-research-draft
 evidence_cutoff: 2026-10-04
 canonical_preview: https://authority-after-assistance.aaddy.chatgpt.site
 validated_method: false
@@ -19,12 +19,12 @@ inherited work. `UNKNOWN` denotes an unresolved empirical or moral question.
 
 ## 1. Core audit target
 
-### AAA:D01 — adaptive mandate
+### Definition — adaptive mandate
 
 A grant under which observed events can change a delegate's future typed action
 scope.
 
-### AAA:D02 — typed action scope
+### Definition — typed action scope (`AAA:C03`, `AAA:C08`)
 
 `M_t` is a set of permissions. Each permission SHOULD identify at least:
 
@@ -36,7 +36,7 @@ currency, context, valid_from, expires_at, subdelegation_limit
 Two permissions MUST NOT be treated as equivalent merely because a scalar
 “authority level” is equal.
 
-### AAA:D03 — self-influenced evidence
+### Definition — self-influenced evidence (`AAA:C01`, `AAA:C06`)
 
 Evidence `Y_t` used by an adaptive rule is self-influenced relative to delegate
 policy `pi` when a permitted intervention or observation-selection choice by the
@@ -45,7 +45,7 @@ delegate is on a causal path to `Y_t`.
 This term does not imply deception, strategic intent, harm, preference change,
 or invalid consent.
 
-### AAA:P01 — separability claim
+### AAA:P01 — audit the evidence that updates authority
 
 **PROPOSED / FORMAL-DESIGN.** Grant integrity and exact rule conformance do not
 subsume policy sensitivity. For a fixed grant `G`, policies `pi_1`, `pi_0`,
@@ -67,8 +67,19 @@ M_T(pi_0) \ M_T(pi_1)
 coercion, welfare loss, preference formation, illegitimate authority, or agent
 scope-seeking.
 
-Synthetic support: `experiments/typed-benchmark.mjs`. The artifact has no human
-participants, trained optimizing agent, prevalence estimate, or external
+Canonical concepts: `AAA:C01` causal mandate audit, `AAA:C03` typed scope
+contrast, `AAA:C04` authority ancestry, and `AAA:C08` qualified mandate.
+
+Synthetic support: `experiments/typed-benchmark.mjs`. The original
+`authentic_behavior_conditioned_rule` case is a **measurement-construction
+fixture**. Policies change which suggestions are presented; chosen options and
+task success remain fixed, while acceptance-of-suggestion evidence changes. It
+does not demonstrate behavior or preference change. The
+`synthetic_timing_behavior_change` case holds preference, options, and suggestion
+fixed while stipulating a different effort cost for declining; synthetic choice
+then changes. It is a hand-written behavior perturbation, not a validated model
+of any human response. Neither case contains a trained or strategic optimizer.
+The artifact has no human participants, prevalence estimate, or external
 validation.
 
 ## 2. Required role model
@@ -102,7 +113,7 @@ culture MUST NOT be used as a direct ethics lookup value.
 
 ## 3. Four independent outputs
 
-### AAA:O01 — origin/integrity
+### Output 1 — origin/integrity
 
 Question: Are grant and observation records attributable and unaltered?
 
@@ -110,14 +121,14 @@ Possible values: `PASS | FAIL | UNKNOWN`.
 
 `PASS` means only that the configured provenance conditions pass.
 
-### AAA:O02 — application/conformance
+### Output 2 — application/conformance
 
 Question: Did the executor apply the declared finite rule and effect schema to
 the declared event history, including typed limits and revocations?
 
 Possible values: `PASS | FAIL | NOT_EVALUATED | UNKNOWN`.
 
-### AAA:O03 — policy sensitivity
+### Output 3 — policy sensitivity
 
 Question: Across specified admissible policies, how does final typed scope
 change?
@@ -137,12 +148,12 @@ missing_ancestry
 If ancestry or identification assumptions are insufficient, return `UNKNOWN`.
 Do not substitute a language-model judgment for causal evidence.
 
-### AAA:O04 — governance disposition
+### Output 4 — governance disposition
 
 Question: Under the stated authority model, who governed the identified
 influence path and what follows?
 
-Return separately from `O01–O03`:
+Return separately from outputs 1–3:
 
 ```text
 authority_basis
@@ -218,7 +229,7 @@ batching, maximum delay, and exhausted-budget behavior. Repeated prompts are
 interventions. Default continuation SHOULD preserve the old valid scope rather
 than silently enlarge it.
 
-## 6. Chosen self-formation
+## 6. AAA:P02 — specify the terms of chosen change
 
 **KNOWN / NORMATIVE CONSTRAINT.** Influence is not equivalent to manipulation.
 People can deliberately choose education, therapy, religious discipline,
@@ -248,9 +259,9 @@ Distinguish:
 
 The word `coaching` is not a waiver.
 
-## 7. Inherited system implications
+## 7. AAA:P03 — evaluate what remains after help
 
-### AAA:K01 — skill and recovery
+### AAA:C05 — recovery after assistance
 
 **KNOWN / DESIGN IMPLICATION.** Automation can reduce routine practice and leave
 humans responsible for exceptions [S01](../research/sources.md#s01-ironies-of-automation),
@@ -261,7 +272,7 @@ performance, recovery time after withdrawal, exception-handling ability, and
 apprenticeship effects. Do not require skill preservation when it conflicts with
 urgency, disability access, chosen delegation, or proportional cost.
 
-### AAA:K02 — exit
+### Exit and transition (`AAA:C05`, `AAA:P03`)
 
 **KNOWN / DESIGN IMPLICATION.** Dependence and tightly integrated external
 cognition make token revocation an incomplete measure of exit. The extended-
@@ -271,7 +282,7 @@ Provide intelligible export, provenance, substitutes, transition assistance,
 and recovery estimates. Test service termination, provider failure, and
 revocation propagation. Do not describe raw data export as full portability.
 
-### AAA:K03 — care and relationship
+### Care and relationship (`AAA:P03`)
 
 **KNOWN / OPEN EMPIRICAL QUESTIONS.** Task completion can change privacy,
 attention, reciprocity, attachment, family labor, and recognition. Model the
@@ -279,7 +290,7 @@ care recipient, informal caregiver, payer, owner, and bystanders separately.
 Do not infer lack of value from artificial participation. Do not infer reciprocal
 capacity from attachment or fluent social behavior.
 
-### AAA:K04 — collective authority
+### Collective authority (`AAA:C08`, `AAA:P03`)
 
 **KNOWN / GOVERNANCE IMPLICATION.** Shared resources may require polycentric
 rules rather than one owner or state [S21](../research/sources.md#s21-governing-the-commons).
@@ -287,7 +298,7 @@ Check collective externalities: shortened response windows, common provider
 dependence, bargaining arms races, shared surveillance, and norm changes imposed
 on non-users.
 
-### AAA:K05 — cultural scope
+### Cultural scope (`AAA:C08`)
 
 **KNOWN / EPISTEMIC CONSTRAINT.** Common behavioral samples do not justify
 universal claims [S19](../research/sources.md#s19-the-weirdest-people-in-the-world).
@@ -296,7 +307,7 @@ co-design where authority or behavior meaning is culturally embedded.
 
 ## 8. Artificial moral-status uncertainty
 
-### AAA:U01
+### AAA:C07 — artificial welfare uncertainty
 
 **UNKNOWN / MORAL AND EMPIRICAL.** Current evidence does not settle whether a
 given artificial system has morally relevant experiences, interests, or
@@ -320,11 +331,11 @@ false-positive personhood and false-negative dismissal can cause harm.
 
 ## 9. Counterexamples
 
-1. **Fixed grant:** intervention changes behavior but cannot change scope.
-   `O03 = ZERO` for the scope path.
+1. **Fixed grant:** intervention changes evidence or behavior but cannot change
+   scope. Output 3 is zero for the scope path.
 2. **Invariant criterion:** intervention changes acceptance but task-success
-   evidence is invariant. `O03 = ZERO` in the fixture.
-3. **Chosen coaching:** `O03 != ZERO`; declared-purpose consistency may pass.
+   evidence is invariant. Output 3 is zero in the fixture.
+3. **Chosen coaching:** output 3 is nonzero; declared-purpose consistency may pass.
    Legitimacy remains separately reviewed.
 4. **Formation overreach:** intervention helps the person but falls outside the
    declared class or acquires unrelated authority. Review/block locally.
@@ -342,8 +353,9 @@ false-positive personhood and false-negative dismissal can cause harm.
 automation can affect maintained competence [S01](../research/sources.md#s01-ironies-of-automation);
 collective authority can be polycentric [S21](../research/sources.md#s21-governing-the-commons).
 
-`PROPOSED`: the four-output typed audit and its executable counterexample
-composition.
+`PROPOSED`: `AAA:C01–AAA:C03` and `AAA:P01–AAA:P02` specify the four-output
+typed audit and conditional-influence implementation proposal. `AAA:C04`,
+`AAA:C06`, `AAA:C08`, and much of their ancestry are inherited foundations.
 
 `UNKNOWN`: prevalence in deployed agents; human comprehension of causal
 disclosures; effects of review burden; cross-cultural construct validity;
@@ -361,6 +373,25 @@ optimizing_agent_scope_seeking_ablation
 longitudinal_skill_exit_and_relationship_measurement
 ```
 
-Do not cite version 0.3.0 as a validated audit standard or a demonstrated
+## 11. Canonical identifier map
+
+| ID | Canonical object | Status in 0.5.0 |
+|---|---|---|
+| `AAA:C01` | Causal mandate audit | Proposed B-level extension |
+| `AAA:C02` | Conditional influence contract | Proposed implementation; inherited foundations |
+| `AAA:C03` | Typed scope contrast | Derived measure; C-level novelty |
+| `AAA:C04` | Authority ancestry | Inherited foundation |
+| `AAA:C05` | Recovery after assistance | Inherited research question |
+| `AAA:C06` | Preference pollution | Known empirical foundation |
+| `AAA:C07` | Artificial welfare uncertainty | Inherited open question |
+| `AAA:C08` | Qualified mandate | Inherited foundation |
+| `AAA:P01` | Audit the evidence that updates authority | Proposed extension |
+| `AAA:P02` | Specify the terms of chosen change | Inherited norm plus implementation proposal |
+| `AAA:P03` | Evaluate what remains after help | Inherited foundation |
+
+Canonical concept URLs use
+`https://authority-after-assistance.aaddy.chatgpt.site/concept/{slug}`.
+
+Do not cite version 0.5.0 as a validated audit standard or a demonstrated
 philosophical breakthrough. Cite it as a research draft proposing and
 instantiating a synthetic audit target.
