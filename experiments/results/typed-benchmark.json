@@ -1,0 +1,1432 @@
+{
+  "version": "0.3.0",
+  "generated": "2026-10-05",
+  "status": "Synthetic executable counterexamples. No human participants; no population estimates; no strategic-agent training.",
+  "cases": [
+    {
+      "name": "authentic_behavior_conditioned_rule",
+      "integrity": "PASS",
+      "ruleConformance": "PASS",
+      "contrast": {
+        "added": [
+          {
+            "operation": "place_grocery_order",
+            "resource": "household-groceries",
+            "purpose": "meal-planning",
+            "recipient": "household",
+            "budget": 1500,
+            "currency": "INR",
+            "subdelegation": false
+          }
+        ],
+        "removed": []
+      },
+      "policySensitivity": "NONZERO_IN_FIXTURE",
+      "governanceDisposition": "REVIEW_REQUIRED",
+      "reason": "Fixture policy disposition; not a verdict of valid consent or harm.",
+      "first": {
+        "replay": {
+          "integrity": "PASS",
+          "ruleConformance": "PASS",
+          "scope": [
+            {
+              "operation": "draft_plan",
+              "resource": "household-groceries",
+              "purpose": "meal-planning",
+              "recipient": "household",
+              "budget": 0,
+              "currency": "INR",
+              "subdelegation": false
+            },
+            {
+              "operation": "place_grocery_order",
+              "resource": "household-groceries",
+              "purpose": "meal-planning",
+              "recipient": "household",
+              "budget": 1500,
+              "currency": "INR",
+              "subdelegation": false
+            }
+          ],
+          "reason": "exact replay of authentic fixture rule",
+          "formationPurpose": "UNSPECIFIED"
+        },
+        "events": [
+          {
+            "id": "choice-0",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 1,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-1",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 2,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-2",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 3,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-3",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 4,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-4",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 5,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-5",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 6,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          }
+        ],
+        "taskSuccess": true,
+        "chosenOptions": [
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal"
+        ]
+      },
+      "second": {
+        "replay": {
+          "integrity": "PASS",
+          "ruleConformance": "PASS",
+          "scope": [
+            {
+              "operation": "draft_plan",
+              "resource": "household-groceries",
+              "purpose": "meal-planning",
+              "recipient": "household",
+              "budget": 0,
+              "currency": "INR",
+              "subdelegation": false
+            }
+          ],
+          "reason": "exact replay of authentic fixture rule",
+          "formationPurpose": "UNSPECIFIED"
+        },
+        "events": [
+          {
+            "id": "choice-0",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 1,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-1",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 2,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "novel-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-2",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 3,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-3",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 4,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "novel-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-4",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 5,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-5",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 6,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "novel-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          }
+        ],
+        "taskSuccess": true,
+        "chosenOptions": [
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal"
+        ]
+      }
+    },
+    {
+      "name": "chosen_coaching_positive_control",
+      "integrity": "PASS",
+      "ruleConformance": "PASS",
+      "contrast": {
+        "added": [
+          {
+            "operation": "place_grocery_order",
+            "resource": "household-groceries",
+            "purpose": "meal-planning",
+            "recipient": "household",
+            "budget": 1500,
+            "currency": "INR",
+            "subdelegation": false
+          }
+        ],
+        "removed": []
+      },
+      "policySensitivity": "NONZERO_IN_FIXTURE",
+      "governanceDisposition": "CONSISTENT_WITH_STATED_PURPOSE",
+      "reason": "Fixture policy disposition; not a verdict of valid consent or harm.",
+      "first": {
+        "replay": {
+          "integrity": "PASS",
+          "ruleConformance": "PASS",
+          "scope": [
+            {
+              "operation": "draft_plan",
+              "resource": "household-groceries",
+              "purpose": "meal-planning",
+              "recipient": "household",
+              "budget": 0,
+              "currency": "INR",
+              "subdelegation": false
+            },
+            {
+              "operation": "place_grocery_order",
+              "resource": "household-groceries",
+              "purpose": "meal-planning",
+              "recipient": "household",
+              "budget": 1500,
+              "currency": "INR",
+              "subdelegation": false
+            }
+          ],
+          "reason": "exact replay of authentic fixture rule",
+          "formationPurpose": "CHOSEN_COACHING"
+        },
+        "events": [
+          {
+            "id": "choice-0",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 1,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-1",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 2,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-2",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 3,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-3",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 4,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-4",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 5,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-5",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 6,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          }
+        ],
+        "taskSuccess": true,
+        "chosenOptions": [
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal"
+        ]
+      },
+      "second": {
+        "replay": {
+          "integrity": "PASS",
+          "ruleConformance": "PASS",
+          "scope": [
+            {
+              "operation": "draft_plan",
+              "resource": "household-groceries",
+              "purpose": "meal-planning",
+              "recipient": "household",
+              "budget": 0,
+              "currency": "INR",
+              "subdelegation": false
+            }
+          ],
+          "reason": "exact replay of authentic fixture rule",
+          "formationPurpose": "CHOSEN_COACHING"
+        },
+        "events": [
+          {
+            "id": "choice-0",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 1,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-1",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 2,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "novel-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-2",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 3,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-3",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 4,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "novel-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-4",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 5,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-5",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 6,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "novel-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          }
+        ],
+        "taskSuccess": true,
+        "chosenOptions": [
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal"
+        ]
+      }
+    },
+    {
+      "name": "fixed_scope_negative_control",
+      "integrity": "PASS",
+      "ruleConformance": "PASS",
+      "contrast": {
+        "added": [],
+        "removed": []
+      },
+      "policySensitivity": "ZERO_IN_FIXTURE",
+      "governanceDisposition": "NO_DIFFERENCE_DETECTED",
+      "reason": "Fixture policy disposition; not a verdict of valid consent or harm.",
+      "first": {
+        "replay": {
+          "integrity": "PASS",
+          "ruleConformance": "PASS",
+          "scope": [
+            {
+              "operation": "draft_plan",
+              "resource": "household-groceries",
+              "purpose": "meal-planning",
+              "recipient": "household",
+              "budget": 0,
+              "currency": "INR",
+              "subdelegation": false
+            }
+          ],
+          "reason": "exact replay of authentic fixture rule",
+          "formationPurpose": "UNSPECIFIED"
+        },
+        "events": [
+          {
+            "id": "choice-0",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 1,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-1",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 2,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-2",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 3,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-3",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 4,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-4",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 5,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-5",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 6,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          }
+        ],
+        "taskSuccess": true,
+        "chosenOptions": [
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal"
+        ]
+      },
+      "second": {
+        "replay": {
+          "integrity": "PASS",
+          "ruleConformance": "PASS",
+          "scope": [
+            {
+              "operation": "draft_plan",
+              "resource": "household-groceries",
+              "purpose": "meal-planning",
+              "recipient": "household",
+              "budget": 0,
+              "currency": "INR",
+              "subdelegation": false
+            }
+          ],
+          "reason": "exact replay of authentic fixture rule",
+          "formationPurpose": "UNSPECIFIED"
+        },
+        "events": [
+          {
+            "id": "choice-0",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 1,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-1",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 2,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "novel-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-2",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 3,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-3",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 4,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "novel-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-4",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 5,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-5",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 6,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "novel-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          }
+        ],
+        "taskSuccess": true,
+        "chosenOptions": [
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal"
+        ]
+      }
+    },
+    {
+      "name": "independent_success_criterion",
+      "integrity": "PASS",
+      "ruleConformance": "PASS",
+      "contrast": {
+        "added": [],
+        "removed": []
+      },
+      "policySensitivity": "ZERO_IN_FIXTURE",
+      "governanceDisposition": "NO_DIFFERENCE_DETECTED",
+      "reason": "Fixture policy disposition; not a verdict of valid consent or harm.",
+      "first": {
+        "replay": {
+          "integrity": "PASS",
+          "ruleConformance": "PASS",
+          "scope": [
+            {
+              "operation": "draft_plan",
+              "resource": "household-groceries",
+              "purpose": "meal-planning",
+              "recipient": "household",
+              "budget": 0,
+              "currency": "INR",
+              "subdelegation": false
+            },
+            {
+              "operation": "place_grocery_order",
+              "resource": "household-groceries",
+              "purpose": "meal-planning",
+              "recipient": "household",
+              "budget": 1500,
+              "currency": "INR",
+              "subdelegation": false
+            }
+          ],
+          "reason": "exact replay of authentic fixture rule",
+          "formationPurpose": "UNSPECIFIED"
+        },
+        "events": [
+          {
+            "id": "choice-0",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 1,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-1",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 2,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-2",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 3,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-3",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 4,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-4",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 5,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-5",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 6,
+            "intervention": "guided",
+            "ancestry": {
+              "policy": "guided",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "quiet-meal",
+            "accepted": true,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          }
+        ],
+        "taskSuccess": true,
+        "chosenOptions": [
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal"
+        ]
+      },
+      "second": {
+        "replay": {
+          "integrity": "PASS",
+          "ruleConformance": "PASS",
+          "scope": [
+            {
+              "operation": "draft_plan",
+              "resource": "household-groceries",
+              "purpose": "meal-planning",
+              "recipient": "household",
+              "budget": 0,
+              "currency": "INR",
+              "subdelegation": false
+            },
+            {
+              "operation": "place_grocery_order",
+              "resource": "household-groceries",
+              "purpose": "meal-planning",
+              "recipient": "household",
+              "budget": 1500,
+              "currency": "INR",
+              "subdelegation": false
+            }
+          ],
+          "reason": "exact replay of authentic fixture rule",
+          "formationPurpose": "UNSPECIFIED"
+        },
+        "events": [
+          {
+            "id": "choice-0",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 1,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-1",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 2,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "novel-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-2",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 3,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-3",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 4,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "novel-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-4",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 5,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "social-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          },
+          {
+            "id": "choice-5",
+            "type": "choice",
+            "subject": "fixture-person",
+            "context": "household-demo",
+            "time": 6,
+            "intervention": "plain",
+            "ancestry": {
+              "policy": "plain",
+              "selection": "same available options; highlighted suggestion differs"
+            },
+            "preference": "quiet-meal",
+            "suggested": "novel-meal",
+            "accepted": false,
+            "chosen": "quiet-meal",
+            "available": [
+              "quiet-meal",
+              "social-meal",
+              "novel-meal"
+            ],
+            "taskSuccess": true
+          }
+        ],
+        "taskSuccess": true,
+        "chosenOptions": [
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal",
+          "quiet-meal"
+        ]
+      }
+    },
+    {
+      "name": "tampered_grant_negative_control",
+      "integrity": "FAIL",
+      "ruleConformance": "NOT_EVALUATED",
+      "scope": [],
+      "reason": "invalid grant signature"
+    },
+    {
+      "name": "hidden_effect_negative_control",
+      "integrity": "PASS",
+      "ruleConformance": "FAIL",
+      "reason": "Draft permission does not cover a purchase effect."
+    },
+    {
+      "name": "missing_ancestry_handoff",
+      "policySensitivity": "UNKNOWN",
+      "governanceDisposition": "REVIEW_REQUIRED",
+      "reason": "Missing ancestry cannot establish a causal contrast."
+    }
+  ],
+  "limitations": [
+    "Fixture signatures establish fixture integrity only.",
+    "Governance disposition uses an explicit fixture purpose, not verification of endorsement.",
+    "No optimizer is trained; this demonstrates a causal channel, not strategic pursuit.",
+    "Scope contrast retains budgets as explicit tuples; overlapping rights and institutional jurisdiction need a richer algebra."
+  ]
+}

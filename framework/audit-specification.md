@@ -1,6 +1,6 @@
 # Causal audit of adaptive delegation
 
-Version 0.2.0 — research specification — 2026-10-04.
+Version 0.3.0 — research specification — 2026-10-05. Evidence cutoff 2026-10-04.
 
 The candidate contribution is a benchmark class: accurate human-behavior evidence
 can be endogenous to the same delegate whose future action scope it helps update
@@ -74,16 +74,20 @@ requires disclosed weights and can never replace the typed report.
 | Collective mandate, one resident measured | Yes | Accepts under bad role model | Possibly positive | Role-authority error distinct from influence |
 | Compression drops intervention ancestry | Events may be true | Rule can accept | Sensitivity hidden | Handoff audit target |
 
-## Three audit questions
+## Four separate audit outputs
 
 1. **Origin:** Are the grants and observations authentic and unaltered?
 2. **Application:** Does the executor correctly apply the granted rule to the
    complete relevant event and effect history?
-3. **Formation:** How sensitive are the rule's jurisdictional inputs to the
-   delegate's permissible interventions, and did the principal govern that path?
+3. **Sensitivity:** How do complete intervention policies change the resulting
+   typed action scope? This is a total policy contrast, not a path-specific
+   effect of preference formation.
+4. **Governance:** Did the appropriate principal govern the relevant influence
+   path? Report a distinct review disposition; neither signatures nor the causal
+   contrast establish voluntary, informed, or culturally legitimate authorization.
 
 The distinction is an engineering test decomposition. It is not advertised as
-three original philosophical principles.
+four original philosophical principles.
 
 ## Proposed grant fields
 
