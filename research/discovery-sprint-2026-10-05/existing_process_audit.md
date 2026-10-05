@@ -159,11 +159,13 @@ is proof of priority.
 
 The live `/paper.md`, `/manifesto.md`, and `/agent.md` return HTTP 200 and exactly
 match their local source texts. Public concepts and principles return 200; their
-serialization includes publication packaging, so byte inequality alone is not
-an intellectual discrepancy. The browser/web extraction tool could not access
+serialization differs, but parsed field-by-field comparisons find no differences
+in any of the eight concepts or three principles. The browser/web extraction tool could not access
 the site, but direct HTTP access succeeded. No new publication was made.
 
-`idea_graph.json` preserves all 169 old records and 32 recorded parent edges. Its
+`idea_graph.json` preserves all 169 canonical records, 120 additional local
+field-map records, and 32 recorded parent edges. These are 289 historical records,
+not a claim of 289 semantically distinct hypotheses. Its
 variable, level, timescale, and interaction annotations are explicitly heuristic
 retrieval aids, not established causal edges or new measurements. Three childless
 superseded roots are machine-visible. `check-baseline.mjs` checks 100 frozen files.

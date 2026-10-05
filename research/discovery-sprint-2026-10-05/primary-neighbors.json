@@ -1,0 +1,110 @@
+{
+  "version": "0.1.0",
+  "accessed": "2026-10-05",
+  "purpose": "Newly inspected primary neighbors for subsequent courts. This is not a candidate verdict or comprehensive bibliography.",
+  "sources": [
+    {
+      "id": "D4:S001",
+      "title": "The Geometry of Learning Under AI Delegation",
+      "authors": ["Lingxiao Huang", "Nisheeth K. Vishnoi"],
+      "year": 2026,
+      "url": "https://arxiv.org/html/2603.02950v1",
+      "primary_record": "https://arxiv.org/abs/2603.02950",
+      "status": "preprint version 1; venue status not independently established here",
+      "inspection": "Abstract, introduction, model, stated equilibria and basin result, selected extension details; full proof audit not performed.",
+      "known_proposition": "A coupled skill/delegation system driven by instantaneous performance can have distinct reliance and skill equilibria with a separating basin boundary; immediate gains can coexist with eventual losses even without incentive conflict.",
+      "variables": ["task skill", "delegation probability", "AI quality", "practice", "decay", "performance loss"],
+      "model_boundary": "One learner and task-specific scalar skill, fixed AI quality parameter in the main model, external evaluation and specified skill dynamics.",
+      "court_warning": "A new name for an endogenous human benchmark, skill/delegation feedback, hysteresis or locally aligned/global adverse dynamics is insufficient. Compare exact mechanisms and new outcomes."
+    },
+    {
+      "id": "D4:S002",
+      "title": "Adaptive AI Delegation under Uncertainty: A Bayesian Governance Policy for Sequential Decision Authority",
+      "authors": ["Matthew Francis Dixon"],
+      "year": 2026,
+      "url": "https://arxiv.org/html/2606.29406v1",
+      "primary_record": "https://arxiv.org/abs/2606.29406",
+      "status": "preprint version 1",
+      "inspection": "Abstract, positioning and design/model sections; full implementation and benchmark replication not performed.",
+      "known_proposition": "Organizational delegation can be a sequential Bayesian governance decision separating model evidence, recommendation and self-reported confidence, and blending AI action with a reference process.",
+      "variables": ["belief state", "delegation weight", "reference recommendation", "validated evidence", "risk", "governance objective"],
+      "model_boundary": "The inspected operational authority representation is a scalar blending weight; do not infer coverage or absence of every endogenous institution from the abstract.",
+      "court_warning": "Adaptive decision authority and evidence/confidence separation already have direct treatment. Any different endogenous measurement path needs a model-level comparison."
+    },
+    {
+      "id": "D4:S003",
+      "title": "Performative Power",
+      "authors": ["Moritz Hardt", "Meena Jagadeesan", "Celestine Mendler-Dünner"],
+      "year": 2022,
+      "url": "https://arxiv.org/html/2203.17232",
+      "primary_record": "https://arxiv.org/abs/2203.17232",
+      "status": "primary author manuscript; version-specific venue metadata not rechecked here",
+      "inspection": "Abstract, definitions, learning-versus-steering decomposition, ex-post optimization and multiple-firm equilibrium section; all proofs not audited.",
+      "known_proposition": "A firm's capacity to change participant outcomes bounds gains from steering rather than learning alone; the framework also considers simultaneous ex-post optimization by multiple firms.",
+      "variables": ["firm policy", "induced population distribution", "potential outcomes", "objective", "outside option", "competition"],
+      "model_boundary": "A generic causal power object does not itself supply welfare judgments. Multi-firm steering is expressly present, so coupled controllers alone are no novelty residue.",
+      "court_warning": "Do not claim provider-benefiting steering or multiple agents shaping the same population as newly identified primitives."
+    },
+    {
+      "id": "D4:S004",
+      "title": "Delegation and Verification under AI",
+      "authors": ["Lingxiao Huang", "Wenyang Xiao", "Nisheeth K. Vishnoi"],
+      "year": 2026,
+      "url": "https://arxiv.org/html/2603.02961v2",
+      "primary_record": "https://arxiv.org/abs/2603.02961",
+      "status": "preprint version 2; publisher proceedings not checked here",
+      "inspection": "Abstract, contribution statements, main model boundary; robustness sections not fully inspected.",
+      "known_proposition": "Rational worker delegation and verification can create sharp workflow transitions and divergence between privately optimal behavior and institution-centered quality; stronger AI or verification ability need not monotonically improve institutional quality.",
+      "variables": ["delegation", "verification effort", "verification reliability", "execution efficiency", "worker utility", "institution utility"],
+      "model_boundary": "Main model is static and per-task; the paper lists extensions including multi-round interaction. Those extensions require direct inspection before a missing-long-run claim.",
+      "court_warning": "Rational over-delegation, verification bottlenecks and non-monotone effects are directly anticipated."
+    },
+    {
+      "id": "D4:S005",
+      "title": "Are You Still the Agent I Authorized? Earned Authority under a Fixed Ceiling for Evolving Agents",
+      "authors": ["Zhaoxi Zhang", "Xiaomei Zhang"],
+      "year": 2026,
+      "url": "https://arxiv.org/html/2607.23586v1",
+      "primary_record": "https://arxiv.org/abs/2607.23586",
+      "status": "preprint version 1, submitted 2026-07-26",
+      "inspection": "Abstract, introduction, system/threat model, main state-bound model, non-amplification statement/proof and conditional ascent section; appendices not fully audited.",
+      "known_proposition": "A grant can constrain changing agents with an immutable protected-effect ceiling and a transition envelope; evidence produced during operation may allocate active authority within the ceiling but cannot raise that ceiling.",
+      "variables": ["agent/context state", "mutation labels", "requested effects", "realized effects", "active authority", "grant ceiling", "evidence gate"],
+      "model_boundary": "Effect containment depends on mediation, sound abstraction, attenuation and monitor integrity. The inspected conditional-ascent section distinguishes reliability evidence from an adversarial upper bound.",
+      "court_warning": "This is a direct comparator for evidence-conditioned scope, beneficiary-produced evidence, permission partial orders and changing effective reach. Do not assume fresh approval gives causal independence."
+    },
+    {
+      "id": "D4:S006",
+      "title": "Agent Incentives: A Causal Perspective",
+      "authors": ["Tom Everitt", "Ryan Carey", "Eric Langlois", "Pedro A. Ortega", "Shane Legg"],
+      "year": 2021,
+      "url": "https://arxiv.org/abs/2102.01685",
+      "status": "primary preprint record; publication version not checked here",
+      "inspection": "Primary abstract only; theorem assumptions and full text pending.",
+      "known_proposition": "Causal influence diagrams support sound and complete graphical criteria for several incentive concepts, including instrumental control incentives.",
+      "court_warning": "Showing an indirect utility path through authority does not create a new instrumental-control theorem. Inspect its graph criteria first."
+    },
+    {
+      "id": "D4:S007",
+      "title": "Natural Selection Favors AIs over Humans",
+      "authors": ["Dan Hendrycks"],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2303.16200",
+      "status": "primary preprint record; version history not yet audited",
+      "inspection": "Primary record and search-extracted discussion of competition, relinquished oversight and expanding agent access; full text pending.",
+      "known_proposition": "The paper argues that economic or national competition can favor autonomous AI deployment and expanded delegated control, with selection pressures relevant to system behavior.",
+      "court_warning": "Selection into broader delegated roles is already discussed. Compare whether intent, deception and self-preservation are necessary premises of the specific passage rather than treating the whole paper as one claim."
+    },
+    {
+      "id": "D4:S008",
+      "title": "AI Agent Economics: Can Autonomous Economic Behavior Emerge among AI Agents under Minimal External Conditions?",
+      "authors": ["Lingyun Zhang", "Shang Shang"],
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2608.03076",
+      "status": "preprint, submitted 2026-08-04",
+      "inspection": "Primary abstract only; environments, code and reported outcomes unreplicated.",
+      "known_proposition": "The reported agent worlds distinguish executable allocation rights and productive work from merely symbolic resources and role prompts when examining emergent exchange and task access.",
+      "court_warning": "Executable rights affecting future feasible actions already form an empirical multi-agent research object. Model design must distinguish authored incentives from discovered behavioral outcomes."
+    }
+  ]
+}

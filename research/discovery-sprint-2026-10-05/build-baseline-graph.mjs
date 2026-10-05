@@ -5,7 +5,8 @@ import { execFileSync } from 'node:child_process';
 
 const root = execFileSync('git', ['rev-parse', '--show-toplevel'], {encoding:'utf8'}).trim();
 const here = path.join(root, 'research/discovery-sprint-2026-10-05');
-const read = file => JSON.parse(fs.readFileSync(path.join(root,file), 'utf8'));
+const frozenText = file => execFileSync('git',['show',`aaa-v0.5-baseline:${file}`],{encoding:'utf8',maxBuffer:10*1024*1024});
+const read = file => JSON.parse(frozenText(file));
 const population = read('research/idea_population.json');
 const ledger = read('research/novelty-ledger.json');
 const all = population.generations.flatMap(g => g.candidates);
@@ -66,6 +67,32 @@ const nodes = all.map(c => {
     interaction_candidates:[],
   };
 });
+// All 120 local field-map records were outside the canonical tournament. Preserve
+// them separately, without inventing rejected status, score, or parent mappings.
+for(const file of ['research/notes/ai-robotics-prior-art.md','research/notes/human-sciences-prior-art.md','research/notes/systems-governance-prior-art.md']){
+  const lines=frozenText(file).split('\n');
+  for(let i=0;i<lines.length;i++){
+    if(!/^\| (AR-\d+|HS-C\d+|SG-\d+) \|/.test(lines[i]))continue;
+    const columns=lines[i].split('|').slice(1,-1).map(x=>x.trim());
+    const [id,proposition,family,testOrDecision,decision]=columns;
+    const text=columns.join(' ');
+    const tags=Object.entries(variables).filter(([,re])=>re.test(text)).map(([k])=>k);
+    const layer=Object.entries(levels).filter(([,re])=>re.test(text)).map(([k])=>k);
+    const name=proposition.match(/\*\*(.*?)\*\*/)?.[1]??id;
+    nodes.push({id,record_kind:'LOCAL_FIELD_MAP_SEED',generation:0,name,proposition,
+      baseline_status:decision??testOrDecision??'LOCAL_SEED_NO_CANONICAL_DECISION',
+      reason_for_rejection_or_retirement:null,closest_literature_family:family,
+      proposed_distinguishing_test:columns.length>=5?testOrDecision:null,
+      historical_scores:null,novelty_score:null,generative_power_score:null,research_program_potential_score:null,
+      score_status:'Not scored in canonical population; no score invented.',parents:[],children:[],
+      variables:tags,level_of_analysis:layer.length?layer:['unresolved'],timescale:'unresolved_in_local_record',
+      annotation_method:'Exact local table cells plus vocabulary-assisted retrieval tags; not a new novelty judgment.',
+      prior_art_verification:'Local field-map ancestry; no new complete-proposition comparison.',
+      source:{path:file,line:i+1},original_table_cells:columns,
+      interaction_candidates:[],superseded_without_recorded_child:false,
+    });
+  }
+}
 // These edges suggest places to inspect; they do not assert that the composition
 // exists, is important, or is novel. Keep that epistemic distinction machine-readable.
 const interactionEdges = [];
@@ -82,11 +109,12 @@ const graph = {
   version:'0.1.0', namespace:'D4', baseline:'aaa-v0.5-baseline',
   meaning:'Mutation-library index. Historical rejection is preserved, not endorsed as a composition-level refutation.',
   annotation_limits:'Keyword-assisted tagging and co-occurrence edges are retrieval aids. No causal edge or new novelty judgment is inferred from them.',
+  record_counts:{canonical_candidates:all.length,local_field_map_seeds:nodes.length-all.length,distinct_hypotheses:'Not established; historical records overlap.'},
   nodes,
   edges:[...all.flatMap(c=>(c.parents??[]).map(id=>({from:id,to:c.id,type:'recorded_parent'}))),...interactionEdges],
 };
 fs.writeFileSync(path.join(here,'idea_graph.json'), JSON.stringify(graph,null,2)+'\n');
 const files = execFileSync('git',['ls-tree','-r','--name-only','aaa-v0.5-baseline'],{encoding:'utf8'}).trim().split('\n');
-const hashes = files.filter(f=>/^(research|paper|manifesto|framework|world|experiments|debates|reviews|site|public|scripts)\//.test(f)).map(file=>({file,sha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex')}));
+const hashes = files.filter(f=>/^(research|paper|manifesto|framework|world|experiments|debates|reviews|site|public|scripts)\//.test(f)).map(file=>({file,sha256:crypto.createHash('sha256').update(execFileSync('git',['show',`aaa-v0.5-baseline:${file}`],{maxBuffer:10*1024*1024})).digest('hex')}));
 fs.writeFileSync(path.join(here,'baseline-hashes.json'),JSON.stringify({baseline:'aaa-v0.5-baseline',files:hashes},null,2)+'\n');
 console.log(JSON.stringify({nodes:nodes.length,recorded_parent_edges:graph.edges.filter(e=>e.type==='recorded_parent').length,retrieval_edges:interactionEdges.length,retired_without_children:nodes.filter(n=>n.superseded_without_recorded_child).map(n=>n.id),hashed_files:hashes.length}));
