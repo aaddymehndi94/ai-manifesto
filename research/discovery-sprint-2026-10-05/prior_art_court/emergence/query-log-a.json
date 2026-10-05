@@ -1,0 +1,268 @@
+{
+  "date": "2026-10-05",
+  "agent": "audit_selection_g4",
+  "stage": "POST_87ee7bc_GATE_ACTUAL_PRIMARY_COMPOSITION_SEARCH",
+  "scope": [
+    "E4:M004",
+    "E4:M023"
+  ],
+  "query_count": 28,
+  "queries": [
+    {
+      "batch": 1,
+      "queries": [
+        "Ian Hacking Kinds of People Moving Targets 2007 pdf looping effects",
+        "Perdomo performative prediction 2020 proceedings mlr",
+        "Merton self fulfilling prophecy 1948 pdf"
+      ],
+      "date": "2026-10-05",
+      "method": "tools.web__run search_query; literal queries preserved",
+      "purpose": "Classification looping, performativity, self-fulfilling mechanisms"
+    },
+    {
+      "batch": 2,
+      "queries": [
+        "Callon 1986 scallops translation obligatory passage point pdf",
+        "Bowker Star Sorting Things Out classifications invisible excluded pdf introduction",
+        "communal land registration individual title excludes claims appeals legal translation Scott seeing like state"
+      ],
+      "date": "2026-10-05",
+      "method": "tools.web__run search_query; literal queries preserved",
+      "purpose": "Translation, classification infrastructure, communal/individual rights"
+    },
+    {
+      "batch": 3,
+      "queries": [
+        "Felstiner Abel Sarat emergence transformation disputes naming blaming claiming 1980 pdf",
+        "Seeing Like a State Scott 1998 land tenure cadastral maps pdf",
+        "Exit Voice Loyalty Hirschman 1970 chapter voice pdf",
+        "Ensign Friedler Scheidegger Venkatasubramanian runaway feedback loops predictive policing 2018 pmlr"
+      ],
+      "date": "2026-10-05",
+      "method": "tools.web__run search_query; literal queries preserved",
+      "purpose": "Dispute formation, cadastral translation, organizational voice, allocation feedback"
+    },
+    {
+      "batch": 4,
+      "queries": [
+        "Felstiner Abel Sarat naming blaming claiming pdf law society 1981 filetype:pdf",
+        "Scott Seeing Like a State cadastral maps land tenure pdf yale",
+        "Hirschman Exit Voice Loyalty chapter 1 1970 pdf author"
+      ],
+      "date": "2026-10-05",
+      "method": "tools.web__run search_query; literal queries preserved",
+      "purpose": "Accessible primary copies for disputes, tenure and voice"
+    },
+    {
+      "batch": 5,
+      "queries": [
+        "Felstiner Abel Sarat naming blaming claiming pdf",
+        "Scott Seeing Like a State pdf cadastral land common property"
+      ],
+      "date": "2026-10-05",
+      "method": "tools.web__run search_query; literal queries preserved",
+      "purpose": "Alternative primary disputes/tenure copies"
+    },
+    {
+      "batch": 6,
+      "queries": [
+        "\"Felstiner\" \"Sarat\" \"631\" pdf naming university",
+        "\"The Self-Fulfilling Prophecy\" Merton pdf edu",
+        "\"Seeing Like a State\" Yale University Press Scott 1998"
+      ],
+      "date": "2026-10-05",
+      "method": "tools.web__run search_query; literal queries preserved",
+      "purpose": "Publication identity and accessible Merton/Felstiner/Scott primary texts"
+    },
+    {
+      "batch": 7,
+      "queries": [
+        "performative prediction stateful world Brown Hod Roth 2022 proceedings",
+        "semantic interoperability exclusion standing procurement complaints classification appeal selection paper"
+      ],
+      "date": "2026-10-05",
+      "method": "tools.web__run search_query; literal queries preserved",
+      "purpose": "Stateful performativity and cross-field procurement/standing equivalents"
+    },
+    {
+      "batch": 8,
+      "queries": [
+        "\"complaints\" \"performance\" \"silence\" organizations legitimacy complaint handling study",
+        "\"complaint\" \"denominator\" \"selection\" accountability algorithm",
+        "\"translation\" \"standing\" \"classification\" rights information infrastructure"
+      ],
+      "date": "2026-10-05",
+      "method": "tools.web__run search_query; literal queries preserved",
+      "purpose": "Complaint metrics, institutional silence and rights/classification equivalents"
+    },
+    {
+      "batch": 9,
+      "queries": [
+        "\"right to be forgotten\" \"identity\" \"Hacking\"",
+        "\"data deletion\" \"self-fulfilling\" classification",
+        "\"erasure\" \"looping effects\" identity"
+      ],
+      "date": "2026-10-05",
+      "method": "tools.web__run search_query; literal queries preserved",
+      "purpose": "Erasure/identity equivalents beyond classification-loop phrase"
+    },
+    {
+      "batch": 10,
+      "queries": [
+        "\"Some elements of a sociology of translation\" \"1986\" publisher",
+        "\"The Self-Fulfilling Prophecy\" \"4609267\" Merton"
+      ],
+      "date": "2026-10-05",
+      "method": "tools.web__run search_query; literal queries preserved",
+      "purpose": "Publication provenance verification for Callon and Merton"
+    }
+  ],
+  "verified_inspected_primary_works": [
+    {
+      "id": "A-HACKING-2007",
+      "title": "Kinds of People: Moving Targets",
+      "publication_url": "https://doi.org/10.5871/bacad/9780197264249.003.0010",
+      "inspected_url": "https://www.thebritishacademy.ac.uk/documents/2043/pba151p285.pdf",
+      "coverage": "Printed pp.285–291 and 293–299 via untruncated pdftotext; autism discussion printed pp.300–304 and resistance pp.311 through extracted web passages.",
+      "limits": "Not a complete 34-page reading; historical medical statements are not treated as current medical evidence."
+    },
+    {
+      "id": "A-MERTON-1948",
+      "title": "The Self-Fulfilling Prophecy",
+      "publication_url": "https://www.jstor.org/stable/4609267",
+      "inspected_url": "https://entrepreneurscommunicate.pbworks.com/f/Merton.%2520Self%2520Fulfilling%2520Profecy.pdf",
+      "coverage": "Web extracted printed pp.193–197; pdftotext pp.197–202 and 204–210. The long latter extraction had a truncation around p.203.",
+      "limits": "Do not claim every page read. Historical examples illustrate the author's mechanism; not independently replicated here."
+    },
+    {
+      "id": "A-BOWKER-STAR-1999",
+      "title": "Sorting Things Out: Classification and Its Consequences",
+      "publication_url": "https://doi.org/10.7551/mitpress/6352.001.0001",
+      "inspected_url": "https://ics.uci.edu/~gbowker/classification/",
+      "coverage": "Author-hosted Introduction opening; selected chapter 9 membership/control/reversibility passages; chapter 10 argument and voice/exclusion design criteria, extracted lines131–164,618–809,885–967.",
+      "limits": "Not full book; exact adapter-procurement loop not established."
+    },
+    {
+      "id": "A-PERDOMO-2020",
+      "title": "Performative Prediction",
+      "publication_url": "https://proceedings.mlr.press/v119/perdomo20a.html",
+      "inspected_url": "https://proceedings.mlr.press/v119/perdomo20a/perdomo20a.pdf",
+      "coverage": "Entire 11-page proceedings PDF extracted/read in chunks pp.1–5 and 6–11: main definitions, theorem statements/proof sketches, simulation and discussion.",
+      "limits": "Separate supplement/full proofs not inspected or independently checked; generic representability is not explicit treatment of the proposed application."
+    },
+    {
+      "id": "A-ENSIGN-2018",
+      "title": "Runaway Feedback Loops in Predictive Policing",
+      "publication_url": "https://proceedings.mlr.press/v81/ensign18a.html",
+      "inspected_url": "https://proceedings.mlr.press/v81/ensign18a/ensign18a.pdf",
+      "coverage": "All 12 PDF pages read through pp.1–5 and 6–12 extracts: urn assumptions, feedback, reported/discovered incidents, correction, simulations and limitations.",
+      "limits": "No independent proof/code validation. The underlying crime-rate assumptions differ from intervention-produced abilities/preferences."
+    },
+    {
+      "id": "A-BROWN-2022",
+      "title": "Performative Prediction in a Stateful World",
+      "publication_url": "https://proceedings.mlr.press/v151/brown22a.html",
+      "inspected_url": "https://proceedings.mlr.press/v151/brown22a/brown22a.pdf",
+      "coverage": "PDF pp.1–10 read: all main text through discussion, societal impact and references; stateful transition examples, stable-pair definitions, theorem statements and group simulations.",
+      "limits": "Remaining supplement pages/full proofs not inspected. Contractivity assumptions are not verified for M004."
+    },
+    {
+      "id": "A-CALLON-1986",
+      "title": "Some elements of a sociology of translation: domestication of the scallops and the fishermen of St Brieuc Bay",
+      "publication_url": "https://research.engineering.nyu.edu/~jbain/scitechsoc/readings/86Callon.pdf",
+      "inspected_url": "https://research.engineering.nyu.edu/~jbain/scitechsoc/readings/86Callon.pdf",
+      "coverage": "Entire main narrative PDF pp.1–19 read in chunks: problematization, interessement, enrolment, mobilization, dissidence and conclusion. First page identifies original Law-edited Routledge chapter pp.196–223.",
+      "limits": "Endnotes not inspected. PDF original pagination differs from some secondary bibliographies; use the verified first-page citation. No automatic equivalence between translation-in-ANT and software data conversion."
+    },
+    {
+      "id": "A-SCOTT-1998",
+      "title": "Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed",
+      "publication_url": "https://yalebooks.yale.edu/book/9780300078152/seeing-like-a-state/",
+      "inspected_url": "https://theanarchistlibrary.org/library/james-c-scott-seeing-like-a-state?__language=en",
+      "coverage": "Publisher record and original-text mirror; chapter 1 measurement standardization and customary/freehold/cadastral-tenure passages, principally extracted lines507–600. No full-book reading.",
+      "limits": "Some returned long passages truncated beyond that range; no direct verification of original underlying cases or modern legal doctrine."
+    },
+    {
+      "id": "A-FELSTINER-ABEL-SARAT-1980-81",
+      "title": "The Emergence and Transformation of Disputes: Naming, Blaming, Claiming ...",
+      "publication_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CC5A29351BCC355B8317FD13CAF29F09/S0023921600032400a.pdf/the-emergence-and-transformation-of-disputes-naming-blaming-claiming.pdf",
+      "inspected_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CC5A29351BCC355B8317FD13CAF29F09/S0023921600032400a.pdf/the-emergence-and-transformation-of-disputes-naming-blaming-claiming.pdf",
+      "coverage": "All 24 article pages printed pp.631–654 read via three extracts (PDF1–7,8–16,17–24). Publisher abstract initially available; later direct PDF access succeeded.",
+      "limits": "Shared reference list elsewhere in the journal issue not inspected. Article's own theoretical claims distinguished from empirical findings it cites."
+    },
+    {
+      "id": "A-HIRSCHMAN-1970",
+      "title": "Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States",
+      "publication_url": "https://arken.nmbu.no/~sigury/AOS_234/AOS234%20files/Hirschman_Exit_voice_loyality.pdf",
+      "inspected_url": "https://arken.nmbu.no/~sigury/AOS_234/AOS234%20files/Hirschman_Exit_voice_loyality.pdf",
+      "coverage": "Four-page authorized chapter-eight reprint, The Social Contract Summer1994 pp.272–275; whole excerpt extracted, with separately reread p.273 to fill initial middle truncation.",
+      "limits": "Only chapter-eight excerpt, not entire 1970 book or chapter-five argument. Reprint contains selected original prose and clearly marked editorial notes."
+    },
+    {
+      "id": "A-LAKKARAJU-2017",
+      "title": "The Selective Labels Problem: Evaluating Algorithmic Predictions in the Presence of Unobservables",
+      "publication_url": "https://www.cs.cornell.edu/home/kleinber/kdd17-selective.pdf",
+      "inspected_url": "https://www.cs.cornell.edu/home/kleinber/kdd17-selective.pdf",
+      "coverage": "PDF pp.1–4, especially introduction and section3 formal decision/outcome observability relation; long extract had internal truncations. Not full text.",
+      "limits": "Remaining six pages and detailed contraction evaluation not read; do not infer whether a broader complaint setting appears elsewhere."
+    }
+  ],
+  "verification_actions": [
+    "Opened British Academy original PDF and author-hosted 1995 chapter copy; 1995 chapter was only located and a remember-related passage inspected, NOT counted among the six M004 comparisons.",
+    "Opened PMLR Perdomo2020, Ensign2018, Brown2022 publication/PDF records; Perdomo and Ensign proceedings PDFs read end-to-end; Brown main text pp1–10 read, supplement not.",
+    "Opened Bowker author website and MIT publisher record; recorded only actual selected-chapter coverage, not full-book reading.",
+    "Read Callon main narrative PDF1–19 through NYU primary-text mirror; its first page confirms chapter title, author and original1986 pp196–223 citation.",
+    "Read Felstiner/Abel/Sarat full24-page article from Cambridge PDF once available; did not read the issue's shared reference section.",
+    "Opened Scott Yale publisher record and original-author text mirror; inspected stated chapter1 tenure sections only.",
+    "Read Hirschman authorized4-page chapter8 reprint; reread PDFpage2 separately after internal truncation.",
+    "Read Lakkaraju author-hosted PDF1–4 with acknowledged internal truncations; not counted as complete reading.",
+    "Opened Merton primary JSTOR scanned mirror; title/source/stable identifier verified; extraction truncation around printedp203 retained as a limit."
+  ],
+  "unsuccessful_access_attempts": [
+    {
+      "url": "https://citeseerx.ist.psu.edu/document?doi=03eddd4b19d00a2d9bff2e700bae97a45942aa18&repid=rep1&type=pdf",
+      "result": "Web internal error; not counted as inspected text."
+    },
+    {
+      "url": "https://www.rwi.uzh.ch/dam/jcr%3Affffffff-a9a1-300b-ffff-ffff9023d189/HirschmanExitVoiceLoyalty.pdf",
+      "result": "Web internal error; used authorized chapter8 reprint, not a whole-book claim."
+    }
+  ],
+  "uninspected_or_snippet_only_leads": [
+    {
+      "title": "The complaint handler's bind: How organisational constraints lead to defensive responses to criticism",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0325185",
+      "status": "Search result only; primary study not judged."
+    },
+    {
+      "title": "How Signals of Silence Sustain Sexual Harassment and What to Do About It",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/hrm.70063",
+      "status": "Search result only; no whole-graph conclusion."
+    },
+    {
+      "title": "Governing Generative Relational Public Knowledge — Provenance, Process Justice, and Institutional Authority",
+      "url": "https://huang-wanhong.com/2026/09/21/governing-generative-relational-public-knowledge-provenance-process-justice-and-institutional-authority/",
+      "status": "Author webpage located in search; not inspected or counted as verified comparable work."
+    },
+    {
+      "title": "Algorithms that remember: model inversion attacks and data protection law",
+      "url": "https://doi.org/10.1098/rsta.2018.0083",
+      "status": "Search result only; no exclusion/containment judgment."
+    },
+    {
+      "title": "Revisiting the Predictability of Performative, Social Events",
+      "url": "https://proceedings.mlr.press/v267/perdomo25a.html",
+      "status": "Search result publication record returned; full work not inspected or judged."
+    },
+    {
+      "title": "Court orders and procurement standing returned by broad search",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62022CO0493",
+      "status": "Search result only; no legal interpretation used."
+    }
+  ],
+  "claim_limits": [
+    "Search results are discovery leads, not proof of whole-graph inclusion or exclusion.",
+    "No count of returned sources establishes exhaustive coverage or historical priority.",
+    "No fresh independent publication panel, candidate score, retirement, ledger change or raw alteration."
+  ]
+}

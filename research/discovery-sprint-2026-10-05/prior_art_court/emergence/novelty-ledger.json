@@ -1,0 +1,1342 @@
+{
+  "version": "0.1.0",
+  "date": "2026-10-05",
+  "phase": "POST_BLUE_CHECKPOINT_COMPARISONS",
+  "gate_commit": "87ee7bc",
+  "construction_ledger": "../../emergence/novelty-ledger.json",
+  "baseline_unchanged": true,
+  "paused_population_preserved": true,
+  "disclosure": "Seven initial comparisons, not the full tournament. Counts measure recorded comparisons, not exhaustive coverage, independent discoveries or complete full-text readings. Provisional classes retire no idea. Inspection limits are preserved in linked records.",
+  "records": [
+    {
+      "id": "E4:M004",
+      "name": "Category regeneration after verified erasure",
+      "version": "0.1.0",
+      "claim_type": "PROPOSED_COMPOSITION",
+      "status": "RETAINED_FOR_DEVELOPMENT_NOT_A_NOVELTY_CERTIFICATION",
+      "provisional_remainder_class": "UNCLEAR",
+      "narrower_status": "UNCLEAR",
+      "strongest_version": "After independently verified removal of all historical profiles, model influence and downstream copied records available to a new classifier, an initially assigned category can recur because (i) learned self-description and common evaluator frames persist, and (ii) its earlier opportunity allocation produced skills/behavior now measured as fresh evidence. With matched initial traits and equal stored-data erasure, altering elicitation frames and category-conditioned future opportunities can reduce history-dependent recurrence. The mechanism concerns intervention-produced trajectories, not the mere correct redetection of a pre-existing trait.",
+      "known": [
+        "Classification can co-produce self-understanding and behavior through institutions, experts and knowledge; this multichannel loop is already close in Hacking.",
+        "Definitions and discriminatory opportunity structures can create later evidence apparently confirming them; institutional intervention is inherited from self-fulfilling-prophecy analysis.",
+        "Categorical attachment, control over its removal and practical irreversibility are explicit concerns in classification infrastructure theory.",
+        "Prediction-induced distribution change, feedback-driven apparent confirmation and history-dependent population response are inherited formal/conceptual ingredients.",
+        "The fact that a reset of machine parameters or storage need not reset social/behavioral state is not by itself a substantive new mechanism."
+      ],
+      "new_residue": "A narrow development target is an independently verified erasure experiment estimating how much post-reset category recurrence is produced through persistent reporting frames versus opportunity-created behavior. The inspected works do not establish whether that exact decomposition and matched intervention contrast is already developed elsewhere; this is an inspection gap, not verified originality.",
+      "construction_record": "../../emergence/compound_population.json",
+      "human_record": "M004.md",
+      "machine_record": "M004.json",
+      "actual_query_log": "query-log-a.json",
+      "sources": [
+        {
+          "local_id": "A-HACKING-2007",
+          "title": "Kinds of People: Moving Targets",
+          "authors": [
+            "Ian Hacking"
+          ],
+          "year": 2007,
+          "url": "https://doi.org/10.5871/bacad/9780197264249.003.0010",
+          "inspected_version": null,
+          "inspection": "Printed pp.285–291 and 293–299 via untruncated pdftotext; autism discussion printed pp.300–304 and resistance pp.311 through extracted web passages.",
+          "reading_limits": "Not a complete 34-page reading; historical medical statements are not treated as current medical evidence.",
+          "prior_proposition": "Classifications interact with people, experts, knowledge and institutions; institutional treatment and self-understanding can change classified people and feed changes back into descriptions and classifications.",
+          "comparison": {
+            "variables": "Close: classifications, self-description, institutions, experts.",
+            "causal_structure": "Close multichannel loop; no inspected verified-storage-erasure contrast.",
+            "beneficiary": "Both classified people and classifying institutions.",
+            "outcome": "Both changed identity/behavior and recurring classification.",
+            "timescale": "Both development over repeated encounters.",
+            "prediction": "General regeneration expected; exact erasure factorial not inspected.",
+            "intervention": "Institutional/framing change already motivated; storage-only contrast additional specification."
+          }
+        },
+        {
+          "local_id": "A-MERTON-1948",
+          "title": "The Self-Fulfilling Prophecy",
+          "authors": [
+            "Robert K. Merton"
+          ],
+          "year": 1948,
+          "url": "https://www.jstor.org/stable/4609267",
+          "inspected_version": null,
+          "inspection": "Web extracted printed pp.193–197; pdftotext pp.197–202 and 204–210. The long latter extraction had a truncation around p.203.",
+          "reading_limits": "Do not claim every page read. Historical examples illustrate the author's mechanism; not independently replicated here.",
+          "prior_proposition": "Definitions induce behavior and opportunities that appear to confirm them; altered institutional opportunities can interrupt this confirmation rather than relying on corrective education alone.",
+          "comparison": {
+            "variables": "Close: beliefs, opportunity exclusion, behavior, confirming evidence.",
+            "causal_structure": "Close opportunity-confirmation return; learned fresh testimony less explicit.",
+            "beneficiary": "Dominant groups and excluded people.",
+            "outcome": "Both institution-produced apparent evidence.",
+            "timescale": "Both persistent institutional cycles.",
+            "prediction": "Fresh confirming evidence anticipated; verified-erasure contrast not inspected.",
+            "intervention": "Changing opportunity rules already explicit; erasure alone not analyzed."
+          }
+        },
+        {
+          "local_id": "A-BOWKER-STAR-1999",
+          "title": "Sorting Things Out: Classification and Its Consequences",
+          "authors": [
+            "Geoffrey C. Bowker",
+            "Susan Leigh Star"
+          ],
+          "year": 1999,
+          "url": "https://doi.org/10.7551/mitpress/6352.001.0001",
+          "inspected_version": null,
+          "inspection": "Author-hosted Introduction opening; chapter 9 membership/naturalization passages, filiation-control and reversibility; chapter 10 core argument and design criteria. Specifically extracted lines131–164,618–809,885–967.",
+          "reading_limits": "Not the full book or all empirical chapters; no exact storage-erasure experiment established.",
+          "prior_proposition": "Classification is embedded in practice and biography; membership naturalizes categories, category-person links vary in reversibility and control, and technical representation can shape later possibilities.",
+          "comparison": {
+            "variables": "Close: classifications, biographies, practices, category control.",
+            "causal_structure": "Distributed institutional reproduction close; exact reset loop not inspected.",
+            "beneficiary": "Individuals and multiple institutional constituencies.",
+            "outcome": "Persistent/alterable categorical attachment close.",
+            "timescale": "Biographical and infrastructure timescales.",
+            "prediction": "Recurrence through practice plausible; verified fresh-intake contrast unspecified.",
+            "intervention": "Reversibility/control design close; paired erasure experiment additional specification."
+          }
+        },
+        {
+          "local_id": "A-PERDOMO-2020",
+          "title": "Performative Prediction",
+          "authors": [
+            "Juan C. Perdomo",
+            "Tijana Zrnic",
+            "Celestine Mendler-Dünner",
+            "Moritz Hardt"
+          ],
+          "year": 2020,
+          "url": "https://proceedings.mlr.press/v119/perdomo20a.html",
+          "inspected_version": null,
+          "inspection": "Entire 11-page proceedings PDF extracted/read in chunks pp.1–5 and 6–11: main definitions, theorem statements/proof sketches, simulation and discussion.",
+          "reading_limits": "Separate supplement/full proofs not inspected or independently checked; generic representability is not explicit treatment of the proposed application.",
+          "prior_proposition": "Deployment changes the distribution on which prediction is evaluated; retraining can reach a classifier stable on its own induced distribution, distinct from a performative optimum.",
+          "comparison": {
+            "variables": "Generic classifier/distribution/loss can encode many variables.",
+            "causal_structure": "Close deployment-data-retraining loop; base mapping is stateless.",
+            "beneficiary": "Institution's loss central, rather than requested identity reset.",
+            "outcome": "Stable prediction, not chiefly meaningful category exit.",
+            "timescale": "Repeated retraining rounds.",
+            "prediction": "Self-confirming stability inherited; post-erasure decomposition unspecified.",
+            "intervention": "Optimize under performativity; category-exit target differs."
+          }
+        },
+        {
+          "local_id": "A-ENSIGN-2018",
+          "title": "Runaway Feedback Loops in Predictive Policing",
+          "authors": [
+            "Danielle Ensign",
+            "Sorelle A. Friedler",
+            "Scott Neville",
+            "Carlos Scheidegger",
+            "Suresh Venkatasubramanian"
+          ],
+          "year": 2018,
+          "url": "https://proceedings.mlr.press/v81/ensign18a.html",
+          "inspected_version": null,
+          "inspection": "All 12 PDF pages read through pp.1–5 and 6–12 extracts: urn assumptions, feedback, reported/discovered incidents, correction, simulations and limitations.",
+          "reading_limits": "No independent proof/code validation. The underlying crime-rate assumptions differ from intervention-produced abilities/preferences.",
+          "prior_proposition": "Predictive allocation changes discovered incidents, which reinforce later allocation; even truthful incident generation and a separate reporting channel need not eliminate the loop.",
+          "comparison": {
+            "variables": "Allocation, observations, prior, incident rates overlap structurally.",
+            "causal_structure": "Close evidence-allocation return; observation selection rather than skill production.",
+            "beneficiary": "Police allocator and affected neighborhoods.",
+            "outcome": "Biased deployment versus category regeneration.",
+            "timescale": "Repeated deployment with decay.",
+            "prediction": "Independent reports need not cure loop; fresh testimony here can itself be affected.",
+            "intervention": "Correct observation feedback; does not undo opportunity-produced capabilities."
+          }
+        },
+        {
+          "local_id": "A-BROWN-2022",
+          "title": "Performative Prediction in a Stateful World",
+          "authors": [
+            "Gavin Brown",
+            "Shlomi Hod",
+            "Iden Kalemaj"
+          ],
+          "year": 2022,
+          "url": "https://proceedings.mlr.press/v151/brown22a.html",
+          "inspected_version": null,
+          "inspection": "PDF pp.1–10 read: all main text through discussion, societal impact and references; stateful transition examples, stable-pair definitions, theorem statements and group simulations.",
+          "reading_limits": "Remaining supplement pages/full proofs not inspected. Contractivity assumptions are not verified for M004.",
+          "prior_proposition": "Population response depends on both the deployed classifier and existing population state, allowing past classification to influence current behavior and retraining dynamics.",
+          "comparison": {
+            "variables": "Classifier plus population-state variables directly close.",
+            "causal_structure": "History-dependent deployment-state-data-retraining loop very close.",
+            "beneficiary": "Institution and differently informed population groups.",
+            "outcome": "Stable pairs and group disparity versus post-erasure category exit.",
+            "timescale": "Repeated rounds with delayed responses.",
+            "prediction": "Resetting classifier need not reset population state; erasure mechanism not explicit.",
+            "intervention": "Retraining cadence/convergence; requested category exit differs."
+          }
+        }
+      ],
+      "review_status": "AUTHOR_OR_CONSTRUCTION_AGENT_COMPARISON_NOT_BLIND_DISCIPLINARY_REVIEW",
+      "historical_priority": "NOT_ESTABLISHED",
+      "empirical_reality": "NOT_ESTABLISHED",
+      "discarded": false,
+      "canonical_claim": false,
+      "winner": false
+    },
+    {
+      "id": "E4:M005",
+      "name": "Conservative allocation versus comparative knowledge",
+      "version": "0.1.0",
+      "claim_type": "PROPOSED_COMPOSITION",
+      "status": "RETAINED_FOR_DEVELOPMENT_NOT_A_NOVELTY_CERTIFICATION",
+      "provisional_remainder_class": "DOMAIN TRANSFER",
+      "narrower_status": "OPEN_MEASUREMENT_APPLICATION_NOT_DISCARDED",
+      "strongest_version": "A finite evaluator selecting providers by a mean-minus-uncertainty index can endogenously increase the index advantage of a better-measured provider at equal true and reported mean quality, while leaving comparative knowledge worse than a matched-budget independent allocation. The index controls the next measurements. Stationary cumulative knowledge need not worsen absolutely.",
+      "known": [
+        "Allocation-dependent learning and competing-platform data feedback",
+        "Better-supported conservative guarantees without higher true means",
+        "Different objectives for safe current service and identification of alternatives",
+        "Coverage and exploration counterexamples to blanket greedy-starvation claims"
+      ],
+      "new_residue": "No strong substantive residue is established for the current elementary loop. The paired index-advantage/comparative-variance audit is a proposed domain-specific measurement application; a distinct authority or public-evaluation mechanism requires additional specification.",
+      "construction_record": "../../emergence/compound_population.json",
+      "human_record": "M005.md",
+      "machine_record": "M005.json",
+      "actual_query_log": "root-M005-search-log.json",
+      "sources": [
+        {
+          "local_id": "M005:S01",
+          "title": "Competing Bandits: The Perils of Exploration under Competition",
+          "authors": [
+            "Guy Aridor",
+            "Yishay Mansour",
+            "Aleksandrs Slivkins",
+            "Zhiwei Steven Wu"
+          ],
+          "year": 2020,
+          "url": "https://arxiv.org/html/2007.10144v4",
+          "inspected_version": "v4 March 2021",
+          "inspection": "Abstract, introduction, model section 3 and discussion of data/reputation advantages. Theorem proofs and all simulation tables not independently checked. Earlier 2017/2019 versions are not counted as separate independent neighbors.",
+          "reading_limits": null,
+          "prior_proposition": "Users choose between learning platforms and generate the data that permits the selected platform to improve. Competition, reputation and allocation therefore form a data feedback loop, with different user-choice rules affecting exploration and market outcomes.",
+          "comparison": {
+            "variables": "Provider choice, response observations, current reputation, data advantage and future learning overlap.",
+            "causal_structure": "Contains the full choice-to-data-to-relative-performance-to-choice loop. The inspected central choice rule uses expected reward or reputation, not the exact equal-mean uncertainty penalty in M005.",
+            "beneficiary": "Selected platforms gain customers and data; customers gain or lose through the resulting service.",
+            "outcome": "Learning, market share and consumer welfare, rather than public comparative posterior variance.",
+            "timescale": "Repeated competition with an explicit first-mover history.",
+            "prediction": "A platform advantage can reproduce through who gets observations. The exact equal-mean/index-gap pair is not a verified result here.",
+            "intervention": "Random/free users and softer competition change learning; this is a close predecessor to reserved measurement, not just a shared vocabulary."
+          }
+        },
+        {
+          "local_id": "M005:S02",
+          "title": "Oracle-Efficient Pessimism: Offline Policy Optimization In Contextual Bandits",
+          "authors": [
+            "Lequn Wang",
+            "Akshay Krishnamurthy",
+            "Aleksandrs Slivkins"
+          ],
+          "year": 2024,
+          "url": "https://proceedings.mlr.press/v238/wang24a/wang24a.pdf",
+          "inspected_version": null,
+          "inspection": "Original PDF abstract and section 2, especially support, IPW variance, pessimism and best-effort guarantees. Proofs not replicated.",
+          "reading_limits": null,
+          "prior_proposition": "Pessimistic policy selection penalizes uncertain, weakly covered policies. Policies of similar actual risk can have different guaranteed risk because of data coverage; a good selected policy can be established without accurate estimates of all alternatives.",
+          "comparison": {
+            "variables": "Mean/risk, uncertainty, logging coverage and conservative selection closely match the ranking edge.",
+            "causal_structure": "Exact coverage-to-pessimistic-ranking relationship is present. Fixed offline logs do not themselves close the future logging return.",
+            "beneficiary": "The decision-maker gains a better-supported present policy; no vendor motive is needed.",
+            "outcome": "Safe/best-effort policy value, not comprehensive comparison of every policy.",
+            "timescale": "An offline decision from a finite historical dataset.",
+            "prediction": "Assurance advantage need not equal superior actual mean quality. This key separation is already explicit in the text.",
+            "intervention": "Improve relevant coverage or use pessimistic regularization. Combining this with endogenous routing needs a result beyond simply reconnecting familiar edges."
+          }
+        },
+        {
+          "local_id": "M005:S03",
+          "title": "Fast Best-in-Class Regret for Contextual Bandits",
+          "authors": [
+            "Samuel Girard",
+            "Aurélien Bibaut",
+            "Jill-Jênn Vie",
+            "Arthur Gretton",
+            "Nathan Kallus",
+            "Houssam Zenati"
+          ],
+          "year": 2026,
+          "url": "https://proceedings.mlr.press/v337/girard26a.html",
+          "inspected_version": null,
+          "inspection": "Primary proceedings abstract and bibliographic metadata only; clipped-propensity rule, coverage assumptions and complete proof not inspected.",
+          "reading_limits": null,
+          "prior_proposition": "Online policy learning can repeatedly optimize a pessimistic value estimator with a variance penalty while collecting data adaptively, with regret guarantees under specified assumptions.",
+          "comparison": {
+            "variables": "Adaptive collection, policy value, uncertainty penalty and online policy updates overlap.",
+            "causal_structure": "Pessimism plus adaptive data collection is already a combined technical object. Its exploration/support design must be inspected before asserting that the M005 construction is absent.",
+            "beneficiary": "A learner seeking a high-value policy; no malicious incentive.",
+            "outcome": "Best-in-class regret rather than inference on equal-quality alternatives.",
+            "timescale": "Repeated online learning.",
+            "prediction": "Pessimism does not universally imply starvation or bad learning. The source is an important counterexample family to that overgeneralization.",
+            "intervention": "Algorithmic assumptions and data-collection design matter; merely prohibiting conservative ranking is not warranted."
+          }
+        },
+        {
+          "local_id": "M005:S04",
+          "title": "Mostly Exploration-Free Algorithms for Contextual Bandits",
+          "authors": [
+            "Hamsa Bastani",
+            "Mohsen Bayati",
+            "Khashayar Khosravi"
+          ],
+          "year": 2021,
+          "url": "https://www.gsb.stanford.edu/faculty-research/publications/mostly-exploration-free-algorithms-contextual-bandits",
+          "inspected_version": null,
+          "inspection": "Authors’ institutional publication abstract and original arXiv abstract. Author-hosted PDF failed; full proof not inspected.",
+          "reading_limits": null,
+          "prior_proposition": "Greedy selection need not fail to learn when sufficiently diverse contexts provide implicit exploration. A Greedy-First procedure checks whether greedy learning is adequate and explores when necessary.",
+          "comparison": {
+            "variables": "Selected actions, their data and estimation under greedy routing.",
+            "causal_structure": "Shows when the adverse selective-data return is counteracted by the environment; no exact M005 risk-index theorem established.",
+            "beneficiary": "A decision-maker avoids costly or unethical exploration where natural contexts suffice.",
+            "outcome": "Regret and learning adequacy, rather than universal preference for measurement balance.",
+            "timescale": "Repeated contextual learning.",
+            "prediction": "Lack of explicit exploration does not establish dependence or bad measurement. Natural cross-regime coverage can defeat the proposed adverse case.",
+            "intervention": "Test transferable/contextual coverage before paying for additional trials."
+          }
+        },
+        {
+          "local_id": "M005:S05",
+          "title": "Simple Bayesian Algorithms for Best Arm Identification",
+          "authors": [
+            "Daniel Russo"
+          ],
+          "year": 2016,
+          "url": "https://proceedings.mlr.press/v49/russo16.html",
+          "inspected_version": null,
+          "inspection": "Primary proceedings abstract only; no independent theorem/proof verification.",
+          "reading_limits": null,
+          "prior_proposition": "Adaptive measurement can be designed to identify the best option rather than simply sample whichever option currently seems best. Proposed top-two methods allocate sufficient effort to distinguish alternatives.",
+          "comparison": {
+            "variables": "Posterior beliefs, measurement allocation and comparative uncertainty.",
+            "causal_structure": "Comparison-directed allocation is already distinct from immediate choice/exploitation.",
+            "beneficiary": "The investigator needs reliable comparison, which can differ from a service user’s immediate goal.",
+            "outcome": "Identification rather than cumulative reward; M005 cannot claim this objective distinction as new.",
+            "timescale": "Repeated trials with long-run error reduction.",
+            "prediction": "Effort concentrated on the current favorite can be inferior for distinguishing alternatives.",
+            "intervention": "Maintain informative alternative measurements; an ordinary independent audition reserve is not itself a novel protocol."
+          }
+        }
+      ],
+      "review_status": "AUTHOR_OR_CONSTRUCTION_AGENT_COMPARISON_NOT_BLIND_DISCIPLINARY_REVIEW",
+      "historical_priority": "NOT_ESTABLISHED",
+      "empirical_reality": "NOT_ESTABLISHED",
+      "discarded": false,
+      "canonical_claim": false,
+      "winner": false
+    },
+    {
+      "id": "E4:M011",
+      "name": "Current expertise versus developmental reproduction",
+      "version": "0.1.0",
+      "claim_type": "PROPOSED_COMPOSITION",
+      "status": "RETAINED_FOR_DEVELOPMENT_NOT_A_NOVELTY_CERTIFICATION",
+      "provisional_remainder_class": "USEFUL SYNTHESIS",
+      "narrower_status": "UNCLEAR; requires full nearest-model comparison and a distinguishing contrast",
+      "strongest_version": "At fixed current expertise and aggregate human training input, competitive selection can eliminate organizations that provide a prerequisite developmental band, preventing replenishment of independent standby experts. Subsequent scarcity raises routine automation attractiveness, reinforcing the loss, unless an alternative developmental path or purchaser exists.",
+      "known": [
+        "Technology can remove developmental conditions before present expertise visibly declines.",
+        "Practice sequence and scaffolding, not total hours alone, affect learning.",
+        "Firm training decisions, organizational evolution and industry-wide skill supply can interact.",
+        "Locally performance-aligned delegation and evolving skill can form a reliance loop.",
+        "Training-preserving institutions can make AI adoption increase skill formation."
+      ],
+      "new_residue": "The proposed residual is a procurement/selection-attributable loss of a feasible developmental path at matched current expert stocks and total training input, measured by cohort reachability rather than training volume. Its historical novelty is unresolved; neither the matched-hours idea nor delayed pipeline collapse alone is new.",
+      "construction_record": "../../emergence/compound_population.json",
+      "human_record": "M011.md",
+      "machine_record": "M011.json",
+      "actual_query_log": "root-M011-search-log.json",
+      "sources": [
+        {
+          "local_id": "M011:S01",
+          "title": "The Broken Ladder: Dynamics of AI-Induced Collapse in Labor Markets",
+          "authors": [
+            "Mahdi M. Najafabadi",
+            "Mohammad Hossein Jarrahi",
+            "Pouyan Eslami"
+          ],
+          "year": 2026,
+          "url": "https://journals.aom.org/doi/10.5465/AMPROC.2026.84bp",
+          "inspected_version": null,
+          "inspection": "Publisher-indexed abstract and bibliographic record returned in two actual searches. Direct page/PDF requests returned 403. Full stock-flow equations and intervention simulations were not inspected.",
+          "reading_limits": null,
+          "prior_proposition": "A system-dynamics account connects entry-role automation and immediate efficiency to mentorship-pipeline erosion, delayed senior-capability loss, and sector-wide inability to hire experienced staff when many firms rely on the same depleted talent commons.",
+          "comparison": {
+            "variables": "Same automation, novice development, senior capability and organizational viability; prerequisite-band allocation and selection among training firms are not established from the abstract.",
+            "causal_structure": "Contains the developmental chain, delay and macro commons interaction, rather than merely an isolated skill-decay ingredient. Whether the full model closes scarcity back into adoption or represents firm selection is unknown at this access depth.",
+            "beneficiary": "Short-run efficient firms are the relevant initial beneficiaries; provider-specific rent or control is not established.",
+            "outcome": "Same broad loss of replenishable expert supply despite initially good organizational metrics.",
+            "timescale": "Same delayed inter-cohort outcome.",
+            "prediction": "The broad short-benefit/long-scarcity prediction is already present. The fixed-total-hours, missing-intermediate-band contrast was not verifiable.",
+            "intervention": "Not sufficiently inspected to claim that the proposed procurement intervention is absent."
+          }
+        },
+        {
+          "local_id": "M011:S02",
+          "title": "The apprenticeship void: AI augmentation and entry-level displacement in knowledge work",
+          "authors": [
+            "Soumya Sarala"
+          ],
+          "year": 2026,
+          "url": "https://www.emerald.com/xjm/article/23/2/174/1389190/The-apprenticeship-void-AI-augmentation-and-entry",
+          "inspected_version": null,
+          "inspection": "Publisher HTML sections 2–7, construct table, causal figure description, propositions and limitations. Conceptual paper, explicitly not empirically validated. Online July 28; issue September 2, 2026.",
+          "reading_limits": null,
+          "prior_proposition": "Displacing foundational tasks removes developmental conditions and can leave AI-contingent apparent competence, fragile promotions and subsequent expert-pipeline thinning. Preserving learning-rich tasks, mentorship and deliberate sequencing are proposed moderators.",
+          "comparison": {
+            "variables": "Substantially the same experiential opportunity, independent capability, cohort progression and senior supply.",
+            "causal_structure": "A specified multistage developmental chain and moderators are present. The inspected formulation does not explicitly model endogenous inter-firm price selection and the scarcity-to-automation return.",
+            "beneficiary": "Short-run organizations and AI-supported workers; no necessary provider-benefiting acquisition objective.",
+            "outcome": "Same divergence between current good outputs and future independent expertise.",
+            "timescale": "Immediate, mid-career and long-run cohort outcomes are distinguished.",
+            "prediction": "Capability formation loss before current output decline is inherited. Conditional distribution-of-case-band effects at fixed training input need separate testing.",
+            "intervention": "Preserve foundational practice and make mentorship explicit. Buying developmental sequences is not wholly distinct from these recommendations."
+          }
+        },
+        {
+          "local_id": "M011:S03",
+          "title": "Shadow Learning: Building Robotic Surgical Skill When Approved Means Fail",
+          "authors": [
+            "Matthew Beane"
+          ],
+          "year": 2019,
+          "url": "https://journals.sagepub.com/doi/10.1177/0001839217751692",
+          "inspected_version": null,
+          "inspection": "Publisher abstract and bibliographic record; detailed field notes and full methods not accessed. Online January 2018; journal issue 2019.",
+          "reading_limits": null,
+          "prior_proposition": "Robotic surgery restricts trainee participation, making approved learning routes ineffective. A minority acquire skill through unconventional practices; the study connects these conditions to hyperspecialization and a reduced expert supply relative to demand.",
+          "comparison": {
+            "variables": "Actual novice access, supervision, skill formation and profession supply are close.",
+            "causal_structure": "Technology changes participation and learning routes; no proof at this inspection depth about absence of the proposed competitive-financing return.",
+            "beneficiary": "Experienced practitioners may benefit from efficient robotic work; trainees and the profession bear developmental effects.",
+            "outcome": "Broad technological disruption of expert reproduction is already observed, not first identified here.",
+            "timescale": "Training progression and subsequent professional supply.",
+            "prediction": "More senior technologically enabled performance need not reproduce novice competence. Fixed-hours band deletion remains an untested operational contrast, not an established new explanation.",
+            "intervention": "Unconventional rehearsal and practice provide alternative routes, challenging any universal claim that production cases are indispensable."
+          }
+        },
+        {
+          "local_id": "M011:S04",
+          "title": "Cognitive Apprenticeship",
+          "authors": [
+            "Allan Collins",
+            "John Seely Brown",
+            "Ann Holum"
+          ],
+          "year": 1991,
+          "url": "https://www.aft.org/ae/winter1991/collins_brown_holum",
+          "inspected_version": null,
+          "inspection": "Authors’ original article: sequencing, increasing complexity/diversity, scaffolding and global-before-local principles. It explains their earlier cognitive-apprenticeship work; the 1989 chapter is not silently treated as independently read.",
+          "reading_limits": null,
+          "prior_proposition": "Apprenticeship should structure meaningful tasks with increasing complexity and diversity, supported by scaffolding. Training input is therefore not interchangeable across arbitrary task sequences; support can let learners handle complex tasks earlier.",
+          "comparison": {
+            "variables": "Task complexity, sequencing, practice and teacher support match the proposed developmental prerequisites.",
+            "causal_structure": "Pedagogical mechanism rather than a market-feedback model; not a whole-graph match by itself.",
+            "beneficiary": "Learners and the communities using their capabilities.",
+            "outcome": "Robust problem-solving skill, not sector-level recovery supply.",
+            "timescale": "A learning sequence rather than industry turnover.",
+            "prediction": "Equal practice hours need not yield equal learning when sequencing differs. This removes the claim that the matched-hours contrast alone is a new conceptual insight.",
+            "intervention": "Sequence practice and scaffold difficulty. Genuine alternative scaffolding can remove a supposed indispensable middle band."
+          }
+        },
+        {
+          "local_id": "M011:S05",
+          "title": "Training and Turnover in the Evolution of Organizations",
+          "authors": [
+            "Natalie S. Glance",
+            "Tad Hogg",
+            "Bernardo A. Huberman"
+          ],
+          "year": 1997,
+          "url": "https://pubsonline.informs.org/doi/10.1287/orsc.8.1.84",
+          "inspected_version": null,
+          "inspection": "Publisher abstract and indexed primary-paper excerpt describing interwoven dilemmas, organization birth/death, mobility and linear skill acquisition. Direct archive PDF failed; the entire experiment set was not reviewed.",
+          "reading_limits": null,
+          "prior_proposition": "Industry training is a public-good problem coupled to employee effort and turnover. A dynamic model allows firms to appear and disappear and workers to move, producing different industry-level productivity regimes.",
+          "comparison": {
+            "variables": "Training finance, organizational viability, skill accumulation, industry supply and mobility are substantially shared.",
+            "causal_structure": "Already couples multiple levels and organizational evolution. It is much closer than a generic principal-agent label; the inspected learning representation is scalar rather than prerequisite bands.",
+            "beneficiary": "Individual firms and workers, sometimes at the expense of industry-level training.",
+            "outcome": "Industry skill/productivity regimes; rare common-failure recovery is a different specified target.",
+            "timescale": "Repeated organizational evolution.",
+            "prediction": "Individual training incentives can fail to produce the jointly desired industry stock. That is inherited; a developmental cut at matched stocks is not assessed here.",
+            "intervention": "Resolving training incentives is already central. Reproduction-path procurement must show a difference beyond generic training subsidies."
+          }
+        },
+        {
+          "local_id": "M011:S06",
+          "title": "Ironies of automation",
+          "authors": [
+            "Lisanne Bainbridge"
+          ],
+          "year": 1983,
+          "url": "https://gwern.net/doc/sociology/technology/1983-bainbridge.pdf",
+          "inspected_version": null,
+          "inspection": "Original five-page paper scan; sections on manual/cognitive skill, later operator generations, take-over and training. Hosted mirror contains the primary text, not a secondary interpretation.",
+          "reading_limits": null,
+          "prior_proposition": "Automated systems may rely on skills acquired by former manual operators that later generations cannot develop. Removing easy work makes abnormal take-over harder; successful automation can require especially large investments in appropriate training.",
+          "comparison": {
+            "variables": "Human fallback, practical experience and succeeding generations are already separated from current automatic performance.",
+            "causal_structure": "Contains automation-to-development-to-fallback effects, not just short-run operator skill decay. It does not by itself establish the whole proposed market-selection graph.",
+            "beneficiary": "Operators and organizations receive routine benefits and new maintenance burdens.",
+            "outcome": "Effective fallback, not simply preservation of current task output.",
+            "timescale": "Current operation and later operator generations.",
+            "prediction": "Current skilled supervisors are not proof that subsequent operators will have those skills. This matched-current-stock warning is old.",
+            "intervention": "Appropriate practice and simulators; alternative nonproduction learning must be tested before asserting a missing path."
+          }
+        },
+        {
+          "local_id": "M011:S07",
+          "title": "The Geometry of Learning Under AI Delegation",
+          "authors": [
+            "Lingxiao Huang",
+            "Nisheeth K. Vishnoi"
+          ],
+          "year": 2026,
+          "url": "https://arxiv.org/html/2603.02950v1",
+          "inspected_version": null,
+          "inspection": "Abstract, introduction, model equations, theorem statements in section 3 and limitations headings; proofs were not independently checked.",
+          "reading_limits": null,
+          "prior_proposition": "Performance-driven delegation and use-dependent scalar skill can jointly create a stable low-skill reliance regime, path-dependent basins and short-run performance gains followed by long-run losses without locally misaligned objectives.",
+          "comparison": {
+            "variables": "Same endogenous human capability and adaptive delegation; firm populations, prerequisites and training procurement are not variables in the inspected core model.",
+            "causal_structure": "The skill-to-more-delegation reinforcing return is already formalized. Closing that return alone cannot be the composition residue.",
+            "beneficiary": "A learner choosing local performance; no commercial motive is necessary.",
+            "outcome": "Individual skill/task performance rather than the availability of sector replacement experts.",
+            "timescale": "Repeated long-run interaction.",
+            "prediction": "Aligned immediate improvements can yield long-run reliance and loss. This broad paradox has a direct formal predecessor.",
+            "intervention": "A different expert-production model may extend the domain, but no theorem absent from all extensions has been established."
+          }
+        },
+        {
+          "local_id": "M011:S08",
+          "title": "Artificial intelligence adoption and workplace training",
+          "authors": [
+            "Samuel Muehlemann"
+          ],
+          "year": 2025,
+          "url": "https://epub.ub.uni-muenchen.de/129087/1/1-s2.0-S0167268125003257-main.pdf",
+          "inspected_version": null,
+          "inspection": "Original paper abstract/introduction and conceptual framework on internal training versus hiring. Numerical replication and full robustness checks not performed.",
+          "reading_limits": null,
+          "prior_proposition": "German establishment data associate sustained AI adoption with more apprentice intake within training firms, not a significant change in whether firms train; continuing training shifts toward higher-skilled employees.",
+          "comparison": {
+            "variables": "AI, firm training decisions and allocation overlap; no measured prerequisite-cut or common-failure recovery outcome.",
+            "causal_structure": "Conditional institutional complementarity provides a countervailing mechanism, not evidence for inevitable destruction.",
+            "beneficiary": "Firms and apprentices can benefit under a subsidized dual-training institution.",
+            "outcome": "Training intake and composition, not independent expert generability.",
+            "timescale": "2019–2023 observations and a few post-adoption years, not a completed long-run cohort transition.",
+            "prediction": "The blanket prediction that adoption necessarily reduces apprenticeships is contradicted in this context. It does not test the specified matched-ladder mechanism.",
+            "intervention": "Institutional support can make internal skill formation economically attractive; the beneficial mirror has relevant evidence."
+          }
+        }
+      ],
+      "review_status": "AUTHOR_OR_CONSTRUCTION_AGENT_COMPARISON_NOT_BLIND_DISCIPLINARY_REVIEW",
+      "historical_priority": "NOT_ESTABLISHED",
+      "empirical_reality": "NOT_ESTABLISHED",
+      "discarded": false,
+      "canonical_claim": false,
+      "winner": false
+    },
+    {
+      "id": "E4:M023",
+      "name": "Standing-filtered evidence for recommissioning an adapter",
+      "version": "0.1.0",
+      "claim_type": "PROPOSED_COMPOSITION",
+      "status": "RETAINED_FOR_DEVELOPMENT_NOT_A_NOVELTY_CERTIFICATION",
+      "provisional_remainder_class": "UNCLEAR",
+      "narrower_status": "UNCLEAR",
+      "strongest_version": "With matched truthful transaction completion and matched underlying affected-party grievance rates, two adapters differ in whom their identity mapping leaves eligible to challenge the adapter's own equivalence. If appeal standing depends exclusively on mapped identity and future adapter procurement rewards successful completion while penalizing accepted complaints, a claimant-erasing adapter receives fewer complaints per transaction and more future use, even though independent effect-based audits reveal equal or worse rights preservation. Extra use regenerates evidence through the same eligibility filter. The all-paths-cut claim applies only if no external observer, political route, representative or effect-based standing bypass reaches the decision-maker.",
+      "known": [
+        "Translation can define actors, silence alternative representation and turn a chain of intermediaries into certified authority; Callon is a direct whole-composition neighbor, including outside dissidence and funder response.",
+        "Classification infrastructure can exclude its own constituents from policy participation and becomes harder to revise when their voices are not retrievable.",
+        "Replacing communal tenure with individual administrative ownership while losing customary entitlements is an inherited example, not a new mechanism.",
+        "Dispute processing transforms or drops parties, individualizes grievances, reflects professional incentives and can make case-based evaluation misleading; these are substantive linked interactions in Felstiner/Abel/Sarat.",
+        "Exit/individual mobility can improve an individual situation while depleting collective voice.",
+        "Endogenous observation and selective outcome labels provide inherited statistical machinery; a claim about biased complaint evidence is not itself a new theorem."
+      ],
+      "new_residue": "The narrowly specified development target is an adapter test whose own claimant mapping changes the eligibility denominator of the complaints used to recommission that adapter, with truthful matched completion and a removable effect-standing cross-edge. This inspection has not established whether the exact closed loop, experiment or intervention already appears in other work; historical residue remains unresolved.",
+      "construction_record": "../../emergence/compound_population.json",
+      "human_record": "M023.md",
+      "machine_record": "M023.json",
+      "actual_query_log": "query-log-a.json",
+      "sources": [
+        {
+          "local_id": "A-CALLON-1986",
+          "title": "Some elements of a sociology of translation: domestication of the scallops and the fishermen of St Brieuc Bay",
+          "authors": [
+            "Michel Callon"
+          ],
+          "year": 1986,
+          "url": "https://research.engineering.nyu.edu/~jbain/scitechsoc/readings/86Callon.pdf",
+          "inspected_version": null,
+          "inspection": "Entire main narrative PDF pp.1–19 read in chunks: problematization, interessement, enrolment, mobilization, dissidence and conclusion. First page identifies original Law-edited Routledge chapter pp.196–223.",
+          "reading_limits": "Endnotes not inspected. PDF original pagination differs from some secondary bibliographies; use the verified first-page citation. No automatic equivalence between translation-in-ANT and software data conversion.",
+          "prior_proposition": "Translation defines actors and representative intermediaries; successful mobilization concentrates authorized speech and certification, while dissidence can reopen representativity and change funder confidence.",
+          "comparison": {
+            "variables": "Close: intermediaries, actors, representation, certification, funders.",
+            "causal_structure": "Close silencing-representation-validation loop; formal standing cut/procurement rule not explicit.",
+            "beneficiary": "Translators, represented collectives and scientific funders.",
+            "outcome": "Authority through representation, close to self-certification.",
+            "timescale": "Project development and controversy.",
+            "prediction": "Lack of disavowal can sustain representation; blocked-appeal procurement contrast unspecified.",
+            "intervention": "Reopen representation/dissidence; effect-based standing operationalizes one route."
+          }
+        },
+        {
+          "local_id": "A-BOWKER-STAR-1999",
+          "title": "Sorting Things Out: Classification and Its Consequences",
+          "authors": [
+            "Geoffrey C. Bowker",
+            "Susan Leigh Star"
+          ],
+          "year": 1999,
+          "url": "https://doi.org/10.7551/mitpress/6352.001.0001",
+          "inspected_version": null,
+          "inspection": "Author-hosted Introduction opening; selected chapter 9 membership/control/reversibility passages; chapter 10 argument and voice/exclusion design criteria, extracted lines131–164,618–809,885–967.",
+          "reading_limits": "Not full book; exact adapter-procurement loop not established.",
+          "prior_proposition": "Infrastructural classifications distribute visibility and authority; embedded categories can exclude public participation, so designs should retain voices and examine residual exclusions.",
+          "comparison": {
+            "variables": "Close: categories, constituencies, infrastructure, retrievable voice.",
+            "causal_structure": "Close classification-exclusion-inertia structure; complaint ranking loop unspecified.",
+            "beneficiary": "Multiple constituencies, not only system purchasers.",
+            "outcome": "Inertia/exclusion versus adapter procurement self-validation.",
+            "timescale": "Infrastructure development and maintenance.",
+            "prediction": "Apparent routine success can coexist with exclusion; procurement inversion unspecified.",
+            "intervention": "Retain constituent voices: substantively close to standing preservation."
+          }
+        },
+        {
+          "local_id": "A-SCOTT-1998",
+          "title": "Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed",
+          "authors": [
+            "James C. Scott"
+          ],
+          "year": 1998,
+          "url": "https://yalebooks.yale.edu/book/9780300078152/seeing-like-a-state/",
+          "inspected_version": null,
+          "inspection": "Publisher record and original-text mirror; chapter 1 measurement standardization and customary/freehold/cadastral-tenure passages, principally extracted lines507–600. No full-book reading.",
+          "reading_limits": "Some returned long passages truncated beyond that range; no direct verification of original underlying cases or modern legal doctrine.",
+          "prior_proposition": "Administrative simplification replaces variable communal tenure with individual freehold records, making property fiscally legible while discarding customary rights and advantaging supralocal administration and markets.",
+          "comparison": {
+            "variables": "Direct: communal rights, individual legal owners, records.",
+            "causal_structure": "Direct representation-rights transformation; complaint/procurement return unspecified.",
+            "beneficiary": "State/speculator versus customary users.",
+            "outcome": "Rights transformation and legibility versus self-certifying adapter selection.",
+            "timescale": "Long institutional transformation versus repeated adapter procurement.",
+            "prediction": "Accurate cadastral description can omit customary entitlements.",
+            "intervention": "Bring institutional schema/rights into analysis, not transaction accuracy alone."
+          }
+        },
+        {
+          "local_id": "A-FELSTINER-ABEL-SARAT-1980-81",
+          "title": "The Emergence and Transformation of Disputes: Naming, Blaming, Claiming ...",
+          "authors": [
+            "William L. F. Felstiner",
+            "Richard L. Abel",
+            "Austin Sarat"
+          ],
+          "year": "1980–81",
+          "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CC5A29351BCC355B8317FD13CAF29F09/S0023921600032400a.pdf/the-emergence-and-transformation-of-disputes-naming-blaming-claiming.pdf",
+          "inspected_version": null,
+          "inspection": "All 24 article pages printed pp.631–654 read via three extracts (PDF1–7,8–16,17–24). Publisher abstract initially available; later direct PDF access succeeded.",
+          "reading_limits": "Shared reference list elsewhere in the journal issue not inspected. Article's own theoretical claims distinguished from empirical findings it cites.",
+          "prior_proposition": "Institutions and representatives transform parties, issues and remedies; claims can be individualized or stopped, and evaluation without the antecedent problem misses how institutional filtering produced its observed caseload.",
+          "comparison": {
+            "variables": "Very close: parties, processing rules, professional incentives, caseload/evaluation.",
+            "causal_structure": "Close agent-incentive/filtering/evaluation interaction; adapter procurement not explicit.",
+            "beneficiary": "Clients, professionals, agencies and absent grievants.",
+            "outcome": "Apparent effectiveness after dispute transformation.",
+            "timescale": "Early injury through dispute processing and later evaluation.",
+            "prediction": "Observed cases cannot alone assess original grievance population.",
+            "intervention": "Antecedent baselines and longitudinal dispute histories: closely matched audit."
+          }
+        },
+        {
+          "local_id": "A-HIRSCHMAN-1970",
+          "title": "Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States",
+          "authors": [
+            "Albert O. Hirschman"
+          ],
+          "year": 1970,
+          "url": "https://arken.nmbu.no/~sigury/AOS_234/AOS234%20files/Hirschman_Exit_voice_loyality.pdf",
+          "inspected_version": null,
+          "inspection": "Four-page authorized chapter-eight reprint, The Social Contract Summer1994 pp.272–275; whole excerpt extracted, with separately reread p.273 to fill initial middle truncation.",
+          "reading_limits": "Only chapter-eight excerpt, not entire 1970 book or chapter-five argument. Reprint contains selected original prose and clearly marked editorial notes.",
+          "prior_proposition": "Individual exit or mobility can remove quality-conscious members and weaken collective voice, preserving domination even while particular individuals improve their circumstances.",
+          "comparison": {
+            "variables": "Close: individual movement, collective voice, institutional quality.",
+            "causal_structure": "Voice-depletion return close; no adapter-defined legal standing.",
+            "beneficiary": "Mobile individuals, residual group, institution.",
+            "outcome": "Weakened collective correction versus selected adapter validation.",
+            "timescale": "Repeated social mobility/organizational development.",
+            "prediction": "Individual improvement can coexist with weakened group voice.",
+            "intervention": "Balance collective voice and individual exit; specific appeal schema unspecified."
+          }
+        },
+        {
+          "local_id": "A-LAKKARAJU-2017",
+          "title": "The Selective Labels Problem: Evaluating Algorithmic Predictions in the Presence of Unobservables",
+          "authors": [
+            "Himabindu Lakkaraju",
+            "Jon Kleinberg",
+            "Jure Leskovec",
+            "Jens Ludwig",
+            "Sendhil Mullainathan"
+          ],
+          "year": 2017,
+          "url": "https://www.cs.cornell.edu/home/kleinber/kdd17-selective.pdf",
+          "inspected_version": null,
+          "inspection": "PDF pp.1–4, especially introduction and section3 formal decision/outcome observability relation; long extract had internal truncations. Not full text.",
+          "reading_limits": "Remaining six pages and detailed contraction evaluation not read; do not infer whether a broader complaint setting appears elsewhere.",
+          "prior_proposition": "Decision-makers' choices determine which outcome labels exist, making performance evaluation on observed outcomes nonrepresentative; heterogeneous decision-makers can support restricted comparisons.",
+          "comparison": {
+            "variables": "Close: eligibility/decision, outcome observation, evaluation.",
+            "causal_structure": "Observation gate equivalent locally; no explicit standing/procurement loop.",
+            "beneficiary": "Evaluator and subjects under consequential decisions.",
+            "outcome": "Misleading performance comparison.",
+            "timescale": "One evaluation dataset rather than institutional evolution.",
+            "prediction": "Fewer observed adverse outcomes need not mean better decisions.",
+            "intervention": "Compare over suitable exposure/populations; contraction not directly assumed applicable."
+          }
+        }
+      ],
+      "review_status": "AUTHOR_OR_CONSTRUCTION_AGENT_COMPARISON_NOT_BLIND_DISCIPLINARY_REVIEW",
+      "historical_priority": "NOT_ESTABLISHED",
+      "empirical_reality": "NOT_ESTABLISHED",
+      "discarded": false,
+      "canonical_claim": false,
+      "winner": false
+    },
+    {
+      "id": "E4:M087",
+      "name": "Receipt-funded entry versus independent recognition",
+      "version": "0.1.0",
+      "claim_type": "PROPOSED_COMPOSITION",
+      "status": "RETAINED_FOR_DEVELOPMENT_NOT_A_NOVELTY_CERTIFICATION",
+      "provisional_remainder_class": "USEFUL SYNTHESIS",
+      "narrower_status": "UNVERIFIED",
+      "strongest_version": {
+        "additional_prediction": "At a fixed fee and finite horizon, capping entry-recycled certificate volume at its initial level while maintaining gateway upkeep from actual receipts produces fewer entrants and greater issuer-free completion than the full demand-linked return. Static fragmentation can survive this ablation; the additional acceleration requires the return.",
+        "actors": {
+          "issuer": "A operates assurance and the recognition gateway, but does not own task providers.",
+          "providers": "P1...Pn independently own task services.",
+          "beneficiary_controller": "H can be a distinct community, professional or public board setting the earmarks.",
+          "counterparties": "C choose recognition routes under resource limits.",
+          "users": "U receive service and optional assurance; their individual grants do not imply collective control of A or C."
+        },
+        "signed_edges": [
+          {
+            "from": "certificate fee f",
+            "to": "earmarked receipts R",
+            "sign": "+",
+            "condition": "f*Q(f,n) rises; elasticity can defeat this"
+          },
+          {
+            "from": "receipts R",
+            "to": "entry budget alpha*R",
+            "sign": "+"
+          },
+          {
+            "from": "entry budget",
+            "to": "provider count n_next",
+            "sign": "+",
+            "condition": "project costs, finite entrant capacity and no equally cheap independent finance"
+          },
+          {
+            "from": "provider count n",
+            "to": "independent adapter burden",
+            "sign": "+",
+            "condition": "distinct grounded proofs cost resources; formats need not be strategically incompatible"
+          },
+          {
+            "from": "adapter burden",
+            "to": "issuer-free fixed-panel completion u",
+            "sign": "-",
+            "condition": "budget binds and retained routes are not permanently grandfathered"
+          },
+          {
+            "from": "issuer-free completion u",
+            "to": "A certificate demand Q",
+            "sign": "-",
+            "condition": "A is accepted on residual routes and alternative guarantees are not sufficient"
+          },
+          {
+            "from": "certificate demand Q",
+            "to": "receipts R_next",
+            "sign": "+"
+          }
+        ],
+        "closed_return": "n -> adapter burden -> u -> Q -> alpha*f*Q -> n_next",
+        "maintenance_branch": "beta*f*Q funds next-period gateway upkeep, separately from entry recycling.",
+        "assumptions": [
+          "Fee-inelastic optional certificate demand in the toy; otherwise require increasing f*Q(f,n).",
+          "Indivisible entry projects; unused entry earmarks are rebated rather than accumulated.",
+          "Entry finance is constrained, and entrants subsequently remain viable; no exit is modeled.",
+          "Counterparties have B=3, native proof cost d=1, gateway verification cost c=0.5.",
+          "For n>3, counterparties retain L=2 native adapters and use the funded gateway for full ordinary coverage.",
+          "Provider-neutral allocation across counterparties; the audit requests remain original P1/P2 tasks.",
+          "Optional certificate base r=0.2 on a representative market flow M=100 distinct from the audit panel.",
+          "Entry cost F=6, gateway upkeep G=2, alpha=0.75, beta=0.25, initial n=2, cap n=10, four updates.",
+          "Plural guarantees must actually be provisioned and accepted independently of A's key, continuing status and permission."
+        ],
+        "variables": {
+          "n": "Independent task-provider count, not every sense of competition.",
+          "u": "Fraction of fixed audit requests completable without issuer A, under disclosed recognition allocation.",
+          "Q": "Actual A certificate volume; neither indispensability nor welfare.",
+          "R": "f*Q receipts.",
+          "B": "Counterparty independent recognition budget.",
+          "d": "Resource cost per independently grounded format.",
+          "c": "Cost of verifying the common gateway.",
+          "F": "Entry startup/integration project cost.",
+          "G": "Issuer-side gateway upkeep.",
+          "alpha_beta": "Separate entry and upkeep earmarks."
+        },
+        "recurrences": [
+          "u(n)=1 when n<=floor(B/d); otherwise u(n)=floor((B-c)/d)/n with a funded gateway.",
+          "Q(n)=M*[r*u(n)+(1-u(n))].",
+          "n_next=min(n_cap,n+floor(alpha*f*Q(n)/F)).",
+          "The entry-capped ablation replaces Q(n) by min(Q(n),Q0) ONLY in entry receipts, not gateway upkeep.",
+          "The Q/u formula describes the dependent single-gateway arm. In the plural arm native-adapter coverage and total A-free feasibility differ: default A use can remain84 while independent alternate guarantees make A-free completion100. The demand formula is not asserted universal across changed recognition regimes."
+        ],
+        "preserved_invariants": [
+          "ordinary completion 100",
+          "task quality 1",
+          "export completeness 1",
+          "local grant types read_export/propose/submit_bounded_transaction",
+          "same original P1/P2 audit requests"
+        ],
+        "not_claimed": [
+          "Market entry proves lower task prices or higher welfare.",
+          "Issuer dependence implies illegitimacy or provider ownership/control.",
+          "The four-period recurrence is a strategic IO equilibrium or a novel theorem.",
+          "The modeled budget boundary is a universal critical fee.",
+          "A reduced static comparator represents the strongest prior theory."
+        ]
+      },
+      "known": [
+        "Two-sided price allocation, cross-subsidized participation and non-profit governance can coexist with platform/bottleneck dependence (S01,S02,S05).",
+        "Producer multiplicity can increase the value of an honest specialized certifier and pooling can favor concentration without deception (S03).",
+        "Supplier-entry/customer-demand loops, entry-cost constraints, compatibility counterfactuals and dynamic amplification are established (S04).",
+        "Topology-dependent node-removal resilience, multi-homing/second-source alternatives and standard reuse are established (S02,S05,S06,S08).",
+        "Elementary budget arithmetic, monotone recurrences, fixed costs, finite stocks and path dependence under omitted exit/no rollover are inherited; no new formal theorem.",
+        "The static more-incompatible-entry/less-usable-exit prediction already occurs in D4:I247; adding assurance language is insufficient.",
+        "Inspection supports substantial substantive interaction ancestors, not merely isolated ingredients. It does not exhibit a one-to-one complete match for all M087 institutional primitives."
+      ],
+      "new_residue": "The remaining proposed object is an earmarked assurance-fee return that finances heterogeneous independent entry, raises recognition demand under fixed counterparty capacity, and further funds entry, tested by capping only the new-demand recycling edge. Its paired measurement holds ordinary completion and A certificate flow distinct from fixed-panel A-free completion; the particular combined fiscal/recognition experiment was not established in this inspected set, which is an inspection gap rather than a priority claim.",
+      "construction_record": "../../emergence/compound_population.json",
+      "human_record": "M087.md",
+      "machine_record": "M087.json",
+      "actual_query_log": "M087-query-log.json",
+      "sources": [
+        {
+          "local_id": "M087-S01",
+          "title": "Platform Competition in Two-Sided Markets",
+          "authors": [
+            "Jean-Charles Rochet",
+            "Jean Tirole"
+          ],
+          "year": 2003,
+          "url": "https://idei.fr/sites/default/files/medias/doc/wp/2002/platform.pdf",
+          "inspected_version": "Author working paper dated December 13, 2002; final article not substituted for this inspected version.",
+          "inspection": "Working-paper pp.1–11: introduction, model primitives, transaction-volume product, private monopoly and beginning of Ramsey pricing. Extracted directly with curl/pdftotext after browser fetch errors.",
+          "reading_limits": "Not a full read of the final 2003 article or all working-paper extensions. No absence claim about the wider two-sided-market literature; supplied source title/metadata do not establish full-graph equivalence.",
+          "prior_proposition": "With two groups transacting through a platform, participation on each side affects the other side's surplus, and price allocation changes transaction volume even at a fixed total price. The basic model has Q=DB(pB)DS(pS), with platform profit (pB+pS-c)Q; profit-maximizing and budget-balanced welfare-maximizing governance are distinct.",
+          "comparison": {
+            "variables": "Prior has two side prices, quasi-demands, transaction volume, surplus and platform cost. M087 adds earmarked entry projects, a finite recognition budget and fixed-panel issuer-removal usability.",
+            "causal_structure": "Prior couples prices, participation and transactions. It does not state the inspected finite-period earmark -> entrant-format burden -> recognition demand -> earmark recurrence; that is a passage-level distinction, not a claim that its framework cannot express it.",
+            "beneficiary": "Both separate end-user sides from the intermediary and distinguish governance objectives. M087 additionally separates issuer A, independent task providers P and rule controller H.",
+            "outcome": "Prior calculates transactions, prices and surplus. M087 measures loss of independently completable fixed tasks despite unchanged ordinary transactions; no welfare conclusion follows.",
+            "timescale": "Inspected benchmark is price/participation equilibrium; M087 is a four-update fiscal and recognition trajectory, not an equilibrium comparison.",
+            "prediction": "Cross-subsidy and participation feedback are expected. The specific capped-recycling endpoint is not given in these passages, but requires added fiscal and recognition primitives rather than a different economic principle.",
+            "intervention": "Prior varies price allocation and governance. M087 changes entry recycling only, preserves upkeep, or provisions alternative guarantees with unchanged A flow."
+          }
+        },
+        {
+          "local_id": "M087-S02",
+          "title": "Competition in Two-Sided Markets",
+          "authors": [
+            "Mark Armstrong"
+          ],
+          "year": 2006,
+          "url": "https://discovery.ucl.ac.uk/id/eprint/14583/1/14583.pdf",
+          "inspected_version": "Author manuscript August 2002, revised May 2005, UCL 14583.",
+          "inspection": "Manuscript section 5 pp.14–17, section 5.3 pp.22–24, section 5.4 opening p.25 and section 5.5 limitations p.28; browser PDF text. Important examples and limitations read beyond abstract.",
+          "reading_limits": "Selected complete substantive passages, not complete final published paper or proof verification. Mixed-homing discussion explicitly inspected. No claim that Armstrong overlooked beneficial intermediation or that u creates a new connectivity concept.",
+          "prior_proposition": "When one group single-homes and the other multi-homes, platforms control access to their single-homing users despite competition for those users. In the mobile example, termination revenues subsidize subscribers. The bottleneck model can neglect the multi-homing side's interests; allowing some users to multi-home removes monopoly access to those users.",
+          "comparison": {
+            "variables": "Prior tracks group sizes, homing, tariffs, externalities and surplus; M087 tracks task-provider supply, recognition budget, certificate receipts and A-removal completion.",
+            "causal_structure": "This is a strong ancestor: access-derived revenues induce participation on another side, supporting a bottleneck. M087 adds a fiscal growth stock and the negative effect of heterogeneous entry on independent recognition rather than assuming single-homing.",
+            "beneficiary": "Prior platform, single-homing customers and multi-homing suppliers/callers are distinct. M087's issuer is institutionally separate from the task suppliers and its fee controller need not maximize issuer profit.",
+            "outcome": "Prior concerns access pricing and surplus; M087's u concerns completion after removing A, while ordinary completion remains matched.",
+            "timescale": "Prior benchmark is competitive equilibrium; M087 is finite-horizon entry and upkeep, with no strategic best-response or welfare equilibrium solved.",
+            "prediction": "The broad competition/dependence tension is already predicted. M087's marginal-demand recycling ablation and audit-allocation effect require further primitives, not an established contradiction of the prior.",
+            "intervention": "Prior changes homing and tariff structure. M087's plural-guarantee arm is a domain-specific form of independently feasible multi-homing; capped entry recycling changes a separate finance return."
+          }
+        },
+        {
+          "local_id": "M087-S03",
+          "title": "Honest Certification and the Threat of Capture",
+          "authors": [
+            "Roland Strausz"
+          ],
+          "year": 2005,
+          "url": "https://epub.ub.uni-muenchen.de/13523/1/25.pdf",
+          "inspected_version": "Author August 18, 2004 manuscript, Discussion Paper 25, LMU repository.",
+          "inspection": "Printed pp.2–8,12–19,20–22 and proposition statements/proof text visible in extraction. Setup, price competition, long-lived producers and normative limits inspected directly via curl/pdftotext; browser fetch unsuccessful.",
+          "reading_limits": "2004 author manuscript rather than full publisher version. Main mechanisms and limits read; no independent verification of all algebra. The manuscript's base certification distortion is distributive, not a demonstrated net-welfare gain; do not attribute welfare results from its possible extension to the base model.",
+          "prior_proposition": "Reputation can sustain honest certification when future honest returns exceed gains from capture. Pooling future certification jobs can make honesty cheaper to sustain; under specified beliefs, price competition yields one honest certifier. With many long-lived producers, pooled reputation can support external certification where individual producer reputation cannot.",
+          "comparison": {
+            "variables": "Prior has quality, price, verification cost, discount factor, capture transfers and future jobs; M087 fixes quality/honesty and instead models startup costs, proof capacity and earmarked receipts.",
+            "causal_structure": "Prior producer multiplicity -> pooled reputation advantage -> external certification demand is substantive overlap. M087's provider-entry supply is funded by that demand and feeds finite recognition burden, not reputation incentive compatibility.",
+            "beneficiary": "Both distinguish producer, certifier and consumers. M087 additionally distinguishes the institutional fee controller from the issuer; no producer or issuer owns every relevant decision.",
+            "outcome": "Prior predicts sustainable honesty, certifier structure and price. M087 predicts issuer-free completion; this does not refute an efficient or honest certifier.",
+            "timescale": "Prior is an infinite repeated game and sequential producers. M087 is a short fiscal recurrence with entrant viability assumed; its history dependence is not the prior's reputation equilibrium.",
+            "prediction": "Producer multiplicity increasing demand for pooled certification is known. Fee-funded increases in that multiplicity, capped recycling and fixed-request proof dilution are not asserted in the inspected propositions.",
+            "intervention": "Prior changes honesty/capture incentives and certifier competition. M087 changes entry earmarks or funds independent proof paths; adding guarantors must also preserve their credibility, which the toy assumes."
+          }
+        },
+        {
+          "local_id": "M087-S04",
+          "title": "The Dynamics of Technological Adoption in Hardware/Software Systems: The Case of Compact Disc Players",
+          "authors": [
+            "Neil Gandal",
+            "Michael Kende",
+            "Rafael Rob"
+          ],
+          "year": 2000,
+          "url": "https://users.econ.umn.edu/~holmes/class/2003f8601/papers/gandal_kende_rob.pdf",
+          "inspected_version": "Published RAND article pp.43–61, university-hosted scanned PDF.",
+          "inspection": "Printed pp.45 from indexed primary text and pp.48,51–52,58 from direct page OCR (PDF pages6,9,10,16). Entry timing, operating-profit/free-entry equation, adoption decision and compatibility counterfactual inspected.",
+          "reading_limits": "Selected printed pages, not full article or appendices. OCR has noise; exact coefficients and typeset equations were not copied into the judgment. The institutional INSEAD working-paper fetch failed; this published primary copy supplied the substantive inspection.",
+          "prior_proposition": "Hardware adoption and software supply jointly evolve: installed hardware affects software profits and entry, while software variety and prices affect hardware adoption. Software entry responds to fixed costs and discounted operating profits. The paper estimates coupled equations and simulates a compatibility-induced variety expansion to change subsequent diffusion.",
+          "comparison": {
+            "variables": "Prior hardware installed base, software variety, prices, fixed capacity cost and profits map to demand and supplier stocks. M087 additionally distinguishes certificate receipts from task demand and independently accepted recognition capacity.",
+            "causal_structure": "Prior already has closed variety -> adoption -> entry -> variety feedback. M087 differs in the bridge: entrant heterogeneity reduces independent recognition, raising assurance demand whose earmark directly pays startups.",
+            "beneficiary": "Prior consumers and complementary producers plus their profits; M087 adds a distinct issuer and institutional grant controller without integrating them with the task suppliers.",
+            "outcome": "Prior measures diffusion and variety, not ability to complete an unchanged task panel without a specified issuer. The latter is an extra measurement, not a new network-feedback principle.",
+            "timescale": "Both dynamic; prior uses quarterly diffusion and forward-looking free entry, whereas M087 uses four institutional budget updates and non-rollover grants.",
+            "prediction": "Supply-return amplification and compatibility interventions are known. A cap on recycled certification receipts is not the prior's specific instrument, but an economist could add such a constraint and derive its consequences.",
+            "intervention": "Prior varies compatibility/software availability and discusses system subsidies. M087 caps only marginal-demand entry finance and separately preserves gateway upkeep or alternatives."
+          }
+        },
+        {
+          "local_id": "M087-S05",
+          "title": "Chicken & Egg: Competing Matchmakers",
+          "authors": [
+            "Bernard Caillaud",
+            "Bruno Jullien"
+          ],
+          "year": 2001,
+          "url": "https://www.tse-fr.eu/sites/default/files/medias/doc/by/jullien/cjjune01.pdf",
+          "inspected_version": "April24,2001 author working paper; antecedent to 2003 Chicken & Egg: Competition among Intermediation Service Providers. No silent identity with the final version.",
+          "inspection": "Printed pp.5–13 (intro, matching primitives, registration/transaction prices, multihoming, timing and allocation monotonicity), browser PDF text; an appendix segment also inspected but not used for a proof claim.",
+          "reading_limits": "2001 working paper, not a full read or algebra audit of the published 2003 article. Full inspected model passages, not abstract-only inference. Second-source matching does not itself verify an alternative guarantor's real credibility or capacity.",
+          "prior_proposition": "Matchmakers price two sides with participation externalities, can subsidize registration, and may charge successful transactions. Users may register with one or both intermediaries. The model distinguishes registration-based dominance, transaction-fee competition and multihoming allocations, including secondary-source use.",
+          "comparison": {
+            "variables": "Prior prices, matching probability, group registration shares and homing distributions. M087 adds a financed provider stock and counterparty adapter budget.",
+            "causal_structure": "Prior prices -> registration -> matching/externalities -> intermediary returns is a participation equilibrium. M087's earmark -> new heterogeneous suppliers -> independent-recognition deficit -> receipt growth is a fiscal stock return not specified by those primitives.",
+            "beneficiary": "Prior two matched populations and competing matchmakers; M087 issuer, providers, counterparties and public/community controller have separate ownership and control.",
+            "outcome": "Prior matches, market allocation and intermediary profit. M087 measures matched ordinary completion separately from A-free completion of the same original requests.",
+            "timescale": "Prior prices then registration, solved as a staged equilibrium; M087 repeats earmarked entry/recognition updates without strategic optimization.",
+            "prediction": "Subsidization and a feasible second source changing access/profit are known. The precise fixed-fee capped-recycling contrast is an additional institutional experiment, not proved absent from general intermediation theory.",
+            "intervention": "Prior changes pricing instruments and permissible multiple registration; M087 provisions actually independent guarantees at matched A flow or alters a single return edge."
+          }
+        },
+        {
+          "local_id": "M087-S06",
+          "title": "Error and Attack Tolerance of Complex Networks",
+          "authors": [
+            "Réka Albert",
+            "Hawoong Jeong",
+            "Albert-László Barabási"
+          ],
+          "year": 2000,
+          "url": "https://arxiv.org/pdf/cond-mat/0008064",
+          "inspected_version": "Author arXiv cond-mat/0008064v1 and author-hosted Nature copy.",
+          "inspection": "arXiv printed pp.2–6, matching nodes/edges, targeted removal, diameter and fragmentation measures; figure2/3 captions pp.11–12. Main body primary text available, not abstract alone.",
+          "reading_limits": "Selected substantive body and captions; no replication or claim about all network families. M087's small recognition graph is not asserted to be scale-free, and high degree is not assumed equivalent to an articulation cut.",
+          "prior_proposition": "Networks with the same node and edge counts can react very differently to removal because links are distributed differently. In the studied heterogeneous networks, removing highly connected nodes changes path lengths and fragments connectivity far more than random removals; node/edge totals alone do not characterize robustness.",
+          "comparison": {
+            "variables": "Prior node degrees, removed fraction, path lengths and connected-cluster size; M087 uses accepted obligation routes and success on fixed task/counterparty pairs, not just undirected graph degree.",
+            "causal_structure": "Prior topology -> response to node deletion overlaps A-removal testing. The inspected model has no certificate revenues, entry projects or counterparties allocating recognition resources.",
+            "beneficiary": "Prior has no economic beneficiary/control model. M087's distinct issuer/provider/controller roles and legitimacy judgments cannot be inferred from physical graph vulnerability.",
+            "outcome": "Prior network communication/fragmentation; M087 completed recognized tasks. Both distinguish ordinary functioning from functioning after removal.",
+            "timescale": "Prior graph growth model followed by deletion probes; M087 adds a repeated finance/recognition process that changes its own deletion vulnerability.",
+            "prediction": "Equal network size differing under hub removal is known. M087's same-A-flow/different-indispensability arm is an application of this distinction, not a novel topology theorem.",
+            "intervention": "Prior targets nodes in simulations. M087 provisions independent accepted paths and changes fiscal feedback; topology alone cannot establish that a proposed guarantee is legally or institutionally sufficient."
+          }
+        },
+        {
+          "local_id": "M087-S07",
+          "title": "Ecosystem Competition and Cross-Market Subsidization: A Dynamic Theory of Platform Pricing",
+          "authors": [
+            "Liang Chen"
+          ],
+          "year": 2026,
+          "url": "https://arxiv.org/html/2601.15303v1",
+          "inspected_version": "arXiv2601.15303v1 submitted January10,2026; preprint, not treated as an established or independently verified theorem.",
+          "inspection": "Sections2.3–2.6,3.1–3.2,5.1–5.2 and conclusion: complementarity function, state dynamics, objectives, displayed first-order conditions and cross-subsidization restriction.",
+          "reading_limits": "Bibliographic identity and actual passages verified, but proof validity/empirical claims not certified. The displayed pricing and first-order-condition arguments need independent mathematical review; no theorem from this preprint is a premise of the M087 remainder class. Included as an inspected exploratory neighbor, not to pad the five established substantive primary comparisons.",
+          "prior_proposition": "The author models spillover value from primary users into adjacent markets, uses it in dynamic firm objectives, and proposes subsidy feedback and restrictions on cross-market transfers. The stated outcome concerns subsidized rivalry and capital allocation, not certification or independently usable transactions.",
+          "comparison": {
+            "variables": "Preprint market share, subsidies, spillover function and dynamic values versus M087 provider count, earmarked receipts, adapter capacity and u.",
+            "causal_structure": "Both couple market expansion with cross-market finance returns; preprint channels are portfolio spillovers rather than certificate-demand effects of fragmented recognition.",
+            "beneficiary": "Preprint ecosystem firms combine contested and adjacent businesses; M087 separates issuer, independent providers and rule controller.",
+            "outcome": "Preprint effective prices/capital allocation; M087 fixed-task issuer-removal completion.",
+            "timescale": "Preprint dynamic strategic equilibrium claims; M087 finite accounting recurrence with no strategic equilibrium claim.",
+            "prediction": "Persistent financing feedback is shared. The earmark cap/u contrast is not given by the inspected primitives, but graph specificity alone does not establish novelty.",
+            "intervention": "Both change cross-market financing; M087 caps only incremental certificate-volume recycling and preserves upkeep."
+          }
+        },
+        {
+          "local_id": "M087-S08",
+          "title": "GlobalPlatform SESIP: scheme-owner account of composition, certificate reuse, mappings and governance",
+          "authors": [
+            "GlobalPlatform"
+          ],
+          "year": null,
+          "url": "https://globalplatform.org/sesip/",
+          "inspected_version": "Official operational page accessed2026-10-05, not an independently evaluated research result.",
+          "inspection": "Problem/solution and SESIP descriptions, benefits, mappings, governance and participation forms; page lines100–193,238–276.",
+          "reading_limits": "Official scheme-owner primary description, not audit of governance PDF, contracts, public law, budgets or actual certificate portability. Multiple certification bodies alone do not prove independent provisioning or acceptance after A is removed. Not counted as an additional peer-reviewed paper.",
+          "prior_proposition": "The scheme owner describes reuse of certified components, mappings to other requirements, and a governance structure with product vendors, evaluation laboratories and certification bodies. It claims reduced repeated-evaluation cost and easier entry, and describes mutual recognition.",
+          "comparison": {
+            "variables": "Operational certification cost/effort, component reuse, mappings and accredited roles; no explicit provider-count/fee-funded-entry recurrence or u measurement.",
+            "causal_structure": "Reuse/mappings -> lower repeated assessment cost -> possible entry benefits overlaps cheap independent recognition. The official description does not establish M087's adverse return or its absence in practice.",
+            "beneficiary": "Distinct vendors, labs, certifiers, regulators and scheme owner demonstrate role separation. These are not automatically independent of the same ultimate recognition authority.",
+            "outcome": "Owner claims easier compliance and lower repeated costs, not experimentally measured issuer-removal transactions.",
+            "timescale": "Ongoing scheme operation; no specified four-period causal dynamics.",
+            "prediction": "Assurance can expand access rather than inevitably centralize usable choices. The official claims are not a causal test of the M087 positive mirror.",
+            "intervention": "Reuse, mappings and mutual recognition are domain-real alternatives to requiring every proof path to depend on a single certificate issuer."
+          }
+        }
+      ],
+      "review_status": "AUTHOR_OR_CONSTRUCTION_AGENT_COMPARISON_NOT_BLIND_DISCIPLINARY_REVIEW",
+      "historical_priority": "NOT_ESTABLISHED",
+      "empirical_reality": "NOT_ESTABLISHED",
+      "discarded": false,
+      "canonical_claim": false,
+      "winner": false
+    },
+    {
+      "id": "E4:M101",
+      "name": "Reproduction of jointly executable veto capacity",
+      "version": "0.1.0",
+      "claim_type": "PROPOSED_COMPOSITION",
+      "status": "RETAINED_FOR_DEVELOPMENT_NOT_A_NOVELTY_CERTIFICATION",
+      "provisional_remainder_class": "USEFUL SYNTHESIS",
+      "narrower_status": "UNVERIFIED",
+      "strongest_version": "At the same whole-population grant vector, task mix and deployment comprehension, more reliable routine execution can reduce observed requests for veto and correction. If budgets reproduce independent review and unreserved substitutes from successful exercised vetoes rather than latent legitimate demand, feasibility itself censors demand. Declining feasible exercise then lowers next-period resources, shrinking the jointly executable refusal frontier despite technically compliant individual stop channels.",
+      "known": [
+        "Automation-driven skill/knowledge loss and rare-intervention training demands are inherited.",
+        "Endogenous investment, capability decay, resource trade-offs, network reciprocity and beneficial reinvestment are inherited substantive interactions, not only separate ingredients.",
+        "Institutionally meaningful rights require maintained monitoring, interpretation and conflict resolution; nominal recognition is not sufficient.",
+        "Complementary-resource bottlenecks and assignment feasibility require no new mathematics.",
+        "The agent can obey every stop without having caused or repaired the surrounding institution's capacity loss; this is not evidence of incorrigible intent."
+      ],
+      "new_residue": "The remaining candidate is a rights-specific measurement and causal test: whether exercised-veto-funded reproduction censors latent refusal demand and shrinks the jointly executable veto set at a fixed grant vector. No new generic feedback mechanism or important theoretical difference from the combined closest literature has been established.",
+      "construction_record": "../../emergence/compound_population.json",
+      "human_record": "M101.md",
+      "machine_record": "M101.json",
+      "actual_query_log": "query-log-c-M101-M105.json",
+      "sources": [
+        {
+          "local_id": "C101-S01",
+          "title": "Ironies of Automation",
+          "authors": "Lisanne Bainbridge",
+          "year": 1983,
+          "url": "https://gwern.net/doc/sociology/technology/1983-bainbridge.pdf",
+          "inspected_version": null,
+          "inspection": {
+            "read": "Sections 1.1 and 2, printed pp.775–777, PDF pp.1–3; extracted lines 73–383.",
+            "limit": "Not a fresh verification of its cited studies or remaining collaboration section."
+          },
+          "reading_limits": null,
+          "prior_proposition": "Automation removes manual practice and process knowledge while leaving difficult recovery to operators; the most successful systems, with rare intervention, can need especially large training investment.",
+          "comparison": {
+            "variables": "Same reliability, practice and skill; adds shared substitute reservations.",
+            "causal_structure": "Strong practice-loss match; use-conditioned funding closure not established here.",
+            "beneficiary": "Operators and process users versus vetoing residents.",
+            "outcome": "Failed takeover versus infeasible legitimate veto.",
+            "timescale": "Practice histories versus institutional replenishment cycles.",
+            "prediction": "Rare intervention needing investment is already predicted.",
+            "intervention": "Same maintained training; adds jointly unreserved substitute accounting."
+          }
+        },
+        {
+          "local_id": "C101-S02",
+          "title": "The theory of graceful extensibility: basic rules that govern adaptive systems",
+          "authors": "David D. Woods",
+          "year": 2018,
+          "url": "https://surfingcomplexity.blog/wp-content/uploads/2025/10/3c732-woods2018-thetheoryofgracefulextensibility.pdf",
+          "inspected_version": null,
+          "inspection": {
+            "read": "Table 1; sections 2.3–2.4 and relevant 3.2 passages, PDF pp.11–16 and 19–20, including reciprocity, reserves and backup switching.",
+            "limit": "No independent checking of cited case studies or complete derivation of every statement."
+          },
+          "reading_limits": null,
+          "prior_proposition": "Interdependent units extend or constrict one another's capacity for maneuver; efficiency-oriented resource reductions can remove extensibility. Targeted reserves and reciprocal investment sustain adaptation, while simple automatic-to-human-backup switching is an inadequate unstable architecture.",
+          "comparison": {
+            "variables": "Close capacity, investment, saturation, network and resource variables.",
+            "causal_structure": "Close whole interaction: local gains constrain neighboring adaptive capacity.",
+            "beneficiary": "Networked adaptive units versus residents exercising recognized refusals.",
+            "outcome": "Brittleness versus lost joint veto feasibility.",
+            "timescale": "Both repeated adaptation and delayed capacity reproduction.",
+            "prediction": "Efficiency gains eroding collective fallback is already expected.",
+            "intervention": "Same targeted reserve and reciprocity; institutional funding proxy differs."
+          }
+        },
+        {
+          "local_id": "C101-S03",
+          "title": "Collective Action and the Evolution of Social Norms",
+          "authors": "Elinor Ostrom",
+          "year": 2000,
+          "url": "https://idei.fr/sites/default/files/medias/doc/conf/ere/papers_2001/ostrom_paper1.pdf",
+          "inspected_version": null,
+          "inspection": {
+            "read": "Author's April 6, 2000 prepublication version, printed pp.13 and 16–19: crowd-out, design principles and reinforcing monitoring/conflict resolution. Publisher identity checked.",
+            "limit": "Not the published pagination; other sections and underlying field evidence not exhaustively inspected. Governing the Commons downloads failed and are not counted."
+          },
+          "reading_limits": null,
+          "prior_proposition": "Conditional cooperation and mutual monitoring reinforce each other; self-governance requires funded or rotating monitoring roles, intelligible rules, low-cost conflict resolution and recognition of users' organizing rights.",
+          "comparison": {
+            "variables": "Shared contributions, monitoring costs, norms and recognized rights overlap.",
+            "causal_structure": "Institutional reinforcement overlaps; reliability-to-veto-budget edge remains untested.",
+            "beneficiary": "Resource users versus care residents; both shared institutional beneficiaries.",
+            "outcome": "Sustained cooperation versus jointly executable refusal.",
+            "timescale": "Both repeated provision and institutional persistence.",
+            "prediction": "Rights need maintained institutions; specific veto metric not established.",
+            "intervention": "Same accountable provision; candidate adds latent-versus-exercised-demand audit."
+          }
+        },
+        {
+          "local_id": "C101-S04",
+          "title": "Resilience and Stability of Ecological Systems",
+          "authors": "C. S. Holling",
+          "year": 1973,
+          "url": "https://storage.e.jimdo.com/file/5a1d2496-8b52-4f0b-aff5-3853dddb4ad4/Holling%201_merged.pdf",
+          "inspected_version": null,
+          "inspection": {
+            "read": "1973 article introduction and Application section, merged PDF pp.3 and 23; extracted lines 11–24 and 752–770.",
+            "limit": "Merged file also contains a later Holling paper, explicitly excluded; no ecological model proof checked."
+          },
+          "reading_limits": null,
+          "prior_proposition": "Management producing stable sustained yields can alter a system's resilience so a formerly absorbable rare event crosses a structural boundary; resilience-oriented management preserves options and regional heterogeneity.",
+          "comparison": {
+            "variables": "Stability and future recovery capacity overlap; rights absent.",
+            "causal_structure": "Trade-off overlaps; funding and review-labor loop not established here.",
+            "beneficiary": "Ecological persistence versus institutional veto beneficiaries.",
+            "outcome": "Structural persistence versus feasible joint refusal.",
+            "timescale": "Ecological evolution versus staffing and practice cycles.",
+            "prediction": "Stable success reducing rare-event resilience is already stated.",
+            "intervention": "Same preserved options; no specific rights-reserve funding rule."
+          }
+        },
+        {
+          "local_id": "C101-S05",
+          "title": "Corrigibility",
+          "authors": "Nate Soares; Benja Fallenstein; Eliezer Yudkowsky; Stuart Armstrong",
+          "year": 2015,
+          "url": "https://intelligence.org/files/Corrigibility.pdf",
+          "inspected_version": null,
+          "inspection": {
+            "read": "Introduction, section 2 shutdown desiderata and section 5 discussion, PDF pp.1–3 and 8–9.",
+            "limit": "Not a reproduction of all utility calculations; absence of a reserve loop in these passages is not a claim about all corrigibility literature."
+          },
+          "reading_limits": null,
+          "prior_proposition": "Corrigibility includes cooperating with correction, not inducing or preventing shutdown, and preserving shutdown behavior in successors. The paper explicitly treats defining safe shutdown as difficult beyond its simplified assumptions.",
+          "comparison": {
+            "variables": "Utility, actions, shutdown channel versus institutional reserve stocks.",
+            "causal_structure": "Agent incentive model, not candidate's external provisioning feedback.",
+            "beneficiary": "Creators versus residents and substitute workers.",
+            "outcome": "Cooperative shutdown versus executable collective veto.",
+            "timescale": "Decision episodes and successors versus budget cycles.",
+            "prediction": "Compliance alone cannot establish candidate's resource adequacy.",
+            "intervention": "Utility/incentive engineering versus funding and reserve institutions."
+          }
+        },
+        {
+          "local_id": "C101-S06",
+          "title": "Nobody Ever Gets Credit for Fixing Problems That Never Happened: Creating and Sustaining Process Improvement",
+          "authors": "Nelson P. Repenning; John D. Sterman",
+          "year": 2001,
+          "url": "https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf",
+          "inspected_version": null,
+          "inspection": {
+            "read": "Printed pp.66–74 and 80–83: stock/flow, Reinvestment, Shortcuts, reward feedback and maintenance case passages.",
+            "limit": "Not every field case or supporting simulation replicated; 2002 successor paper discovered but not counted as inspected."
+          },
+          "reading_limits": null,
+          "prior_proposition": "Capability is an investment-and-decay stock. Short-run performance gains can drain maintenance and training; delayed decline reinforces reduced improvement. Reinvested savings can reverse the same loop into sustained capability growth.",
+          "comparison": {
+            "variables": "Very close capability, decay, funding, savings and observed performance.",
+            "causal_structure": "Close endogenous investment/decay loop; veto-use proxy differs.",
+            "beneficiary": "Organizations and workers versus refusal-capacity commons.",
+            "outcome": "Capability trap versus inability to execute joint refusals.",
+            "timescale": "Both delayed investment and repeated budget decisions.",
+            "prediction": "Success-conditioned capability erosion and reinvestment reversal already follow.",
+            "intervention": "Same reinvestment/protected maintenance; adds rights-specific joint frontier."
+          }
+        }
+      ],
+      "review_status": "AUTHOR_OR_CONSTRUCTION_AGENT_COMPARISON_NOT_BLIND_DISCIPLINARY_REVIEW",
+      "historical_priority": "NOT_ESTABLISHED",
+      "empirical_reality": "NOT_ESTABLISHED",
+      "discarded": false,
+      "canonical_claim": false,
+      "winner": false
+    },
+    {
+      "id": "E4:M105",
+      "name": "Immediate stopping versus recognized collective release",
+      "version": "0.1.0",
+      "claim_type": "PROPOSED_COMPOSITION",
+      "status": "RETAINED_FOR_DEVELOPMENT_NOT_A_NOVELTY_CERTIFICATION",
+      "provisional_remainder_class": "DOMAIN TRANSFER",
+      "narrower_status": "UNVERIFIED",
+      "strongest_version": "All local safety stops are immediately honored. If a common event compresses residual-disposition arrivals that previously would be dispersed, a finite common settlement pool delays counterpart release. If that delay independently creates additional legitimate reconciliation work, rather than merely leaving a finite original compensation list unfinished, the resulting return can prolong aggregate release after agent execution has ceased.",
+      "known": [
+        "Burst intake exhausting fixed service capacity is inherited queue behavior.",
+        "Delay/retry amplification and overload sustained after trigger removal are close whole-composition predecessors in metastable-failure research.",
+        "Local cancellation differing from semantic compensation and global restoration is explicitly inherited from transaction systems.",
+        "Systemic unwind degrading the capacity supporting further unwind is inherited in liquidity-spiral models, with different financial state variables.",
+        "The T07 recurrence and its unstable boundary are elementary stipulated stock/flow mathematics; no novel formal result is claimed."
+      ],
+      "new_residue": "Only a domain-specific test remains: whether immediately stopped agent mandates induce compressed disposition and genuinely new counterparty obligations that sustain release delay. The general burst–delay–additional-work mechanism and compensation distinction are already close matches; a new mechanism or prediction has not been established.",
+      "construction_record": "../../emergence/compound_population.json",
+      "human_record": "M105.md",
+      "machine_record": "M105.json",
+      "actual_query_log": "query-log-c-M101-M105.json",
+      "sources": [
+        {
+          "local_id": "C105-S01",
+          "title": "Metastable Failures in Distributed Systems",
+          "authors": "Nathan Bronson; Abutalib Aghayev; Aleksey Charapko; Timothy Zhu",
+          "year": 2021,
+          "url": "https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s11-bronson.pdf",
+          "inspected_version": null,
+          "inspection": {
+            "read": "Sections 1–3, PDF pp.1–4, especially 2.1 retries, 2.3 error handling and adaptive policies/prioritization.",
+            "limit": "Simplified operating examples; no reproduction of production incidents or complete literature coverage."
+          },
+          "reading_limits": null,
+          "prior_proposition": "A transient overload can trigger latency-dependent retries or expensive error handling that sustains resource exhaustion after the trigger ends; reserve headroom, retry budgets and adapted priorities can break the feedback.",
+          "comparison": {
+            "variables": "Close arrivals, latency, amplified work, capacity and backlog.",
+            "causal_structure": "Close complete congestion–delay–extra-work return.",
+            "beneficiary": "Service users versus stopped-mandate counterparties and principals.",
+            "outcome": "Persistent overload versus delayed recognized release.",
+            "timescale": "Queue episodes in both; application duration can differ.",
+            "prediction": "Removing trigger alone may not restore service; already predicted.",
+            "intervention": "Same burst capacity, amplification budget and independent queue priorities."
+          }
+        },
+        {
+          "local_id": "C105-S02",
+          "title": "Metastable Failures in the Wild",
+          "authors": "Lexiang Huang; Matthew Magnusson; Abishek Bangalore Muralikrishna; Salman Estyak; Rebecca Isaacs; Abutalib Aghayev; Timothy Zhu; Aleksey Charapko",
+          "year": 2022,
+          "url": "https://www.usenix.org/system/files/osdi22-huang-lexiang.pdf",
+          "inspected_version": null,
+          "inspection": {
+            "read": "Sections 3.3–3.5, Figure 1, definitions and theorem statements, PDF pp.6–9; primary conference metadata.",
+            "limit": "Proof appendices and all 22 incident reconstructions not inspected. Bounded amplification of organic load differs from T07's unbounded backlog-proportional work."
+          },
+          "reading_limits": null,
+          "prior_proposition": "Load spikes and capacity decreases can trigger workload amplification or capacity degradation. Delayed retries increase request count or cost; headroom and bounded amplification govern whether overload persists after trigger removal.",
+          "comparison": {
+            "variables": "Close load, capacity, amplification, trigger duration and headroom.",
+            "causal_structure": "Close whole return; not identical zero-input stock recurrence.",
+            "beneficiary": "Distributed-service users versus institutional obligation holders.",
+            "outcome": "Metastable overload versus collective disposition delay.",
+            "timescale": "Both post-trigger recovery horizons.",
+            "prediction": "Follow-on amplification defeating trigger removal is already predicted.",
+            "intervention": "Same remove amplification/add headroom; obligation legitimacy requires care."
+          }
+        },
+        {
+          "local_id": "C105-S03",
+          "title": "The Transaction Concept: Virtues and Limitations",
+          "authors": "Jim Gray",
+          "year": 1981,
+          "url": "https://www.cs.utexas.edu/~dahlin/Classes/GradOS/papers/Gray81.pdf",
+          "inspected_version": null,
+          "inspection": {
+            "read": "Introduction; general model; Nested Transactions and Long-Lived Transactions, printed pp.144–145 and 152–153, extracted lines 40–148 and 897–1065.",
+            "limit": "Historical transaction model, not legal advice or a claim about current contract law; no reconstruction of cited deadlock formulas."
+          },
+          "reading_limits": null,
+          "prior_proposition": "A canceled travel plan cannot unilaterally abort already completed airline or hotel transactions; compensation must reverse their semantics. Long-lived interleaved transactions make concurrency, restoration and recovery difficult.",
+          "comparison": {
+            "variables": "Same actor cancellation, external commitments, interleaving and compensation.",
+            "causal_structure": "Direct external-effect distinction; no delay-amplification loop established here.",
+            "beneficiary": "Travel customers/counterparties versus mandate principals/counterparties.",
+            "outcome": "Compensated cancellation versus recognized release.",
+            "timescale": "Long-lived transactions and settlement horizons closely overlap.",
+            "prediction": "Stopping one actor need not undo counterparty state; already stated.",
+            "intervention": "Same tracked compensation and continuation-aware recovery."
+          }
+        },
+        {
+          "local_id": "C105-S04",
+          "title": "Sagas",
+          "authors": "Hector Garcia-Molina; Kenneth Salem",
+          "year": 1987,
+          "url": "https://www.cs.princeton.edu/techreports/1987/070.pdf",
+          "inspected_version": null,
+          "inspection": {
+            "read": "Princeton manuscript dated January 7, 1987; PDF pp.2–5 (abstract and complete opening reservation/compensation passages) using OCR.",
+            "limit": "Scanned pages have no extractable text; OCR equations were not treated as verified formal results. Remaining implementation and cost sections not inspected."
+          },
+          "reading_limits": null,
+          "prior_proposition": "Long transactions can release resources through interleaved subtransactions, but partial execution needs semantic compensation. Compensation cancels the relevant effect without necessarily restoring the prior global database state.",
+          "comparison": {
+            "variables": "Same reservations, interleaving, release and compensating transactions.",
+            "causal_structure": "Compensation structure matches; endogenous new-work return not established.",
+            "beneficiary": "Transaction users and other transactions versus human counterparties.",
+            "outcome": "Semantic amendment versus complete recognized release.",
+            "timescale": "Long transaction and compensation episodes overlap.",
+            "prediction": "Local resource release differs from global restoration; already predicted.",
+            "intervention": "Same semantic compensation rather than rewind; no forced deletion."
+          }
+        },
+        {
+          "local_id": "C105-S05",
+          "title": "Market Liquidity and Funding Liquidity",
+          "authors": "Markus K. Brunnermeier; Lasse Heje Pedersen",
+          "year": 2009,
+          "url": "https://www.princeton.edu/~markus/research/papers/liquidity.pdf",
+          "inspected_version": null,
+          "inspection": {
+            "read": "Author-hosted accepted advance-access paper, Figure 2/introduction and section surrounding Proposition 5, PDF pp.4–5 and 18–19; published 2009 identity verified.",
+            "limit": "No full proof or empirical reconstruction; no cash collateral or prices assumed in M105."
+          },
+          "reading_limits": null,
+          "prior_proposition": "Funding constraints and market illiquidity reinforce one another through margin and loss spirals; forced position reductions can worsen liquidity and further constrain the capacity supporting orderly trade.",
+          "comparison": {
+            "variables": "Unwind demand/shared capacity overlap; prices and margins differ.",
+            "causal_structure": "Analogous unwind–capacity feedback, not an identical settlement queue.",
+            "beneficiary": "Traders/market participants versus obligation holders.",
+            "outcome": "Liquidity collapse versus recognized-release delay.",
+            "timescale": "Trading episodes versus settlement-work horizons.",
+            "prediction": "Joint unwind need not share individual capacity assumptions.",
+            "intervention": "Liquidity provision versus disposition reserve; no automatic policy transfer."
+          }
+        }
+      ],
+      "review_status": "AUTHOR_OR_CONSTRUCTION_AGENT_COMPARISON_NOT_BLIND_DISCIPLINARY_REVIEW",
+      "historical_priority": "NOT_ESTABLISHED",
+      "empirical_reality": "NOT_ESTABLISHED",
+      "discarded": false,
+      "canonical_claim": false,
+      "winner": false
+    }
+  ]
+}

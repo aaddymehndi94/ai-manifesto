@@ -1,0 +1,128 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const here=path.dirname(fileURLToPath(import.meta.url));
+const sources=[
+  {
+    id:'M005:S01',authors:['Guy Aridor','Yishay Mansour','Aleksandrs Slivkins','Zhiwei Steven Wu'],
+    year:2020,version:'v4 March 2021',title:'Competing Bandits: The Perils of Exploration under Competition',
+    url:'https://arxiv.org/html/2007.10144v4',
+    inspection:'Abstract, introduction, model section 3 and discussion of data/reputation advantages. Theorem proofs and all simulation tables not independently checked. Earlier 2017/2019 versions are not counted as separate independent neighbors.',
+    prior_proposition:'Users choose between learning platforms and generate the data that permits the selected platform to improve. Competition, reputation and allocation therefore form a data feedback loop, with different user-choice rules affecting exploration and market outcomes.',
+    comparison:{
+      variables:'Provider choice, response observations, current reputation, data advantage and future learning overlap.',
+      causal_structure:'Contains the full choice-to-data-to-relative-performance-to-choice loop. The inspected central choice rule uses expected reward or reputation, not the exact equal-mean uncertainty penalty in M005.',
+      beneficiary:'Selected platforms gain customers and data; customers gain or lose through the resulting service.',
+      outcome:'Learning, market share and consumer welfare, rather than public comparative posterior variance.',
+      timescale:'Repeated competition with an explicit first-mover history.',
+      prediction:'A platform advantage can reproduce through who gets observations. The exact equal-mean/index-gap pair is not a verified result here.',
+      intervention:'Random/free users and softer competition change learning; this is a close predecessor to reserved measurement, not just a shared vocabulary.'
+    }
+  },
+  {
+    id:'M005:S02',authors:['Lequn Wang','Akshay Krishnamurthy','Aleksandrs Slivkins'],
+    year:2024,title:'Oracle-Efficient Pessimism: Offline Policy Optimization In Contextual Bandits',
+    url:'https://proceedings.mlr.press/v238/wang24a/wang24a.pdf',
+    inspection:'Original PDF abstract and section 2, especially support, IPW variance, pessimism and best-effort guarantees. Proofs not replicated.',
+    prior_proposition:'Pessimistic policy selection penalizes uncertain, weakly covered policies. Policies of similar actual risk can have different guaranteed risk because of data coverage; a good selected policy can be established without accurate estimates of all alternatives.',
+    comparison:{
+      variables:'Mean/risk, uncertainty, logging coverage and conservative selection closely match the ranking edge.',
+      causal_structure:'Exact coverage-to-pessimistic-ranking relationship is present. Fixed offline logs do not themselves close the future logging return.',
+      beneficiary:'The decision-maker gains a better-supported present policy; no vendor motive is needed.',
+      outcome:'Safe/best-effort policy value, not comprehensive comparison of every policy.',
+      timescale:'An offline decision from a finite historical dataset.',
+      prediction:'Assurance advantage need not equal superior actual mean quality. This key separation is already explicit in the text.',
+      intervention:'Improve relevant coverage or use pessimistic regularization. Combining this with endogenous routing needs a result beyond simply reconnecting familiar edges.'
+    }
+  },
+  {
+    id:'M005:S03',authors:['Samuel Girard','Aurélien Bibaut','Jill-Jênn Vie','Arthur Gretton','Nathan Kallus','Houssam Zenati'],
+    year:2026,title:'Fast Best-in-Class Regret for Contextual Bandits',
+    url:'https://proceedings.mlr.press/v337/girard26a.html',
+    inspection:'Primary proceedings abstract and bibliographic metadata only; clipped-propensity rule, coverage assumptions and complete proof not inspected.',
+    prior_proposition:'Online policy learning can repeatedly optimize a pessimistic value estimator with a variance penalty while collecting data adaptively, with regret guarantees under specified assumptions.',
+    comparison:{
+      variables:'Adaptive collection, policy value, uncertainty penalty and online policy updates overlap.',
+      causal_structure:'Pessimism plus adaptive data collection is already a combined technical object. Its exploration/support design must be inspected before asserting that the M005 construction is absent.',
+      beneficiary:'A learner seeking a high-value policy; no malicious incentive.',
+      outcome:'Best-in-class regret rather than inference on equal-quality alternatives.',
+      timescale:'Repeated online learning.',
+      prediction:'Pessimism does not universally imply starvation or bad learning. The source is an important counterexample family to that overgeneralization.',
+      intervention:'Algorithmic assumptions and data-collection design matter; merely prohibiting conservative ranking is not warranted.'
+    }
+  },
+  {
+    id:'M005:S04',authors:['Hamsa Bastani','Mohsen Bayati','Khashayar Khosravi'],
+    year:2021,title:'Mostly Exploration-Free Algorithms for Contextual Bandits',
+    url:'https://www.gsb.stanford.edu/faculty-research/publications/mostly-exploration-free-algorithms-contextual-bandits',
+    primary_preprint:'https://arxiv.org/abs/1704.09011',
+    inspection:'Authors’ institutional publication abstract and original arXiv abstract. Author-hosted PDF failed; full proof not inspected.',
+    prior_proposition:'Greedy selection need not fail to learn when sufficiently diverse contexts provide implicit exploration. A Greedy-First procedure checks whether greedy learning is adequate and explores when necessary.',
+    comparison:{
+      variables:'Selected actions, their data and estimation under greedy routing.',
+      causal_structure:'Shows when the adverse selective-data return is counteracted by the environment; no exact M005 risk-index theorem established.',
+      beneficiary:'A decision-maker avoids costly or unethical exploration where natural contexts suffice.',
+      outcome:'Regret and learning adequacy, rather than universal preference for measurement balance.',
+      timescale:'Repeated contextual learning.',
+      prediction:'Lack of explicit exploration does not establish dependence or bad measurement. Natural cross-regime coverage can defeat the proposed adverse case.',
+      intervention:'Test transferable/contextual coverage before paying for additional trials.'
+    }
+  },
+  {
+    id:'M005:S05',authors:['Daniel Russo'],year:2016,
+    title:'Simple Bayesian Algorithms for Best Arm Identification',
+    url:'https://proceedings.mlr.press/v49/russo16.html',
+    inspection:'Primary proceedings abstract only; no independent theorem/proof verification.',
+    prior_proposition:'Adaptive measurement can be designed to identify the best option rather than simply sample whichever option currently seems best. Proposed top-two methods allocate sufficient effort to distinguish alternatives.',
+    comparison:{
+      variables:'Posterior beliefs, measurement allocation and comparative uncertainty.',
+      causal_structure:'Comparison-directed allocation is already distinct from immediate choice/exploitation.',
+      beneficiary:'The investigator needs reliable comparison, which can differ from a service user’s immediate goal.',
+      outcome:'Identification rather than cumulative reward; M005 cannot claim this objective distinction as new.',
+      timescale:'Repeated trials with long-run error reduction.',
+      prediction:'Effort concentrated on the current favorite can be inferior for distinguishing alternatives.',
+      intervention:'Maintain informative alternative measurements; an ordinary independent audition reserve is not itself a novel protocol.'
+    }
+  }
+];
+const record={
+  version:'0.1.0',date:'2026-10-05',candidate:'E4:M005',
+  phase:'POST_BLUE_TEAM_WHOLE_COMPOSITION_COMPARISON',winner_selected:false,pruned:false,
+  strongest_version:'A finite evaluator selecting providers by a mean-minus-uncertainty index can endogenously increase the index advantage of a better-measured provider at equal true and reported mean quality, while leaving comparative knowledge worse than a matched-budget independent allocation. The index controls the next measurements. Stationary cumulative knowledge need not worsen absolutely.',
+  strengthened_source:'../../emergence/strengthened-M005.md',
+  graph:'policy-local support -> lower uncertainty -> higher risk-adjusted score -> future trial allocation -> policy-local support',
+  assumptions:['Positive uncertainty penalty','Policy-local rather than transferable calibration','No sufficient exploration/contextual diversity','A hand-selected balanced outcome path for the executed equal-mean example'],
+  five_closest_works:sources.map(x=>x.id),sources,
+  known:['Allocation-dependent learning and competing-platform data feedback','Better-supported conservative guarantees without higher true means','Different objectives for safe current service and identification of alternatives','Coverage and exploration counterexamples to blanket greedy-starvation claims'],
+  new_residue:'No strong substantive residue is established for the current elementary loop. The paired index-advantage/comparative-variance audit is a proposed domain-specific measurement application; a distinct authority or public-evaluation mechanism requires additional specification.',
+  provisional_remainder_class:'DOMAIN TRANSFER',
+  narrower_research_status:'OPEN_MEASUREMENT_APPLICATION_NOT_DISCARDED',
+  what_expert_would_miss:'A researcher already familiar with these works should expect allocation to change comparative information and coverage to influence conservative ranking. A practitioner may still wrongly report increasing assurance rank as increasing evidence of mean superiority; that is an important communication/audit problem, not yet a new system behavior beyond this literature.',
+  discriminating_prediction:'At matched true/posterior means, independently balancing trial support reduces the reinforcing conservative index gap. This is mechanically derived from the declared rule; historical novelty and practical adoption of the rule are unestablished.',
+  experiment:{status:'DETERMINISTIC_CONSTRUCTION_EXECUTED_STOCHASTIC_REPLICATION_UNRUN',matched:'Same pilot, prior, total observations and underlying qualities across five allocation rules.',minimum_next:'Pre-register randomized outcome paths and actual institutional evaluation rules; test whether precision rather than measured mean drives further grants. Compare reported mean superiority, conservative assurance and comparative support separately.',identification:'Permission expansion and provider objectives are absent from the present model. Routing by a risk index is not instrumental authority acquisition.'},
+  beneficial_mirror:'When only one service is feasible for a real deployment, focused measurement can certify its relevant threshold sooner. Comparison debt may be small or large depending on public need for future substitutes.',
+  falsifier:'The actual evaluator does not use uncertainty-sensitive ranking, calibration generalizes across regimes, or its natural/external exploration preserves comparative support. Mean revisions can overwhelm the precision effect.',
+  mutation:'Add the institutional decision that consumes comparative evidence and a provider-benefiting permission trajectory while preserving informative controls. Specify who needs public comparison and what lawful grant differs; avoid relabeling ordinary bandit regret.',
+  importance:'Potentially useful for procurement and evaluation audits even if the mathematics is inherited.',
+  novelty_confidence:'Low for the current loop; a new composed authority mechanism has not been tested.',
+  empirical_confidence:'No evidence about real evaluators or users. Only one hand-selected sample path was executed.',
+  limit:'Five verified primary neighbors at mixed inspection depths are not exhaustive. Online-pessimistic algorithms and nearest Bayesian entry/uncertainty models need full comparison before a broad equivalence claim.',
+  excluded_claims:['No absolute destruction of stationary evidence','No claim that truthful risk aversion is manipulation','No theorem novelty','No trained optimizing agent result','No retirement of the paused candidates']
+};
+fs.writeFileSync(path.join(here,'M005.json'),JSON.stringify(record,null,2)+'\n');
+const lines=['# E4:M005 — Risk-sensitive allocation and comparative measurement','',
+  'Post-checkpoint comparison, 2026-10-05. The developed equal-mean loop, not its earlier vague precision claim, is the object tested. All parents and paused candidates remain available.','',
+  '## Strongest version','',record.strongest_version,'','## Causal structure','',record.graph,'',
+  ...record.assumptions.map(x=>'- '+x),'','## Five nearest primary works',''];
+for(const s of sources){lines.push('### '+s.id+' — '+s.authors.join(', ')+' ('+s.year+')','',
+  '['+s.title+']('+s.url+')','','**Inspection.** '+s.inspection,'','**Prior proposition.** '+s.prior_proposition,'');
+  for(const [k,v]of Object.entries(s.comparison))lines.push('**'+k.replaceAll('_',' ')+'.** '+v,'');}
+lines.push('## KNOWN','',...record.known.map(x=>'- '+x),'','## NEW RESIDUE','',record.new_residue,'',
+  '**Provisional class.** '+record.provisional_remainder_class+'. '+record.narrower_research_status+'.','',
+  '## What would an expert miss?','',record.what_expert_would_miss,'',
+  '## Proposed contrast','',record.discriminating_prediction,'');
+for(const [k,v]of Object.entries(record.experiment))lines.push('**'+k+'.** '+v,'');
+for(const k of ['beneficial_mirror','falsifier','mutation','importance','novelty_confidence','empirical_confidence','limit'])lines.push('## '+k.replaceAll('_',' '),'',record[k],'');
+lines.push('## Claims excluded','',...record.excluded_claims.map(x=>'- '+x),'');
+fs.writeFileSync(path.join(here,'M005.md'),lines.join('\n').trimEnd()+'\n');
+console.log(JSON.stringify({candidate:record.candidate,primary_neighbors:sources.length,provisional:record.provisional_remainder_class,pruned:false}));

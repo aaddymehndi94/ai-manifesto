@@ -42,6 +42,20 @@ find a match cannot establish originality. Optimizers use simulated actors only.
 Each screening decision must distinguish novelty from importance and tractability.
 No magic aggregate score. No public claim changes before a reasoned decision.
 
+## Current position after the checkpoint
+
+The [initial whole-composition comparisons](prior_art_court/emergence/README.md)
+cover seven constructions. The [additive comparison ledger](prior_art_court/emergence/novelty-ledger.json)
+does not overwrite earlier construction statuses. Known whole loops are explicitly
+separated from narrower unresolved measurements; none establishes historical
+priority, a new general theorem or empirical prevalence. All candidates remain
+retained. No AAA expansion/replacement decision has been made.
+
+These are author/construction-agent comparisons, not the requested fresh ten-role
+panels. The larger tournament, optimizing-agent experiments, final dossiers and
+three-to-five-program decision remain unfinished. This checkpoint should not be
+presented as their completion.
+
 ## Emergence checkpoint
 
 Start with [twenty-five compound constructions](blue_team_emergence.md). The full
@@ -73,6 +87,7 @@ node research/discovery-sprint-2026-10-05/emergence/render-checkpoint.mjs
 node research/discovery-sprint-2026-10-05/emergence/check-checkpoint.mjs
 node research/discovery-sprint-2026-10-05/emergence/strengthened-M005-model.mjs
 node research/discovery-sprint-2026-10-05/emergence/toy-M087.mjs
+node research/discovery-sprint-2026-10-05/prior_art_court/emergence/build-index.mjs
 node research/discovery-sprint-2026-10-05/check-baseline.mjs
 ```
 

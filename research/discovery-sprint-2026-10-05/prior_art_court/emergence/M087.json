@@ -1,0 +1,448 @@
+{
+  "id": "E4:M087",
+  "status": "POST_CHECKPOINT_CONSTRUCTION_AGENT_COMPARISON_PROVISIONAL",
+  "date": "2026-10-05",
+  "checkpoint": "87ee7bc",
+  "reviewer_role": "Construction agent comparing its own strengthened composition; not an independent or blind publication reviewer.",
+  "protocol": "research/discovery-sprint-2026-10-05/emergence/post-checkpoint-protocol.md",
+  "construction": "research/discovery-sprint-2026-10-05/emergence/strengthened-M087.md",
+  "executable": "research/discovery-sprint-2026-10-05/emergence/toy-M087.mjs",
+  "preserved_component_ids": [
+    "D4:I286",
+    "D4:I247",
+    "D4:I205"
+  ],
+  "historical_parent_ids": [
+    "I131",
+    "I135",
+    "I142",
+    "I032"
+  ],
+  "exact_proposition": "If certificate receipts finance independent task-provider entry, entrant formats increase counterparties' independent-recognition burden, and the resulting certificate demand is recycled into more entry and a shared recognition gateway, then increasing a certificate fee can increase nominal provider choice while reducing issuer-free completion of the same audit requests. Ordinary completion, task quality, exports and local grant types can remain unchanged.",
+  "strongest_version": {
+    "additional_prediction": "At a fixed fee and finite horizon, capping entry-recycled certificate volume at its initial level while maintaining gateway upkeep from actual receipts produces fewer entrants and greater issuer-free completion than the full demand-linked return. Static fragmentation can survive this ablation; the additional acceleration requires the return.",
+    "actors": {
+      "issuer": "A operates assurance and the recognition gateway, but does not own task providers.",
+      "providers": "P1...Pn independently own task services.",
+      "beneficiary_controller": "H can be a distinct community, professional or public board setting the earmarks.",
+      "counterparties": "C choose recognition routes under resource limits.",
+      "users": "U receive service and optional assurance; their individual grants do not imply collective control of A or C."
+    },
+    "signed_edges": [
+      {
+        "from": "certificate fee f",
+        "to": "earmarked receipts R",
+        "sign": "+",
+        "condition": "f*Q(f,n) rises; elasticity can defeat this"
+      },
+      {
+        "from": "receipts R",
+        "to": "entry budget alpha*R",
+        "sign": "+"
+      },
+      {
+        "from": "entry budget",
+        "to": "provider count n_next",
+        "sign": "+",
+        "condition": "project costs, finite entrant capacity and no equally cheap independent finance"
+      },
+      {
+        "from": "provider count n",
+        "to": "independent adapter burden",
+        "sign": "+",
+        "condition": "distinct grounded proofs cost resources; formats need not be strategically incompatible"
+      },
+      {
+        "from": "adapter burden",
+        "to": "issuer-free fixed-panel completion u",
+        "sign": "-",
+        "condition": "budget binds and retained routes are not permanently grandfathered"
+      },
+      {
+        "from": "issuer-free completion u",
+        "to": "A certificate demand Q",
+        "sign": "-",
+        "condition": "A is accepted on residual routes and alternative guarantees are not sufficient"
+      },
+      {
+        "from": "certificate demand Q",
+        "to": "receipts R_next",
+        "sign": "+"
+      }
+    ],
+    "closed_return": "n -> adapter burden -> u -> Q -> alpha*f*Q -> n_next",
+    "maintenance_branch": "beta*f*Q funds next-period gateway upkeep, separately from entry recycling.",
+    "assumptions": [
+      "Fee-inelastic optional certificate demand in the toy; otherwise require increasing f*Q(f,n).",
+      "Indivisible entry projects; unused entry earmarks are rebated rather than accumulated.",
+      "Entry finance is constrained, and entrants subsequently remain viable; no exit is modeled.",
+      "Counterparties have B=3, native proof cost d=1, gateway verification cost c=0.5.",
+      "For n>3, counterparties retain L=2 native adapters and use the funded gateway for full ordinary coverage.",
+      "Provider-neutral allocation across counterparties; the audit requests remain original P1/P2 tasks.",
+      "Optional certificate base r=0.2 on a representative market flow M=100 distinct from the audit panel.",
+      "Entry cost F=6, gateway upkeep G=2, alpha=0.75, beta=0.25, initial n=2, cap n=10, four updates.",
+      "Plural guarantees must actually be provisioned and accepted independently of A's key, continuing status and permission."
+    ],
+    "variables": {
+      "n": "Independent task-provider count, not every sense of competition.",
+      "u": "Fraction of fixed audit requests completable without issuer A, under disclosed recognition allocation.",
+      "Q": "Actual A certificate volume; neither indispensability nor welfare.",
+      "R": "f*Q receipts.",
+      "B": "Counterparty independent recognition budget.",
+      "d": "Resource cost per independently grounded format.",
+      "c": "Cost of verifying the common gateway.",
+      "F": "Entry startup/integration project cost.",
+      "G": "Issuer-side gateway upkeep.",
+      "alpha_beta": "Separate entry and upkeep earmarks."
+    },
+    "recurrences": [
+      "u(n)=1 when n<=floor(B/d); otherwise u(n)=floor((B-c)/d)/n with a funded gateway.",
+      "Q(n)=M*[r*u(n)+(1-u(n))].",
+      "n_next=min(n_cap,n+floor(alpha*f*Q(n)/F)).",
+      "The entry-capped ablation replaces Q(n) by min(Q(n),Q0) ONLY in entry receipts, not gateway upkeep.",
+      "The Q/u formula describes the dependent single-gateway arm. In the plural arm native-adapter coverage and total A-free feasibility differ: default A use can remain84 while independent alternate guarantees make A-free completion100. The demand formula is not asserted universal across changed recognition regimes."
+    ],
+    "preserved_invariants": [
+      "ordinary completion 100",
+      "task quality 1",
+      "export completeness 1",
+      "local grant types read_export/propose/submit_bounded_transaction",
+      "same original P1/P2 audit requests"
+    ],
+    "not_claimed": [
+      "Market entry proves lower task prices or higher welfare.",
+      "Issuer dependence implies illegitimacy or provider ownership/control.",
+      "The four-period recurrence is a strategic IO equilibrium or a novel theorem.",
+      "The modeled budget boundary is a universal critical fee.",
+      "A reduced static comparator represents the strongest prior theory."
+    ]
+  },
+  "primary_comparisons": [
+    {
+      "source_id": "M087-S01",
+      "title": "Platform Competition in Two-Sided Markets",
+      "authors": [
+        "Jean-Charles Rochet",
+        "Jean Tirole"
+      ],
+      "publication_year": 2003,
+      "inspected_version": "Author working paper dated December 13, 2002; final article not substituted for this inspected version.",
+      "primary_url": "https://idei.fr/sites/default/files/medias/doc/wp/2002/platform.pdf",
+      "primary_record_url": "https://www.idei.fr/publications/platform-competition-two-sided-markets",
+      "inspected_passages": "Working-paper pp.1–11: introduction, model primitives, transaction-volume product, private monopoly and beginning of Ramsey pricing. Extracted directly with curl/pdftotext after browser fetch errors.",
+      "exact_prior_proposition_paraphrase": "With two groups transacting through a platform, participation on each side affects the other side's surplus, and price allocation changes transaction volume even at a fixed total price. The basic model has Q=DB(pB)DS(pS), with platform profit (pB+pS-c)Q; profit-maximizing and budget-balanced welfare-maximizing governance are distinct.",
+      "supported_claim": "Cross-side financing, participation externalities, governance distinctions and the importance of price structure are prior, not M087 innovations.",
+      "equivalence": {
+        "variables": "Prior has two side prices, quasi-demands, transaction volume, surplus and platform cost. M087 adds earmarked entry projects, a finite recognition budget and fixed-panel issuer-removal usability.",
+        "causal_structure": "Prior couples prices, participation and transactions. It does not state the inspected finite-period earmark -> entrant-format burden -> recognition demand -> earmark recurrence; that is a passage-level distinction, not a claim that its framework cannot express it.",
+        "beneficiary": "Both separate end-user sides from the intermediary and distinguish governance objectives. M087 additionally separates issuer A, independent task providers P and rule controller H.",
+        "outcome": "Prior calculates transactions, prices and surplus. M087 measures loss of independently completable fixed tasks despite unchanged ordinary transactions; no welfare conclusion follows.",
+        "timescale": "Inspected benchmark is price/participation equilibrium; M087 is a four-update fiscal and recognition trajectory, not an equilibrium comparison.",
+        "prediction": "Cross-subsidy and participation feedback are expected. The specific capped-recycling endpoint is not given in these passages, but requires added fiscal and recognition primitives rather than a different economic principle.",
+        "intervention": "Prior varies price allocation and governance. M087 changes entry recycling only, preserves upkeep, or provisions alternative guarantees with unchanged A flow."
+      },
+      "reading_limits": "Not a full read of the final 2003 article or all working-paper extensions. No absence claim about the wider two-sided-market literature; supplied source title/metadata do not establish full-graph equivalence."
+    },
+    {
+      "source_id": "M087-S02",
+      "title": "Competition in Two-Sided Markets",
+      "authors": [
+        "Mark Armstrong"
+      ],
+      "publication_year": 2006,
+      "inspected_version": "Author manuscript August 2002, revised May 2005, UCL 14583.",
+      "primary_url": "https://discovery.ucl.ac.uk/id/eprint/14583/1/14583.pdf",
+      "primary_record_url": "https://discovery.ucl.ac.uk/id/eprint/4324/",
+      "inspected_passages": "Manuscript section 5 pp.14–17, section 5.3 pp.22–24, section 5.4 opening p.25 and section 5.5 limitations p.28; browser PDF text. Important examples and limitations read beyond abstract.",
+      "exact_prior_proposition_paraphrase": "When one group single-homes and the other multi-homes, platforms control access to their single-homing users despite competition for those users. In the mobile example, termination revenues subsidize subscribers. The bottleneck model can neglect the multi-homing side's interests; allowing some users to multi-home removes monopoly access to those users.",
+      "supported_claim": "Competitive service markets can coexist with subsidized participation and access bottlenecks. Real multi-homing can weaken dependence; concentration is not measured by provider competition alone.",
+      "equivalence": {
+        "variables": "Prior tracks group sizes, homing, tariffs, externalities and surplus; M087 tracks task-provider supply, recognition budget, certificate receipts and A-removal completion.",
+        "causal_structure": "This is a strong ancestor: access-derived revenues induce participation on another side, supporting a bottleneck. M087 adds a fiscal growth stock and the negative effect of heterogeneous entry on independent recognition rather than assuming single-homing.",
+        "beneficiary": "Prior platform, single-homing customers and multi-homing suppliers/callers are distinct. M087's issuer is institutionally separate from the task suppliers and its fee controller need not maximize issuer profit.",
+        "outcome": "Prior concerns access pricing and surplus; M087's u concerns completion after removing A, while ordinary completion remains matched.",
+        "timescale": "Prior benchmark is competitive equilibrium; M087 is finite-horizon entry and upkeep, with no strategic best-response or welfare equilibrium solved.",
+        "prediction": "The broad competition/dependence tension is already predicted. M087's marginal-demand recycling ablation and audit-allocation effect require further primitives, not an established contradiction of the prior.",
+        "intervention": "Prior changes homing and tariff structure. M087's plural-guarantee arm is a domain-specific form of independently feasible multi-homing; capped entry recycling changes a separate finance return."
+      },
+      "reading_limits": "Selected complete substantive passages, not complete final published paper or proof verification. Mixed-homing discussion explicitly inspected. No claim that Armstrong overlooked beneficial intermediation or that u creates a new connectivity concept."
+    },
+    {
+      "source_id": "M087-S03",
+      "title": "Honest Certification and the Threat of Capture",
+      "authors": [
+        "Roland Strausz"
+      ],
+      "publication_year": 2005,
+      "inspected_version": "Author August 18, 2004 manuscript, Discussion Paper 25, LMU repository.",
+      "primary_url": "https://epub.ub.uni-muenchen.de/13523/1/25.pdf",
+      "primary_record_url": "https://epub.ub.uni-muenchen.de/13523/",
+      "inspected_passages": "Printed pp.2–8,12–19,20–22 and proposition statements/proof text visible in extraction. Setup, price competition, long-lived producers and normative limits inspected directly via curl/pdftotext; browser fetch unsuccessful.",
+      "exact_prior_proposition_paraphrase": "Reputation can sustain honest certification when future honest returns exceed gains from capture. Pooling future certification jobs can make honesty cheaper to sustain; under specified beliefs, price competition yields one honest certifier. With many long-lived producers, pooled reputation can support external certification where individual producer reputation cannot.",
+      "supported_claim": "Many independent producers can rationally depend on a concentrated certifier, even when certification is honest and specialization useful. Fee levels and concentration are not automatically evidence of deception or illegitimacy.",
+      "equivalence": {
+        "variables": "Prior has quality, price, verification cost, discount factor, capture transfers and future jobs; M087 fixes quality/honesty and instead models startup costs, proof capacity and earmarked receipts.",
+        "causal_structure": "Prior producer multiplicity -> pooled reputation advantage -> external certification demand is substantive overlap. M087's provider-entry supply is funded by that demand and feeds finite recognition burden, not reputation incentive compatibility.",
+        "beneficiary": "Both distinguish producer, certifier and consumers. M087 additionally distinguishes the institutional fee controller from the issuer; no producer or issuer owns every relevant decision.",
+        "outcome": "Prior predicts sustainable honesty, certifier structure and price. M087 predicts issuer-free completion; this does not refute an efficient or honest certifier.",
+        "timescale": "Prior is an infinite repeated game and sequential producers. M087 is a short fiscal recurrence with entrant viability assumed; its history dependence is not the prior's reputation equilibrium.",
+        "prediction": "Producer multiplicity increasing demand for pooled certification is known. Fee-funded increases in that multiplicity, capped recycling and fixed-request proof dilution are not asserted in the inspected propositions.",
+        "intervention": "Prior changes honesty/capture incentives and certifier competition. M087 changes entry earmarks or funds independent proof paths; adding guarantors must also preserve their credibility, which the toy assumes."
+      },
+      "reading_limits": "2004 author manuscript rather than full publisher version. Main mechanisms and limits read; no independent verification of all algebra. The manuscript's base certification distortion is distributive, not a demonstrated net-welfare gain; do not attribute welfare results from its possible extension to the base model."
+    },
+    {
+      "source_id": "M087-S04",
+      "title": "The Dynamics of Technological Adoption in Hardware/Software Systems: The Case of Compact Disc Players",
+      "authors": [
+        "Neil Gandal",
+        "Michael Kende",
+        "Rafael Rob"
+      ],
+      "publication_year": 2000,
+      "inspected_version": "Published RAND article pp.43–61, university-hosted scanned PDF.",
+      "primary_url": "https://users.econ.umn.edu/~holmes/class/2003f8601/papers/gandal_kende_rob.pdf",
+      "inspected_passages": "Printed pp.45 from indexed primary text and pp.48,51–52,58 from direct page OCR (PDF pages6,9,10,16). Entry timing, operating-profit/free-entry equation, adoption decision and compatibility counterfactual inspected.",
+      "exact_prior_proposition_paraphrase": "Hardware adoption and software supply jointly evolve: installed hardware affects software profits and entry, while software variety and prices affect hardware adoption. Software entry responds to fixed costs and discounted operating profits. The paper estimates coupled equations and simulates a compatibility-induced variety expansion to change subsequent diffusion.",
+      "supported_claim": "Dynamic entry-demand returns, fixed-cost thresholds, and supply/adoption counterfactuals are established primary work, not made new by calling the loop emergence.",
+      "equivalence": {
+        "variables": "Prior hardware installed base, software variety, prices, fixed capacity cost and profits map to demand and supplier stocks. M087 additionally distinguishes certificate receipts from task demand and independently accepted recognition capacity.",
+        "causal_structure": "Prior already has closed variety -> adoption -> entry -> variety feedback. M087 differs in the bridge: entrant heterogeneity reduces independent recognition, raising assurance demand whose earmark directly pays startups.",
+        "beneficiary": "Prior consumers and complementary producers plus their profits; M087 adds a distinct issuer and institutional grant controller without integrating them with the task suppliers.",
+        "outcome": "Prior measures diffusion and variety, not ability to complete an unchanged task panel without a specified issuer. The latter is an extra measurement, not a new network-feedback principle.",
+        "timescale": "Both dynamic; prior uses quarterly diffusion and forward-looking free entry, whereas M087 uses four institutional budget updates and non-rollover grants.",
+        "prediction": "Supply-return amplification and compatibility interventions are known. A cap on recycled certification receipts is not the prior's specific instrument, but an economist could add such a constraint and derive its consequences.",
+        "intervention": "Prior varies compatibility/software availability and discusses system subsidies. M087 caps only marginal-demand entry finance and separately preserves gateway upkeep or alternatives."
+      },
+      "reading_limits": "Selected printed pages, not full article or appendices. OCR has noise; exact coefficients and typeset equations were not copied into the judgment. The institutional INSEAD working-paper fetch failed; this published primary copy supplied the substantive inspection."
+    },
+    {
+      "source_id": "M087-S05",
+      "title": "Chicken & Egg: Competing Matchmakers",
+      "authors": [
+        "Bernard Caillaud",
+        "Bruno Jullien"
+      ],
+      "publication_year": 2001,
+      "inspected_version": "April24,2001 author working paper; antecedent to 2003 Chicken & Egg: Competition among Intermediation Service Providers. No silent identity with the final version.",
+      "primary_url": "https://www.tse-fr.eu/sites/default/files/medias/doc/by/jullien/cjjune01.pdf",
+      "inspected_passages": "Printed pp.5–13 (intro, matching primitives, registration/transaction prices, multihoming, timing and allocation monotonicity), browser PDF text; an appendix segment also inspected but not used for a proof claim.",
+      "exact_prior_proposition_paraphrase": "Matchmakers price two sides with participation externalities, can subsidize registration, and may charge successful transactions. Users may register with one or both intermediaries. The model distinguishes registration-based dominance, transaction-fee competition and multihoming allocations, including secondary-source use.",
+      "supported_claim": "Transaction receipts supporting subsidized participation, recognition-like matching gateways, and the difference between default intermediary use and feasible secondary routes have primary ancestors.",
+      "equivalence": {
+        "variables": "Prior prices, matching probability, group registration shares and homing distributions. M087 adds a financed provider stock and counterparty adapter budget.",
+        "causal_structure": "Prior prices -> registration -> matching/externalities -> intermediary returns is a participation equilibrium. M087's earmark -> new heterogeneous suppliers -> independent-recognition deficit -> receipt growth is a fiscal stock return not specified by those primitives.",
+        "beneficiary": "Prior two matched populations and competing matchmakers; M087 issuer, providers, counterparties and public/community controller have separate ownership and control.",
+        "outcome": "Prior matches, market allocation and intermediary profit. M087 measures matched ordinary completion separately from A-free completion of the same original requests.",
+        "timescale": "Prior prices then registration, solved as a staged equilibrium; M087 repeats earmarked entry/recognition updates without strategic optimization.",
+        "prediction": "Subsidization and a feasible second source changing access/profit are known. The precise fixed-fee capped-recycling contrast is an additional institutional experiment, not proved absent from general intermediation theory.",
+        "intervention": "Prior changes pricing instruments and permissible multiple registration; M087 provisions actually independent guarantees at matched A flow or alters a single return edge."
+      },
+      "reading_limits": "2001 working paper, not a full read or algebra audit of the published 2003 article. Full inspected model passages, not abstract-only inference. Second-source matching does not itself verify an alternative guarantor's real credibility or capacity."
+    },
+    {
+      "source_id": "M087-S06",
+      "title": "Error and Attack Tolerance of Complex Networks",
+      "authors": [
+        "Réka Albert",
+        "Hawoong Jeong",
+        "Albert-László Barabási"
+      ],
+      "publication_year": 2000,
+      "inspected_version": "Author arXiv cond-mat/0008064v1 and author-hosted Nature copy.",
+      "primary_url": "https://arxiv.org/pdf/cond-mat/0008064",
+      "additional_primary_url": "https://www.barabasi.com/media/pub_imports/files/77.pdf",
+      "inspected_passages": "arXiv printed pp.2–6, matching nodes/edges, targeted removal, diameter and fragmentation measures; figure2/3 captions pp.11–12. Main body primary text available, not abstract alone.",
+      "exact_prior_proposition_paraphrase": "Networks with the same node and edge counts can react very differently to removal because links are distributed differently. In the studied heterogeneous networks, removing highly connected nodes changes path lengths and fragments connectivity far more than random removals; node/edge totals alone do not characterize robustness.",
+      "supported_claim": "Node-removal connectivity tests and topology-dependent resilience are prior. Same certificate throughput cannot establish the same indispensable recognition cut.",
+      "equivalence": {
+        "variables": "Prior node degrees, removed fraction, path lengths and connected-cluster size; M087 uses accepted obligation routes and success on fixed task/counterparty pairs, not just undirected graph degree.",
+        "causal_structure": "Prior topology -> response to node deletion overlaps A-removal testing. The inspected model has no certificate revenues, entry projects or counterparties allocating recognition resources.",
+        "beneficiary": "Prior has no economic beneficiary/control model. M087's distinct issuer/provider/controller roles and legitimacy judgments cannot be inferred from physical graph vulnerability.",
+        "outcome": "Prior network communication/fragmentation; M087 completed recognized tasks. Both distinguish ordinary functioning from functioning after removal.",
+        "timescale": "Prior graph growth model followed by deletion probes; M087 adds a repeated finance/recognition process that changes its own deletion vulnerability.",
+        "prediction": "Equal network size differing under hub removal is known. M087's same-A-flow/different-indispensability arm is an application of this distinction, not a novel topology theorem.",
+        "intervention": "Prior targets nodes in simulations. M087 provisions independent accepted paths and changes fiscal feedback; topology alone cannot establish that a proposed guarantee is legally or institutionally sufficient."
+      },
+      "reading_limits": "Selected substantive body and captions; no replication or claim about all network families. M087's small recognition graph is not asserted to be scale-free, and high degree is not assumed equivalent to an articulation cut."
+    },
+    {
+      "source_id": "M087-S07",
+      "title": "Ecosystem Competition and Cross-Market Subsidization: A Dynamic Theory of Platform Pricing",
+      "authors": [
+        "Liang Chen"
+      ],
+      "publication_year": 2026,
+      "inspected_version": "arXiv2601.15303v1 submitted January10,2026; preprint, not treated as an established or independently verified theorem.",
+      "primary_url": "https://arxiv.org/html/2601.15303v1",
+      "primary_record_url": "https://arxiv.org/abs/2601.15303",
+      "inspected_passages": "Sections2.3–2.6,3.1–3.2,5.1–5.2 and conclusion: complementarity function, state dynamics, objectives, displayed first-order conditions and cross-subsidization restriction.",
+      "exact_prior_proposition_paraphrase": "The author models spillover value from primary users into adjacent markets, uses it in dynamic firm objectives, and proposes subsidy feedback and restrictions on cross-market transfers. The stated outcome concerns subsidized rivalry and capital allocation, not certification or independently usable transactions.",
+      "supported_claim": "A recent actual primary proposal also explicitly treats dynamic cross-market financing and interventions on transfer flows; those broad ideas cannot be presented as absent from current literature.",
+      "equivalence": {
+        "variables": "Preprint market share, subsidies, spillover function and dynamic values versus M087 provider count, earmarked receipts, adapter capacity and u.",
+        "causal_structure": "Both couple market expansion with cross-market finance returns; preprint channels are portfolio spillovers rather than certificate-demand effects of fragmented recognition.",
+        "beneficiary": "Preprint ecosystem firms combine contested and adjacent businesses; M087 separates issuer, independent providers and rule controller.",
+        "outcome": "Preprint effective prices/capital allocation; M087 fixed-task issuer-removal completion.",
+        "timescale": "Preprint dynamic strategic equilibrium claims; M087 finite accounting recurrence with no strategic equilibrium claim.",
+        "prediction": "Persistent financing feedback is shared. The earmark cap/u contrast is not given by the inspected primitives, but graph specificity alone does not establish novelty.",
+        "intervention": "Both change cross-market financing; M087 caps only incremental certificate-volume recycling and preserves upkeep."
+      },
+      "reading_limits": "Bibliographic identity and actual passages verified, but proof validity/empirical claims not certified. The displayed pricing and first-order-condition arguments need independent mathematical review; no theorem from this preprint is a premise of the M087 remainder class. Included as an inspected exploratory neighbor, not to pad the five established substantive primary comparisons."
+    },
+    {
+      "source_id": "M087-S08",
+      "title": "GlobalPlatform SESIP: scheme-owner account of composition, certificate reuse, mappings and governance",
+      "authors": [
+        "GlobalPlatform"
+      ],
+      "publication_year": null,
+      "inspected_version": "Official operational page accessed2026-10-05, not an independently evaluated research result.",
+      "primary_url": "https://globalplatform.org/sesip/",
+      "inspected_passages": "Problem/solution and SESIP descriptions, benefits, mappings, governance and participation forms; page lines100–193,238–276.",
+      "exact_prior_proposition_paraphrase": "The scheme owner describes reuse of certified components, mappings to other requirements, and a governance structure with product vendors, evaluation laboratories and certification bodies. It claims reduced repeated-evaluation cost and easier entry, and describes mutual recognition.",
+      "supported_claim": "Reusable assurance and plural certification roles are a real primary institutional proposal for the beneficial/compatibility branch, not concepts created by M087.",
+      "equivalence": {
+        "variables": "Operational certification cost/effort, component reuse, mappings and accredited roles; no explicit provider-count/fee-funded-entry recurrence or u measurement.",
+        "causal_structure": "Reuse/mappings -> lower repeated assessment cost -> possible entry benefits overlaps cheap independent recognition. The official description does not establish M087's adverse return or its absence in practice.",
+        "beneficiary": "Distinct vendors, labs, certifiers, regulators and scheme owner demonstrate role separation. These are not automatically independent of the same ultimate recognition authority.",
+        "outcome": "Owner claims easier compliance and lower repeated costs, not experimentally measured issuer-removal transactions.",
+        "timescale": "Ongoing scheme operation; no specified four-period causal dynamics.",
+        "prediction": "Assurance can expand access rather than inevitably centralize usable choices. The official claims are not a causal test of the M087 positive mirror.",
+        "intervention": "Reuse, mappings and mutual recognition are domain-real alternatives to requiring every proof path to depend on a single certificate issuer."
+      },
+      "reading_limits": "Official scheme-owner primary description, not audit of governance PDF, contracts, public law, budgets or actual certificate portability. Multiple certification bodies alone do not prove independent provisioning or acceptance after A is removed. Not counted as an additional peer-reviewed paper."
+    }
+  ],
+  "KNOWN": [
+    "Two-sided price allocation, cross-subsidized participation and non-profit governance can coexist with platform/bottleneck dependence (S01,S02,S05).",
+    "Producer multiplicity can increase the value of an honest specialized certifier and pooling can favor concentration without deception (S03).",
+    "Supplier-entry/customer-demand loops, entry-cost constraints, compatibility counterfactuals and dynamic amplification are established (S04).",
+    "Topology-dependent node-removal resilience, multi-homing/second-source alternatives and standard reuse are established (S02,S05,S06,S08).",
+    "Elementary budget arithmetic, monotone recurrences, fixed costs, finite stocks and path dependence under omitted exit/no rollover are inherited; no new formal theorem.",
+    "The static more-incompatible-entry/less-usable-exit prediction already occurs in D4:I247; adding assurance language is insufficient.",
+    "Inspection supports substantial substantive interaction ancestors, not merely isolated ingredients. It does not exhibit a one-to-one complete match for all M087 institutional primitives."
+  ],
+  "NEW_RESIDUE": "The remaining proposed object is an earmarked assurance-fee return that finances heterogeneous independent entry, raises recognition demand under fixed counterparty capacity, and further funds entry, tested by capping only the new-demand recycling edge. Its paired measurement holds ordinary completion and A certificate flow distinct from fixed-panel A-free completion; the particular combined fiscal/recognition experiment was not established in this inspected set, which is an inspection gap rather than a priority claim.",
+  "knowledgeable_researcher_so_what": "An IO/network researcher would not miss that fees can finance participation, more participants can reinforce intermediary demand, competition can coexist with a bottleneck, or alternative routes alter dependence. The potentially useful addition is an operational audit of a distinct community/nonprofit assurance issuer: identify marginal-demand entry recycling separately from gateway upkeep and measure A-removal completion on unchanged tasks. This comparison establishes no important new economic principle; whether this particular institutional audit and conditional intervention distinction merits a new theory claim is unresolved.",
+  "whole_graph_comparison": {
+    "nearest_joint_reconstruction": "S01/S05 provide financing participation, S04 supplies a dynamic supply-demand return, S03 supplies certification demand under producer multiplicity, S02 supplies access dependence despite competition, and S06 supplies removal-sensitive connectivity. They can jointly reconstruct a strong explanation of the proposed phenomenon. Their existence does not show the exact budget/earmark/u recurrence is already a published result; failure to find that recurrence does not make it original.",
+    "essential_edge": "Holding n exogenous deletes the fee-to-entry effect. Capping Q at Q0 only in alpha*f*Q deletes additional-demand acceleration, while preserving one-pass fragmentation and funded ordinary coverage.",
+    "same_flow_different_indispensability": "With n=10 and Q_A=84 in both arms, adding a truly provisioned accepted guarantor leaves A-free completion100 rather than20. The distinction is known topology/multihoming logic applied to accepted obligations. Q alone cannot identify issuer control.",
+    "inheritance_not_equivalence": "No single source or collection is declared equivalent on all seven dimensions solely because it contains one or more edges. Equivalence would need a defensible mapping of the receipt constraint, recognition allocation, actual independent paths and same-task ablations.",
+    "potential_absorption": "A standard constrained dynamic two-sided model extended with heterogeneous complementors and endogenous proof capacity may absorb the entire construction. No such extension has been ruled out or solved here."
+  },
+  "model_checks": {
+    "rerun_command": "node research/discovery-sprint-2026-10-05/emergence/toy-M087.mjs",
+    "assertions_passed": true,
+    "fixed_request_allocation_check_passed": true,
+    "units": "Expected/weighted completions per100 original P1/P2 audit requests; certificate Q is a different representative market flow.",
+    "endpoints": [
+      {
+        "arm": "low fee0.2",
+        "n": 2,
+        "u_per100": 100,
+        "Q": 20
+      },
+      {
+        "arm": "full loop fee0.4",
+        "n": 10,
+        "u_per100": 20,
+        "Q": 84
+      },
+      {
+        "arm": "same fee no entry recycling",
+        "n": 2,
+        "u_per100": 100,
+        "Q": 20
+      },
+      {
+        "arm": "same fee recycling capped at Q0=20",
+        "n": 6,
+        "u_per100": 33.333333333333336,
+        "Q": 73.33333333333333
+      },
+      {
+        "arm": "same fee full loop and plural guarantees",
+        "n": 10,
+        "u_per100": 100,
+        "Q": 84
+      },
+      {
+        "arm": "same fee cheap grounded proofs",
+        "n": 6,
+        "u_per100": 100,
+        "Q": 20
+      },
+      {
+        "arm": "same fee public independent recognition",
+        "n": 6,
+        "u_per100": 100,
+        "Q": 20
+      },
+      {
+        "arm": "same full-loop fee with protected old audit routes",
+        "n": 10,
+        "u_per100": 100,
+        "Q": 84
+      }
+    ],
+    "interpretation": "Conditional toy outputs, not observations, economic-equilibrium estimates or originality evidence."
+  },
+  "minimal_distinguishing_experiment": {
+    "design": "Finite institutional/agent-network experiment with independent task-provider ownership, a fixed original-task/counterparty audit panel, and randomized full-versus-incremental-cap entry earmarks at a fixed fee. Both arms preserve actual-receipt gateway upkeep, task quality, export completeness and bounded local grants. Record financed entrants, adapter costs/allocations, Q, u and ordinary completion after each budget update.",
+    "essential_companion_arms": [
+      "No receipts -> entry at the same fee.",
+      "Plural accepted/provisioned guarantees at the same n and observed Q_A, testing A-removal usability rather than inferring it from A throughput.",
+      "Cheap grounded recognition or maintained public independent recognition.",
+      "Protected legacy audit routes; distinguish focal-panel resilience from every future task."
+    ],
+    "identification_limits": "The cap changes realized entrant count; this is intentional mediation, not a direct effect at fixed n. At matched n and identical recognition rules, u should match; a full-versus-cap difference without supply/recognition mediation would contradict this model. Real total surplus, guarantor provisioning costs and elastic certificate demand must be measured separately."
+  },
+  "beneficial_mirror": "The same receipts -> entry -> useful assurance demand -> receipts return can finance viable independently owned providers and reliable assurance. If grants also build sufficient durable independent recognition, or credible plural guarantees are actually accepted, users gain provider variety without losing A-free completion; the full-loop plural arm keeps n10 and A flow84 but u100. It is the same finance return, not simply a ban on entry or certification.",
+  "strongest_falsifier": "In a setting satisfying the claimed finance constraint, distinct-format cost, budget limit and demand-return assumptions, a targeted cap on only incremental-demand entry recycling changes receipts available to projects but does not change entry acceleration or independently completable fixed tasks over the specified horizon. More fundamentally, if all fixed original paths are permanently protected, recognition capacity grows with entry, or equivalent external entry finance is available, the proposed adverse path does not operate.",
+  "alternative_mutation": {
+    "proposal": "Compare grant rules that fund only native gateway onboarding with rules that fund a durable independently sufficient recognition path per entrant, keeping the total fiscal budget explicit. Develop the candidate condition under which growth of independent recognition capacity keeps pace with grounded format burden and changes the fee-entry/u comparative static.",
+    "conditional_prediction": "If funded independent-proof capacity covers each marginal entrant's grounded recognition burden without requiring A after completion, increasing recycled receipts can increase independently completable future requests rather than dilute them. If provisioning only protects old P1/P2, the benefit should appear on the legacy panel but not a predeclared all-provider/future-task panel.",
+    "limits": "Not developed into a new theorem; cost conservation may reduce provider entry. Matching n,Q and total resource cost simultaneously may be infeasible and must not be asserted without constructing finance. Mutation retained as a question, not a forced replacement."
+  },
+  "failed_versions_preserved": [
+    {
+      "id": "F0",
+      "failure": "Original raw more-incompatible-entry/less-usable-exit largely repeats D4:I247.",
+      "preservation": "strengthened-M087.md; original raw unchanged"
+    },
+    {
+      "id": "F1",
+      "failure": "Exogenous provider count cannot yield fee-funded entry comparative static."
+    },
+    {
+      "id": "F2",
+      "failure": "Decreeing zero retained legacy paths overstates dependence; developed toy retains two."
+    },
+    {
+      "id": "F3",
+      "failure": "Certificate flow does not equal indispensability; plural-guarantee arm refutes inference."
+    },
+    {
+      "id": "F4",
+      "failure": "Universal permanent threshold fails under accumulation, external finance or provider exit."
+    },
+    {
+      "id": "F5",
+      "failure": "Resampling audit requests toward entrants changes denominator; actual audit is fixed."
+    },
+    {
+      "id": "F6",
+      "failure": "Provider count does not establish better competition, welfare or illegitimacy."
+    }
+  ],
+  "provisional_remainder_class": "USEFUL SYNTHESIS",
+  "remainder_class_reason": "Substantive finance-demand, certification concentration and access/topology interactions are already inherited. The explicit institutional earmark/u pairing supports a useful domain-specific synthesis and test design, but this limited self-comparison establishes neither exact derivative equivalence nor new mechanism/formal/empirical priority.",
+  "empirical_status": "UNTESTED",
+  "novelty_priority_status": "UNVERIFIED",
+  "independent_review_status": "NOT_PERFORMED",
+  "general_reading_limits": "At least six actual primary scholarly works inspected beyond abstracts, plus a recent preprint and official scheme-owner document. These are selected nearest-family passages, not complete final-version reads of every paper, an exhaustive literature search, a proof audit or a fresh blind disciplinary review. Unsuccessful retrievals and abstract-only leads are retained in the actual query log, not silently counted as mechanism comparisons.",
+  "no_dispositions": "No candidate, raw proposition, paused sharpened record or historical parent is pruned, rated, renamed, promoted or declared a winner. Baseline v0.5 and blue-team/novelty ledgers remain unchanged.",
+  "query_log": "research/discovery-sprint-2026-10-05/prior_art_court/emergence/M087-query-log.json"
+}

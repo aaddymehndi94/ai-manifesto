@@ -1,0 +1,211 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const here=path.dirname(fileURLToPath(import.meta.url));
+const sources=[
+  {
+    id:'M011:S01',authors:['Mahdi M. Najafabadi','Mohammad Hossein Jarrahi','Pouyan Eslami'],year:2026,
+    title:'The Broken Ladder: Dynamics of AI-Induced Collapse in Labor Markets',
+    url:'https://journals.aom.org/doi/10.5465/AMPROC.2026.84bp',
+    doi:'10.5465/AMPROC.2026.84bp',
+    inspection:'Publisher-indexed abstract and bibliographic record returned in two actual searches. Direct page/PDF requests returned 403. Full stock-flow equations and intervention simulations were not inspected.',
+    exact_proposition_paraphrase:'A system-dynamics account connects entry-role automation and immediate efficiency to mentorship-pipeline erosion, delayed senior-capability loss, and sector-wide inability to hire experienced staff when many firms rely on the same depleted talent commons.',
+    comparison:{
+      variables:'Same automation, novice development, senior capability and organizational viability; prerequisite-band allocation and selection among training firms are not established from the abstract.',
+      causal_structure:'Contains the developmental chain, delay and macro commons interaction, rather than merely an isolated skill-decay ingredient. Whether the full model closes scarcity back into adoption or represents firm selection is unknown at this access depth.',
+      beneficiary:'Short-run efficient firms are the relevant initial beneficiaries; provider-specific rent or control is not established.',
+      outcome:'Same broad loss of replenishable expert supply despite initially good organizational metrics.',
+      timescale:'Same delayed inter-cohort outcome.',
+      prediction:'The broad short-benefit/long-scarcity prediction is already present. The fixed-total-hours, missing-intermediate-band contrast was not verifiable.',
+      intervention:'Not sufficiently inspected to claim that the proposed procurement intervention is absent.'
+    }
+  },
+  {
+    id:'M011:S02',authors:['Soumya Sarala'],year:2026,
+    title:'The apprenticeship void: AI augmentation and entry-level displacement in knowledge work',
+    url:'https://www.emerald.com/xjm/article/23/2/174/1389190/The-apprenticeship-void-AI-augmentation-and-entry',
+    doi:'10.1108/XJM-05-2026-0030',
+    inspection:'Publisher HTML sections 2–7, construct table, causal figure description, propositions and limitations. Conceptual paper, explicitly not empirically validated. Online July 28; issue September 2, 2026.',
+    exact_proposition_paraphrase:'Displacing foundational tasks removes developmental conditions and can leave AI-contingent apparent competence, fragile promotions and subsequent expert-pipeline thinning. Preserving learning-rich tasks, mentorship and deliberate sequencing are proposed moderators.',
+    comparison:{
+      variables:'Substantially the same experiential opportunity, independent capability, cohort progression and senior supply.',
+      causal_structure:'A specified multistage developmental chain and moderators are present. The inspected formulation does not explicitly model endogenous inter-firm price selection and the scarcity-to-automation return.',
+      beneficiary:'Short-run organizations and AI-supported workers; no necessary provider-benefiting acquisition objective.',
+      outcome:'Same divergence between current good outputs and future independent expertise.',
+      timescale:'Immediate, mid-career and long-run cohort outcomes are distinguished.',
+      prediction:'Capability formation loss before current output decline is inherited. Conditional distribution-of-case-band effects at fixed training input need separate testing.',
+      intervention:'Preserve foundational practice and make mentorship explicit. Buying developmental sequences is not wholly distinct from these recommendations.'
+    }
+  },
+  {
+    id:'M011:S03',authors:['Matthew Beane'],year:2019,
+    title:'Shadow Learning: Building Robotic Surgical Skill When Approved Means Fail',
+    url:'https://journals.sagepub.com/doi/10.1177/0001839217751692',
+    doi:'10.1177/0001839217751692',
+    inspection:'Publisher abstract and bibliographic record; detailed field notes and full methods not accessed. Online January 2018; journal issue 2019.',
+    exact_proposition_paraphrase:'Robotic surgery restricts trainee participation, making approved learning routes ineffective. A minority acquire skill through unconventional practices; the study connects these conditions to hyperspecialization and a reduced expert supply relative to demand.',
+    comparison:{
+      variables:'Actual novice access, supervision, skill formation and profession supply are close.',
+      causal_structure:'Technology changes participation and learning routes; no proof at this inspection depth about absence of the proposed competitive-financing return.',
+      beneficiary:'Experienced practitioners may benefit from efficient robotic work; trainees and the profession bear developmental effects.',
+      outcome:'Broad technological disruption of expert reproduction is already observed, not first identified here.',
+      timescale:'Training progression and subsequent professional supply.',
+      prediction:'More senior technologically enabled performance need not reproduce novice competence. Fixed-hours band deletion remains an untested operational contrast, not an established new explanation.',
+      intervention:'Unconventional rehearsal and practice provide alternative routes, challenging any universal claim that production cases are indispensable.'
+    }
+  },
+  {
+    id:'M011:S04',authors:['Allan Collins','John Seely Brown','Ann Holum'],year:1991,
+    title:'Cognitive Apprenticeship',
+    url:'https://www.aft.org/ae/winter1991/collins_brown_holum',
+    inspection:'Authors’ original article: sequencing, increasing complexity/diversity, scaffolding and global-before-local principles. It explains their earlier cognitive-apprenticeship work; the 1989 chapter is not silently treated as independently read.',
+    exact_proposition_paraphrase:'Apprenticeship should structure meaningful tasks with increasing complexity and diversity, supported by scaffolding. Training input is therefore not interchangeable across arbitrary task sequences; support can let learners handle complex tasks earlier.',
+    comparison:{
+      variables:'Task complexity, sequencing, practice and teacher support match the proposed developmental prerequisites.',
+      causal_structure:'Pedagogical mechanism rather than a market-feedback model; not a whole-graph match by itself.',
+      beneficiary:'Learners and the communities using their capabilities.',
+      outcome:'Robust problem-solving skill, not sector-level recovery supply.',
+      timescale:'A learning sequence rather than industry turnover.',
+      prediction:'Equal practice hours need not yield equal learning when sequencing differs. This removes the claim that the matched-hours contrast alone is a new conceptual insight.',
+      intervention:'Sequence practice and scaffold difficulty. Genuine alternative scaffolding can remove a supposed indispensable middle band.'
+    }
+  },
+  {
+    id:'M011:S05',authors:['Natalie S. Glance','Tad Hogg','Bernardo A. Huberman'],year:1997,
+    title:'Training and Turnover in the Evolution of Organizations',
+    url:'https://pubsonline.informs.org/doi/10.1287/orsc.8.1.84',
+    doi:'10.1287/orsc.8.1.84',
+    inspection:'Publisher abstract and indexed primary-paper excerpt describing interwoven dilemmas, organization birth/death, mobility and linear skill acquisition. Direct archive PDF failed; the entire experiment set was not reviewed.',
+    exact_proposition_paraphrase:'Industry training is a public-good problem coupled to employee effort and turnover. A dynamic model allows firms to appear and disappear and workers to move, producing different industry-level productivity regimes.',
+    comparison:{
+      variables:'Training finance, organizational viability, skill accumulation, industry supply and mobility are substantially shared.',
+      causal_structure:'Already couples multiple levels and organizational evolution. It is much closer than a generic principal-agent label; the inspected learning representation is scalar rather than prerequisite bands.',
+      beneficiary:'Individual firms and workers, sometimes at the expense of industry-level training.',
+      outcome:'Industry skill/productivity regimes; rare common-failure recovery is a different specified target.',
+      timescale:'Repeated organizational evolution.',
+      prediction:'Individual training incentives can fail to produce the jointly desired industry stock. That is inherited; a developmental cut at matched stocks is not assessed here.',
+      intervention:'Resolving training incentives is already central. Reproduction-path procurement must show a difference beyond generic training subsidies.'
+    }
+  },
+  {
+    id:'M011:S06',authors:['Lisanne Bainbridge'],year:1983,
+    title:'Ironies of automation',
+    url:'https://gwern.net/doc/sociology/technology/1983-bainbridge.pdf',
+    canonical_url:'https://doi.org/10.1016/0005-1098(83)90046-8',
+    inspection:'Original five-page paper scan; sections on manual/cognitive skill, later operator generations, take-over and training. Hosted mirror contains the primary text, not a secondary interpretation.',
+    exact_proposition_paraphrase:'Automated systems may rely on skills acquired by former manual operators that later generations cannot develop. Removing easy work makes abnormal take-over harder; successful automation can require especially large investments in appropriate training.',
+    comparison:{
+      variables:'Human fallback, practical experience and succeeding generations are already separated from current automatic performance.',
+      causal_structure:'Contains automation-to-development-to-fallback effects, not just short-run operator skill decay. It does not by itself establish the whole proposed market-selection graph.',
+      beneficiary:'Operators and organizations receive routine benefits and new maintenance burdens.',
+      outcome:'Effective fallback, not simply preservation of current task output.',
+      timescale:'Current operation and later operator generations.',
+      prediction:'Current skilled supervisors are not proof that subsequent operators will have those skills. This matched-current-stock warning is old.',
+      intervention:'Appropriate practice and simulators; alternative nonproduction learning must be tested before asserting a missing path.'
+    }
+  },
+  {
+    id:'M011:S07',authors:['Lingxiao Huang','Nisheeth K. Vishnoi'],year:2026,
+    title:'The Geometry of Learning Under AI Delegation',
+    url:'https://arxiv.org/html/2603.02950v1',
+    inspection:'Abstract, introduction, model equations, theorem statements in section 3 and limitations headings; proofs were not independently checked.',
+    exact_proposition_paraphrase:'Performance-driven delegation and use-dependent scalar skill can jointly create a stable low-skill reliance regime, path-dependent basins and short-run performance gains followed by long-run losses without locally misaligned objectives.',
+    comparison:{
+      variables:'Same endogenous human capability and adaptive delegation; firm populations, prerequisites and training procurement are not variables in the inspected core model.',
+      causal_structure:'The skill-to-more-delegation reinforcing return is already formalized. Closing that return alone cannot be the composition residue.',
+      beneficiary:'A learner choosing local performance; no commercial motive is necessary.',
+      outcome:'Individual skill/task performance rather than the availability of sector replacement experts.',
+      timescale:'Repeated long-run interaction.',
+      prediction:'Aligned immediate improvements can yield long-run reliance and loss. This broad paradox has a direct formal predecessor.',
+      intervention:'A different expert-production model may extend the domain, but no theorem absent from all extensions has been established.'
+    }
+  },
+  {
+    id:'M011:S08',authors:['Samuel Muehlemann'],year:2025,
+    title:'Artificial intelligence adoption and workplace training',
+    url:'https://epub.ub.uni-muenchen.de/129087/1/1-s2.0-S0167268125003257-main.pdf',
+    doi:'10.1016/j.jebo.2025.107206',
+    inspection:'Original paper abstract/introduction and conceptual framework on internal training versus hiring. Numerical replication and full robustness checks not performed.',
+    exact_proposition_paraphrase:'German establishment data associate sustained AI adoption with more apprentice intake within training firms, not a significant change in whether firms train; continuing training shifts toward higher-skilled employees.',
+    comparison:{
+      variables:'AI, firm training decisions and allocation overlap; no measured prerequisite-cut or common-failure recovery outcome.',
+      causal_structure:'Conditional institutional complementarity provides a countervailing mechanism, not evidence for inevitable destruction.',
+      beneficiary:'Firms and apprentices can benefit under a subsidized dual-training institution.',
+      outcome:'Training intake and composition, not independent expert generability.',
+      timescale:'2019–2023 observations and a few post-adoption years, not a completed long-run cohort transition.',
+      prediction:'The blanket prediction that adoption necessarily reduces apprenticeships is contradicted in this context. It does not test the specified matched-ladder mechanism.',
+      intervention:'Institutional support can make internal skill formation economically attractive; the beneficial mirror has relevant evidence.'
+    }
+  }
+];
+const record={
+  version:'0.1.0',date:'2026-10-05',phase:'POST_BLUE_TEAM_WHOLE_COMPOSITION_COMPARISON',
+  candidate:'E4:M011',title:'Missing developmental paths under market selection',
+  baseline_unchanged:true,paused_120_preserved:true,winner_selected:false,
+  strongest_version:'At fixed current expertise and aggregate human training input, competitive selection can eliminate organizations that provide a prerequisite developmental band, preventing replenishment of independent standby experts. Subsequent scarcity raises routine automation attractiveness, reinforcing the loss, unless an alternative developmental path or purchaser exists.',
+  causal_graph:[
+    'routine automation volume -> price pressure -> viability of training-bearing firms',
+    'firm viability -> supervised intermediate case coverage -> novice progression',
+    'novice progression -> future independent expert supply -> standby affordability',
+    'standby scarcity -> relative automation attractiveness -> routine automation volume'
+  ],
+  explicit_assumptions:[
+    'At least one developmental band is necessary; other tasks, simulations or AI mentorship do not provide an equally effective route.',
+    'Its providers depend on routine-task margins or on another finance stream harmed by the selection.',
+    'Stock attrition occurs before lost paths can be restored economically.',
+    'Less affordable standby judgment makes routine automation more attractive in the actual procurement rule; this last return is not automatic.'
+  ],
+  five_closest_works:sources.slice(0,5).map(x=>x.id),sources,
+  known:[
+    'Technology can remove developmental conditions before present expertise visibly declines.',
+    'Practice sequence and scaffolding, not total hours alone, affect learning.',
+    'Firm training decisions, organizational evolution and industry-wide skill supply can interact.',
+    'Locally performance-aligned delegation and evolving skill can form a reliance loop.',
+    'Training-preserving institutions can make AI adoption increase skill formation.'
+  ],
+  new_residue:'The proposed residual is a procurement/selection-attributable loss of a feasible developmental path at matched current expert stocks and total training input, measured by cohort reachability rather than training volume. Its historical novelty is unresolved; neither the matched-hours idea nor delayed pipeline collapse alone is new.',
+  remainder_class:'USEFUL SYNTHESIS',
+  narrow_extension_status:'UNCLEAR; requires full nearest-model comparison and a distinguishing contrast',
+  no_ancestor_only_conviction:true,
+  what_expert_would_miss:'No important error by a reader knowing all these works has yet been demonstrated. A scalar-hours/current-headcount implementation could miss a prerequisite cut, but an expert applying cognitive apprenticeship and the existing pipeline models need not miss it. The research burden is to establish whether feasible restoration paths add predictive content beyond existing measures and model extensions.',
+  matched_experiment:{
+    status:'PROPOSED_NOT_RUN',
+    design:'Simulate or study two training ecologies matched on current independent experts, automation output, training budget/hours and novice intake. Allocate the same practice across graded prerequisites in one and leave one empirically verified bottleneck in the other; allow alternative scaffolding as an explicit third arm.',
+    outcome:'Time and legitimate expenditure needed to produce an independently competent replacement cohort after retirement or supplier withdrawal.',
+    essential_ablation:'Finance a complete external ladder at the same total input, removing the link between routine-contract loss and missing-band exposure.',
+    identification_limit:'Task-band necessity must be measured independently, not inferred from the model definition; self-selected difficult tasks, selection into firms and mentor quality can confound the comparison.'
+  },
+  beneficial_mirror:'Procurement rewarding transferable cohort completion can select firms with better developmental ladders. Automation savings can finance external practice and reproduce more independent expertise without requiring routine production to remain manual.',
+  falsifier:'At matched input and mentor quality, deleting the proposed necessary band does not reduce independent cohort completion, or readily available alternative scaffolding restores the same path without extra cost.',
+  mutation_to_keep:'Combine prerequisite-path production with who can fund and recognize a replacement cohort after a common withdrawal. Separate possession of present expertise from lawful, financed generability of new expertise; do not call that separation unprecedented.',
+  importance:'High if measured in safety-critical sectors; conceptual ancestry does not reduce possible practical significance.',
+  novelty_confidence:'No strong novelty certification. Broad pipeline mechanism has direct predecessors; narrow measurement/selection extension remains open.',
+  empirical_confidence:'Conditional model hypothesis, not an established sector outcome. Positive German apprenticeship evidence prevents a universal negative story.',
+  inspection_limit:'Eight selected works, several only abstract/declaration-level; this is not an exhaustive court or a proof that no full model already contains the proposed path comparison.',
+  next_required_reading:'Obtain the full Broken Ladder model and related developmental-ecology models; compare actual state vectors and interventions before asserting any residual theorem or policy difference.'
+};
+fs.writeFileSync(path.join(here,'M011.json'),JSON.stringify(record,null,2)+'\n');
+const lines=['# E4:M011 — Missing developmental paths under market selection','',
+  'Post-blue-team comparison, 2026-10-05. The checkpoint preceded these searches. All 120 inputs remain available; v0.5 is unchanged. This is a provisional composition comparison, not pruning or a winner decision.','',
+  '## Strongest version','',record.strongest_version,'',
+  '### Causal return','',...record.causal_graph.map(x=>'- '+x),'',
+  '### Necessary premises','',...record.explicit_assumptions.map(x=>'- '+x),'',
+  '## Five closest works and three additional controls','',
+  'Each comparison is limited to the primary text or metadata actually inspected. A missing feature in an abstract is not proof of absence from the paper. Propositions below are paraphrases, not invented quotations.',''
+];
+for(const s of sources){
+  lines.push('### '+s.id+' — '+s.authors.join(', ')+' ('+s.year+')','',
+    '['+s.title+']('+s.url+')','',
+    '**Inspected.** '+s.inspection,'',
+    '**Prior proposition.** '+s.exact_proposition_paraphrase,'');
+  for(const [k,v] of Object.entries(s.comparison))lines.push('**'+k.replaceAll('_',' ')+'.** '+v,'');
+}
+lines.push('## KNOWN','',...record.known.map(x=>'- '+x),'',
+  '## NEW RESIDUE','',record.new_residue,'',
+  '**Provisional remainder.** '+record.remainder_class+'. Narrow extension: '+record.narrow_extension_status+'.','',
+  '## What would an expert miss?','',record.what_expert_would_miss,'',
+  '## Distinguishing test','');
+for(const [k,v]of Object.entries(record.matched_experiment))lines.push('**'+k.replaceAll('_',' ')+'.** '+v,'');
+for(const k of ['beneficial_mirror','falsifier','mutation_to_keep','importance','novelty_confidence','empirical_confidence','inspection_limit','next_required_reading'])lines.push('## '+k.replaceAll('_',' '),'',record[k],'');
+fs.writeFileSync(path.join(here,'M011.md'),lines.join('\n').trimEnd()+'\n');
+console.log(JSON.stringify({candidate:record.candidate,primary_neighbors:sources.length,provisional:record.remainder_class,pruned:false}));

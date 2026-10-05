@@ -84,3 +84,29 @@ All entries concern the isolated sprint. No new canonical/public claims.
 - Required six-report checkpoint completed at 03:44:51 UTC. Six paused input
   hashes and 100 baseline files remain unchanged. This permits subsequent
   whole-composition courts; it is no publication, pruning or winner decision.
+
+## 2026-10-05, initial post-checkpoint comparisons
+
+- Checkpoint committed as `87ee7bc` before resumed literature queries. Seven
+  additive courts now compare M004, M005, M011, M023, M087, M101 and M105.
+  Construction authors/agents conducted them; no fresh blind publication panel
+  or final selection is implied.
+- Forty-four source comparisons each record seven dimensions. Primary texts were
+  inspected at differing stated depths; partial abstracts/books and official
+  descriptions are not presented as full papers. Actual query logs include
+  failed retrievals. Source counts do not establish exhaustiveness.
+- Strong whole-loop predecessors are recorded, not merely edge ancestors.
+  Provisional useful synthesis/domain transfer or UNCLEAR residue remains
+  distinct from importance, testability and historical originality. No branch
+  is discarded because of these classifications.
+- M004 retains the successful-erasure/correct-new-intake contrast; M023 closes
+  the return only under explicit complaint-sensitive procurement. M011 retains
+  developmental-path measurement without claiming broad pipeline collapse new.
+  M087 separates use from indispensability and entry receipts from upkeep.
+  M101 fixes the complete grant vector; M105 requires compressed disposition
+  intake and distinguishes genuine new work from retries or finite compensation.
+- The root read all seven human court records and checked normalized comparison
+  structure. This is not a fresh replication of every source inspection.
+- Initial comparison ledger is additive. No construction ledger is rewritten,
+  numerical ranking assigned, canonical claim revised or winner selected.
+  Larger staged tournament and agent-optimization tests remain unfinished.

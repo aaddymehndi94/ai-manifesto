@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-05",
+  "candidate": "E4:M005",
+  "phase": "POST_BLUE_TEAM_CHECKPOINT",
+  "actual_queries": [
+    "risk averse bandit lower confidence bound pessimistic algorithm exploration incumbent learning uncertainty",
+    "algorithmic monoculture data externalities exploration platform competition bandit learning",
+    "Selective Labels human decision machine learning predictive model decision feedback 2017",
+    "Greedy Algorithm Bandit Contextual self perpetuating bias free exploration Bastani Bayati Khosravi 2021",
+    "\"competition\" \"bandit algorithms\" reputation learning Slivkins",
+    "\"data\" \"exploration\" \"competition\" \"bandits\"",
+    "\"pessimism\" \"bandits\" \"learning\"",
+    "Garivier Kaufmann Optimal Best Arm Identification Fixed Confidence 2016"
+  ],
+  "domain_filters_for_queries_5_to_8": [
+    ["arxiv.org", "proceedings.mlr.press", "dl.acm.org"],
+    ["arxiv.org", "proceedings.mlr.press"],
+    ["arxiv.org", "proceedings.mlr.press"],
+    ["proceedings.mlr.press", "arxiv.org"]
+  ],
+  "inspected_primary_urls": [
+    "https://arxiv.org/html/2007.10144v4",
+    "https://proceedings.mlr.press/v238/wang24a/wang24a.pdf",
+    "https://proceedings.mlr.press/v337/girard26a.html",
+    "https://www.gsb.stanford.edu/faculty-research/publications/mostly-exploration-free-algorithms-contextual-bandits",
+    "https://arxiv.org/abs/1704.09011",
+    "https://proceedings.mlr.press/v49/russo16.html",
+    "https://proceedings.mlr.press/v49/garivier16a.html",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5958915/"
+  ],
+  "failed_full_text_access": ["https://web.stanford.edu/~bayati/papers/greedy.pdf"],
+  "scope_limit": "Source-specific inspection limits are in M005.json. No result-header list is treated as read literature; no proof was replicated."
+}

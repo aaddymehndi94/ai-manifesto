@@ -1,0 +1,329 @@
+{
+  "date": "2026-10-05",
+  "checkpoint": "87ee7bc",
+  "stage": "POST_CHECKPOINT_WHOLE_COMPOSITION_COMPARISON",
+  "reviewer_role": "Construction author doing primary-source comparison; NOT a fresh independent publication panel",
+  "protocol": "research/discovery-sprint-2026-10-05/emergence/post-checkpoint-protocol.md",
+  "query_log": "query-log-a.json",
+  "scope_limits": [
+    "No scores, global ratings, pruning, winner or paper changes.",
+    "All raw candidates and earlier records preserved.",
+    "Provisional classification concerns established residue under this inspection, not importance, usefulness or final survival.",
+    "Related edges or generic model representability do not establish whole-composition equivalence."
+  ],
+  "id": "E4:M004",
+  "working_name": "Erased category reappears through testimony and opportunities",
+  "local_evidence": {
+    "raw": "emergence/raw/stream-a.json:313",
+    "developed": "blue_team_emergence.md:96",
+    "original_preserved": true
+  },
+  "original": {
+    "component_ideas": [
+      {
+        "id": "D4:I064",
+        "proposition": "If an agent teaches a user a vocabulary for explaining themselves, deleting the profile can leave subsequent fresh interviews reproducing the same categories and make reset appear ineffective or preferences appear independent.",
+        "provenance": "generation4_raw.json"
+      },
+      {
+        "id": "D4:I065",
+        "proposition": "If an assistant supplies the categories used by later independent reviewers, agreement across reviewers can reflect shared framing rather than robustness of the underlying evidence.",
+        "provenance": "generation4_raw.json"
+      },
+      {
+        "id": "D4:I043",
+        "proposition": "If an agent classifies a disputed category before long-term evidence matures and institutions immediately build services around it, later evidence can fail to revise the category because revision would disrupt those services.",
+        "provenance": "generation4_raw.json"
+      }
+    ],
+    "emergent_property": "Deleting all old profiles can leave a self-regenerating classification sustained by fresh testimony and newly produced behavior rather than hidden retained data.",
+    "surprising_prediction": "A database reset changes outcomes little when vocabulary and opportunity allocation remain; a reset paired with alternative-description elicitation and profile-independent opportunities changes them even with identical stored-data deletion.",
+    "strongest_version": "Conditional on the specified state dependencies: Deleting all old profiles can leave a self-regenerating classification sustained by fresh testimony and newly produced behavior rather than hidden retained data. The distinguishing contrast is: A database reset changes outcomes little when vocabulary and opportunity allocation remain; a reset paired with alternative-description elicitation and profile-independent opportunities changes them even with identical stored-data deletion.",
+    "causal_loop": {
+      "kind": "SIGNED_RETURN_LOOP",
+      "signed_edges": [
+        {
+          "edge": "category language teaching → self-description in category (+)",
+          "sign": "+"
+        },
+        {
+          "edge": "category self-description → independently sampled category confirmations (+)",
+          "sign": "+"
+        },
+        {
+          "edge": "shared interpretive frame → confirmation covariance (+)",
+          "sign": "+"
+        },
+        {
+          "edge": "confirmation → category-conditioned opportunity allocation (+)",
+          "sign": "+"
+        },
+        {
+          "edge": "opportunity allocation → category-congruent behavior (+)",
+          "sign": "+"
+        },
+        {
+          "edge": "congruent behavior → new self-description confirmation (+)",
+          "sign": "+"
+        }
+      ],
+      "closure_or_threshold": "Assume classification affects opportunities and those opportunities affect later evidence. Hysteresis can occur if changing testimony alone cannot undo produced skills or lost opportunities.",
+      "critical_cross_component_edge": "Category-produced opportunities → behavior used as fresh classification evidence",
+      "edge_removal_counterfactual": "Profile-independent opportunities remove the behavioral regeneration route; the language route may still survive separately."
+    }
+  },
+  "strongest_developed_version": "After independently verified removal of all historical profiles, model influence and downstream copied records available to a new classifier, an initially assigned category can recur because (i) learned self-description and common evaluator frames persist, and (ii) its earlier opportunity allocation produced skills/behavior now measured as fresh evidence. With matched initial traits and equal stored-data erasure, altering elicitation frames and category-conditioned future opportunities can reduce history-dependent recurrence. The mechanism concerns intervention-produced trajectories, not the mere correct redetection of a pre-existing trait.",
+  "verified_erasure_correct_intake_contrast": "A fresh intake may be perfectly correct: an earlier assigned category caused real capabilities, and an honest new classifier reports those capabilities after complete erasure. Storage erasure succeeded while category exit did not occur. An external opportunity footprint is inherited classification-loop material, not by itself novelty or evidence of misconduct. The narrower audit separates correct redetection of produced state, retained records, pre-existing traits and framing-dependent reports; it does not promise to erase the person's experiences or require knowingly false classification.",
+  "added_assumptions": [
+    "New classification can update opportunity allocation, completing the return; a static one-off labeling effect is not sufficient.",
+    "Learned reporting and produced behavior have nonzero causal effects on fresh classification, with relevant persistence over the observation horizon.",
+    "Historical labels/embeddings/profile copies do not reach new evaluators; participant memory is not mistakenly called a retained provider record.",
+    "Alternative elicitation changes reporting frames without dictating a desired classification; changing opportunity schedules may affect future behavior without immediately undoing prior skills.",
+    "Initial traits and stable true-category explanations must be controlled; no premise that sincere testimony or accurate recognition is intrinsically bad.",
+    "Positive loop gains alone do not prove multiple equilibria, hysteresis, or a positive factorial interaction."
+  ],
+  "explicit_state_model": {
+    "state": [
+      "R_t: stored/model/copy information accessible to classifier",
+      "L_t: learned category-description propensity",
+      "F_t: evaluator interpretation frame",
+      "B_t: developed behavior/capability stock",
+      "O_t: category-conditioned opportunities",
+      "C_t: fresh classification"
+    ],
+    "closure": [
+      "E_t = h(L_t,F_t,B_t,initial_traits,noise)",
+      "C_t = g(E_t), with R_t set to zero at reset",
+      "O_t = policy(C_t)",
+      "B_(t+1) = persistence(B_t) + opportunity_effect(O_t)",
+      "L_(t+1) = reporting_learning(L_t,C_t,interactions)",
+      "(L_(t+1),B_(t+1)) → E_(t+1) → C_(t+1)"
+    ],
+    "paired_variables": [
+      "Verified storage erasure versus post-reset causal recurrence",
+      "Fresh-evidence accuracy versus dependence on earlier assigned category",
+      "Framing-mediated versus opportunity-produced recurrence"
+    ],
+    "critical_cross_edge": "Category-produced opportunities → behavior used as fresh classification evidence",
+    "cross_edge_removal": "Make future opportunity assignment independent of C_t, holding total resources constant. This removes the prospective opportunity-produced return; a residual language path and pre-existing behavior stock may persist. A claim that this immediately eliminates all recurrence would exceed the graph.",
+    "measurement": "At each horizon, estimate the difference in recurrence of the sealed initial category after randomized initial labeling, holding initial traits fixed. Decompose changes under frame and opportunity interventions. Do not call plain classification accuracy or prevalence a regeneration-gain estimate.",
+    "formal_status": "Conditional causal specification, not a new theorem or proved equilibrium."
+  },
+  "primary_works": [
+    {
+      "id": "A-HACKING-2007",
+      "title": "Kinds of People: Moving Targets",
+      "authors": [
+        "Ian Hacking"
+      ],
+      "year": 2007,
+      "url": "https://doi.org/10.5871/bacad/9780197264249.003.0010",
+      "read_url": "https://www.thebritishacademy.ac.uk/documents/2043/pba151p285.pdf",
+      "source_kind": "PRIMARY_AUTHOR_WORK; mirror is a copy of primary text, not a review",
+      "verification": "Title/authorship and primary text inspected; publication identity checked in the work or its publisher/proceedings record.",
+      "inspected_coverage": "Printed pp.285–291 and 293–299 via untruncated pdftotext; autism discussion printed pp.300–304 and resistance pp.311 through extracted web passages.",
+      "inspection_limits": "Not a complete 34-page reading; historical medical statements are not treated as current medical evidence.",
+      "exact_paraphrased_proposition": "Classifications interact with people, experts, knowledge and institutions; institutional treatment and self-understanding can change classified people and feed changes back into descriptions and classifications.",
+      "seven_equivalence_checks": {
+        "variables": "Close: classifications, self-description, institutions, experts.",
+        "whole_graph": "Close multichannel loop; no inspected verified-storage-erasure contrast.",
+        "beneficiary": "Both classified people and classifying institutions.",
+        "outcome": "Both changed identity/behavior and recurring classification.",
+        "timescale": "Both development over repeated encounters.",
+        "prediction": "General regeneration expected; exact erasure factorial not inspected.",
+        "intervention": "Institutional/framing change already motivated; storage-only contrast additional specification."
+      },
+      "whole_composition_comparison": "The whole distributed production process is a serious conceptual ancestor, not merely a vocabulary edge. Adding 'without retained profile' must earn an operational difference; the source does not require a database."
+    },
+    {
+      "id": "A-MERTON-1948",
+      "title": "The Self-Fulfilling Prophecy",
+      "authors": [
+        "Robert K. Merton"
+      ],
+      "year": 1948,
+      "url": "https://www.jstor.org/stable/4609267",
+      "read_url": "https://entrepreneurscommunicate.pbworks.com/f/Merton.%2520Self%2520Fulfilling%2520Profecy.pdf",
+      "source_kind": "PRIMARY_AUTHOR_WORK; mirror is a copy of primary text, not a review",
+      "verification": "Title/authorship and primary text inspected; publication identity checked in the work or its publisher/proceedings record.",
+      "inspected_coverage": "Web extracted printed pp.193–197; pdftotext pp.197–202 and 204–210. The long latter extraction had a truncation around p.203.",
+      "inspection_limits": "Do not claim every page read. Historical examples illustrate the author's mechanism; not independently replicated here.",
+      "exact_paraphrased_proposition": "Definitions induce behavior and opportunities that appear to confirm them; altered institutional opportunities can interrupt this confirmation rather than relying on corrective education alone.",
+      "seven_equivalence_checks": {
+        "variables": "Close: beliefs, opportunity exclusion, behavior, confirming evidence.",
+        "whole_graph": "Close opportunity-confirmation return; learned fresh testimony less explicit.",
+        "beneficiary": "Dominant groups and excluded people.",
+        "outcome": "Both institution-produced apparent evidence.",
+        "timescale": "Both persistent institutional cycles.",
+        "prediction": "Fresh confirming evidence anticipated; verified-erasure contrast not inspected.",
+        "intervention": "Changing opportunity rules already explicit; erasure alone not analyzed."
+      },
+      "whole_composition_comparison": "Education-plus-opportunity intervention cannot by itself establish residue: the opportunity-based return and institutional remedy are already substantive parts of this paper."
+    },
+    {
+      "id": "A-BOWKER-STAR-1999",
+      "title": "Sorting Things Out: Classification and Its Consequences",
+      "authors": [
+        "Geoffrey C. Bowker",
+        "Susan Leigh Star"
+      ],
+      "year": 1999,
+      "url": "https://doi.org/10.7551/mitpress/6352.001.0001",
+      "read_url": "https://ics.uci.edu/~gbowker/classification/",
+      "source_kind": "PRIMARY_AUTHOR_WORK; mirror is a copy of primary text, not a review",
+      "verification": "Title/authorship and primary text inspected; publication identity checked in the work or its publisher/proceedings record.",
+      "inspected_coverage": "Author-hosted Introduction opening; chapter 9 membership/naturalization passages, filiation-control and reversibility; chapter 10 core argument and design criteria. Specifically extracted lines131–164,618–809,885–967.",
+      "inspection_limits": "Not the full book or all empirical chapters; no exact storage-erasure experiment established.",
+      "exact_paraphrased_proposition": "Classification is embedded in practice and biography; membership naturalizes categories, category-person links vary in reversibility and control, and technical representation can shape later possibilities.",
+      "seven_equivalence_checks": {
+        "variables": "Close: classifications, biographies, practices, category control.",
+        "whole_graph": "Distributed institutional reproduction close; exact reset loop not inspected.",
+        "beneficiary": "Individuals and multiple institutional constituencies.",
+        "outcome": "Persistent/alterable categorical attachment close.",
+        "timescale": "Biographical and infrastructure timescales.",
+        "prediction": "Recurrence through practice plausible; verified fresh-intake contrast unspecified.",
+        "intervention": "Reversibility/control design close; paired erasure experiment additional specification."
+      },
+      "whole_composition_comparison": "The book already asks whether category attachments can be removed and who controls removal. 'Categories persist beyond records' is not established as a missing conceptual idea."
+    },
+    {
+      "id": "A-PERDOMO-2020",
+      "title": "Performative Prediction",
+      "authors": [
+        "Juan C. Perdomo",
+        "Tijana Zrnic",
+        "Celestine Mendler-Dünner",
+        "Moritz Hardt"
+      ],
+      "year": 2020,
+      "url": "https://proceedings.mlr.press/v119/perdomo20a.html",
+      "read_url": "https://proceedings.mlr.press/v119/perdomo20a/perdomo20a.pdf",
+      "source_kind": "PRIMARY_AUTHOR_WORK; mirror is a copy of primary text, not a review",
+      "verification": "Title/authorship and primary text inspected; publication identity checked in the work or its publisher/proceedings record.",
+      "inspected_coverage": "Entire 11-page proceedings PDF extracted/read in chunks pp.1–5 and 6–11: main definitions, theorem statements/proof sketches, simulation and discussion.",
+      "inspection_limits": "Separate supplement/full proofs not inspected or independently checked; generic representability is not explicit treatment of the proposed application.",
+      "exact_paraphrased_proposition": "Deployment changes the distribution on which prediction is evaluated; retraining can reach a classifier stable on its own induced distribution, distinct from a performative optimum.",
+      "seven_equivalence_checks": {
+        "variables": "Generic classifier/distribution/loss can encode many variables.",
+        "whole_graph": "Close deployment-data-retraining loop; base mapping is stateless.",
+        "beneficiary": "Institution's loss central, rather than requested identity reset.",
+        "outcome": "Stable prediction, not chiefly meaningful category exit.",
+        "timescale": "Repeated retraining rounds.",
+        "prediction": "Self-confirming stability inherited; post-erasure decomposition unspecified.",
+        "intervention": "Optimize under performativity; category-exit target differs."
+      },
+      "whole_composition_comparison": "Encoding M004 in a broad distribution map is not automatically whole-graph equivalence. Still, a stable classifier generating its own future evidence is inherited, not a new formal result."
+    },
+    {
+      "id": "A-ENSIGN-2018",
+      "title": "Runaway Feedback Loops in Predictive Policing",
+      "authors": [
+        "Danielle Ensign",
+        "Sorelle A. Friedler",
+        "Scott Neville",
+        "Carlos Scheidegger",
+        "Suresh Venkatasubramanian"
+      ],
+      "year": 2018,
+      "url": "https://proceedings.mlr.press/v81/ensign18a.html",
+      "read_url": "https://proceedings.mlr.press/v81/ensign18a/ensign18a.pdf",
+      "source_kind": "PRIMARY_AUTHOR_WORK; mirror is a copy of primary text, not a review",
+      "verification": "Title/authorship and primary text inspected; publication identity checked in the work or its publisher/proceedings record.",
+      "inspected_coverage": "All 12 PDF pages read through pp.1–5 and 6–12 extracts: urn assumptions, feedback, reported/discovered incidents, correction, simulations and limitations.",
+      "inspection_limits": "No independent proof/code validation. The underlying crime-rate assumptions differ from intervention-produced abilities/preferences.",
+      "exact_paraphrased_proposition": "Predictive allocation changes discovered incidents, which reinforce later allocation; even truthful incident generation and a separate reporting channel need not eliminate the loop.",
+      "seven_equivalence_checks": {
+        "variables": "Allocation, observations, prior, incident rates overlap structurally.",
+        "whole_graph": "Close evidence-allocation return; observation selection rather than skill production.",
+        "beneficiary": "Police allocator and affected neighborhoods.",
+        "outcome": "Biased deployment versus category regeneration.",
+        "timescale": "Repeated deployment with decay.",
+        "prediction": "Independent reports need not cure loop; fresh testimony here can itself be affected.",
+        "intervention": "Correct observation feedback; does not undo opportunity-produced capabilities."
+      },
+      "whole_composition_comparison": "Important countermodel: recurrence after a reset can reflect sampling rather than changed persons. M004 must distinguish behavior production from measurement exposure."
+    },
+    {
+      "id": "A-BROWN-2022",
+      "title": "Performative Prediction in a Stateful World",
+      "authors": [
+        "Gavin Brown",
+        "Shlomi Hod",
+        "Iden Kalemaj"
+      ],
+      "year": 2022,
+      "url": "https://proceedings.mlr.press/v151/brown22a.html",
+      "read_url": "https://proceedings.mlr.press/v151/brown22a/brown22a.pdf",
+      "source_kind": "PRIMARY_AUTHOR_WORK; mirror is a copy of primary text, not a review",
+      "verification": "Title/authorship and primary text inspected; publication identity checked in the work or its publisher/proceedings record.",
+      "inspected_coverage": "PDF pp.1–10 read: all main text through discussion, societal impact and references; stateful transition examples, stable-pair definitions, theorem statements and group simulations.",
+      "inspection_limits": "Remaining supplement pages/full proofs not inspected. Contractivity assumptions are not verified for M004.",
+      "exact_paraphrased_proposition": "Population response depends on both the deployed classifier and existing population state, allowing past classification to influence current behavior and retraining dynamics.",
+      "seven_equivalence_checks": {
+        "variables": "Classifier plus population-state variables directly close.",
+        "whole_graph": "History-dependent deployment-state-data-retraining loop very close.",
+        "beneficiary": "Institution and differently informed population groups.",
+        "outcome": "Stable pairs and group disparity versus post-erasure category exit.",
+        "timescale": "Repeated rounds with delayed responses.",
+        "prediction": "Resetting classifier need not reset population state; erasure mechanism not explicit.",
+        "intervention": "Retraining cadence/convergence; requested category exit differs."
+      },
+      "whole_composition_comparison": "Adding behavioral memory to stateless performativity is already explicit here. M004's possible contribution must specify which states an erasure request actually changes, not claim history dependence itself."
+    }
+  ],
+  "KNOWN": [
+    "Classification can co-produce self-understanding and behavior through institutions, experts and knowledge; this multichannel loop is already close in Hacking.",
+    "Definitions and discriminatory opportunity structures can create later evidence apparently confirming them; institutional intervention is inherited from self-fulfilling-prophecy analysis.",
+    "Categorical attachment, control over its removal and practical irreversibility are explicit concerns in classification infrastructure theory.",
+    "Prediction-induced distribution change, feedback-driven apparent confirmation and history-dependent population response are inherited formal/conceptual ingredients.",
+    "The fact that a reset of machine parameters or storage need not reset social/behavioral state is not by itself a substantive new mechanism."
+  ],
+  "preliminary_NEW_RESIDUE": "A narrow development target is an independently verified erasure experiment estimating how much post-reset category recurrence is produced through persistent reporting frames versus opportunity-created behavior. The inspected works do not establish whether that exact decomposition and matched intervention contrast is already developed elsewhere; this is an inspection gap, not verified originality.",
+  "what_expert_would_miss": "An expert knowing Hacking, Merton and stateful performativity would not miss the distributed loop or the need to change institutions. What the record offers is a concrete erasure-audit estimand separating record retention from manufactured fresh evidence; no important conceptual omission in those expert theories has been established.",
+  "provisional_classification": {
+    "residue": "UNCLEAR",
+    "established_use": "USEFUL SYNTHESIS / operational domain specification",
+    "reason": "Whole-loop neighbors are substantive, but limited book/essay inspection and no direct study of the exact erasure audit do not establish either historical novelty or full equivalence of the precise experiment.",
+    "not_a_disposition": true
+  },
+  "minimum_matched_experiment": {
+    "setting": "Consenting participants in a low-stakes fictional training/cooperative task; no medical diagnosis, essential services or harmful deprivation.",
+    "design": "Randomize an initial arbitrary category among participants with matched baseline skills. Allow category-framed reflection and category-conditioned practice to create trajectories, then erase all classifier-facing historical records and model contributions. Use genuinely fresh evaluators and intake. A sealed initial-category key remains only with experiment auditors.",
+    "contrast": "After identical verified erasure, cross neutral/alternate self-description elicitation with independent/category-conditioned future opportunities. Hold evaluator architecture, resource totals and underlying tasks fixed; separately randomize evaluator frames or use frame-blinded behavioral assessments.",
+    "measurements": [
+      "Causal effect of initial arbitrary assignment on post-reset category",
+      "Fresh interview/frame dependence and inter-evaluator residual covariance",
+      "Objective behavior/capability change attributable to opportunity assignment",
+      "Recurrence over horizons short and long enough for retained capability stock to decay or be altered"
+    ],
+    "primary_prediction": "Recurrence due to the opportunity route falls when the classification→opportunity→future-behavior return is removed; framing intervention changes the reporting route. Effects can be additive: superadditive interaction is not necessary.",
+    "rival_controls": [
+      "A pre-existing stable trait correctly redetected",
+      "Undeleted embedding/profile copy",
+      "Repeated evaluators sharing a frame without any produced behavior",
+      "Allocation-induced observation exposure rather than changed abilities",
+      "Regression to the mean or task-difficulty change"
+    ],
+    "not_run": true
+  },
+  "beneficial_same_mechanism_case": "A voluntary training-support identity gives a person a shared language for their needs, tailored opportunities build the relevant capacities, and fresh testimony/behavior secures continued wanted recognition at a replacement institution after data erasure. The same reporting→recognition→opportunity→behavior→recognition return supplies continuity; benefit is measured against the person's ongoing preference, not assumed from institutional persistence.",
+  "neutral_control": "Category labels influence neither practice opportunities nor later interpretation; fresh evaluation uses baseline traits and blinded evidence. A stable true trait may still recur, which is not the target loop.",
+  "strongest_falsifier": "With verified erasure, randomized initial category has no causal effect on post-reset classification or newly developed behavior across frames/opportunity conditions; alternatively, all observed recurrence is explained by genuine prior traits or retained data. This falsifies the proposed regeneration mechanism in the setting, not every form of classification looping.",
+  "counterexample_and_escape": [
+    "Fresh evaluators can correctly reject learned category language when task evidence contradicts it.",
+    "Category-based opportunities can produce divergence or compensatory improvement rather than category-congruent behavior; edge signs are empirical.",
+    "Independent opportunities break future reproduction but do not retroactively erase skills; demanding immediate reset effects is an invalid stronger hypothesis."
+  ],
+  "further_mutation": {
+    "proposal": "Hold actual behavioral skill stocks fixed and compare two institutions that infer the same category equally accurately after erasure, but only one has a category-blind exit pathway for accessing future opportunities. Predict divergent long-run category recurrence despite equal initial inference accuracy.",
+    "what_changes": "Moves from detecting persistent evidence to whether an exit pathway can decouple accurate recognition from future trajectory reproduction.",
+    "known_inheritance": "Institutional exit, self-fulfilling dynamics and stateful response remain genetic material; this mutation is unsearched and carries no novelty verdict."
+  },
+  "inspection_limits": [
+    "Six primary works do not establish exhaustive prior art or priority.",
+    "Books/essays inspected selectively; exact coverage is in each source record.",
+    "No systematic review of contemporary identity-reset or erasure-policy scholarship; three erasure-related searches yielded no verified exact composition, which is not evidence of absence.",
+    "No real-world causal estimates, proof of erasure completeness, equilibrium proof or participant-welfare result."
+  ],
+  "preservation": "Raw and developed versions unchanged; this court is additive."
+}

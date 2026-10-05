@@ -1,0 +1,262 @@
+{
+  "date": "2026-10-05",
+  "phase": "POST_BLUE_TEAM_GATE_WHOLE_COMPOSITION_COMPARISON",
+  "gate_commit": "87ee7bc",
+  "reviewer_role": "Construction agent comparison; not a fresh blind disciplinary or publication panel.",
+  "scope_limits": "Additive court only: no grades, winner, paused-120 pruning, canonical edits, raw-ledger mutation or commit.",
+  "source_exhaustiveness": "Six or five inspected primary works do not establish exhaustive coverage or historical priority. Uninspected full texts and field prevalence remain gaps.",
+  "citation_method": "Exact paraphrased propositions, not quotations; source identity and actual primary passages recorded.",
+  "id": "E4:M105",
+  "working_name": "The stop-settlement wave",
+  "exact_proposition": "Reducing local stopping latency can worsen short-horizon coordinated release if it synchronizes settlement arrivals without increasing restoration capacity.",
+  "original_strongest_version": "Simultaneous legitimate revocation stops new agent commitments quickly but releases many matured or pending obligations into the same restoration pool. Fast coordinated stopping can create a settlement demand wave whose delays leave counterparties treating old representation as practically active.",
+  "component_ideas": [
+    {
+      "id": "D4:I158",
+      "proposition": "If posthumous agents create pending exchanges under a valid mandate, then revoking that mandate stops new action but can leave living counterparties bound to reservations or expectations created earlier.",
+      "source": "research/discovery-sprint-2026-10-05/generation4_raw.json"
+    },
+    {
+      "id": "D4:I287",
+      "proposition": "If an agent can stop issuing commitments immediately but its existing commitments mature over long and uneven intervals, evaluating revocation only by new-action cessation will understate residual exposure; two agents with identical stopping latency can produce different recovery cash and coordination needs because their obligation maturity distributions differ.",
+      "source": "research/discovery-sprint-2026-10-05/generation4_raw.json"
+    },
+    {
+      "id": "D4:I272",
+      "proposition": "If providers sell recovery guarantees against the same small pool of substitute infrastructure without disclosing overlap, the market price of insured recovery can fall while the quantity of simultaneously deliverable restoration remains fixed.",
+      "source": "research/discovery-sprint-2026-10-05/generation4_raw.json"
+    }
+  ],
+  "source_record": "emergence/raw/stream-c.json:436",
+  "strongest_defensible_version": "All local safety stops are immediately honored. If a common event compresses residual-disposition arrivals that previously would be dispersed, a finite common settlement pool delays counterpart release. If that delay independently creates additional legitimate reconciliation work, rather than merely leaving a finite original compensation list unfinished, the resulting return can prolong aggregate release after agent execution has ceased.",
+  "extra_assumptions_added": [
+    "Compression of arrival times is necessary; uniformly shifting all stops earlier is not compression.",
+    "All arms obey the local stop immediately. Continuing obligations and counterpart bookkeeping are not continuing agent execution.",
+    "The same initial obligation cohort, maturity profile, work weights and disposition capacity are compared.",
+    "Unresolved reliance must demonstrably create additional work; simple retained reservations or a finite fixed compensation DAG do not establish an amplifying return.",
+    "Persistent divergence additionally needs sufficiently strong, sustained amplification or capacity loss. Bounded follow-on work or protected independent reconciliation can restore eventual release.",
+    "Whether any duty is legitimate is determined by actual agreed institutional rules; no generic contractual or statutory obligation is invented."
+  ],
+  "proposed_state": {
+    "variables": [
+      "A_t: original disposition work arrivals",
+      "q_t: unresolved weighted work",
+      "mu: disposition service capacity",
+      "beta: stipulated backlog-dependent follow-on work",
+      "H_t: unresolved stopped-mandate stock",
+      "N_t: unique follow-on obligations versus duplicate technical retries",
+      "G: counterparty dependency and recognition graph"
+    ],
+    "graph": [
+      "Compressed A_t raises q_t.",
+      "q_t delays counterparty release.",
+      "Delay sustains reservations or reliance under verified counterpart rules.",
+      "Reliance can generate new N_t or additional per-case work.",
+      "That work reenters the same capacity-limited queue and increases q_t."
+    ],
+    "measurement": "Count stopped-but-unsettled mandates and independently classify unique follow-on work, duplicate retries and still-pending original work. Record new-action cessation separately from recognized release.",
+    "beneficiary": "Principals seeking release and legitimate counterparties/dependents requiring disposition; their interests can differ.",
+    "outcome": "Conditional tail recognized-release time and unmet continuity commitments, not stopping latency itself.",
+    "timescale": "One compressed wave and its disposition/reconciliation horizon."
+  },
+  "local_model_inspection": {
+    "files_fully_read": [
+      "emergence/conditional-models.mjs",
+      "emergence/editorial-paradox-clarifications.json"
+    ],
+    "model_id": "E4:T07",
+    "clarification_id": "E4:P039",
+    "recurrence": "q_next=(1+beta)*max(0,q+A_t-mu); after original arrivals cease the positive unstable fixed boundary is mu*(1+beta)/beta for beta>0.",
+    "parameters": {
+      "original_work": 100,
+      "mu": 10,
+      "beta": 0.5,
+      "horizon": 30,
+      "boundary": 30
+    },
+    "recorded_results": {
+      "dispersed": {
+        "releaseStep": 9,
+        "finalBacklog": 0
+      },
+      "compressed": {
+        "releaseStep": null,
+        "finalBacklog": 13422604.146301886
+      },
+      "noFollowOn": {
+        "releaseStep": 9,
+        "finalBacklog": 0
+      },
+      "burstReserve": {
+        "releaseStep": 0,
+        "finalBacklog": 0
+      }
+    },
+    "what_it_proves": "The hand-specified fluid recurrence and four recorded arms obey their assertions; compression plus the specified return can prevent release over the chosen horizon.",
+    "what_it_does_not_prove": "No empirical release effect, bounded real obligation growth, legal necessity, actual stop-to-arrival compression, novel mathematics or optimal safety policy is established.",
+    "strong_limitation": "The toy can produce unlimited new work from backlog despite no new original arrivals. A bounded finite compensation graph eventually drains with positive service; bounded organic-load amplification need not map to this zero-input stock recurrence.",
+    "execution": "The comparing agent read the source and existing research result JSON without regenerating that shared file. It is not a canonical v0.5 artifact. The root agent separately reran all seven checks."
+  },
+  "nearest_primary_works": [
+    {
+      "id": "C105-S01",
+      "authors": "Nathan Bronson; Abutalib Aghayev; Aleksey Charapko; Timothy Zhu",
+      "year": 2021,
+      "title": "Metastable Failures in Distributed Systems",
+      "url": "https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s11-bronson.pdf",
+      "primary": true,
+      "exact_paraphrased_proposition": "A transient overload can trigger latency-dependent retries or expensive error handling that sustains resource exhaustion after the trigger ends; reserve headroom, retry budgets and adapted priorities can break the feedback.",
+      "supports_claim": "M105's burst, delay-generated work and persistence are already a close causal pattern.",
+      "inspection": {
+        "read": "Sections 1–3, PDF pp.1–4, especially 2.1 retries, 2.3 error handling and adaptive policies/prioritization.",
+        "limit": "Simplified operating examples; no reproduction of production incidents or complete literature coverage."
+      },
+      "comparison": {
+        "same_variables": "Close arrivals, latency, amplified work, capacity and backlog.",
+        "same_full_causal_graph": "Close complete congestion–delay–extra-work return.",
+        "same_beneficiary": "Service users versus stopped-mandate counterparties and principals.",
+        "same_outcome": "Persistent overload versus delayed recognized release.",
+        "same_timescale": "Queue episodes in both; application duration can differ.",
+        "same_distinguishing_prediction": "Removing trigger alone may not restore service; already predicted.",
+        "same_intervention": "Same burst capacity, amplification budget and independent queue priorities."
+      }
+    },
+    {
+      "id": "C105-S02",
+      "authors": "Lexiang Huang; Matthew Magnusson; Abishek Bangalore Muralikrishna; Salman Estyak; Rebecca Isaacs; Abutalib Aghayev; Timothy Zhu; Aleksey Charapko",
+      "year": 2022,
+      "title": "Metastable Failures in the Wild",
+      "url": "https://www.usenix.org/system/files/osdi22-huang-lexiang.pdf",
+      "metadata_url": "https://www.usenix.org/conference/osdi22/presentation/huang-lexiang",
+      "primary": true,
+      "exact_paraphrased_proposition": "Load spikes and capacity decreases can trigger workload amplification or capacity degradation. Delayed retries increase request count or cost; headroom and bounded amplification govern whether overload persists after trigger removal.",
+      "supports_claim": "Formal trigger/amplification distinctions and extra-work mechanisms closely precede T07.",
+      "inspection": {
+        "read": "Sections 3.3–3.5, Figure 1, definitions and theorem statements, PDF pp.6–9; primary conference metadata.",
+        "limit": "Proof appendices and all 22 incident reconstructions not inspected. Bounded amplification of organic load differs from T07's unbounded backlog-proportional work."
+      },
+      "comparison": {
+        "same_variables": "Close load, capacity, amplification, trigger duration and headroom.",
+        "same_full_causal_graph": "Close whole return; not identical zero-input stock recurrence.",
+        "same_beneficiary": "Distributed-service users versus institutional obligation holders.",
+        "same_outcome": "Metastable overload versus collective disposition delay.",
+        "same_timescale": "Both post-trigger recovery horizons.",
+        "same_distinguishing_prediction": "Follow-on amplification defeating trigger removal is already predicted.",
+        "same_intervention": "Same remove amplification/add headroom; obligation legitimacy requires care."
+      }
+    },
+    {
+      "id": "C105-S03",
+      "authors": "Jim Gray",
+      "year": 1981,
+      "title": "The Transaction Concept: Virtues and Limitations",
+      "url": "https://www.cs.utexas.edu/~dahlin/Classes/GradOS/papers/Gray81.pdf",
+      "primary": true,
+      "exact_paraphrased_proposition": "A canceled travel plan cannot unilaterally abort already completed airline or hotel transactions; compensation must reverse their semantics. Long-lived interleaved transactions make concurrency, restoration and recovery difficult.",
+      "supports_claim": "Local termination versus external release/compensation is directly inherited, not merely an analogy.",
+      "inspection": {
+        "read": "Introduction; general model; Nested Transactions and Long-Lived Transactions, printed pp.144–145 and 152–153, extracted lines 40–148 and 897–1065.",
+        "limit": "Historical transaction model, not legal advice or a claim about current contract law; no reconstruction of cited deadlock formulas."
+      },
+      "comparison": {
+        "same_variables": "Same actor cancellation, external commitments, interleaving and compensation.",
+        "same_full_causal_graph": "Direct external-effect distinction; no delay-amplification loop established here.",
+        "same_beneficiary": "Travel customers/counterparties versus mandate principals/counterparties.",
+        "same_outcome": "Compensated cancellation versus recognized release.",
+        "same_timescale": "Long-lived transactions and settlement horizons closely overlap.",
+        "same_distinguishing_prediction": "Stopping one actor need not undo counterparty state; already stated.",
+        "same_intervention": "Same tracked compensation and continuation-aware recovery."
+      }
+    },
+    {
+      "id": "C105-S04",
+      "authors": "Hector Garcia-Molina; Kenneth Salem",
+      "year": 1987,
+      "title": "Sagas",
+      "url": "https://www.cs.princeton.edu/techreports/1987/070.pdf",
+      "primary": true,
+      "exact_paraphrased_proposition": "Long transactions can release resources through interleaved subtransactions, but partial execution needs semantic compensation. Compensation cancels the relevant effect without necessarily restoring the prior global database state.",
+      "supports_claim": "Compensating work, existing counterparty reservations and non-atomic global restoration are inherited.",
+      "inspection": {
+        "read": "Princeton manuscript dated January 7, 1987; PDF pp.2–5 (abstract and complete opening reservation/compensation passages) using OCR.",
+        "limit": "Scanned pages have no extractable text; OCR equations were not treated as verified formal results. Remaining implementation and cost sections not inspected."
+      },
+      "comparison": {
+        "same_variables": "Same reservations, interleaving, release and compensating transactions.",
+        "same_full_causal_graph": "Compensation structure matches; endogenous new-work return not established.",
+        "same_beneficiary": "Transaction users and other transactions versus human counterparties.",
+        "same_outcome": "Semantic amendment versus complete recognized release.",
+        "same_timescale": "Long transaction and compensation episodes overlap.",
+        "same_distinguishing_prediction": "Local resource release differs from global restoration; already predicted.",
+        "same_intervention": "Same semantic compensation rather than rewind; no forced deletion."
+      }
+    },
+    {
+      "id": "C105-S05",
+      "authors": "Markus K. Brunnermeier; Lasse Heje Pedersen",
+      "year": 2009,
+      "title": "Market Liquidity and Funding Liquidity",
+      "doi": "10.1093/rfs/hhn098",
+      "url": "https://www.princeton.edu/~markus/research/papers/liquidity.pdf",
+      "metadata_url": "https://collaborate.princeton.edu/en/publications/market-liquidity-and-funding-liquidity/",
+      "primary": true,
+      "exact_paraphrased_proposition": "Funding constraints and market illiquidity reinforce one another through margin and loss spirals; forced position reductions can worsen liquidity and further constrain the capacity supporting orderly trade.",
+      "supports_claim": "Collective unwinding can worsen the shared capacity required for further unwinding.",
+      "inspection": {
+        "read": "Author-hosted accepted advance-access paper, Figure 2/introduction and section surrounding Proposition 5, PDF pp.4–5 and 18–19; published 2009 identity verified.",
+        "limit": "No full proof or empirical reconstruction; no cash collateral or prices assumed in M105."
+      },
+      "comparison": {
+        "same_variables": "Unwind demand/shared capacity overlap; prices and margins differ.",
+        "same_full_causal_graph": "Analogous unwind–capacity feedback, not an identical settlement queue.",
+        "same_beneficiary": "Traders/market participants versus obligation holders.",
+        "same_outcome": "Liquidity collapse versus recognized-release delay.",
+        "same_timescale": "Trading episodes versus settlement-work horizons.",
+        "same_distinguishing_prediction": "Joint unwind need not share individual capacity assumptions.",
+        "same_intervention": "Liquidity provision versus disposition reserve; no automatic policy transfer."
+      }
+    }
+  ],
+  "corrigibility_context": {
+    "source": "C101-S05 in M101.json",
+    "comparison": "Shutdown cooperation is assumed here; residual institutional disposition is a different outcome, not evidence of agent resistance."
+  },
+  "KNOWN": [
+    "Burst intake exhausting fixed service capacity is inherited queue behavior.",
+    "Delay/retry amplification and overload sustained after trigger removal are close whole-composition predecessors in metastable-failure research.",
+    "Local cancellation differing from semantic compensation and global restoration is explicitly inherited from transaction systems.",
+    "Systemic unwind degrading the capacity supporting further unwind is inherited in liquidity-spiral models, with different financial state variables.",
+    "The T07 recurrence and its unstable boundary are elementary stipulated stock/flow mathematics; no novel formal result is claimed."
+  ],
+  "NEW_RESIDUE": "Only a domain-specific test remains: whether immediately stopped agent mandates induce compressed disposition and genuinely new counterparty obligations that sustain release delay. The general burst–delay–additional-work mechanism and compensation distinction are already close matches; a new mechanism or prediction has not been established.",
+  "expert_already_knowing_strongest_prior_art": "A researcher knowing Gray/Sagas and Bronson/Huang should expect stopped execution with unfinished compensation, and a compressed wave with amplification-driven slow recovery. At most the candidate asks them to distinguish lawful unique obligations from duplicate retries and report a separate collective-release metric; those application details do not yet supply a different causal prediction.",
+  "minimum_distinguishing_experiment": {
+    "design": "Use an offline obligation replay or simulator with 100 previously stopped mandates; keep immediate local safety cessation fixed in every arm. Randomize administrative disposition intake as compressed versus dispersed, not safety-stop delay. Preserve the same initial obligation graph, maturity weights and service budget.",
+    "arms": [
+      "Compressed versus dispersed intake with unique delay-generated obligations enabled.",
+      "Same intake schedules with duplicate retries deduplicated and genuine follow-on rules disabled.",
+      "Compressed intake with burst reserve or independently funded follow-on disposition.",
+      "Uniform earlier time shift control: same relative arrival spacings, translated clock."
+    ],
+    "outcome": "Original-cohort tail release time, continuity gaps and unique follow-on work, separately from queue length and immediate stopping success.",
+    "distinguishes": "If only duplicate retries drive persistence, ordinary metastability fully supplies the tested mechanism. If unique obligations survive deduplication, this establishes a domain edge but remains ordinary amplifying-queue dynamics unless a distinct prediction follows.",
+    "safety_limit": "No arm delays an actual safety stop; batching concerns administrative settlement only and must not impede urgent restoration or counterpart safety."
+  },
+  "beneficial_mirror": "The same preservation of outstanding reliance and pooled disposition can keep genuine dependents supplied while several stopped mandates are reconciled. Pooling amortizes expertise when work fits reserve; preserving counterpart continuity can be valuable rather than illegitimate.",
+  "strongest_falsifier": "At matched initial obligations and capacity, release delay creates no distinct follow-on work, or deduplication leaves a bounded compensation DAG that drains as ordinary workload predicts. Uniform earlier stops with unchanged spacings do not support the compression claim; measured release may improve overall once safety benefits are counted.",
+  "further_mutation": {
+    "name": "Recognition watermark versus unresolved semantic branches",
+    "proposition": "After immediate stop, freeze the old mandate's footprint at an authenticated completion watermark. Compare bounded disposition of already recognized obligations with policies that permit newly derived obligations while disposition is pending; test whether unique follow-on work differs after retries are deduplicated.",
+    "inherited_warning": "Watermarks, compensating transactions, bounded work and cut-off rules are familiar. Their legitimate implementation is institution-specific; this mutation is not a universal duty-erasure recommendation or a new primitive."
+  },
+  "provisional_remainder_class": "DOMAIN TRANSFER",
+  "class_rationale": "The queue feedback and external-compensation distinction are close predecessors. No different general prediction survives the inspected comparison; the useful remaining question is institutional measurement and empirical presence of the added edge.",
+  "importance_separate": "Potentially important for shutdown/recovery accounting even if fully non-novel. Do not trade delayed safety stopping against settlement without a separately justified safety model.",
+  "inspection_limits": [
+    "No complete queueing, finance, distributed cancellation or authorization literature survey.",
+    "Sagas inspected through OCR opening passages; formula and later implementation results not verified.",
+    "No real institution's binding obligations or release process were inspected.",
+    "All model facts are conditional and synthetic; no measured prevalence or historical priority."
+  ],
+  "actual_query_log": "query-log-c-M101-M105.json"
+}

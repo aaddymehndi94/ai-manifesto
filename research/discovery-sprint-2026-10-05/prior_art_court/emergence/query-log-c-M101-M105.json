@@ -1,0 +1,282 @@
+{
+  "date": "2026-10-05",
+  "phase": "POST_GATE",
+  "compounds": [
+    "E4:M101",
+    "E4:M105"
+  ],
+  "gate_commit": "87ee7bc",
+  "queries": [
+    {
+      "batch": 1,
+      "query": "Bainbridge Ironies of automation 1983 pdf",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 1,
+      "query": "Woods essential characteristics of resilience 2006 adaptive capacity pdf",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 1,
+      "query": "Soares Fallenstein Yudkowsky Armstrong Corrigibility 2015 pdf",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 1,
+      "query": "Ostrom governing commons monitoring collective choice graduated sanctions chapter 3 pdf",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 2,
+      "query": "\"Essential Characteristics of Resilience\" Woods pdf site:osu.edu",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 2,
+      "query": "Metastable Failures Distributed Systems Bronson 2021 pdf",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 2,
+      "query": "Garcia Molina Salem Sagas 1987 pdf",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 2,
+      "query": "Brunnermeier Pedersen 2009 Market Liquidity Funding Liquidity pdf",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 3,
+      "query": "David Woods theory graceful extensibility 2018 sustaining adaptive capacity pdf",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 3,
+      "query": "Kingman 1961 single server queue heavy traffic pdf",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 3,
+      "query": "Jim Gray 1981 transaction concept virtues limitations pdf",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 3,
+      "query": "Holling 1973 resilience stability ecological systems pdf",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 4,
+      "query": "Metastable Failures in the Wild 2022 USENIX Huang Zhu pdf",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 4,
+      "query": "Brunnermeier Pedersen market liquidity funding liquidity hhn098 pdf Princeton",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 5,
+      "query": "Ostrom 2000 collective action evolution social norms pdf aea",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 5,
+      "query": "Governing Commons Ostrom 1990 pdf monitoring appropriation provision university",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 6,
+      "query": "Repenning Sterman Nobody ever gets credit fixing problems never happened 2001 pdf",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    },
+    {
+      "batch": 6,
+      "query": "Repenning Sterman capability traps self confirming attribution errors 2002 pdf MIT",
+      "used_for": "Nearest-neighbor discovery, not mechanism exclusion from snippets."
+    }
+  ],
+  "inspected_primary_documents": [
+    {
+      "source_id": "C101-S01",
+      "title": "Ironies of Automation",
+      "url": "https://gwern.net/doc/sociology/technology/1983-bainbridge.pdf",
+      "metadata_url": null,
+      "read": "Sections 1.1 and 2, printed pp.775–777, PDF pp.1–3; extracted lines 73–383.",
+      "limits": "Not a fresh verification of its cited studies or remaining collaboration section."
+    },
+    {
+      "source_id": "C101-S02",
+      "title": "The theory of graceful extensibility: basic rules that govern adaptive systems",
+      "url": "https://surfingcomplexity.blog/wp-content/uploads/2025/10/3c732-woods2018-thetheoryofgracefulextensibility.pdf",
+      "metadata_url": null,
+      "read": "Table 1; sections 2.3/2.4, PDF pp.11–16; relevant 3.2 passage pp.19–20. Extraction and full text-context around reciprocity, reserve and switching paragraphs.",
+      "limits": "No independent checking of cited case studies or complete derivation of every statement."
+    },
+    {
+      "source_id": "C101-S03",
+      "title": "Collective Action and the Evolution of Social Norms",
+      "url": "https://idei.fr/sites/default/files/medias/doc/conf/ere/papers_2001/ostrom_paper1.pdf",
+      "metadata_url": "https://www.aeaweb.org/articles?id=10.1257%2Fjep.14.3.137",
+      "read": "Author's April 6, 2000 prepublication version, printed pp.13 and 16–19: crowd-out, design principles and reinforcing monitoring/conflict resolution. Publisher identity checked.",
+      "limits": "Not the published pagination; other sections and underlying field evidence not exhaustively inspected. Governing the Commons downloads failed and are not counted."
+    },
+    {
+      "source_id": "C101-S04",
+      "title": "Resilience and Stability of Ecological Systems",
+      "url": "https://storage.e.jimdo.com/file/5a1d2496-8b52-4f0b-aff5-3853dddb4ad4/Holling%201_merged.pdf",
+      "metadata_url": null,
+      "read": "1973 article introduction and Application section, merged PDF pp.3 and 23; extracted lines 11–24 and 752–770.",
+      "limits": "Merged file also contains a later Holling paper, explicitly excluded; no ecological model proof checked."
+    },
+    {
+      "source_id": "C101-S05",
+      "title": "Corrigibility",
+      "url": "https://intelligence.org/files/Corrigibility.pdf",
+      "metadata_url": null,
+      "read": "Introduction, section 2 shutdown desiderata and section 5 discussion, PDF pp.1–3 and 8–9.",
+      "limits": "Not a reproduction of all utility calculations; absence of a reserve loop in these passages is not a claim about all corrigibility literature."
+    },
+    {
+      "source_id": "C101-S06",
+      "title": "Nobody Ever Gets Credit for Fixing Problems That Never Happened: Creating and Sustaining Process Improvement",
+      "url": "https://web.mit.edu/nelsonr/www/Repenning=Sterman_CMR_su01_.pdf",
+      "metadata_url": "https://journals.sagepub.com/doi/pdf/10.2307/41166101",
+      "read": "Printed pp.66–74, 80–83: stock/flow diagrams, Reinvestment, Shortcuts, reward feedback and Du Pont maintenance example; targeted full paragraphs inspected.",
+      "limits": "Not every field case or supporting simulation replicated; 2002 successor paper discovered but not counted as inspected."
+    },
+    {
+      "source_id": "C105-S01",
+      "title": "Metastable Failures in Distributed Systems",
+      "url": "https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s11-bronson.pdf",
+      "metadata_url": null,
+      "read": "Sections 1–3, PDF pp.1–4, especially 2.1 retries, 2.3 error handling and adaptive policies/prioritization.",
+      "limits": "Simplified operating examples; no reproduction of production incidents or complete literature coverage."
+    },
+    {
+      "source_id": "C105-S02",
+      "title": "Metastable Failures in the Wild",
+      "url": "https://www.usenix.org/system/files/osdi22-huang-lexiang.pdf",
+      "metadata_url": "https://www.usenix.org/conference/osdi22/presentation/huang-lexiang",
+      "read": "Sections 3.3–3.5, Figure 1, definitions and theorem statements, PDF pp.6–9; primary conference metadata.",
+      "limits": "Proof appendices and all 22 incident reconstructions not inspected. Bounded amplification of organic load differs from T07's unbounded backlog-proportional work."
+    },
+    {
+      "source_id": "C105-S03",
+      "title": "The Transaction Concept: Virtues and Limitations",
+      "url": "https://www.cs.utexas.edu/~dahlin/Classes/GradOS/papers/Gray81.pdf",
+      "metadata_url": null,
+      "read": "Introduction; general model; Nested Transactions and Long-Lived Transactions, printed pp.144–145 and 152–153, extracted lines 40–148 and 897–1065.",
+      "limits": "Historical transaction model, not legal advice or a claim about current contract law; no reconstruction of cited deadlock formulas."
+    },
+    {
+      "source_id": "C105-S04",
+      "title": "Sagas",
+      "url": "https://www.cs.princeton.edu/techreports/1987/070.pdf",
+      "metadata_url": null,
+      "read": "Princeton manuscript dated January 7, 1987; PDF pp.2–5 (abstract and complete opening reservation/compensation passages) using OCR.",
+      "limits": "Scanned pages have no extractable text; OCR equations were not treated as verified formal results. Remaining implementation and cost sections not inspected."
+    },
+    {
+      "source_id": "C105-S05",
+      "title": "Market Liquidity and Funding Liquidity",
+      "url": "https://www.princeton.edu/~markus/research/papers/liquidity.pdf",
+      "metadata_url": "https://collaborate.princeton.edu/en/publications/market-liquidity-and-funding-liquidity/",
+      "read": "Author-hosted accepted advance-access paper, Figure 2/introduction and section surrounding Proposition 5, PDF pp.4–5 and 18–19; published 2009 identity verified.",
+      "limits": "No full proof or empirical reconstruction; no cash collateral or prices assumed in M105."
+    }
+  ],
+  "attempted_opens": [
+    "https://gwern.net/doc/sociology/technology/1983-bainbridge.pdf",
+    "https://surfingcomplexity.blog/wp-content/uploads/2025/10/3c732-woods2018-thetheoryofgracefulextensibility.pdf",
+    "https://intelligence.org/files/Corrigibility.pdf",
+    "https://www.burmalibrary.org/docs20/Ostrom-1990-governing_the_commons.pdf",
+    "https://pure.iiasa.ac.at/id/eprint/26/1/RP-73-003.pdf",
+    "https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s11-bronson.pdf",
+    "https://www.cs.princeton.edu/techreports/1987/070.pdf",
+    "https://www.nber.org/papers/w12939.pdf",
+    "https://storage.e.jimdo.com/file/5a1d2496-8b52-4f0b-aff5-3853dddb4ad4/Holling%201_merged.pdf",
+    "https://www.usenix.org/system/files/osdi22-huang-lexiang.pdf",
+    "https://www.princeton.edu/~markus/research/papers/liquidity.pdf",
+    "https://web.stanford.edu/class/archive/cs/cs240/cs240.1036/readings/Gray81.pdf",
+    "https://www.lowimpact.org/wp-content/uploads/ostrom_1990.pdf",
+    "https://www.cs.utexas.edu/~dahlin/Classes/GradOS/papers/Gray81.pdf",
+    "https://idei.fr/sites/default/files/medias/doc/conf/ere/papers_2001/ostrom_paper1.pdf",
+    "https://web.mit.edu/nelsonr/www/Repenning%3DSterman_CMR_su01_.pdf"
+  ],
+  "excluded_or_failed_leads": [
+    {
+      "title": "Governing the Commons (Ostrom, 1990)",
+      "urls": [
+        "https://www.burmalibrary.org/docs20/Ostrom-1990-governing_the_commons.pdf",
+        "https://www.lowimpact.org/wp-content/uploads/ostrom_1990.pdf"
+      ],
+      "result": "Search snippets and internal-error web opens; curl 403/404. Not counted as inspected primary text."
+    },
+    {
+      "title": "The single server queue in heavy traffic (Kingman, 1961)",
+      "result": "Search discovered bibliographic/secondary descriptions; primary full text not inspected, so not counted."
+    },
+    {
+      "title": "Essential Characteristics of Resilience (Woods, 2006)",
+      "result": "Search lead; substituted actually inspected Woods 2018 primary text. No inference from search absence."
+    },
+    {
+      "title": "Capability Traps and Self-Confirming Attribution Errors (Repenning/Sterman, 2002)",
+      "result": "Publisher identity and snippets discovered; used inspected 2001 primary predecessor instead."
+    },
+    {
+      "title": "Holling IIASA original repository copy",
+      "url": "https://pure.iiasa.ac.at/id/eprint/26/1/RP-73-003.pdf",
+      "result": "Anti-bot HTML, not article; inspected the actual 1973 paper in a merged mirror, excluding the later paper."
+    },
+    {
+      "title": "NBER liquidity working-paper PDF",
+      "url": "https://www.nber.org/papers/w12939.pdf",
+      "result": "Internal-error open; inspected author-hosted accepted advance-access version with publication identity separately checked."
+    },
+    {
+      "title": "Sagas direct PDF text and screenshots",
+      "url": "https://www.cs.princeton.edu/techreports/1987/070.pdf",
+      "result": "Text extraction produced form-feed characters only; screenshot calls produced no usable visual content in this tool wrapper. Verified opening body through OCR, not those failed attempts."
+    }
+  ],
+  "targeted_primary_read_commands": [
+    "curl --fail --silent --show-error --location https://www.burmalibrary.org/docs20/Ostrom-1990-governing_the_commons.pdf | pdftotext -layout - - | rg -n -A 24 -B 4 'The problem of supply|Appropriation and provision problems|Collective-choice arrangements|Monitors, who'",
+    "curl --fail --silent --show-error --location https://www.cs.princeton.edu/techreports/1987/070.pdf | pdftotext -layout - - | sed -n '1,210p'",
+    "curl --fail --silent --show-error --location https://www.lowimpact.org/wp-content/uploads/ostrom_1990.pdf | pdftotext -layout - - | rg -n -A 65 -B 6 'Appropriation problems|Provision problems|Monitors, who|Congruence between'",
+    "curl --fail --silent --show-error --location https://www.cs.princeton.edu/techreports/1987/070.pdf | pdftoppm -f 2 -l 2 -r 130 -png -singlefile - | tesseract stdin stdout 2>/dev/null",
+    "curl --fail --silent --show-error --location https://www.cs.princeton.edu/techreports/1987/070.pdf | pdftoppm -f 3 -l 3 -r 130 -png -singlefile - | tesseract stdin stdout 2>/dev/null",
+    "curl --fail --silent --show-error --location https://www.cs.princeton.edu/techreports/1987/070.pdf | pdftoppm -f 4 -l 4 -r 130 -png -singlefile - | tesseract stdin stdout 2>/dev/null",
+    "curl --fail --silent --show-error --location https://www.cs.princeton.edu/techreports/1987/070.pdf | pdftoppm -f 5 -l 5 -r 130 -png -singlefile - | tesseract stdin stdout 2>/dev/null",
+    "curl --fail --silent --show-error --location https://idei.fr/sites/default/files/medias/doc/conf/ere/papers_2001/ostrom_paper1.pdf | pdftotext -layout - - | rg -n -A 32 -B 6 'monitoring|congruence|costs and benefits|collective-choice'",
+    "curl --fail --silent --show-error --location https://surfingcomplexity.blog/wp-content/uploads/2025/10/3c732-woods2018-thetheoryofgracefulextensibility.pdf | pdftotext -layout - - | rg -n -A 35 -B 6 'lag between donating|Reducing resources|unsustainable|measure utilization'",
+    "curl --fail --silent --show-error --location 'https://web.mit.edu/nelsonr/www/Repenning%3DSterman_CMR_su01_.pdf' | pdftotext -layout - - | rg -n -A 40 -B 7 'capability trap|Capability Trap|never happened|Working Smarter|erodes|erosion'",
+    "curl --fail --silent --show-error --location https://idei.fr/sites/default/files/medias/doc/conf/ere/papers_2001/ostrom_paper1.pdf | pdftotext -layout - - | sed -n '777,971p'",
+    "curl --fail --silent --show-error --location 'https://web.mit.edu/nelsonr/www/Repenning%3DSterman_CMR_su01_.pdf' | pdftotext -layout - - | sed -n '290,510p'"
+  ],
+  "passage_read_notes": "Web PDF opens/finds exposed cited sections for Bainbridge, Woods, Corrigibility, Holling, Bronson, Huang, Gray and Brunnermeier/Pedersen. Curl-to-text/OCR supplied actual body passages for Ostrom and Sagas and longer contiguous Woods/Repenning contexts. One very broad Repenning extraction was truncated; the targeted reinvestment passage was reread. No entire bibliography or exhaustive discipline review is claimed.",
+  "mutations": "Only M101.md/json, M105.md/json and this additive query log are written. Curl and OCR pipelines stream to stdout without saved source downloads.",
+  "blindness": "Construction author conducted comparisons; not blind peer review.",
+  "exhaustiveness": "None; 11 verified primary works, 18 actual discovery queries. Failed primary retrieval is an inspection limit, never evidence of absence.",
+  "validation": {
+    "command": "node --input-type=module - <<'NODE'\nimport fs from 'node:fs';\nimport assert from 'node:assert/strict';\nimport crypto from 'node:crypto';\nconst root='research/discovery-sprint-2026-10-05/';\nconst read=p=>JSON.parse(fs.readFileSync(root+p,'utf8'));\nconst compounds=read('emergence/raw/stream-c.json').compounds;\nfor(const name of ['M101','M105']){\n const c=read('prior_art_court/emergence/'+name+'.json');\n assert.equal(c.id,'E4:'+name);\n assert.equal(c.exact_proposition,compounds.find(x=>x.id===c.id).surprising_prediction);\n assert(c.nearest_primary_works.length>=5);\n for(const w of c.nearest_primary_works){\n  assert.equal(w.primary,true);assert(w.url.startsWith('https://'));assert(w.exact_paraphrased_proposition);assert(w.inspection.read&&w.inspection.limit);\n  for(const k of ['same_variables','same_full_causal_graph','same_beneficiary','same_outcome','same_timescale','same_distinguishing_prediction','same_intervention'])assert(w.comparison[k],w.id+' '+k);\n }\n for(const k of ['strongest_defensible_version','extra_assumptions_added','KNOWN','NEW_RESIDUE','expert_already_knowing_strongest_prior_art','minimum_distinguishing_experiment','beneficial_mirror','strongest_falsifier','further_mutation','provisional_remainder_class'])assert(c[k],name+' '+k);\n assert(fs.readFileSync(root+'prior_art_court/emergence/'+name+'.md','utf8').length>2000);\n}\nconst log=read('prior_art_court/emergence/query-log-c-M101-M105.json');\nassert.equal(log.queries.length,18);assert.equal(log.inspected_primary_documents.length,11);\nfor(const file of read('emergence/pause-snapshot.json').files){\n const hash=crypto.createHash('sha256').update(fs.readFileSync(root+file.path)).digest('hex');\n assert.equal(hash,file.sha256,'Paused input changed '+file.path);\n}\nconsole.log(JSON.stringify({records:2,primary_works:[6,5],per_work_comparison_fields:7,actual_queries:18,paused_hashes_verified:6,canonical_population_mutations:0,blind_panel:false,novelty_certified:false}));\nNODE",
+    "result": {
+      "records": 2,
+      "primary_works": [
+        6,
+        5
+      ],
+      "per_work_comparison_fields": 7,
+      "actual_queries": 18,
+      "paused_hashes_verified": 6,
+      "canonical_population_mutations": 0,
+      "blind_panel": false,
+      "novelty_certified": false
+    },
+    "exit_code": 0,
+    "limits": "Structural fields and preservation hashes checked automatically; primary-source interpretation remains the explicit, limited construction-agent comparison. Source verification is not proven by a string/schema check."
+  }
+}

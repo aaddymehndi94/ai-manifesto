@@ -1,0 +1,252 @@
+{
+  "compound_id": "E4:M087",
+  "date": "2026-10-05",
+  "phase": "POST_GATE_ACTUAL_SEARCH_AND_PRIMARY_INSPECTION",
+  "first_observed_clock": "2026-10-05 03:49:40 UTC",
+  "time_note": "Clock sampled after first search. Later actions recorded in call order, not assigned fabricated timestamps.",
+  "role": "Construction-agent self-comparison, not blind review.",
+  "search_batches": [
+    {
+      "batch": 1,
+      "tool": "web.run search_query",
+      "actual_queries": [
+        "Armstrong 2006 Competition in two sided markets competitive bottlenecks pdf",
+        "Rochet Tirole 2003 platform competition two sided markets pdf",
+        "Lizzeri 1999 information revelation certification intermediaries pdf",
+        "Gandal Kende Rob 2000 dynamics technological adoption hardware software pdf"
+      ],
+      "scope": "Nearest family discovery; search snippets not court evidence."
+    },
+    {
+      "batch": 2,
+      "tool": "web.run search_query",
+      "actual_queries": [
+        "Lizzeri information revelation certification intermediaries 1999 Alessandro pdf nyu",
+        "Strausz honest certification threat capture 2005 pdf",
+        "Katz Shapiro 1985 network externalities competition compatibility pdf berkeley",
+        "Albert Jeong Barabasi error attack tolerance complex networks 2000 arxiv pdf"
+      ],
+      "scope": "Nearest family discovery; search snippets not court evidence."
+    },
+    {
+      "batch": 3,
+      "tool": "web.run search_query",
+      "actual_queries": [
+        "\"Information revelation and certification intermediaries\" filetype:pdf -nber -ideas -scribd",
+        "\"platform.pdf\" \"Rochet\" tse",
+        "\"Gandal\" \"Kende\" \"Rob\" \"CD\" pdf adoption"
+      ],
+      "scope": "Nearest family discovery; search snippets not court evidence."
+    },
+    {
+      "batch": 4,
+      "tool": "web.run search_query",
+      "actual_queries": [
+        "\"Honest certification\" \"Strausz\" pdf -ideas -refubium",
+        "\"Competition\" \"two-sided\" \"Armstrong\" discovery.ucl.ac.uk pdf"
+      ],
+      "scope": "Nearest family discovery; search snippets not court evidence."
+    },
+    {
+      "batch": 5,
+      "tool": "web.run search_query",
+      "actual_queries": [
+        "\"Chicken\" \"Egg\" \"Caillaud\" \"Jullien\" pdf",
+        "\"Converters, Compatibility\" \"Farrell\" \"Saloner\" pdf",
+        "platform certification fees subsidize entry standards fragmentation assurance ecosystem"
+      ],
+      "scope": "Nearest family discovery; search snippets not court evidence."
+    },
+    {
+      "batch": 6,
+      "tool": "web.run search_query",
+      "actual_queries": [
+        "\"Converters\" \"qt8161p50b\"",
+        "\"Chicken & Egg\" \"Jullien\" site:tse-fr.eu",
+        "\"Platform Competition in Two-Sided Markets\" site:idei.fr"
+      ],
+      "scope": "Nearest family discovery; search snippets not court evidence."
+    }
+  ],
+  "query_count": 19,
+  "inspected_sources": [
+    {
+      "source_id": "M087-S01",
+      "url": "https://idei.fr/sites/default/files/medias/doc/wp/2002/platform.pdf",
+      "version": "Author working paper dated December 13, 2002; final article not substituted for this inspected version.",
+      "actual_inspection": "Working-paper pp.1–11: introduction, model primitives, transaction-volume product, private monopoly and beginning of Ramsey pricing. Extracted directly with curl/pdftotext after browser fetch errors.",
+      "reading_limits": "Not a full read of the final 2003 article or all working-paper extensions. No absence claim about the wider two-sided-market literature; supplied source title/metadata do not establish full-graph equivalence."
+    },
+    {
+      "source_id": "M087-S02",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/14583/1/14583.pdf",
+      "version": "Author manuscript August 2002, revised May 2005, UCL 14583.",
+      "actual_inspection": "Manuscript section 5 pp.14–17, section 5.3 pp.22–24, section 5.4 opening p.25 and section 5.5 limitations p.28; browser PDF text. Important examples and limitations read beyond abstract.",
+      "reading_limits": "Selected complete substantive passages, not complete final published paper or proof verification. Mixed-homing discussion explicitly inspected. No claim that Armstrong overlooked beneficial intermediation or that u creates a new connectivity concept."
+    },
+    {
+      "source_id": "M087-S03",
+      "url": "https://epub.ub.uni-muenchen.de/13523/1/25.pdf",
+      "version": "Author August 18, 2004 manuscript, Discussion Paper 25, LMU repository.",
+      "actual_inspection": "Printed pp.2–8,12–19,20–22 and proposition statements/proof text visible in extraction. Setup, price competition, long-lived producers and normative limits inspected directly via curl/pdftotext; browser fetch unsuccessful.",
+      "reading_limits": "2004 author manuscript rather than full publisher version. Main mechanisms and limits read; no independent verification of all algebra. The manuscript's base certification distortion is distributive, not a demonstrated net-welfare gain; do not attribute welfare results from its possible extension to the base model."
+    },
+    {
+      "source_id": "M087-S04",
+      "url": "https://users.econ.umn.edu/~holmes/class/2003f8601/papers/gandal_kende_rob.pdf",
+      "version": "Published RAND article pp.43–61, university-hosted scanned PDF.",
+      "actual_inspection": "Printed pp.45 from indexed primary text and pp.48,51–52,58 from direct page OCR (PDF pages6,9,10,16). Entry timing, operating-profit/free-entry equation, adoption decision and compatibility counterfactual inspected.",
+      "reading_limits": "Selected printed pages, not full article or appendices. OCR has noise; exact coefficients and typeset equations were not copied into the judgment. The institutional INSEAD working-paper fetch failed; this published primary copy supplied the substantive inspection."
+    },
+    {
+      "source_id": "M087-S05",
+      "url": "https://www.tse-fr.eu/sites/default/files/medias/doc/by/jullien/cjjune01.pdf",
+      "version": "April24,2001 author working paper; antecedent to 2003 Chicken & Egg: Competition among Intermediation Service Providers. No silent identity with the final version.",
+      "actual_inspection": "Printed pp.5–13 (intro, matching primitives, registration/transaction prices, multihoming, timing and allocation monotonicity), browser PDF text; an appendix segment also inspected but not used for a proof claim.",
+      "reading_limits": "2001 working paper, not a full read or algebra audit of the published 2003 article. Full inspected model passages, not abstract-only inference. Second-source matching does not itself verify an alternative guarantor's real credibility or capacity."
+    },
+    {
+      "source_id": "M087-S06",
+      "url": "https://arxiv.org/pdf/cond-mat/0008064",
+      "version": "Author arXiv cond-mat/0008064v1 and author-hosted Nature copy.",
+      "actual_inspection": "arXiv printed pp.2–6, matching nodes/edges, targeted removal, diameter and fragmentation measures; figure2/3 captions pp.11–12. Main body primary text available, not abstract alone.",
+      "reading_limits": "Selected substantive body and captions; no replication or claim about all network families. M087's small recognition graph is not asserted to be scale-free, and high degree is not assumed equivalent to an articulation cut."
+    },
+    {
+      "source_id": "M087-S07",
+      "url": "https://arxiv.org/html/2601.15303v1",
+      "version": "arXiv2601.15303v1 submitted January10,2026; preprint, not treated as an established or independently verified theorem.",
+      "actual_inspection": "Sections2.3–2.6,3.1–3.2,5.1–5.2 and conclusion: complementarity function, state dynamics, objectives, displayed first-order conditions and cross-subsidization restriction.",
+      "reading_limits": "Bibliographic identity and actual passages verified, but proof validity/empirical claims not certified. The displayed pricing and first-order-condition arguments need independent mathematical review; no theorem from this preprint is a premise of the M087 remainder class. Included as an inspected exploratory neighbor, not to pad the five established substantive primary comparisons."
+    },
+    {
+      "source_id": "M087-S08",
+      "url": "https://globalplatform.org/sesip/",
+      "version": "Official operational page accessed2026-10-05, not an independently evaluated research result.",
+      "actual_inspection": "Problem/solution and SESIP descriptions, benefits, mappings, governance and participation forms; page lines100–193,238–276.",
+      "reading_limits": "Official scheme-owner primary description, not audit of governance PDF, contracts, public law, budgets or actual certificate portability. Multiple certification bodies alone do not prove independent provisioning or acceptance after A is removed. Not counted as an additional peer-reviewed paper."
+    }
+  ],
+  "retrieval_and_inspection_actions": [
+    {
+      "order": 1,
+      "action": "Opened Rochet/Tirole PDF on tse-fr.eu, UCL article record and INSEAD97-62PDF.",
+      "result": "TSE and INSEAD browser opens errored; UCL metadata record retrieved."
+    },
+    {
+      "order": 2,
+      "action": "Opened Strausz LMU PDF, Barabasi author-hosted Nature PDF, Katz/Shapiro author-hosted systems.pdf; clicked UCL link1.",
+      "result": "Strausz browser error; Barabasi and systems PDF texts available; link1 was UCL home, not the needed manuscript."
+    },
+    {
+      "order": 3,
+      "action": "Opened UCL record at line25; found UCL14583PDF in search; opened published Gandal university PDF.",
+      "result": "Gandal PDF has19pages but zero extractable browser-text lines. Initial screenshots returned references without inspectable images through this execution interface, not claimed as visual reading."
+    },
+    {
+      "order": 4,
+      "action": "Read strengthened-M087.md through line260, opened UCL14583PDF, publisher Strausz page and Albert arXivPDF; searched intermediation/converters/certification financing.",
+      "result": "UCL and Albert substantive texts available; publisher Strausz open error. Broad query surfaced Chen2026 and official SESIP."
+    },
+    {
+      "order": 5,
+      "action": "Opened Strausz repository record and author2003copy on CiteSeer, MIT converter record; searched Armstrong bottleneck and Albert diameter within primary text.",
+      "result": "Strausz fulltext CiteSeer error; primary text sections/limitations retrieved for Armstrong/Albert. MIT metadata only."
+    },
+    {
+      "order": 6,
+      "action": "Fetched Strausz LMU PDF with curl and extracted pdftotext to stdout; inspected repository and MIT download link.",
+      "result": "Direct Strausz primary extraction succeeded after delay. First output truncated middle; later targeted extraction pp12–19 supplied price-competition and long-lived-producer passages. MIT download browser returned405."
+    },
+    {
+      "order": 7,
+      "action": "Attempted Gandal pdftotext and MIT pdftotext through stdout pipes.",
+      "result": "Gandal returned no text, reflecting scanned PDF; MIT stream empty. No claims from these failed text attempts."
+    },
+    {
+      "order": 8,
+      "action": "Ran direct Gandal page OCR with curl | pdftoppm | tesseract to stdout for PDFpages6,9,10,16.",
+      "result": "Inspected printed pp48,51,52,58; noisy OCR, not exact coefficient/equation-copy evidence."
+    },
+    {
+      "order": 9,
+      "action": "Opened Berkeley converter PDF and sought direct extraction; tried four page OCR requests.",
+      "result": "Browser saw41pagePDF but13textlines; direct streams empty. Farrell/Saloner remains a metadata/abstract-only lead, not counted as inspected full mechanism."
+    },
+    {
+      "order": 10,
+      "action": "Fetched Rochet/Tirole from idei.fr with curl/pdftotext; printed source lines1–330 and310–435.",
+      "result": "Inspected working-paper pp1–11 including equation primitives, price allocation and Ramsey start after browser opens failed."
+    },
+    {
+      "order": 11,
+      "action": "Opened Chen arXivHTML and abstract record; read sections2.3–2.6,3.1–3.2,5.1–5.2, conclusion.",
+      "result": "Actual primary2026preprint identified and substantive displayed model inspected. No validation of its theorem/proof/market assertions; not a mathematical premise for the court."
+    },
+    {
+      "order": 12,
+      "action": "Opened official SESIP page and inspected description, mappings/governance and participation roles.",
+      "result": "Primary scheme-owner claims/structure inspected; governance PDF and actual independent provisioning not audited."
+    },
+    {
+      "order": 13,
+      "action": "Opened Caillaud/Jullien TSE2001PDF and read model/pricing/multihoming/timing and monotonicity passages beyond abstract.",
+      "result": "Verified substantive author working paper. Also opened appendix segment at line1340, not used to claim proof verification."
+    },
+    {
+      "order": 14,
+      "action": "Reopened Armstrong competitive-bottleneck setup and final mixed-homing limitations; read rest of strengthened-M087.md and full post-checkpoint-protocol.md.",
+      "result": "Direct prior acknowledges multihoming removing monopoly access to such users; construction's limits and mutation retained."
+    },
+    {
+      "order": 15,
+      "action": "Reran node emergence/toy-M087.mjs.",
+      "result": "checksPassed true, fixedPanelAllocationCheckPassed true; full and cap endpoints confirmed. Conditional model evidence only."
+    }
+  ],
+  "not_counted_or_not_relied_on": [
+    {
+      "work": "Lizzeri1999",
+      "status": "Actual author SSRN record/abstract found, unavailable download; no substantive primary passage inspected. NOT among the six complete-passage witnesses."
+    },
+    {
+      "work": "Katz/Shapiro1985",
+      "status": "Discovery led to an author-uploaded research platform full-text listing, but this exact paper's relevant model not inspected. systems.pdf is a different1994review; not silently substituted."
+    },
+    {
+      "work": "Farrell/Saloner converters1989/1992",
+      "status": "MIT/Berkeley primary metadata and abstract found; primary scan retrieval/OCR not successful, not counted."
+    },
+    {
+      "work": "Chen2026",
+      "status": "Actual primary preprint inspected and compared, but independent proof validity/empirical reliability not established. Broad discovery lead, not certified theorem."
+    },
+    {
+      "work": "GlobalPlatformSESIP",
+      "status": "Official practitioner description, not independent causal evaluation or a second peer-reviewed source count."
+    }
+  ],
+  "unsuccessful_urls": [
+    "https://tse-fr.eu/sites/default/files/medias/doc/wp/2002/platform.pdf",
+    "https://www.tse-fr.eu/sites/default/files/medias/doc/wp/2002/platform.pdf",
+    "https://flora.insead.edu/fichiersti_wp/inseadwp1997/97-62.pdf",
+    "https://epub.ub.uni-muenchen.de/13523/1/25.pdf",
+    "https://epub.ub.uni-muenchen.de/13523/1/25.pdf?download=1",
+    "https://citeseerx.ist.psu.edu/document?doi=040a47389cebea02eda9ee628498f64d7e864f4e&repid=rep1&type=pdf",
+    "https://tse-fr.eu/sites/default/files/medias/doc/by/rochet/rochet_tirole.pdf",
+    "https://dspace.mit.edu/bitstreams/3db4bf83-98f1-4213-ba49-6679144f80df/download",
+    "https://escholarship.org/content/qt8161p50b/qt8161p50b.pdf",
+    "https://www.sciencedirect.com/science/article/pii/S0167718704001092"
+  ],
+  "failure_note": "Listed URL may subsequently have succeeded via another access method; failed method is detailed above. Failure never means a mechanism is absent.",
+  "reproducible_direct_inspection_commands": [
+    "curl -L --fail --silent https://epub.ub.uni-muenchen.de/13523/1/25.pdf | pdftotext -layout - -",
+    "curl -L --max-time 45 --fail --silent https://epub.ub.uni-muenchen.de/13523/1/25.pdf | pdftotext -layout - - | sed -n '510,775p'",
+    "curl -L --max-time 45 --fail --silent https://idei.fr/sites/default/files/medias/doc/wp/2002/platform.pdf | pdftotext -layout - - | sed -n '1,330p'",
+    "curl -L --max-time 45 --fail --silent https://idei.fr/sites/default/files/medias/doc/wp/2002/platform.pdf | pdftotext -layout - - | sed -n '310,435p'",
+    "curl -L --max-time 45 --fail --silent https://users.econ.umn.edu/~holmes/class/2003f8601/papers/gandal_kende_rob.pdf | pdftoppm -f PAGE -singlefile -r DPI -png - | tesseract stdin stdout 2>/dev/null",
+    "node research/discovery-sprint-2026-10-05/emergence/toy-M087.mjs"
+  ],
+  "command_parameter_note": "For reproduction use '--max-time 45' (space separated). Gandal PAGE6 used DPI120; PAGE9,10,16 used DPI150. Commands only streamed to stdout; no downloaded caches or source artifacts written.",
+  "coverage_limit": "Actual19queries and selective primary inspection do not establish exhaustive novelty search, priority, field-wide absence or equivalence."
+}

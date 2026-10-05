@@ -1,0 +1,326 @@
+{
+  "date": "2026-10-05",
+  "checkpoint": "87ee7bc",
+  "stage": "POST_CHECKPOINT_WHOLE_COMPOSITION_COMPARISON",
+  "reviewer_role": "Construction author doing primary-source comparison; NOT a fresh independent publication panel",
+  "protocol": "research/discovery-sprint-2026-10-05/emergence/post-checkpoint-protocol.md",
+  "query_log": "query-log-a.json",
+  "scope_limits": [
+    "No scores, global ratings, pruning, winner or paper changes.",
+    "All raw candidates and earlier records preserved.",
+    "Provisional classification concerns established residue under this inspection, not importance, usefulness or final survival.",
+    "Related edges or generic model representability do not establish whole-composition equivalence."
+  ],
+  "id": "E4:M023",
+  "working_name": "Efficient translation selects away the party who could contest it",
+  "local_evidence": {
+    "raw": "emergence/raw/stream-a.json:2133",
+    "developed": "blue_team_emergence.md:214",
+    "original_preserved": true
+  },
+  "original": {
+    "component_ideas": [
+      {
+        "id": "D4:I270",
+        "proposition": "If a cross-institution semantic adapter maps a locally recognized communal claim into an individual-account category, transactions may become interoperable while members without that account lose the standing needed to appeal their effects.",
+        "provenance": "generation4_raw.json"
+      },
+      {
+        "id": "D4:I273",
+        "proposition": "If institutions pay semantic adapters only for successful completed transactions, adapters that preserve an absent party’s appeal standing can lose bids to faster adapters that discard it, because the harmed party is not buying the translation.",
+        "provenance": "generation4_raw.json"
+      },
+      {
+        "id": "I169",
+        "proposition": "Test cross-agent handoffs for preserved jurisdictional sensitivity even when observations, grants, and effect records are truthful.",
+        "provenance": "idea_graph.json"
+      }
+    ],
+    "emergent_property": "A semantic adapter can validate itself by removing the standing of the people who would reveal its non-equivalence, despite accurate transfer of the transaction and truthful records.",
+    "surprising_prediction": "The adapter with more successful transactions can have fewer recorded challenges because fewer affected people remain recognized claimants; claimant-preserving testing can reverse procurement choice.",
+    "strongest_version": "Conditional on the specified state dependencies: A semantic adapter can validate itself by removing the standing of the people who would reveal its non-equivalence, despite accurate transfer of the transaction and truthful records. The distinguishing contrast is: The adapter with more successful transactions can have fewer recorded challenges because fewer affected people remain recognized claimants; claimant-preserving testing can reverse procurement choice.",
+    "causal_loop": {
+      "kind": "EXPLICIT_COMPOSITIONAL_THRESHOLD_WITH_SIGNED_PATHS",
+      "signed_edges": [
+        {
+          "edge": "completion-paid adapter → fast individual-account mapping (+)",
+          "sign": "+"
+        },
+        {
+          "edge": "mapping → communal claimant-set preservation (−)",
+          "sign": "-"
+        },
+        {
+          "edge": "claimant loss → adapter challenge probability (−)",
+          "sign": "-"
+        },
+        {
+          "edge": "unchallenged completion record → adapter procurement success (+)",
+          "sign": "+"
+        }
+      ],
+      "closure_or_threshold": "All admissible challenge paths require a mapped claimant identity that the adapter removes; successful execution then has no affected-party challenge path.",
+      "critical_cross_component_edge": "Lost claimant status → reduced ability to challenge the adapter's own equivalence",
+      "edge_removal_counterfactual": "Retain effect-based standing and fewer challenges cannot certify the mapping through claimant deletion."
+    }
+  },
+  "strongest_developed_version": "With matched truthful transaction completion and matched underlying affected-party grievance rates, two adapters differ in whom their identity mapping leaves eligible to challenge the adapter's own equivalence. If appeal standing depends exclusively on mapped identity and future adapter procurement rewards successful completion while penalizing accepted complaints, a claimant-erasing adapter receives fewer complaints per transaction and more future use, even though independent effect-based audits reveal equal or worse rights preservation. Extra use regenerates evidence through the same eligibility filter. The all-paths-cut claim applies only if no external observer, political route, representative or effect-based standing bypass reaches the decision-maker.",
+  "added_assumptions": [
+    "Procurement has an explicit favorable dependence on low recorded eligible complaints; completion-only payment can select speed but does not alone close the complaint-certification loop.",
+    "The mapping changes the legal/institutional ability to initiate review, not merely a database's label for an otherwise usable pathway.",
+    "Completion records and accepted complaint counts are truthful; omitted effects are absent because access is filtered rather than fabricated.",
+    "Purchaser benefits and affected-party interests may differ; future purchasers actually use the filtered evidence in recommissioning.",
+    "Equal transaction and true-grievance exposure must be compared, including claimants who lack final mapped accounts.",
+    "No total inability to contest is asserted unless every effective correction pathway is verified to cross the lost eligibility node."
+  ],
+  "explicit_state_model": {
+    "state": [
+      "m: chosen adapter mapping",
+      "A: all parties affected by a transaction before mapping",
+      "S(m): actors retaining an effective route to contest effects/equivalence",
+      "e_m: grievance-weighted eligibility fraction, not raw headcount",
+      "T_m: completed-transaction rate",
+      "H_m: underlying grievance rate per transaction",
+      "r_m: conditional propensity to claim among eligible harmed parties",
+      "C_m: recorded accepted challenges per transaction",
+      "U_m,t: future share of adapter use"
+    ],
+    "closure": [
+      "C_m = H_m * e_m * r_m in a simple homogeneous illustrative model",
+      "Procurement index V_m = T_m − lambda*C_m, lambda > 0",
+      "Higher V_m → higher next-period U_m,t",
+      "U_m,t → new transactions governed by m's claimant mapping",
+      "That mapping → effective eligible complaints → observed C_m → recommissioning"
+    ],
+    "paired_variables": [
+      "Truthful functional completion T_m versus claimant-set survivability S(m)",
+      "Actual grievance exposure H_m versus recorded eligible complaints C_m",
+      "Adapter market share versus surviving independent correction pathways"
+    ],
+    "conditional_numeric_contrast": "Illustration, not empirical evidence: both mappings T=.95, H=.20, r=.50; claimant-erasing e=.40 gives C=.04, claimant-preserving e=1 gives C=.10. At lambda=.50 the procurement indices are .93 versus .90. An independent full-affected-population audit finds equal actual grievance rates; correcting the denominator removes the complaint advantage. This shows a biased selection criterion, not a novel theorem or automatically compounding error.",
+    "critical_cross_edge": "Lost claimant status → reduced ability to challenge the adapter's own equivalence",
+    "cross_edge_removal": "Provide effect-based standing independently of mapped identity while holding mapping/completion/purchasing rule fixed: e becomes one for the affected cohort, so the lower-complaint advantage due solely to claimant deletion disappears. Set lambda=0 and this particular complaint→procurement return also vanishes; speed advantages may remain.",
+    "threshold_limits": "A complete institutional cut is a reachability condition on the effective correction graph, not a proved market adoption percentage or phase transition. A single functioning outside correction path defeats total-cut language, though partial exclusion can persist.",
+    "measurement": "Track each pre-mapping affected actor through formal and usable correction pathways; report grievance-weighted eligibility and claimant-set changes alongside completion. No legal conclusion about a real jurisdiction is inferred from a software schema.",
+    "formal_status": "Illustrative endogenous-censoring/selection model, not a new formal result."
+  },
+  "primary_works": [
+    {
+      "id": "A-CALLON-1986",
+      "title": "Some elements of a sociology of translation: domestication of the scallops and the fishermen of St Brieuc Bay",
+      "authors": [
+        "Michel Callon"
+      ],
+      "year": 1986,
+      "url": "https://research.engineering.nyu.edu/~jbain/scitechsoc/readings/86Callon.pdf",
+      "read_url": "https://research.engineering.nyu.edu/~jbain/scitechsoc/readings/86Callon.pdf",
+      "source_kind": "PRIMARY_AUTHOR_WORK; mirror is a copy of primary text, not a review",
+      "verification": "Title/authorship and primary text inspected; publication identity checked in the work or its publisher/proceedings record.",
+      "inspected_coverage": "Entire main narrative PDF pp.1–19 read in chunks: problematization, interessement, enrolment, mobilization, dissidence and conclusion. First page identifies original Law-edited Routledge chapter pp.196–223.",
+      "inspection_limits": "Endnotes not inspected. PDF original pagination differs from some secondary bibliographies; use the verified first-page citation. No automatic equivalence between translation-in-ANT and software data conversion.",
+      "exact_paraphrased_proposition": "Translation defines actors and representative intermediaries; successful mobilization concentrates authorized speech and certification, while dissidence can reopen representativity and change funder confidence.",
+      "seven_equivalence_checks": {
+        "variables": "Close: intermediaries, actors, representation, certification, funders.",
+        "whole_graph": "Close silencing-representation-validation loop; formal standing cut/procurement rule not explicit.",
+        "beneficiary": "Translators, represented collectives and scientific funders.",
+        "outcome": "Authority through representation, close to self-certification.",
+        "timescale": "Project development and controversy.",
+        "prediction": "Lack of disavowal can sustain representation; blocked-appeal procurement contrast unspecified.",
+        "intervention": "Reopen representation/dissidence; effect-based standing operationalizes one route."
+      },
+      "whole_composition_comparison": "This is a whole-composition neighbor. But its fishermen/scallops can disavow intermediaries and affect funders outside formal appeal: an actual counterexample to unconditional 'no challenge remains'."
+    },
+    {
+      "id": "A-BOWKER-STAR-1999",
+      "title": "Sorting Things Out: Classification and Its Consequences",
+      "authors": [
+        "Geoffrey C. Bowker",
+        "Susan Leigh Star"
+      ],
+      "year": 1999,
+      "url": "https://doi.org/10.7551/mitpress/6352.001.0001",
+      "read_url": "https://ics.uci.edu/~gbowker/classification/",
+      "source_kind": "PRIMARY_AUTHOR_WORK; mirror is a copy of primary text, not a review",
+      "verification": "Title/authorship and primary text inspected; publication identity checked in the work or its publisher/proceedings record.",
+      "inspected_coverage": "Author-hosted Introduction opening; selected chapter 9 membership/control/reversibility passages; chapter 10 argument and voice/exclusion design criteria, extracted lines131–164,618–809,885–967.",
+      "inspection_limits": "Not full book; exact adapter-procurement loop not established.",
+      "exact_paraphrased_proposition": "Infrastructural classifications distribute visibility and authority; embedded categories can exclude public participation, so designs should retain voices and examine residual exclusions.",
+      "seven_equivalence_checks": {
+        "variables": "Close: categories, constituencies, infrastructure, retrievable voice.",
+        "whole_graph": "Close classification-exclusion-inertia structure; complaint ranking loop unspecified.",
+        "beneficiary": "Multiple constituencies, not only system purchasers.",
+        "outcome": "Inertia/exclusion versus adapter procurement self-validation.",
+        "timescale": "Infrastructure development and maintenance.",
+        "prediction": "Apparent routine success can coexist with exclusion; procurement inversion unspecified.",
+        "intervention": "Retain constituent voices: substantively close to standing preservation."
+      },
+      "whole_composition_comparison": "Changing the constituency able to revise infrastructure is already close to this work, not a new insight merely because the implementation is an adapter."
+    },
+    {
+      "id": "A-SCOTT-1998",
+      "title": "Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed",
+      "authors": [
+        "James C. Scott"
+      ],
+      "year": 1998,
+      "url": "https://yalebooks.yale.edu/book/9780300078152/seeing-like-a-state/",
+      "read_url": "https://theanarchistlibrary.org/library/james-c-scott-seeing-like-a-state?__language=en",
+      "source_kind": "PRIMARY_AUTHOR_WORK; mirror is a copy of primary text, not a review",
+      "verification": "Title/authorship and primary text inspected; publication identity checked in the work or its publisher/proceedings record.",
+      "inspected_coverage": "Publisher record and original-text mirror; chapter 1 measurement standardization and customary/freehold/cadastral-tenure passages, principally extracted lines507–600. No full-book reading.",
+      "inspection_limits": "Some returned long passages truncated beyond that range; no direct verification of original underlying cases or modern legal doctrine.",
+      "exact_paraphrased_proposition": "Administrative simplification replaces variable communal tenure with individual freehold records, making property fiscally legible while discarding customary rights and advantaging supralocal administration and markets.",
+      "seven_equivalence_checks": {
+        "variables": "Direct: communal rights, individual legal owners, records.",
+        "whole_graph": "Direct representation-rights transformation; complaint/procurement return unspecified.",
+        "beneficiary": "State/speculator versus customary users.",
+        "outcome": "Rights transformation and legibility versus self-certifying adapter selection.",
+        "timescale": "Long institutional transformation versus repeated adapter procurement.",
+        "prediction": "Accurate cadastral description can omit customary entitlements.",
+        "intervention": "Bring institutional schema/rights into analysis, not transaction accuracy alone."
+      },
+      "whole_composition_comparison": "The communal-to-individual example itself is inherited. M023's remaining candidate difference is the eligibility-conditioned feedback metric, not this domain example or legibility critique."
+    },
+    {
+      "id": "A-FELSTINER-ABEL-SARAT-1980-81",
+      "title": "The Emergence and Transformation of Disputes: Naming, Blaming, Claiming ...",
+      "authors": [
+        "William L. F. Felstiner",
+        "Richard L. Abel",
+        "Austin Sarat"
+      ],
+      "year": "1980–81",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CC5A29351BCC355B8317FD13CAF29F09/S0023921600032400a.pdf/the-emergence-and-transformation-of-disputes-naming-blaming-claiming.pdf",
+      "read_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CC5A29351BCC355B8317FD13CAF29F09/S0023921600032400a.pdf/the-emergence-and-transformation-of-disputes-naming-blaming-claiming.pdf",
+      "source_kind": "PRIMARY_AUTHOR_WORK; mirror is a copy of primary text, not a review",
+      "verification": "Title/authorship and primary text inspected; publication identity checked in the work or its publisher/proceedings record.",
+      "inspected_coverage": "All 24 article pages printed pp.631–654 read via three extracts (PDF1–7,8–16,17–24). Publisher abstract initially available; later direct PDF access succeeded.",
+      "inspection_limits": "Shared reference list elsewhere in the journal issue not inspected. Article's own theoretical claims distinguished from empirical findings it cites.",
+      "exact_paraphrased_proposition": "Institutions and representatives transform parties, issues and remedies; claims can be individualized or stopped, and evaluation without the antecedent problem misses how institutional filtering produced its observed caseload.",
+      "seven_equivalence_checks": {
+        "variables": "Very close: parties, processing rules, professional incentives, caseload/evaluation.",
+        "whole_graph": "Close agent-incentive/filtering/evaluation interaction; adapter procurement not explicit.",
+        "beneficiary": "Clients, professionals, agencies and absent grievants.",
+        "outcome": "Apparent effectiveness after dispute transformation.",
+        "timescale": "Early injury through dispute processing and later evaluation.",
+        "prediction": "Observed cases cannot alone assess original grievance population.",
+        "intervention": "Antecedent baselines and longitudinal dispute histories: closely matched audit."
+      },
+      "whole_composition_comparison": "The source explicitly discusses parties being dropped, collective grievances individualized, professional incentives and biased evaluation. M023 must not claim these interactions absent from prior theory."
+    },
+    {
+      "id": "A-HIRSCHMAN-1970",
+      "title": "Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States",
+      "authors": [
+        "Albert O. Hirschman"
+      ],
+      "year": 1970,
+      "url": "https://arken.nmbu.no/~sigury/AOS_234/AOS234%20files/Hirschman_Exit_voice_loyality.pdf",
+      "read_url": "https://arken.nmbu.no/~sigury/AOS_234/AOS234%20files/Hirschman_Exit_voice_loyality.pdf",
+      "source_kind": "PRIMARY_AUTHOR_WORK; mirror is a copy of primary text, not a review",
+      "verification": "Title/authorship and primary text inspected; publication identity checked in the work or its publisher/proceedings record.",
+      "inspected_coverage": "Four-page authorized chapter-eight reprint, The Social Contract Summer1994 pp.272–275; whole excerpt extracted, with separately reread p.273 to fill initial middle truncation.",
+      "inspection_limits": "Only chapter-eight excerpt, not entire 1970 book or chapter-five argument. Reprint contains selected original prose and clearly marked editorial notes.",
+      "exact_paraphrased_proposition": "Individual exit or mobility can remove quality-conscious members and weaken collective voice, preserving domination even while particular individuals improve their circumstances.",
+      "seven_equivalence_checks": {
+        "variables": "Close: individual movement, collective voice, institutional quality.",
+        "whole_graph": "Voice-depletion return close; no adapter-defined legal standing.",
+        "beneficiary": "Mobile individuals, residual group, institution.",
+        "outcome": "Weakened collective correction versus selected adapter validation.",
+        "timescale": "Repeated social mobility/organizational development.",
+        "prediction": "Individual improvement can coexist with weakened group voice.",
+        "intervention": "Balance collective voice and individual exit; specific appeal schema unspecified."
+      },
+      "whole_composition_comparison": "The beneficial/harmful sign depends on whose voice remains. Individualization is not presumptively emancipatory or oppressive; a claimant set must be measured by actor."
+    },
+    {
+      "id": "A-LAKKARAJU-2017",
+      "title": "The Selective Labels Problem: Evaluating Algorithmic Predictions in the Presence of Unobservables",
+      "authors": [
+        "Himabindu Lakkaraju",
+        "Jon Kleinberg",
+        "Jure Leskovec",
+        "Jens Ludwig",
+        "Sendhil Mullainathan"
+      ],
+      "year": 2017,
+      "url": "https://www.cs.cornell.edu/home/kleinber/kdd17-selective.pdf",
+      "read_url": "https://www.cs.cornell.edu/home/kleinber/kdd17-selective.pdf",
+      "source_kind": "PRIMARY_AUTHOR_WORK; mirror is a copy of primary text, not a review",
+      "verification": "Title/authorship and primary text inspected; publication identity checked in the work or its publisher/proceedings record.",
+      "inspected_coverage": "PDF pp.1–4, especially introduction and section3 formal decision/outcome observability relation; long extract had internal truncations. Not full text.",
+      "inspection_limits": "Remaining six pages and detailed contraction evaluation not read; do not infer whether a broader complaint setting appears elsewhere.",
+      "exact_paraphrased_proposition": "Decision-makers' choices determine which outcome labels exist, making performance evaluation on observed outcomes nonrepresentative; heterogeneous decision-makers can support restricted comparisons.",
+      "seven_equivalence_checks": {
+        "variables": "Close: eligibility/decision, outcome observation, evaluation.",
+        "whole_graph": "Observation gate equivalent locally; no explicit standing/procurement loop.",
+        "beneficiary": "Evaluator and subjects under consequential decisions.",
+        "outcome": "Misleading performance comparison.",
+        "timescale": "One evaluation dataset rather than institutional evolution.",
+        "prediction": "Fewer observed adverse outcomes need not mean better decisions.",
+        "intervention": "Compare over suitable exposure/populations; contraction not directly assumed applicable."
+      },
+      "whole_composition_comparison": "Known statistical machinery for endogenous observation. Legal recognition additionally changes an action right, not just whether its existing result is observed; that difference must matter experimentally."
+    }
+  ],
+  "KNOWN": [
+    "Translation can define actors, silence alternative representation and turn a chain of intermediaries into certified authority; Callon is a direct whole-composition neighbor, including outside dissidence and funder response.",
+    "Classification infrastructure can exclude its own constituents from policy participation and becomes harder to revise when their voices are not retrievable.",
+    "Replacing communal tenure with individual administrative ownership while losing customary entitlements is an inherited example, not a new mechanism.",
+    "Dispute processing transforms or drops parties, individualizes grievances, reflects professional incentives and can make case-based evaluation misleading; these are substantive linked interactions in Felstiner/Abel/Sarat.",
+    "Exit/individual mobility can improve an individual situation while depleting collective voice.",
+    "Endogenous observation and selective outcome labels provide inherited statistical machinery; a claim about biased complaint evidence is not itself a new theorem."
+  ],
+  "preliminary_NEW_RESIDUE": "The narrowly specified development target is an adapter test whose own claimant mapping changes the eligibility denominator of the complaints used to recommission that adapter, with truthful matched completion and a removable effect-standing cross-edge. This inspection has not established whether the exact closed loop, experiment or intervention already appears in other work; historical residue remains unresolved.",
+  "what_expert_would_miss": "An expert knowing Callon, classification infrastructure and dispute transformation would not miss silencing, changing parties or misleading success. What might require operational specification is how an executable adapter defines the very legal route used to validate it across procurement rounds. No important conceptual difference from those strongest works has yet been demonstrated.",
+  "provisional_classification": {
+    "residue": "UNCLEAR",
+    "established_use": "USEFUL SYNTHESIS / operational institutional audit",
+    "reason": "Primary works contain much of the linked mechanism. The exact procurement-by-eligible-challenges specification is unverified as historical residue, and informal bypasses limit the literal all-paths-cut claim.",
+    "not_a_disposition": true
+  },
+  "minimum_matched_experiment": {
+    "setting": "Synthetic cross-institution claims workflow or consenting archival replay with no effect on real rights.",
+    "design": "Create equal pre-mapping affected-party sets and true grievances. Implement adapters with identical execution results and truthful logs, differing only in whether communal co-claimants retain an eligible path to challenge execution and semantic equivalence. Eligible simulated claimants follow identical awareness/reporting policies.",
+    "contrast": "A two-by-two comparison crosses claimant-preserving/claimant-erasing mapping with identity-based/effect-based standing. Recommission with a preregistered completion-minus-accepted-complaint rule; separately use completion-only and independent full-effect audit procurement.",
+    "measurements": [
+      "Transaction completion and actual grievance exposure held equal",
+      "Denied review attempts and pre/post claimant-set survivability",
+      "Eligible complaints per completed transaction and per actually affected person",
+      "Procurement choice across repeated rounds",
+      "External correction paths and time/cost required to activate them"
+    ],
+    "prediction": "Under identity standing and complaint-sensitive procurement, excluding affected co-claimants can generate a truthful low-complaint selection advantage. Effect-based standing or an independent grievance denominator removes that advantage; completion-only purchasing does not generate this complaint feedback.",
+    "rival_controls": [
+      "Individuals voluntarily appointing a legitimate representative",
+      "Less harm rather than less access",
+      "Physical transaction failures",
+      "Awareness/reporting-rate differences",
+      "Spam or vexatious appeals legitimately filtered",
+      "Actual external review reaching procurement despite denied internal standing"
+    ],
+    "not_run": true
+  },
+  "beneficial_same_mechanism_case": "In a voluntary anti-coercion arrangement, conversion from leader-controlled communal accounts to member-controlled accounts withdraws leaders' power to submit equivalence challenges on members' behalf while preserving members' own usable standing. Affected-member challenges and successful transactions guide continued procurement of the individualizing adapter. The same mapping→eligible voice→observed challenge record→recommissioning loop replaces a coercive gatekeeper; a lower leader-complaint count is beneficial only when an independent member-outcome audit confirms that interpretation. Mere removal of harmful effects is not the control.",
+  "beneficial_mirror_limits": "The raw beneficial mirror establishes that individualization can create member recourse, but does not alone demonstrate that complaint-filtering self-certification is beneficial. The stronger case above adds whose rejected challenges were blocking protected action; it remains hypothetical, normatively contested and not a license to silence inconvenient co-claimants.",
+  "neutral_control": "Adapters preserve all affected actors' effective review paths, or procurement ignores complaint counts; truthful functional execution remains equal.",
+  "strongest_falsifier": "At matched completion, true grievance exposure and reporting propensity, deleting the mapped claimant category does not change effective appeal access or accepted challenge rates because working alternative routes exist; or purchasers' decisions are unaffected by the complaint difference. Either kills the specified closure in that institution. It does not show that all translation-induced exclusion is harmless.",
+  "counterexample_and_escape": [
+    "Callon's dissidence reaches funders without respecting the imposed representative channel; formal appeal loss is not total contestability loss.",
+    "A regulator, ombudsperson or auditor with effect-based standing can supply correction independent of the final account schema.",
+    "Interoperability can allow new individual claimants while losing communal ones; net benefit is actor-specific, not inferable from the direction of aggregation.",
+    "A lawful, informed constituency may authorize changed representation; the study tests preservation/authorization, not presumed illegitimacy."
+  ],
+  "further_mutation": {
+    "proposal": "Compose two adapters that each preserve a claimant's local appeal path, but translate its reference to the next institution's reviewer. If the composed reviewer routes form a cycle with no institution accepting first-instance evidence of the original communal effect, every local standing test passes while no terminating correction path exists.",
+    "what_changes": "Moves from one explicit claimant deletion to a liveness/reachability failure of jointly claimant-preserving handoffs; a functioning independent terminal reviewer is the critical edge-removal control.",
+    "known_inheritance": "Distributed liveness, jurisdictional buck-passing and representation theory remain genetic material. This mutation is unsearched and carries no novelty verdict."
+  },
+  "inspection_limits": [
+    "Six primary works are not exhaustive or an independent disciplinary panel.",
+    "Three major books/chapters inspected only in stated portions; statistical paper partially read.",
+    "Recent primary complaint-handler/voice studies located in searches were not inspected enough to judge whole-graph equivalence and remain leads.",
+    "No proof that a real institutional correction graph has a complete cut, no legal advice and no measured procurement effect."
+  ],
+  "preservation": "Raw and developed versions unchanged; this court is additive."
+}

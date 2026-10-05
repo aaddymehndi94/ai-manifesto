@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-05",
+  "phase": "POST_BLUE_TEAM_CHECKPOINT",
+  "searches_after_commit": "87ee7bc",
+  "candidate": "E4:M011",
+  "actual_queries": [
+    "Matt Beane Shadow Learning Building Robotic Surgical Skill When Approved Means Fail 2019 full paper",
+    "Bainbridge 1983 ironies automation skills maintenance manual practice PDF",
+    "automation apprenticeship expert skill reproduction pipeline intermediate tasks learning by doing firms",
+    "Beane Shadow learning pdf site:mattbeane.com",
+    "Acemoglu Pischke 1999 Beyond Becker training imperfect labor markets firms general training PDF",
+    "Collins Brown Newman 1989 cognitive apprenticeship sequencing increasing complexity diversity PDF",
+    "\"shadow learning\" \"pdf\" \"Beane\"",
+    "\"Training and Turnover in the Evolution of Organizations\" 1997 model learning training",
+    "AI automation expert pipeline sector apprenticeship scarcity training firms 2026 paper",
+    "\"automation\" \"missing middle\" \"learning\" apprenticeship",
+    "\"automation\" \"training\" \"reproduction\" expertise paper",
+    "\"10.1016/j.jebo.2025.107206\" author",
+    "\"The Broken Ladder\" \"Najafabadi\" paper full",
+    "\"Generative AI and the Collapse of Apprenticeship Labor Markets\" pdf"
+  ],
+  "inspected_primary_urls": [
+    "https://journals.sagepub.com/doi/10.1177/0001839217751692",
+    "https://gwern.net/doc/sociology/technology/1983-bainbridge.pdf",
+    "https://arxiv.org/html/2603.02950v1",
+    "https://www.aft.org/ae/winter1991/collins_brown_holum",
+    "https://pubsonline.informs.org/doi/10.1287/orsc.8.1.84",
+    "https://economics.mit.edu/sites/default/files/publications/beyond-becker-training-in-imperfect-labor-markets..pdf",
+    "https://www.emerald.com/xjm/article/23/2/174/1389190/The-apprenticeship-void-AI-augmentation-and-entry",
+    "https://epub.ub.uni-muenchen.de/129087/1/1-s2.0-S0167268125003257-main.pdf"
+  ],
+  "publisher_indexed_abstracts_with_direct_access_failures": [
+    "https://journals.aom.org/doi/10.5465/AMPROC.2026.84bp",
+    "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6779239"
+  ],
+  "other_access_failures": [
+    "https://www.sciencedirect.com/science/article/pii/S0167268125003257",
+    "https://citeseerx.ist.psu.edu/document?doi=0ff56fc3e0ad8f2ef78ea66cbd3882bd57d10398&repid=rep1&type=pdf"
+  ],
+  "scope_limit": "Actual queries and inspected pages are recorded; many returned titles remain unread. Full source coverage is described per neighbor in M011.json. No broad priority claim follows from this search."
+}
