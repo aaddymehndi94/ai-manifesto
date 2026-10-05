@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-05",
+  "purpose": "Preserve inputs when pruning paused; no disposition or publication status changed.",
+  "files": [
+    {
+      "path": "generation4_raw.json",
+      "sha256": "529c11a1876ee40797ff13fb40a6d3df51e80f654b6508b38c8aded995afed89"
+    },
+    {
+      "path": "idea_graph.json",
+      "sha256": "d9e3a86ef6f140b69d065ed5009a8ce62611eaae9bd618ee56cfc15c988f2521"
+    },
+    {
+      "path": "sharpened/stream-a.json",
+      "sha256": "7dc33d54ae3c7335eaec7cf6633cfee055cc65b277edcb28ffb21a9804a23e6a"
+    },
+    {
+      "path": "sharpened/stream-b.json",
+      "sha256": "13fa2d4fff17b27f2f3d53ced4a6d05418a4ca35b89deeb1e1ae96304cd202fa"
+    },
+    {
+      "path": "sharpened/stream-c.json",
+      "sha256": "a25f609485083431cfae5ef561d65465548b6e9a95e5d7079f461c0dea439592"
+    },
+    {
+      "path": "sharpened/root-supplement.json",
+      "sha256": "bbf66edb4ac6f752f782a4c2838def7a06be480ce8c9614f1cd50b1b35ee565a"
+    }
+  ],
+  "sharpened_count": 120,
+  "raw_count": 320,
+  "prior_courts_preserved_not_binding": 8
+}

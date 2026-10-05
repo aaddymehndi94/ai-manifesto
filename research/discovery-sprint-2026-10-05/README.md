@@ -17,6 +17,12 @@ publish a Sites version during discovery. The public v0.5 claims remain unchange
 
 ## Order of work
 
+**Current phase: blue-team emergence.** A user intervention on 2026-10-05 paused
+pruning and additional novelty courts. The dated [emergence protocol](emergence/protocol.md)
+temporarily supersedes the later steps below. All 120 sharpened candidates and
+320 raw propositions are preserved. Prior verdicts remain process history, not
+exclusions from compound construction. No public v0.5 changes are authorized.
+
 1. Read the baseline and reconstruct its intellectual decisions.
 2. Build a mutation graph over all old candidates; distinguish inherited nodes
    from possibly new interactions, outcomes, predictions, and interventions.

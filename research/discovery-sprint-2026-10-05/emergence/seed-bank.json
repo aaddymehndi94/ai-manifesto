@@ -1,0 +1,556 @@
+{
+  "version": "0.1.0",
+  "phase": "BLUE_TEAM_EMERGENCE",
+  "date": "2026-10-05",
+  "selection_disclosure": "Thirty current and thirty old seeds selected qualitatively for causal connectivity and changes of scale, not a computed highest-generativity rank. All other candidates remain admissible. Historical novelty scores are not used.",
+  "current_thirty": [
+    {
+      "id": "D4:I003",
+      "proposition": "If agents replace novice casework but experts still repair exceptions, concentrating apprenticeship on expert explanations can make the supply of teachable reasoning, rather than task access, the limiting input to future expertise.",
+      "strongest_version": "When autonomous novice outputs remain high, novice expert production can still decline if senior explanations are a scarce input shared across trainees; increasing routine task exposure helps only below the explanation bottleneck.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I004",
+      "proposition": "If assistance bypasses an inaccessible public facility, fewer recorded access failures can cause the facility's maintenance budget to fall, increasing the cost of unaided use when assistance stops.",
+      "strongest_version": "If an agent-funded accessible bypass removes recorded complaints about a public facility, complaint-indexed maintenance funding can fall enough to degrade the facility for nonusers even though no physical redesign or intentional exclusion occurs.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I016",
+      "proposition": "If a deliberation agent reduces visible disagreement and officials shrink dissent-handling resources in response, the resulting difficulty of objecting can further increase apparent consensus.",
+      "strongest_version": "Under dissent-volume-indexed funding, locally successful agent settlement can shrink independent objection infrastructure, raising the cost of future substantive dissent and making measured consensus partly a product of reduced challenge capacity.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I022",
+      "proposition": "If AI-prioritized hypotheses determine instrument placement, the resulting data can overrepresent the predicted phenomenon and attract funding for still more instruments in the same conditions.",
+      "strongest_version": "Agent-prioritized hypotheses can acquire more sensors and therefore more confirming observations; subsequent prioritization can become insensitive to true equal prevalence unless evidence is adjusted for endogenous spatial observability.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I028",
+      "proposition": "If automated dispute resolution counts cases as closed without preserving who repaired the relationship, institutions can stop supporting accountable human roles and become more dependent on formal case closure.",
+      "strongest_version": "When agent case closure makes human accountability roles less visible, organizations can remove those roles and lose the capacity to assign responsibility for novel conflicts despite maintaining high routine resolution rates.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I043",
+      "proposition": "If an agent classifies a disputed category before long-term evidence matures and institutions immediately build services around it, later evidence can fail to revise the category because revision would disrupt those services.",
+      "strongest_version": "If provisional classification allocates durable services before evidence matures, revising a person's label later can become costly because institutions and other recipients now rely on the original category, even when all actors accept the new evidence.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I045",
+      "proposition": "If fallback training takes longer than common agent infrastructure remains stable, a community can maintain many trained humans yet lack anyone trained for the failure mode of its current stack.",
+      "strongest_version": "If reserve responders learn a procedure over years while its infrastructure changes monthly, added training can raise nominal reserve counts without raising current takeover capability; obsolete practice can actively impair recovery when old responses trigger current hazards.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I049",
+      "proposition": "If automated novices rely on a small common set of experts, removing one expert can disable more recovery pathways than the same loss in a distributed apprenticeship network with equal average skill.",
+      "strongest_version": "At equal aggregate expert skill and recovery workload, a supervision network concentrated around one articulating expert can lose more recoverable failure classes when that expert is removed than a distributed network with lower average skill.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I051",
+      "proposition": "If each student's tutor solves scheduling and role negotiation privately, a cohort can improve individual test scores while becoming less able to organize a joint project without tutors.",
+      "strongest_version": "Private tutors can raise every student's individual score while lowering a cohort's performance on joint planning when they replace the encounters through which students learn one another's strengths and limits.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I054",
+      "proposition": "If successive family agents preserve each ancestor's constraints, individually modest bequests can jointly restrict descendants' feasible choices more than any living family member endorsed.",
+      "strongest_version": "Persistent posthumous mandates can cumulatively eliminate a family's future feasible actions even when every mandate is individually reasonable and no living generation ever endorsed the conjunction.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I057",
+      "proposition": "If agents each preserve accurate but selectively personalized memories, combining their summaries by popularity can omit events remembered by only a few and create a public history none would have authored alone.",
+      "strongest_version": "An aggregate public memory can omit a minority event known accurately by every attendee if individual retrieval relevance suppresses that event before popularity-based aggregation; no individual false memory is required.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I060",
+      "proposition": "If citizen agents optimize issue positions separately for each person, a district can appear to agree on every issue while no jointly feasible policy bundle satisfies the represented positions.",
+      "strongest_version": "Separately personalized positions can each win majority support while no joint package is feasible under shared constraints; individual representation accuracy can therefore rise as the assembly's executable policy region shrinks.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I063",
+      "proposition": "If an announced assistant shutdown causes friends to prepare temporary help, a successful withdrawal rehearsal can underestimate the recovery cost of an unannounced population-wide outage.",
+      "strongest_version": "Announcing a shutdown drill can attract temporary substitute help that is available during the test but scarce in a common outage, causing truthful drill success to overstate ordinary recovery unless borrowed capacity and its correlation are measured.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I064",
+      "proposition": "If an agent teaches a user a vocabulary for explaining themselves, deleting the profile can leave subsequent fresh interviews reproducing the same categories and make reset appear ineffective or preferences appear independent.",
+      "strongest_version": "After an agent teaches a person its interpretive vocabulary, deleting the stored profile need not remove that interpretation because a nominally independent intake can reconstruct it from the person's newly learned self-description.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I065",
+      "proposition": "If an assistant supplies the categories used by later independent reviewers, agreement across reviewers can reflect shared framing rather than robustness of the underlying evidence.",
+      "strongest_version": "Reviewers with independent observations can still produce correlated verdict errors if the same agent supplied the categories through which each observation is interpreted; increasing reviewer count need not improve detection of category-excluded harms.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I095",
+      "proposition": "If an evaluated agent selects interventions outside a simulator's calibrated region and its explanations redirect a fixed human-model calibration budget, later simulator revisions can improve that agent's ranking while increasing prediction error for other admissible policies.",
+      "strongest_version": "Under a fixed simulator-calibration budget, an evaluated agent whose interventions reach poorly calibrated response regions can use its own explanatory traces to redirect calibration toward those regions, improving its ranking while increasing prediction error for competing policies without any fabricated evidence.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I100",
+      "proposition": "If a community agent explains a customary rule using one standardized account and later surveys familiarity with that account, successful explanation can be mistaken for evidence that the account represented the prior custom.",
+      "strongest_version": "An agent's standardized account of local custom can teach community members the vocabulary later used in a familiarity survey, making apparent evidence of traditional recognition partly an effect of the codification being assessed.",
+      "original_status": "SHARPENED_NOT_SCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I108",
+      "proposition": "If caregivers schedule visits around an agent prediction of likely need, then unpredicted needs can become harder to establish as urgent because the schedule itself removes human witnesses.",
+      "strongest_version": "If caregivers schedule visits around an agent prediction of likely need, then unpredicted needs can become harder to establish as urgent because the schedule itself removes human witnesses.",
+      "original_status": "SHARPENED_UNSCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I123",
+      "proposition": "If each institution provides a sufficient local review period but its disclosed conditions expire asynchronously, then a shared action can lack any interval in which all conditions are simultaneously valid and reviewable; extending the final deadline alone will not restore effective joint review.",
+      "strongest_version": "If each institution provides a sufficient local review period but its disclosed conditions expire asynchronously, then a shared action can lack any interval in which all conditions are simultaneously valid and reviewable; extending the final deadline alone will not restore effective joint review.",
+      "original_status": "SHARPENED_UNSCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I129",
+      "proposition": "If every affected household has a consultation right but the implementation recognizes only organizations as veto issuers, then a dispersed community can lack effective control despite unanimous private opposition.",
+      "strongest_version": "If every affected household has a consultation right but the implementation recognizes only organizations as veto issuers, then a dispersed community can lack effective control despite unanimous private opposition.",
+      "original_status": "SHARPENED_UNSCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I136",
+      "proposition": "If separately approved commitments reserve the same refusal-compatible substitutes, then their combination can cross a threshold at which no jointly feasible refusal path remains, even while every grant stays fixed and review utilization stays low; veto effectiveness should track residual substitute feasibility rather than approval count.",
+      "strongest_version": "If separately approved commitments reserve the same refusal-compatible substitutes, then their combination can cross a threshold at which no jointly feasible refusal path remains, even while every grant stays fixed and review utilization stays low; veto effectiveness should track residual substitute feasibility rather than approval count.",
+      "original_status": "SHARPENED_UNSCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I145",
+      "proposition": "If agents make individually fulfillable end-of-service promises using the same local caregivers, then simultaneous terminations can render all promises unfulfillable even without a shared provider outage.",
+      "strongest_version": "If agents make individually fulfillable end-of-service promises using the same local caregivers, then simultaneous terminations can render all promises unfulfillable even without a shared provider outage.",
+      "original_status": "SHARPENED_UNSCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I152",
+      "proposition": "If agents replace junior cases before an expert cohort retires, then reinstating those cases afterward can require longer recovery because the mentors who made practice educational are no longer available.",
+      "strongest_version": "If agents replace junior cases before an expert cohort retires, then reinstating those cases afterward can require longer recovery because the mentors who made practice educational are no longer available.",
+      "original_status": "SHARPENED_UNSCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I183",
+      "proposition": "If organizations with heavy apprenticeship investment lose short-run contracts to high-output automated firms, then training capacity can contract through organizational replacement before any firm explicitly reduces its own training.",
+      "strongest_version": "If organizations with heavy apprenticeship investment lose short-run contracts to high-output automated firms, then training capacity can contract through organizational replacement before any firm explicitly reduces its own training.",
+      "original_status": "SHARPENED_UNSCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I197",
+      "proposition": "If a community repeatedly uses agent logs to settle ordinary disputes, then log structure can become its default procedural memory and determine which past practices remain available as precedents.",
+      "strongest_version": "If a community repeatedly uses agent logs to settle ordinary disputes, then log structure can become its default procedural memory and determine which past practices remain available as precedents.",
+      "original_status": "SHARPENED_UNSCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I201",
+      "proposition": "If repeated agent execution resolves ambiguous ritual instructions in one consistent way, then that operational convention can become recognized as authoritative practice without a deliberative doctrinal decision.",
+      "strongest_version": "If repeated agent execution resolves ambiguous ritual instructions in one consistent way, then that operational convention can become recognized as authoritative practice without a deliberative doctrinal decision.",
+      "original_status": "SHARPENED_UNSCORED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I247",
+      "proposition": "If new agent providers introduce mutually incompatible obligation attestations and counterparties cannot afford all adapters, provider entry can reduce the fraction of relationships preserved after switching even as the number of nominal substitutes grows.",
+      "strongest_version": "At fixed counterparty adapter budgets, entry of providers with incompatible obligation attestations can increase nominal service choice while reducing relationships that survive any particular switch; this requires fragmentation, not competition by itself.",
+      "original_status": "SHARPENED_UNSCORED_UNCHALLENGED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I273",
+      "proposition": "If institutions pay semantic adapters only for successful completed transactions, adapters that preserve an absent party’s appeal standing can lose bids to faster adapters that discard it, because the harmed party is not buying the translation.",
+      "strongest_version": "If adapter buyers pay for completed cross-institution transactions but non-buying claimants bear standing loss, procurement can prefer cheaper mappings that preserve execution while erasing appeal eligibility; the mechanism requires a buyer/affected-party separation.",
+      "original_status": "SHARPENED_UNSCORED_UNCHALLENGED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I286",
+      "proposition": "If a user’s counterparties accept credentials through a small set of mutually recognizing issuers, removing one issuer can disconnect most replacement-agent routes even when every profile is exportable and several replacement providers exist; replacement success should track recognition-path connectivity rather than provider count.",
+      "strongest_version": "At fixed provider availability and export completeness, removing an accepted credential issuer can disconnect legitimate post-switch transactions when counterparties recognize only chains passing through that issuer; usable exit depends on alternative recognition paths.",
+      "original_status": "SHARPENED_UNSCORED_UNCHALLENGED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    },
+    {
+      "id": "D4:I298",
+      "proposition": "If replacement agents learn institutional practice only from completed actions, they can miss rules expressed through repeated abstention because prohibited or inappropriate actions leave no success record; two equally complete transaction histories can support different safe replacements when only one preserves reasons for not acting.",
+      "strongest_version": "Two replacements receiving the same complete truthful completed-action history may behave differently if only one receives independently valid reasons for abstentions: non-events can encode binding institutional constraints not inferable from observed successes. The claim fails if ordinary rationale archives already preserve and transfer this distinction.",
+      "original_status": "SHARPENED_UNSCORED_UNCHALLENGED",
+      "development_reason": "Connect a state-changing mediator to another mechanism and close the return path; not selected on primitive novelty."
+    }
+  ],
+  "reopened_old_thirty": [
+    {
+      "id": "I002",
+      "name": "Competence can increase capture",
+      "proposition": "A more competent assistant may create more dependence even when its error rate falls.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Automation dependence; switching costs",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I003",
+      "name": "Accurate prediction can erase evidence",
+      "proposition": "Perfectly anticipatory assistance can suppress the occasions on which a person would reveal disagreement.",
+      "historical_status": "RETIRED_SUPERSEDED",
+      "historical_rejection": "Observation opportunities are affected by anticipatory assistance; needs a measurable diagnostic gap.",
+      "closest_literature_family": "Active learning; selective labels",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I007",
+      "name": "Consent accumulation",
+      "proposition": "Many separately authorized small interventions can jointly cross a boundary no individual authorization names.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Composition; cumulative risk; consent",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I011",
+      "name": "Customization can standardize",
+      "proposition": "Individual personalization can homogenize the process by which people learn to want things.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Recommender homogenization",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I018",
+      "name": "Withdrawal can be harm",
+      "proposition": "Removing successful assistance can cause losses created by prior reliance even if the agent never made an error.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Dependency; reliance interests",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I021",
+      "name": "Better matching can weaken discovery",
+      "proposition": "Preference-matched environments may reduce encounters that revise preferences.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Filter bubbles; serendipity",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I023",
+      "name": "Apprenticeship bottleneck",
+      "proposition": "Automating junior tasks can reduce production of future experts needed for exceptional cases.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Deskilling; labor reproduction",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I027",
+      "name": "Perfect buyer versus perfect seller",
+      "proposition": "Highly capable purchasing and persuasion agents may move competition toward control of preference formation.",
+      "historical_status": "RETIRED_SUPERSEDED",
+      "historical_rejection": "Consumer versus persuasion agents may shift competition toward state-shaping rather than price; requires equilibrium model.",
+      "closest_literature_family": "Mechanism design; advertising",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I039",
+      "name": "Emergency takeover institution",
+      "proposition": "Whole organizations may retain nominal overrides while losing the personnel needed to exercise them.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Organizational resilience; automation",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I040",
+      "name": "Agent density norm shift",
+      "proposition": "Small coordination advantages can make unaided participation impractical once most counterparties use agents.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Network effects",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I046",
+      "name": "Endogenous evidence promotion",
+      "proposition": "An agent’s own influence on human behavior can invalidate using that behavior to enlarge its mandate.",
+      "historical_status": "RETIRED_SUPERSEDED",
+      "historical_rejection": "Revised: distinguish truthful behavior used under an authentic adaptive grant from corrupted permission memory.",
+      "closest_literature_family": "Performative prediction; consent laundering",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I048",
+      "name": "Recoverability frontier",
+      "proposition": "Assistance policies can differ in which unaided or alternative-provider futures remain feasible.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Viability theory; real options",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I049",
+      "name": "Delegation hysteresis",
+      "proposition": "The cost of returning to human performance can exceed the cost at the same delegation level during adoption.",
+      "historical_status": "RETIRED_SUPERSEDED",
+      "historical_rejection": "Withdrawal trajectory differs from adoption; requires a formal hysteresis test.",
+      "closest_literature_family": "Hysteresis; skill decay",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I051",
+      "name": "Counterfactual dependency accounting",
+      "proposition": "Service evaluation can include losses on withdrawal relative to a never-assisted trajectory.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Potential outcomes; reliance interests",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I053",
+      "name": "Social reserve capacity",
+      "proposition": "Communities can retain capacities that become necessary only when common agent infrastructure fails.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Resilience; public goods",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I054",
+      "name": "Legitimacy bandwidth",
+      "proposition": "Authority can be limited by how many decisions can be meaningfully reviewed over time.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Queueing; attention-constrained oversight",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I057",
+      "name": "Bargaining through exit sets",
+      "proposition": "AI dependence alters bargaining even when every ongoing interaction is beneficial.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Hirschman; incomplete contracts",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I060",
+      "name": "Preference model ecology",
+      "proposition": "Multiple systems jointly shape a person whose preferences each system models as external.",
+      "historical_status": "RETIRED_SUPERSEDED",
+      "historical_rejection": "Coupled preference controllers need attribution; prioritize interference measurement rather than a moral maxim.",
+      "closest_literature_family": "Ecology; coupled control",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I062",
+      "name": "Coordination affordance debt",
+      "proposition": "Agent-optimized spaces can lose affordances required by people without agents.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Universal design; path dependence",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I065",
+      "name": "Preference confidence divergence",
+      "proposition": "Confidence in predicting behavior can increase while evidence that behavior reflects endorsed goals decreases.",
+      "historical_status": "RETIRED_SUPERSEDED",
+      "historical_rejection": "Prediction confidence and authority evidence need not move together; test conditions where they diverge.",
+      "closest_literature_family": "Automation influence; meta-preferences",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I133",
+      "name": "Authority amplification without grant",
+      "proposition": "A society can accumulate effective machine authority through many local adaptations without a collective authorization event.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Infrastructure power; path dependence",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I134",
+      "name": "Common provider recovery cliff",
+      "proposition": "Individually manageable dependencies can become unrecoverable when many fail simultaneously.",
+      "historical_status": "RETIRED_SUPERSEDED",
+      "historical_rejection": "Aggregate exit feasibility under correlated outages may expose a system-level threshold.",
+      "closest_literature_family": "Systemic risk; common-mode failure",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I137",
+      "name": "Automation exit externality",
+      "proposition": "One institution’s automation can raise exit costs for unaided users of other institutions.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Network effects; infrastructure lock-in",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I140",
+      "name": "Counter-agent escalation",
+      "proposition": "Protective personal agents can trigger more sophisticated institutional persuasion, raising costs without improving welfare.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Arms races; security economics",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I142",
+      "name": "Agent ownership political multiplier",
+      "proposition": "Concentrated ownership can align many otherwise personalized agents around infrastructure-level constraints.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Market power; platform governance",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I146",
+      "name": "Negotiation time asymmetry",
+      "proposition": "Machine-speed bargaining can effectively exclude humans despite formally open participation.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Market microstructure; latency",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I147",
+      "name": "Externalized institutional memory",
+      "proposition": "Organizations may lose the ability to explain past decisions when historical reasoning resides in vendor agents.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Organizational memory; outsourcing",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I165",
+      "name": "Provider-controlled renewal evidence",
+      "proposition": "Institutional service renewals may use success measures affected by the provider’s own choice architecture.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "Metrics and principal-agent incentives already cover broad claim.",
+      "closest_literature_family": "Performative Prediction",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I166",
+      "name": "Correlated exit cliff",
+      "proposition": "Equal immediate utility can mask collective inability to recover from common provider outage.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "Network resilience precedent; separate research agenda.",
+      "closest_literature_family": "Ironies of automation",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    },
+    {
+      "id": "I148",
+      "name": "Consensus by common inference",
+      "proposition": "Independent-looking agents can generate correlated advice because they share models and memory infrastructure.",
+      "historical_status": "REJECTED_AS_CENTER",
+      "historical_rejection": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "closest_literature_family": "Common knowledge; model monoculture",
+      "development_reason": "Reopened as genetic material. Historical shared-component objections are not composition verdicts."
+    }
+  ],
+  "additional_clusters": {
+    "provider": [
+      "D4:I301",
+      "D4:I302",
+      "D4:I305",
+      "D4:I306",
+      "D4:I307",
+      "D4:I312",
+      "D4:I313",
+      "D4:I317",
+      "D4:I318"
+    ],
+    "dependence_hysteresis": [
+      "I049",
+      "I051",
+      "I166",
+      "D4:I145",
+      "D4:I213",
+      "D4:I246",
+      "D4:I293"
+    ],
+    "human_capability": [
+      "I023",
+      "I063",
+      "D4:I001",
+      "D4:I003",
+      "D4:I032",
+      "D4:I049",
+      "D4:I183",
+      "D4:I231",
+      "D4:I288"
+    ],
+    "preference_formation": [
+      "I011",
+      "I021",
+      "I060",
+      "I065",
+      "D4:I064",
+      "D4:I075",
+      "D4:I100",
+      "D4:I167",
+      "D4:I274"
+    ],
+    "market_institution": [
+      "I040",
+      "I133",
+      "I137",
+      "I142",
+      "D4:I197",
+      "D4:I201",
+      "D4:I247",
+      "D4:I273",
+      "D4:I277"
+    ],
+    "effective_authority": [
+      "I133",
+      "I146",
+      "I147",
+      "D4:I106",
+      "D4:I129",
+      "D4:I136",
+      "D4:I286",
+      "D4:I308"
+    ]
+  },
+  "novelty_status": "NOT_ASSESSED_IN_THIS_PHASE"
+}
