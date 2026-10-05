@@ -1,5 +1,9 @@
 # Discovery sprint four
 
+**Resuming in a new session? Start with [CONTINUATION.md](CONTINUATION.md).**
+It records the current mandate, completed checkpoint, preserved candidates,
+source/model limits, reproducibility checks and unfinished stages.
+
 This workspace tests possible replacements or extensions for the v0.5 intellectual
 center. It does not defend AAA:C01, revise the canonical paper, or authorize publication.
 
