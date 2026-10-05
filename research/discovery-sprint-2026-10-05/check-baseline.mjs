@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+const here=path.dirname(fileURLToPath(import.meta.url));
+const root=path.resolve(here,'../..');
+const manifest=JSON.parse(fs.readFileSync(path.join(here,'baseline-hashes.json'),'utf8'));
+const changed=manifest.files.filter(({file,sha256})=>!fs.existsSync(path.join(root,file))||crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex')!==sha256).map(x=>x.file);
+console.log(JSON.stringify({baseline:manifest.baseline,checked:manifest.files.length,changed},null,2));
+if(changed.length)process.exitCode=1;

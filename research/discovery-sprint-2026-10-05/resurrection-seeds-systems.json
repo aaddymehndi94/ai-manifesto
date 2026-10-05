@@ -1,0 +1,1073 @@
+{
+  "schema_version": "audit-seeds-0.1",
+  "audit_date": "2026-10-05",
+  "baseline_sha": "35802ada98a8ba1205667f630a30c6f5739725c4",
+  "baseline_tag": "aaa-v0.5-baseline",
+  "scope": "Archived systems seeds only. Missing-comparison questions audit old claims; they are not new hypotheses or novelty grades.",
+  "rejection_semantics": "Excluded from intellectual center does not mean false; retired does not guarantee a mechanism-preserving descendant.",
+  "evidence_limits": "Most generation-one records identify prior-art families without an exact source match. This audit does not claim an exhaustive or updated literature search.",
+  "seeds": [
+    {
+      "old_ids": [
+        "I014"
+      ],
+      "related_old_ids": [
+        "I131",
+        "I135"
+      ],
+      "name": "Memory portability can export mistakes",
+      "exact_old_proposition": "Moving a personal profile between agents can preserve unsupported beliefs more efficiently than local reset.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Data quality rather than new concept.",
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "ledger_review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "rejected_as_intellectual_center",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      "known_parts": "Data portability and data quality.",
+      "recorded_prior_art": {
+        "family": "Data provenance; portability",
+        "closest_known_precedent": "Data provenance; portability",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Profile export -> reuse by successor agents -> persistence of unsupported beliefs; compare local reset and provenance-aware transfer.",
+      "missing_comparison": "Does the inspected closest portability/data-quality work establish propagation across agent handoffs on downstream action quality and authority, with the same reset/validation intervention?",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:658",
+        "research/novelty-ledger.json:240",
+        "research/rejected-ideas.md:125",
+        "research/notes/systems-governance-prior-art.md:671,846,868"
+      ]
+    },
+    {
+      "old_ids": [
+        "I131"
+      ],
+      "related_old_ids": [
+        "I135",
+        "I151"
+      ],
+      "name": "Assistance portability benchmark",
+      "exact_old_proposition": "Users can compare providers by post-transfer performance and mandate integrity.",
+      "baseline_population_status": "RETIRED_SUPERSEDED",
+      "baseline_ledger_status": "SEARCHING",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Potential research benchmark extension.",
+        "selection_reason": "Portability benchmark can test both state quality and mandate integrity.",
+        "ledger_review_note": "Portability benchmark can test both state quality and mandate integrity.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "held_for_mutation",
+            "date": "2026-10-04"
+          },
+          {
+            "generation": 2,
+            "event": "superseded_by_explicit_mutations",
+            "date": "2026-10-05"
+          }
+        ]
+      },
+      "known_parts": "Interoperability and portability benchmarking.",
+      "recorded_prior_art": {
+        "family": "Interoperability; portability",
+        "closest_known_precedent": "Interoperability; portability",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Provider transfer -> retained functional performance and mandate integrity, rather than export success alone.",
+      "missing_comparison": "Compare the old benchmark objectives together against existing transfer benchmarks; I164 retains typed contrast but has no provider transfer or performance endpoint.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:6192",
+        "research/novelty-ledger.json:2229",
+        "scripts/evolve_research.mjs:16",
+        "research/notes/systems-governance-prior-art.md:846"
+      ]
+    },
+    {
+      "old_ids": [
+        "I135"
+      ],
+      "related_old_ids": [
+        "I131",
+        "I138",
+        "I151"
+      ],
+      "name": "Mandate interoperability",
+      "exact_old_proposition": "Permission semantics may become a public infrastructure problem when agents negotiate across institutions.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Standard interoperability program.",
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "ledger_review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "rejected_as_intellectual_center",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      "known_parts": "Capability security and protocol standards.",
+      "recorded_prior_art": {
+        "family": "Capability security; protocol standards",
+        "closest_known_precedent": "Capability security; protocol standards",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Equivalent scopes across providers/institutions -> preservation or change of action semantics.",
+      "missing_comparison": "Does an existing interoperability implementation preserve operation, purpose, recipient, budget and jurisdiction together? Compare semantic containment across providers, not merely token serialization.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:6390",
+        "research/novelty-ledger.json:2297",
+        "research/rejected-ideas.md:1245",
+        "framework/open-problems.md:9",
+        "research/notes/systems-governance-prior-art.md:671"
+      ]
+    },
+    {
+      "old_ids": [
+        "I151"
+      ],
+      "related_old_ids": [
+        "I135",
+        "I138"
+      ],
+      "name": "International mandate mismatch",
+      "exact_old_proposition": "Authority valid in one jurisdiction can be invalid when an agent acts through another.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Existing legal conflict.",
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "ledger_review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "rejected_as_intellectual_center",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      "known_parts": "Conflict of laws and delegated authority.",
+      "recorded_prior_art": {
+        "family": "Conflict of laws; delegated authority",
+        "closest_known_precedent": "Conflict of laws; delegated authority",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "A valid originating mandate -> cross-border workflow -> different local authority relation.",
+      "missing_comparison": "A jurisdiction-specific closest source and executed cross-border workflow are absent; compare exact action/resource/purpose bounds and which institutional check changes the outcome.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:7147",
+        "research/novelty-ledger.json:2569",
+        "research/rejected-ideas.md:1395",
+        "research/rejected-ideas.md:1395",
+        "paper/paper.md:1019,1110"
+      ]
+    },
+    {
+      "old_ids": [
+        "I040"
+      ],
+      "related_old_ids": [
+        "I062",
+        "I137",
+        "I146",
+        "I152"
+      ],
+      "name": "Agent density norm shift",
+      "exact_old_proposition": "Small coordination advantages can make unaided participation impractical once most counterparties use agents.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Network adoption theory.",
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "ledger_review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "rejected_as_intellectual_center",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      "known_parts": "Network adoption effects.",
+      "recorded_prior_art": {
+        "family": "Network effects",
+        "closest_known_precedent": "Network effects",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Agent adoption share -> coordination advantage -> unaided participation feasibility.",
+      "missing_comparison": "Compare adoption-threshold models on feasible unaided participation rather than adoption or utility alone, with response windows and manual-channel institutions allowed to respond.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:1885",
+        "research/novelty-ledger.json:682",
+        "research/rejected-ideas.md:375",
+        "research/notes/systems-governance-prior-art.md:583,624,657"
+      ]
+    },
+    {
+      "old_ids": [
+        "I062"
+      ],
+      "related_old_ids": [
+        "I030",
+        "I137",
+        "I152"
+      ],
+      "name": "Coordination affordance debt",
+      "exact_old_proposition": "Agent-optimized spaces can lose affordances required by people without agents.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Accessibility exclusion precedent.",
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "ledger_review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "rejected_as_intellectual_center",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      "known_parts": "Universal design and path dependence.",
+      "recorded_prior_art": {
+        "family": "Universal design; path dependence",
+        "closest_known_precedent": "Universal design; path dependence",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Agent-oriented redesign -> loss of unaided affordances -> participation outcomes.",
+      "missing_comparison": "Locate a closest design/automation composition using the same affordance-loss endpoint and compare retained unaided channels to agent provision; no such exact comparison is recorded.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:2939",
+        "research/novelty-ledger.json:1056",
+        "research/rejected-ideas.md:555",
+        "research/notes/systems-governance-prior-art.md:624",
+        "research/rejected-ideas.md:555"
+      ]
+    },
+    {
+      "old_ids": [
+        "I137"
+      ],
+      "related_old_ids": [
+        "I040",
+        "I062",
+        "I152"
+      ],
+      "name": "Automation exit externality",
+      "exact_old_proposition": "One institution’s automation can raise exit costs for unaided users of other institutions.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Known coordination externality.",
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "ledger_review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "rejected_as_intellectual_center",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      "known_parts": "Coordination externalities, network effects and infrastructure lock-in.",
+      "recorded_prior_art": {
+        "family": "Network effects; infrastructure lock-in",
+        "closest_known_precedent": "Network effects; infrastructure lock-in",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Institution A automation -> institution B service requirements -> non-adopter exit cost.",
+      "missing_comparison": "Test the old cross-institution dependency model against a source with the same cross-boundary exit outcome, holding own-provider switching cost separate. No graph-level equivalence is documented.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:6489",
+        "research/novelty-ledger.json:2331",
+        "research/rejected-ideas.md:1255",
+        "research/rejected-ideas.md:1255",
+        "research/notes/systems-governance-prior-art.md:623,624"
+      ]
+    },
+    {
+      "old_ids": [
+        "I146"
+      ],
+      "related_old_ids": [
+        "I040",
+        "I043",
+        "I149"
+      ],
+      "name": "Negotiation time asymmetry",
+      "exact_old_proposition": "Machine-speed bargaining can effectively exclude humans despite formally open participation.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Known high-frequency trading analogue.",
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "ledger_review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "rejected_as_intellectual_center",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      "known_parts": "Market microstructure, latency and high-frequency trading analogues.",
+      "recorded_prior_art": {
+        "family": "Market microstructure; latency",
+        "closest_known_precedent": "Market microstructure; latency",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Machine bargaining speed -> mixed-speed deadlines -> formally eligible humans cannot complete participation.",
+      "missing_comparison": "Compare a closest mixed-speed bargaining model with deadline formation and human completion outcomes; the old simulation proposal has not been executed.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:6912",
+        "research/novelty-ledger.json:2484",
+        "research/rejected-ideas.md:1345",
+        "research/rejected-ideas.md:1345",
+        "research/notes/systems-governance-prior-art.md:583,657,852"
+      ]
+    },
+    {
+      "old_ids": [
+        "I054"
+      ],
+      "related_old_ids": [
+        "I120",
+        "I149"
+      ],
+      "name": "Legitimacy bandwidth",
+      "exact_old_proposition": "Authority can be limited by how many decisions can be meaningfully reviewed over time.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Likely established human factors.",
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "ledger_review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "rejected_as_intellectual_center",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      "known_parts": "Queueing and attention-constrained oversight.",
+      "recorded_prior_art": {
+        "family": "Queueing; attention-constrained oversight",
+        "closest_known_precedent": "Queueing; attention-constrained oversight",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Decision/challenge arrivals -> independent review load -> expiry or declining remedy value.",
+      "missing_comparison": "Compare same arrival, service, independence and remedy-decay quantities against established queueing/due-process work; current permission fixture has no queue or review capacity.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:2558",
+        "research/novelty-ledger.json:920",
+        "research/rejected-ideas.md:485",
+        "research/notes/systems-governance-prior-art.md:749,855",
+        "debates/round-2-systems.md:359"
+      ]
+    },
+    {
+      "old_ids": [
+        "I149"
+      ],
+      "related_old_ids": [
+        "I054",
+        "I120"
+      ],
+      "name": "Democratic attention scarcity",
+      "exact_old_proposition": "Cheaper policy generation can overload finite public deliberation capacity.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Established attention scarcity.",
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "ledger_review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "rejected_as_intellectual_center",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      "known_parts": "Information overload and deliberative democracy.",
+      "recorded_prior_art": {
+        "family": "Information overload; deliberative democracy",
+        "closest_known_precedent": "Information overload; deliberative democracy",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Cheaper policy generation -> proposal arrival -> finite public deliberation capacity.",
+      "missing_comparison": "Does a closest model predict the same effective deliberation endpoint when proposal production and review cost adapt? Compare maintained review capacity and generation/traffic policies rather than merely more user assistance.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:7053",
+        "research/novelty-ledger.json:2535",
+        "research/rejected-ideas.md:1375",
+        "research/rejected-ideas.md:1375",
+        "research/notes/systems-governance-prior-art.md:677,749,865"
+      ]
+    },
+    {
+      "old_ids": [
+        "I010"
+      ],
+      "related_old_ids": [
+        "I142",
+        "I148"
+      ],
+      "name": "Human control can be vendor control",
+      "exact_old_proposition": "A human override routed through proprietary infrastructure remains contingent on another actor.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Institutional dependency is known.",
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "ledger_review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "rejected_as_intellectual_center",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      "known_parts": "Meaningful human control and infrastructure dependency.",
+      "recorded_prior_art": {
+        "family": "Meaningful human control; infrastructure power",
+        "closest_known_precedent": "Meaningful human control; infrastructure power",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Override path -> provider credential/hosting/policy dependency -> actual override during outage or policy change.",
+      "missing_comparison": "Compare identical nominal override access across different dependency topologies on successful independent override; the old outage/policy-change test is unexecuted.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:470",
+        "research/novelty-ledger.json:172",
+        "research/rejected-ideas.md:85",
+        "research/rejected-ideas.md:85",
+        "research/notes/systems-governance-prior-art.md:674"
+      ]
+    },
+    {
+      "old_ids": [
+        "I148"
+      ],
+      "related_old_ids": [
+        "I015",
+        "I142",
+        "I166"
+      ],
+      "name": "Consensus by common inference",
+      "exact_old_proposition": "Independent-looking agents can generate correlated advice because they share models and memory infrastructure.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Known correlated error.",
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "ledger_review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "rejected_as_intellectual_center",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      "known_parts": "Model monoculture and correlated errors.",
+      "recorded_prior_art": {
+        "family": "Common knowledge; model monoculture",
+        "closest_known_precedent": "Common knowledge; model monoculture",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Common model/memory source -> apparently separate advice -> effective independent evidence count.",
+      "missing_comparison": "Compare ownership diversity with technical source diversity on correlated evidence and decisions, using shared-stack exposure controls. The archive names a family but no exact causal source decomposition.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:7006",
+        "research/novelty-ledger.json:2518",
+        "research/rejected-ideas.md:1365",
+        "research/rejected-ideas.md:1365",
+        "research/notes/systems-governance-prior-art.md:653,763"
+      ]
+    },
+    {
+      "old_ids": [
+        "I134"
+      ],
+      "related_old_ids": [
+        "I023",
+        "I053",
+        "I141",
+        "I166"
+      ],
+      "name": "Common provider recovery cliff",
+      "exact_old_proposition": "Individually manageable dependencies can become unrecoverable when many fail simultaneously.",
+      "baseline_population_status": "RETIRED_SUPERSEDED",
+      "baseline_ledger_status": "SEARCHING",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Financial systemic risk analogue.",
+        "selection_reason": "Aggregate exit feasibility under correlated outages may expose a system-level threshold.",
+        "ledger_review_note": "Aggregate exit feasibility under correlated outages may expose a system-level threshold.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "held_for_mutation",
+            "date": "2026-10-04"
+          },
+          {
+            "generation": 2,
+            "event": "superseded_by_explicit_mutations",
+            "date": "2026-10-05"
+          }
+        ]
+      },
+      "known_parts": "Systemic risk, common-mode failure and shared recovery capacity.",
+      "recorded_prior_art": {
+        "family": "Systemic risk; common-mode failure",
+        "closest_known_precedent": "Systemic risk; common-mode failure",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Correlated outage -> simultaneous fallback demand -> scarce restoration resources -> aggregate recovery feasibility.",
+      "missing_comparison": "Compare same local utility/reliability and dependency distributions against an interdependent-network/recovery-capacity model; I166 is excluded as a separate agenda without an executed threshold comparison.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:6338",
+        "research/novelty-ledger.json:2280",
+        "scripts/compile_research.mjs:26",
+        "scripts/evolve_research.mjs:18",
+        "research/notes/systems-governance-prior-art.md:510,849"
+      ]
+    },
+    {
+      "old_ids": [
+        "I166"
+      ],
+      "related_old_ids": [
+        "I134",
+        "I148"
+      ],
+      "name": "Correlated exit cliff",
+      "exact_old_proposition": "Equal immediate utility can mask collective inability to recover from common provider outage.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": null,
+        "selection_reason": "Network resilience precedent; separate research agenda.",
+        "ledger_review_note": "Network resilience precedent; separate research agenda.",
+        "history": [
+          {
+            "generation": 2,
+            "event": "REJECTED_AS_CENTER",
+            "date": "2026-10-05"
+          }
+        ]
+      },
+      "known_parts": "Network resilience; generation-two ledger mechanically selects Bainbridge as first cited source.",
+      "recorded_prior_art": {
+        "family": null,
+        "closest_known_precedent": "Ironies of automation",
+        "source": "https://doi.org/10.1016/0005-1098(83)90046-8",
+        "verification_level": "first_cited_source_selected_by_evolution_script",
+        "grade": "C"
+      },
+      "old_composition_and_outcome": "Equal immediate utility -> common provider outage -> collective recovery inability.",
+      "missing_comparison": "The closest-source field does not establish same network graph or shared recovery outcome. Compare network resilience and recovery-capacity sources before classifying this composition as equivalent.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:7940",
+        "research/novelty-ledger.json:2974",
+        "research/rejected-ideas.md:1469",
+        "research/rejected-ideas.md:1469",
+        "scripts/evolve_research.mjs:18,49,51",
+        "research/notes/ai-robotics-prior-art.md:437"
+      ]
+    },
+    {
+      "old_ids": [
+        "I023"
+      ],
+      "related_old_ids": [
+        "I039",
+        "I141",
+        "I147"
+      ],
+      "name": "Apprenticeship bottleneck",
+      "exact_old_proposition": "Automating junior tasks can reduce production of future experts needed for exceptional cases.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Known structural deskilling.",
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "ledger_review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "rejected_as_intellectual_center",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      "known_parts": "Structural deskilling and labor reproduction.",
+      "recorded_prior_art": {
+        "family": "Deskilling; labor reproduction",
+        "closest_known_precedent": "Deskilling; labor reproduction",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Automated novice tasks -> future expert supply -> exceptional-case supervision.",
+      "missing_comparison": "Compare training-pipeline experiments/models on future independent expert supply under equal current productivity; no such experiment is in the frozen tree.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:1081",
+        "research/novelty-ledger.json:393",
+        "research/rejected-ideas.md:215",
+        "research/rejected-ideas.md:215",
+        "research/notes/systems-governance-prior-art.md:569,668"
+      ]
+    },
+    {
+      "old_ids": [
+        "I147"
+      ],
+      "related_old_ids": [
+        "I023",
+        "I131"
+      ],
+      "name": "Externalized institutional memory",
+      "exact_old_proposition": "Organizations may lose the ability to explain past decisions when historical reasoning resides in vendor agents.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Known knowledge outsourcing.",
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "ledger_review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "rejected_as_intellectual_center",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      "known_parts": "Organizational memory and knowledge outsourcing.",
+      "recorded_prior_art": {
+        "family": "Organizational memory; outsourcing",
+        "closest_known_precedent": "Organizational memory; outsourcing",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Vendor-held reasoning -> provider exit -> ability to reconstruct and explain prior decisions.",
+      "missing_comparison": "Compare archive possession with usable independent reasoning reconstruction, with historical model/policy turnover controlled; recall or export alone does not test the old endpoint.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:6959",
+        "research/novelty-ledger.json:2501",
+        "research/rejected-ideas.md:1355",
+        "research/rejected-ideas.md:1355",
+        "research/notes/systems-governance-prior-art.md:667,858"
+      ]
+    },
+    {
+      "old_ids": [
+        "I027"
+      ],
+      "related_old_ids": [
+        "I140",
+        "I165"
+      ],
+      "name": "Perfect buyer versus perfect seller",
+      "exact_old_proposition": "Highly capable purchasing and persuasion agents may move competition toward control of preference formation.",
+      "baseline_population_status": "RETIRED_SUPERSEDED",
+      "baseline_ledger_status": "SEARCHING",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Known endogenous demand competition.",
+        "selection_reason": "Consumer versus persuasion agents may shift competition toward state-shaping rather than price; requires equilibrium model.",
+        "ledger_review_note": "Consumer versus persuasion agents may shift competition toward state-shaping rather than price; requires equilibrium model.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "held_for_mutation",
+            "date": "2026-10-04"
+          },
+          {
+            "generation": 2,
+            "event": "superseded_by_explicit_mutations",
+            "date": "2026-10-05"
+          }
+        ]
+      },
+      "known_parts": "Mechanism design, advertising and endogenous demand.",
+      "recorded_prior_art": {
+        "family": "Mechanism design; advertising",
+        "closest_known_precedent": "Mechanism design; advertising",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Purchasing agents versus persuasion agents -> competition over preference formation rather than price alone.",
+      "missing_comparison": "Locate a closest equilibrium with the same preference-shaping control, counterpart information, outside options and welfare outcome. The held seed was retired without a generation-two descendant or equilibrium test.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:1269",
+        "research/novelty-ledger.json:461",
+        "scripts/compile_research.mjs:18",
+        "scripts/evolve_research.mjs:6,42",
+        "paper/paper.md:995"
+      ]
+    },
+    {
+      "old_ids": [
+        "I060"
+      ],
+      "related_old_ids": [
+        "I136",
+        "I148"
+      ],
+      "name": "Preference model ecology",
+      "exact_old_proposition": "Multiple systems jointly shape a person whose preferences each system models as external.",
+      "baseline_population_status": "RETIRED_SUPERSEDED",
+      "baseline_ledger_status": "SEARCHING",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Multi-controller interference known.",
+        "selection_reason": "Coupled preference controllers need attribution; prioritize interference measurement rather than a moral maxim.",
+        "ledger_review_note": "Coupled preference controllers need attribution; prioritize interference measurement rather than a moral maxim.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "held_for_mutation",
+            "date": "2026-10-04"
+          },
+          {
+            "generation": 2,
+            "event": "superseded_by_explicit_mutations",
+            "date": "2026-10-05"
+          }
+        ]
+      },
+      "known_parts": "Multi-controller interference and coupled control.",
+      "recorded_prior_art": {
+        "family": "Ecology; coupled control",
+        "closest_known_precedent": "Ecology; coupled control",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Multiple agents -> shared evolving preference state -> individually external-looking evidence.",
+      "missing_comparison": "Compare a closest multiple-controller graph on attribution and interference, not only single-agent policy sensitivity; no descendants preserve this held seed in generation two.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:2840",
+        "research/novelty-ledger.json:1022",
+        "scripts/compile_research.mjs:22",
+        "scripts/evolve_research.mjs:6,42",
+        "paper/paper.md:479"
+      ]
+    },
+    {
+      "old_ids": [
+        "I133"
+      ],
+      "related_old_ids": [
+        "I010",
+        "I142",
+        "I147"
+      ],
+      "name": "Authority amplification without grant",
+      "exact_old_proposition": "A society can accumulate effective machine authority through many local adaptations without a collective authorization event.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Broad sociological precedent.",
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "ledger_review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "rejected_as_intellectual_center",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      "known_parts": "Infrastructure power and institutional path dependence.",
+      "recorded_prior_art": {
+        "family": "Infrastructure power; path dependence",
+        "closest_known_precedent": "Infrastructure power; path dependence",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Many local adaptations -> effective control and institutional options -> aggregate authority without a new collective grant.",
+      "missing_comparison": "Compare formal grant trajectories with effective authority trajectories under the same infrastructure; the typed terminal scope is not the old real-authority outcome.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:6291",
+        "research/novelty-ledger.json:2263",
+        "research/rejected-ideas.md:1235",
+        "research/rejected-ideas.md:1235",
+        "debates/round-2-systems.md:125",
+        "paper/paper.md:1322"
+      ]
+    },
+    {
+      "old_ids": [
+        "I140"
+      ],
+      "related_old_ids": [
+        "I027",
+        "I120"
+      ],
+      "name": "Counter-agent escalation",
+      "exact_old_proposition": "Protective personal agents can trigger more sophisticated institutional persuasion, raising costs without improving welfare.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": "Classic arms-race model.",
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "ledger_review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "history": [
+          {
+            "generation": 1,
+            "event": "rejected_as_intellectual_center",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      "known_parts": "Classic arms races and security economics.",
+      "recorded_prior_art": {
+        "family": "Arms races; security economics",
+        "closest_known_precedent": "Arms races; security economics",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "grade": null
+      },
+      "old_composition_and_outcome": "Protective agent investment -> institutional persuasion response -> further investment and welfare.",
+      "missing_comparison": "Compare an explicit closest arms-race equilibrium on the same instruments, costs, outside options and welfare. The old adverse result is conditional, not a claim that defensive agents always reduce welfare.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:6630",
+        "research/novelty-ledger.json:2382",
+        "research/rejected-ideas.md:1285",
+        "research/rejected-ideas.md:1285",
+        "research/notes/systems-governance-prior-art.md:672",
+        "paper/paper.md:929"
+      ]
+    },
+    {
+      "old_ids": [
+        "I165"
+      ],
+      "related_old_ids": [
+        "I136",
+        "I154"
+      ],
+      "name": "Provider-controlled renewal evidence",
+      "exact_old_proposition": "Institutional service renewals may use success measures affected by the provider’s own choice architecture.",
+      "baseline_population_status": "REJECTED_AS_CENTER",
+      "baseline_ledger_status": "REJECTED",
+      "precise_old_rejection_or_retirement": {
+        "strongest_objection": null,
+        "selection_reason": "Metrics and principal-agent incentives already cover broad claim.",
+        "ledger_review_note": "Metrics and principal-agent incentives already cover broad claim.",
+        "history": [
+          {
+            "generation": 2,
+            "event": "REJECTED_AS_CENTER",
+            "date": "2026-10-05"
+          }
+        ]
+      },
+      "known_parts": "Metrics, principal-agent incentives and performative prediction.",
+      "recorded_prior_art": {
+        "family": null,
+        "closest_known_precedent": "Performative Prediction",
+        "source": "https://proceedings.mlr.press/v119/perdomo20a.html",
+        "verification_level": "first_cited_source_selected_by_evolution_script",
+        "grade": "C"
+      },
+      "old_composition_and_outcome": "Provider choice architecture -> renewal success evidence -> institutional continuation or expansion.",
+      "missing_comparison": "Compare governance of criterion, measurement and review with contingent-control/ratchet/influence-activity models on renewal, welfare and strategic responses. Commercial benefit alone does not establish malign incentives or harm.",
+      "comparison_axes": [
+        "same causal or strategic graph",
+        "same outcome",
+        "same conditional prediction",
+        "same intervention or design decision"
+      ],
+      "audit_disposition": "REOPEN_COMPARISON_ONLY_NO_NOVELTY_PROMOTION",
+      "evidence": [
+        "research/idea_population.json:7888",
+        "research/novelty-ledger.json:2943",
+        "research/rejected-ideas.md:1463",
+        "research/rejected-ideas.md:1463",
+        "scripts/evolve_research.mjs:17",
+        "debates/round-2-systems.md:81,104,142",
+        "paper/paper.md:850"
+      ]
+    }
+  ]
+}

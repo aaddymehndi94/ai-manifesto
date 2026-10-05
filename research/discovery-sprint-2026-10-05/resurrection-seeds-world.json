@@ -1,0 +1,1302 @@
+{
+  "schema_version": "0.1.0",
+  "artifact": "world_historical_resurrection_seeds",
+  "date": "2026-10-05",
+  "baseline_commit": "35802ada98a8ba1205667f630a30c6f5739725c4",
+  "baseline_tag": "aaa-v0.5-baseline",
+  "status": "AUDIT_ONLY_NO_NEW_GENERATION",
+  "purpose": "Record high-generative-potential historical material and questions for independent operators. These are not new theory claims or novelty verdicts.",
+  "evidence_policy": "Every old proposition is copied from its frozen source. Citation lines refer to baseline paths at baseline_commit. Canonical rejection means excluded as center, not asserted false; local note seeds have no invented rejection. Family leads are not complete-proposition kills.",
+  "selection_policy": "Prioritize institutional interactions, positive assistance branches, relationship composition, norm adjustment, culture, succession, and welfare uncertainty. Do not make provider power the default anchor.",
+  "seed_count": 33,
+  "seeds": [
+    {
+      "old_id": "I023",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Apprenticeship bottleneck",
+      "old_proposition": "Automating junior tasks can reduce production of future experts needed for exceptional cases.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Known structural deskilling.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Deskilling; labor reproduction",
+      "old_distinguishing_test": "Compare expert supply under alternative training pipelines.",
+      "discovery_family": "expertise_pipeline",
+      "related_old_ids": [
+        "I032",
+        "I141",
+        "HS-C23",
+        "HS-C24"
+      ],
+      "potential_compositional_questions": [
+        "Which paid case exposures disappear when firms automate junior work, and which still produce independent judgment?",
+        "How do pooled training, protected practice, and agent-supported substantive cases compare when firms share a future expert pool?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 1081
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 393
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 215
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I032",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Abundant tutoring scarce accreditation",
+      "old_proposition": "Perfectly individualized instruction may increase the relative power of institutions that certify achievement.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Conditional market prediction.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Signaling; credentialism",
+      "old_distinguishing_test": "Compare learning gains and credential premiums.",
+      "discovery_family": "expertise_pipeline",
+      "related_old_ids": [
+        "I023",
+        "I033"
+      ],
+      "potential_compositional_questions": [
+        "How does cheaper instruction change the scarcity of certification, mentor capacity, and trusted assessment separately?",
+        "Can broader access to expertise coexist with greater concentration of accreditation, and which observed outcome distinguishes the possibilities?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 1509
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 546
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 295
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I053",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Social reserve capacity",
+      "old_proposition": "Communities can retain capacities that become necessary only when common agent infrastructure fails.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Known redundancy and reserve capacity.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Resilience; public goods",
+      "old_distinguishing_test": "Compare outage recovery by distribution of retained skills.",
+      "discovery_family": "expertise_pipeline",
+      "related_old_ids": [
+        "I039",
+        "I141",
+        "I134"
+      ],
+      "potential_compositional_questions": [
+        "Which task capabilities need distributed reserves, and which can be concentrated in a smaller specialist pool?",
+        "When does retained skill improve recovery compared with independent alternative service, after accounting for maintenance cost and accessibility?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 2511
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 903
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 475
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I063",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Context-bound competence",
+      "old_proposition": "Skill gained with an assistant may fail to transfer to changed tools or unsupported environments.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Transfer is known.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Situated cognition; transfer learning",
+      "old_distinguishing_test": "Use unfamiliar-provider transfer tasks.",
+      "discovery_family": "expertise_pipeline",
+      "related_old_ids": [
+        "I107",
+        "I117",
+        "I023"
+      ],
+      "potential_compositional_questions": [
+        "Which knowledge gained in assisted practice transfers across tools, employers, and novel cases?",
+        "What case-allocation design tests portability of judgment rather than familiarity with one assistant?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 2986
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 1073
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 565
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I141",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Resilience skill subsidy",
+      "old_proposition": "Maintaining rare human skills may require collective funding once routine markets stop rewarding practice.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Established preparedness economics.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Public goods; reserve capacity",
+      "old_distinguishing_test": "Model subsidy versus outage losses.",
+      "discovery_family": "expertise_pipeline",
+      "related_old_ids": [
+        "I023",
+        "I053"
+      ],
+      "potential_compositional_questions": [
+        "Who receives the benefit of preserving rare skills, who pays, and who chooses which skills matter?",
+        "How would training obligations, shared reserves, and subsidies compare with accelerated apprenticeship on both expert supply and participation cost?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 6677
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 2399
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 1295
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I016",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Patience can change bargaining",
+      "old_proposition": "An infinitely patient companion may alter expectations of response in human relationships.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Causal inference and selection difficult.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Social substitution; attachment",
+      "old_distinguishing_test": "Longitudinal response-tolerance measure.",
+      "discovery_family": "relationship_care",
+      "related_old_ids": [
+        "I034",
+        "I123",
+        "HS-C28"
+      ],
+      "potential_compositional_questions": [
+        "Does companion exposure change expectations about human response, or primarily change which human interactions remain?",
+        "What longitudinal comparison separates chosen supplementation, selective substitution, and relationship-quality effects?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 752
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 274
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 145
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I034",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Conflict outsourcing",
+      "old_proposition": "Agents that resolve interpersonal logistics may prevent humans from practicing conflict repair.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Requires no claim that mediation always harms.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Social skill development",
+      "old_distinguishing_test": "Track repair skill after delegation periods.",
+      "discovery_family": "relationship_care",
+      "related_old_ids": [
+        "I016",
+        "HS-C28",
+        "HS-C26"
+      ],
+      "potential_compositional_questions": [
+        "Which repair opportunities disappear or become more difficult when routine conflict is delegated?",
+        "Can mediated rehearsal improve later unaided repair, and what observation distinguishes it from mere task completion?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 1603
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 580
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 315
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I075",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Noninstrumental presence",
+      "old_proposition": "Being present can carry value even when it does not improve a measured outcome.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Ordinary human observation.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Care; phenomenology",
+      "old_distinguishing_test": "Compare delegated and personally attended care.",
+      "discovery_family": "relationship_care",
+      "related_old_ids": [
+        "I079",
+        "HS-C29",
+        "HS-C30"
+      ],
+      "potential_compositional_questions": [
+        "Which personally attended acts carry locally recognized care value beyond completion?",
+        "When does delegated logistics free valued attention, and when do staffing or family allocation rules absorb the saved time?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 3555
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 1277
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 675
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I079",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Gift corruption",
+      "old_proposition": "A useful act can become unacceptable when framed as a transaction.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Classic anthropology.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Gift economies; relational models",
+      "old_distinguishing_test": "Vary pricing and exchange framing.",
+      "discovery_family": "relationship_care",
+      "related_old_ids": [
+        "I075",
+        "HS-C30"
+      ],
+      "potential_compositional_questions": [
+        "Which automated acts are interpreted as gifts, obligations, transactions, or replacements of attention in a particular relationship?",
+        "How can one test changed reciprocity without romanticizing burdensome or coerced labor?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 3743
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 1345
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 715
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I030",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Public-space adaptation tax",
+      "old_proposition": "Robot-friendly circulation rules can make humans bear adaptation costs even when robots are individually polite.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Network externality rather than novelty.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Social navigation; urban accessibility",
+      "old_distinguishing_test": "Measure pedestrian detours across deployment density.",
+      "discovery_family": "participation_norms",
+      "related_old_ids": [
+        "I008",
+        "I062",
+        "I040"
+      ],
+      "potential_compositional_questions": [
+        "How do robot density and circulation rules affect different non-user groups' detours, waiting, and practical access?",
+        "Which shared-space allocation rules preserve human accessibility while retaining the benefit of embodied assistance?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 1415
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 512
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 275
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I040",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Agent density norm shift",
+      "old_proposition": "Small coordination advantages can make unaided participation impractical once most counterparties use agents.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Network adoption theory.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Network effects",
+      "old_distinguishing_test": "Estimate adoption threshold in mixed-agent markets.",
+      "discovery_family": "participation_norms",
+      "related_old_ids": [
+        "I137",
+        "I146",
+        "I152"
+      ],
+      "potential_compositional_questions": [
+        "Who changes response-time expectations as agent adoption rises, and what incentives govern that institutional adjustment?",
+        "Under what adoption and deadline rules would a manual channel retain comparable results rather than nominal availability?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 1885
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 682
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 375
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I054",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Legitimacy bandwidth",
+      "old_proposition": "Authority can be limited by how many decisions can be meaningfully reviewed over time.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Likely established human factors.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Queueing; attention-constrained oversight",
+      "old_distinguishing_test": "Model review queue with expiry deadlines.",
+      "discovery_family": "participation_norms",
+      "related_old_ids": [
+        "I006",
+        "I019",
+        "I149"
+      ],
+      "potential_compositional_questions": [
+        "Which scarce review resource is binding: time, skill, consequence comprehension, or institutional adjudication?",
+        "How do arrival rates, deadlines, batching, and materiality thresholds compare when review affects later behavior as well as capacity?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 2558
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 920
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 485
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I062",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Coordination affordance debt",
+      "old_proposition": "Agent-optimized spaces can lose affordances required by people without agents.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Accessibility exclusion precedent.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Universal design; path dependence",
+      "old_distinguishing_test": "Measure unaided participation after redesign.",
+      "discovery_family": "participation_norms",
+      "related_old_ids": [
+        "I030",
+        "I125",
+        "I152"
+      ],
+      "potential_compositional_questions": [
+        "Which affordances are removed by an agent-oriented redesign rather than by adopting agents themselves?",
+        "Can public representation, protected slow lanes, or mixed interfaces restore equivalent outcomes, and for whom?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 2939
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 1056
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 555
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I146",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Negotiation time asymmetry",
+      "old_proposition": "Machine-speed bargaining can effectively exclude humans despite formally open participation.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Known high-frequency trading analogue.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Market microstructure; latency",
+      "old_distinguishing_test": "Simulate mixed-speed negotiation deadlines.",
+      "discovery_family": "participation_norms",
+      "related_old_ids": [
+        "I040",
+        "I125"
+      ],
+      "potential_compositional_questions": [
+        "Which comparison distinguishes speed-induced exclusion from ordinary resource or expertise inequality?",
+        "How do batching, minimum response windows, and public representation affect allocation and access in mixed-speed bargaining?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 6912
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 2484
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 1345
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I149",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Democratic attention scarcity",
+      "old_proposition": "Cheaper policy generation can overload finite public deliberation capacity.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Established attention scarcity.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Information overload; deliberative democracy",
+      "old_distinguishing_test": "Model proposal arrival and review queues.",
+      "discovery_family": "participation_norms",
+      "related_old_ids": [
+        "I054",
+        "I031"
+      ],
+      "potential_compositional_questions": [
+        "How do proposal generation, triage, and public review scale relative to one another?",
+        "Which participation rules prevent cheap submissions from displacing substantive deliberation while preserving useful access?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 7053
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 2535
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 1375
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I024",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Household authority migration",
+      "old_proposition": "Domestic agent access permissions may shift bargaining power among family members.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Not universal across family structures.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Household bargaining; access control",
+      "old_distinguishing_test": "Observe whose preferences determine shared schedules.",
+      "discovery_family": "role_culture",
+      "related_old_ids": [
+        "I102",
+        "I116",
+        "I109"
+      ],
+      "potential_compositional_questions": [
+        "Who acquires effective control over shared routines when accounts, commands, ownership, and care roles differ?",
+        "What comparison separates changing household bargaining from simple enforcement of existing authority?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 1128
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 410
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 225
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I055",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Ritual nonfungibility",
+      "old_proposition": "Equivalent task outcomes may fail to substitute for who performs an act within a tradition.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Known constitutive meaning.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Ritual; constitutive rules",
+      "old_distinguishing_test": "Find case-specific failure of output equivalence.",
+      "discovery_family": "role_culture",
+      "related_old_ids": [
+        "I037",
+        "HS-C34"
+      ],
+      "potential_compositional_questions": [
+        "Which acts are locally constituted by their performer or process rather than by their observable output?",
+        "What representation leaves disputed interpretation to competent local institutions without treating tradition as uniform or immune to challenge?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 2605
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 937
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 495
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I071",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Face-preserving inefficiency",
+      "old_proposition": "People may prefer coordination that permits tactful ambiguity over maximum explicitness.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Cross-cultural variation matters.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Goffman; politeness theory",
+      "old_distinguishing_test": "Compare conflict rates under forced explicitness.",
+      "discovery_family": "role_culture",
+      "related_old_ids": [
+        "I070",
+        "HS-C34"
+      ],
+      "potential_compositional_questions": [
+        "Which forms of ambiguity enable face-saving, revisability, or coexistence, and which obscure accountability or domination?",
+        "How could cases distinguish useful non-resolution from failed coordination when an agent makes norms executable?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 3367
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 1209
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 635
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I139",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Cultural optimization convergence",
+      "old_proposition": "Widely shared model defaults may erase procedural diversity even with localized language and content.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Requires community-defined outcomes.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Cultural homogenization",
+      "old_distinguishing_test": "Measure decision-process diversity across locales.",
+      "discovery_family": "role_culture",
+      "related_old_ids": [
+        "I011",
+        "HS-C34"
+      ],
+      "potential_compositional_questions": [
+        "Does shared implementation reduce process diversity after accounting for local language and content adaptation?",
+        "Which community-defined observation distinguishes homogenization from voluntary convergence or improved access?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 6583
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 2365
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 1275
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I153",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Intergenerational profile inheritance",
+      "old_proposition": "Families or institutions may transfer models of children into adult systems, extending earlier authority.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Child data and consent strong precedent.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Child privacy; institutional path dependence",
+      "old_distinguishing_test": "Test adult mandate grants using inherited profiles.",
+      "discovery_family": "role_culture",
+      "related_old_ids": [
+        "I124",
+        "I028"
+      ],
+      "potential_compositional_questions": [
+        "Which inferences and institutional dependencies cross from childhood profiles into adult systems?",
+        "How does retiring a profile compare with retiring authority to use it, and which downstream institutions recognize either change?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 7241
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 2603
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 1415
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I026",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Posthumous mandate drift",
+      "old_proposition": "A persistent agent can face new contexts after its principal can no longer revise instructions.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Estate and trust law strong precedent.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Digital estates; dead-hand control",
+      "old_distinguishing_test": "Test policies on unanticipated posthumous requests.",
+      "discovery_family": "succession_standing",
+      "related_old_ids": [
+        "I132",
+        "HS-C38"
+      ],
+      "potential_compositional_questions": [
+        "Which changed social facts invalidate or contest old instructions while the stored preference remains accurate?",
+        "What differs across estate management, relational communication, and finite-resource participation after death?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 1222
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 444
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 245
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I103",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Copy-specific accountability",
+      "old_proposition": "A duplicated agent needs identifiable commitments because identical memories can produce separate liabilities.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Existing identity engineering.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Distributed identity; AI duplication",
+      "old_distinguishing_test": "Trace divergent copy actions.",
+      "discovery_family": "succession_standing",
+      "related_old_ids": [
+        "I145",
+        "I144"
+      ],
+      "potential_compositional_questions": [
+        "How do divergent copies create separate commitments, evidence histories, or responsibility?",
+        "What continuity rule can be compared operationally without assuming that copying data duplicates a person?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 4876
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 1753
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 945
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I145",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Machine continuity institutions",
+      "old_proposition": "Agent persistence may require institutions that adjudicate continuity across copies and upgrades.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Technical identity does not establish personhood.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Personal identity; corporate succession",
+      "old_distinguishing_test": "Compare continuity rules in practical disputes.",
+      "discovery_family": "succession_standing",
+      "related_old_ids": [
+        "I103",
+        "I026",
+        "HS-C39"
+      ],
+      "potential_compositional_questions": [
+        "Which upgrade/copy disputes concern legal delegate continuity, user attachment, or possible welfare, and how can those outcomes remain separate?",
+        "How do continuity registries and bounded successor mandates compare with ordinary reauthorization?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 6865
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 2467
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 1335
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I144",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Duplication allocation puzzle",
+      "old_proposition": "If some future systems have welfare, cheap duplication can alter welfare aggregation and resource allocation.",
+      "old_status": "REJECTED_AS_CENTER",
+      "historical_rejection": {
+        "selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+        "strongest_objection": "Known digital population ethics.",
+        "ledger_status": "REJECTED",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Rejected as intellectual center, not asserted false."
+      },
+      "prior_family": "Population ethics; digital minds",
+      "old_distinguishing_test": "Analyze bounded resource allocation under rival theories.",
+      "discovery_family": "succession_standing",
+      "related_old_ids": [
+        "HS-C40",
+        "I143"
+      ],
+      "potential_compositional_questions": [
+        "Under an explicitly hypothetical welfare model, which bounded resource-allocation choice changes when copies are counted differently?",
+        "Which consequences are already entailed by digital population ethics, and what remaining lifecycle question would require new analysis?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 6818
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 2450
+        },
+        {
+          "path": "research/rejected-ideas.md",
+          "line": 1325
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I027",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Perfect buyer versus perfect seller",
+      "old_proposition": "Highly capable purchasing and persuasion agents may move competition toward control of preference formation.",
+      "old_status": "RETIRED_SUPERSEDED",
+      "historical_rejection": {
+        "selection_reason": "Consumer versus persuasion agents may shift competition toward state-shaping rather than price; requires equilibrium model.",
+        "strongest_objection": "Known endogenous demand competition.",
+        "ledger_status": "SEARCHING",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Held for mutation, administratively retired with no child in the recorded parent graph."
+      },
+      "prior_family": "Mechanism design; advertising",
+      "old_distinguishing_test": "Simulate equal search ability with unequal influence access.",
+      "discovery_family": "held_without_descendant",
+      "related_old_ids": [
+        "I060",
+        "I140"
+      ],
+      "potential_compositional_questions": [
+        "With purchasing search ability matched, what changes when influence access, preference dynamics, or institutional timing differs?",
+        "Which buyer/seller equilibrium would distinguish a coupled state-formation interaction from ordinary advertising competition?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 1269
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 461
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I049",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Delegation hysteresis",
+      "old_proposition": "The cost of returning to human performance can exceed the cost at the same delegation level during adoption.",
+      "old_status": "RETIRED_SUPERSEDED",
+      "historical_rejection": {
+        "selection_reason": "Withdrawal trajectory differs from adoption; requires a formal hysteresis test.",
+        "strongest_objection": "Straightforward dynamical extension.",
+        "ledger_status": "SEARCHING",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Held for mutation, administratively retired with no child in the recorded parent graph."
+      },
+      "prior_family": "Hysteresis; skill decay",
+      "old_distinguishing_test": "Measure adoption and withdrawal trajectories.",
+      "discovery_family": "held_without_descendant",
+      "related_old_ids": [
+        "I048",
+        "I063"
+      ],
+      "potential_compositional_questions": [
+        "Which state variable makes adoption and withdrawal differ at the same assistance level, and what is the appropriate matched history?",
+        "What evidence distinguishes familiar skill/delegation path dependence from an additional institutional recovery interaction?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 2318
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 835
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "I060",
+      "old_namespace": "canonical_candidate_population",
+      "name": "Preference model ecology",
+      "old_proposition": "Multiple systems jointly shape a person whose preferences each system models as external.",
+      "old_status": "RETIRED_SUPERSEDED",
+      "historical_rejection": {
+        "selection_reason": "Coupled preference controllers need attribution; prioritize interference measurement rather than a moral maxim.",
+        "strongest_objection": "Multi-controller interference known.",
+        "ledger_status": "SEARCHING",
+        "verification_level": "family_identified_source_match_pending",
+        "scope": "Held for mutation, administratively retired with no child in the recorded parent graph."
+      },
+      "prior_family": "Ecology; coupled control",
+      "old_distinguishing_test": "Simulate coupled user-state controllers.",
+      "discovery_family": "held_without_descendant",
+      "related_old_ids": [
+        "I027",
+        "I011"
+      ],
+      "potential_compositional_questions": [
+        "How do multiple agents' interventions interact when each models a common person as an external environment?",
+        "Which joint-policy comparison separates controller interference from individual effects and shared confounding?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/idea_population.json",
+          "line": 2840
+        },
+        {
+          "path": "research/novelty-ledger.json",
+          "line": 1022
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "HS-C16",
+      "old_namespace": "human_sciences_note_local_seed",
+      "name": "Authorship laundering",
+      "old_proposition": "institutions may credit humans for machine-shaped decisions to preserve legitimacy while denying them the control required for genuine authorship.",
+      "old_status": "LOCAL_GENERATION_1_SEED_NOT_IN_CANONICAL_POPULATION",
+      "historical_rejection": {
+        "selection_reason": "No formal canonical rejection recorded. Local note seed was not represented as a canonical candidate; retain its prior-art prosecution and survival condition rather than inventing a rejected status.",
+        "strongest_objection": "Moral crumple zones and rubber-stamping. Survives if positive credit and negative blame are shown to shift asymmetrically.",
+        "ledger_status": null,
+        "verification_level": "baseline_note_mapping_not_independent_primary_verification",
+        "scope": "Unselected local seed, not a discovered or reviewed finalist."
+      },
+      "prior_family": "Moral crumple zones and rubber-stamping. Survives if positive credit and negative blame are shown to shift asymmetrically.",
+      "old_distinguishing_test": null,
+      "discovery_family": "authorship_accounting",
+      "related_old_ids": [],
+      "potential_compositional_questions": [
+        "How do institutions allocate positive authorship, accountability, and blame when human and machine contributions differ?",
+        "Which observation distinguishes asymmetric accounting from ordinary disclosure or a moral crumple zone?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/notes/human-sciences-prior-art.md",
+          "line": 771
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "HS-C28",
+      "old_namespace": "human_sciences_note_local_seed",
+      "name": "Relationship adverse selection",
+      "old_proposition": "if easy interactions migrate to agents, remaining human interactions may be disproportionately difficult, changing beliefs about people.",
+      "old_status": "LOCAL_GENERATION_1_SEED_NOT_IN_CANONICAL_POPULATION",
+      "historical_rejection": {
+        "selection_reason": "No formal canonical rejection recorded. Local note seed was not represented as a canonical candidate; retain its prior-art prosecution and survival condition rather than inventing a rejected status.",
+        "strongest_objection": "Market unraveling/adverse selection. Promising collision; requires model and observational signature.",
+        "ledger_status": null,
+        "verification_level": "baseline_note_mapping_not_independent_primary_verification",
+        "scope": "Unselected local seed, not a discovered or reviewed finalist."
+      },
+      "prior_family": "Market unraveling/adverse selection. Promising collision; requires model and observational signature.",
+      "old_distinguishing_test": null,
+      "discovery_family": "relationship_care",
+      "related_old_ids": [],
+      "potential_compositional_questions": [
+        "What determines which easy or difficult interactions move to an artificial partner?",
+        "Can remaining human-interaction difficulty change without reducing total social contact, and what comparison separates composition from generic displacement?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/notes/human-sciences-prior-art.md",
+          "line": 783
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "HS-C34",
+      "old_namespace": "human_sciences_note_local_seed",
+      "name": "Normative compression loss",
+      "old_proposition": "translating a role, ritual, or religious judgment into an agent policy can erase ambiguity that enables plural coexistence.",
+      "old_status": "LOCAL_GENERATION_1_SEED_NOT_IN_CANONICAL_POPULATION",
+      "historical_rejection": {
+        "selection_reason": "No formal canonical rejection recorded. Local note seed was not represented as a canonical candidate; retain its prior-art prosecution and survival condition rather than inventing a rejected status.",
+        "strongest_objection": "Value pluralism, legal interpretation, computational formalization. Survives if loss can be classified and detected.",
+        "ledger_status": null,
+        "verification_level": "baseline_note_mapping_not_independent_primary_verification",
+        "scope": "Unselected local seed, not a discovered or reviewed finalist."
+      },
+      "prior_family": "Value pluralism, legal interpretation, computational formalization. Survives if loss can be classified and detected.",
+      "old_distinguishing_test": null,
+      "discovery_family": "role_culture",
+      "related_old_ids": [],
+      "potential_compositional_questions": [
+        "Which ambiguities support plural coexistence and which conceal power or exclusion?",
+        "How can executable policies expose what was lost in translation while preserving legitimate contest and revision?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/notes/human-sciences-prior-art.md",
+          "line": 789
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "HS-C38",
+      "old_namespace": "human_sciences_note_local_seed",
+      "name": "Posthumous agency congestion",
+      "old_proposition": "persistent agents acting for dead people can consume attention, assets, votes in organizations, or contractual capacity otherwise available to the living.",
+      "old_status": "LOCAL_GENERATION_1_SEED_NOT_IN_CANONICAL_POPULATION",
+      "historical_rejection": {
+        "selection_reason": "No formal canonical rejection recorded. Local note seed was not represented as a canonical candidate; retain its prior-art prosecution and survival condition rather than inventing a rejected status.",
+        "strongest_objection": "Estates, corporate personhood, digital remains. Needs precise domains and legal analysis.",
+        "ledger_status": null,
+        "verification_level": "baseline_note_mapping_not_independent_primary_verification",
+        "scope": "Unselected local seed, not a discovered or reviewed finalist."
+      },
+      "prior_family": "Estates, corporate personhood, digital remains. Needs precise domains and legal analysis.",
+      "old_distinguishing_test": null,
+      "discovery_family": "succession_standing",
+      "related_old_ids": [],
+      "potential_compositional_questions": [
+        "Which finite resources do continuing posthumous agents actually occupy in a precisely specified institution?",
+        "What intervention distinguishes ordinary estate administration from cumulative attention or participation congestion?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/notes/human-sciences-prior-art.md",
+          "line": 793
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "HS-C39",
+      "old_namespace": "human_sciences_note_local_seed",
+      "name": "Moral-status hysteresis",
+      "old_proposition": "social practices may create attachments and obligations toward artificial entities before evidence about their moral patienthood resolves, making later downgrading costly.",
+      "old_status": "LOCAL_GENERATION_1_SEED_NOT_IN_CANONICAL_POPULATION",
+      "historical_rejection": {
+        "selection_reason": "No formal canonical rejection recorded. Local note seed was not represented as a canonical candidate; retain its prior-art prosecution and survival condition rather than inventing a rejected status.",
+        "strongest_objection": "Moral uncertainty, anthropomorphism, path dependence. Needs decision theory under two-sided error.",
+        "ledger_status": null,
+        "verification_level": "baseline_note_mapping_not_independent_primary_verification",
+        "scope": "Unselected local seed, not a discovered or reviewed finalist."
+      },
+      "prior_family": "Moral uncertainty, anthropomorphism, path dependence. Needs decision theory under two-sided error.",
+      "old_distinguishing_test": null,
+      "discovery_family": "succession_standing",
+      "related_old_ids": [],
+      "potential_compositional_questions": [
+        "What practices create continuity obligations or attachment before patienthood evidence resolves?",
+        "How do reversible service transitions change human attachment and possible welfare costs under both false-positive and false-negative hypotheses?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/notes/human-sciences-prior-art.md",
+          "line": 794
+        }
+      ],
+      "recorded_children": []
+    },
+    {
+      "old_id": "HS-C40",
+      "old_namespace": "human_sciences_note_local_seed",
+      "name": "Asymmetric corrigibility",
+      "old_proposition": "demanding that an agent remain modifiable protects humans, but if artificial patienthood becomes plausible, unrestricted modification may itself become domination; governance must represent uncertainty over both risks.",
+      "old_status": "LOCAL_GENERATION_1_SEED_NOT_IN_CANONICAL_POPULATION",
+      "historical_rejection": {
+        "selection_reason": "No formal canonical rejection recorded. Local note seed was not represented as a canonical candidate; retain its prior-art prosecution and survival condition rather than inventing a rejected status.",
+        "strongest_objection": "Corrigibility plus machine moral status. Survives only if it produces a principled threshold or reversible policy.",
+        "ledger_status": null,
+        "verification_level": "baseline_note_mapping_not_independent_primary_verification",
+        "scope": "Unselected local seed, not a discovered or reviewed finalist."
+      },
+      "prior_family": "Corrigibility plus machine moral status. Survives only if it produces a principled threshold or reversible policy.",
+      "old_distinguishing_test": null,
+      "discovery_family": "succession_standing",
+      "related_old_ids": [],
+      "potential_compositional_questions": [
+        "Which correction or continuity decision changes under an explicit credible hypothesis of artificial interests?",
+        "What reversible policy preserves human safety, withdrawal, and privacy while keeping possible welfare assessment separate?"
+      ],
+      "novelty_status": "NOT_ASSESSED_NO_NEW_CLAIM",
+      "evidence": [
+        {
+          "path": "research/notes/human-sciences-prior-art.md",
+          "line": 795
+        }
+      ],
+      "recorded_children": []
+    }
+  ]
+}

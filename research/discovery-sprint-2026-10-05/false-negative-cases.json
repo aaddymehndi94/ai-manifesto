@@ -1,0 +1,2349 @@
+{
+  "schema_version": "discovery-selection-audit-1",
+  "date": "2026-10-05",
+  "frozen_baseline": "35802ada98a8ba1205667f630a30c6f5739725c4",
+  "baseline_tag": "aaa-v0.5-baseline",
+  "scope": "Historical selection audit only. This file copies old seeds, tests, objections, score vectors and ledger records; it generates no new candidates.",
+  "definition": "Potential false negatives are cases in which the recorded reason does not establish full proposition, graph, outcome, prediction or intervention equivalence. They are not proof that the old proposition was original.",
+  "cases": [
+    {
+      "old_id": "I011",
+      "name": "Customization can standardize",
+      "generation": 1,
+      "old_proposition": "Individual personalization can homogenize the process by which people learn to want things.",
+      "old_prior_art_family": "Recommender homogenization",
+      "old_strongest_objection": "Needs a precise diversity measure.",
+      "old_distinguishing_test": "Measure procedural diversity rather than output diversity.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Needs a precise diversity measure. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 2,
+        "importance": 7,
+        "generality": 6,
+        "precision": 5,
+        "explanatory_power": 6,
+        "technical_usefulness": 5,
+        "philosophical_depth": 5,
+        "human_relevance": 7,
+        "agent_relevance": 6,
+        "empirical_plausibility": 7,
+        "formalizability": 5,
+        "memorability": 5,
+        "generative_power": 4,
+        "prior_art_resistance": 2,
+        "criticism_resistance": 4,
+        "research_program_potential": 4,
+        "ten_year_relevance": 7,
+        "cliche_risk": 7,
+        "pseudo_profundity_risk": 3,
+        "renamed_existing_idea_risk": 9,
+        "fashion_risk_2026": 2,
+        "obviousness_risk": 8
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I011",
+        "exact_proposition": "Individual personalization can homogenize the process by which people learn to want things.",
+        "closest_known_precedent": "Recommender homogenization",
+        "original_author": null,
+        "year": null,
+        "field": "inversion",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Needs a precise diversity measure.",
+        "crucial_difference": "Measure procedural diversity rather than output diversity.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 517,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 189,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 87,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 95,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "source_equivalence_not_established",
+      "novelty_dimensions": [
+        "empirical",
+        "outcome",
+        "explanatory"
+      ],
+      "what_the_rejection_does_not_establish": "The objection requests a precise measure; it does not identify an earlier result about homogenization of preference-formation procedures. The old test explicitly distinguishes procedural diversity from recommendation-output diversity.",
+      "what_missing": "A definition and validation of procedural diversity, then a proposition-level comparison with recommender homogenization studies. A study already measuring the same process diversity under personalization would defeat the distinction.",
+      "selection_failure": "Similar vocabulary and an unresolved operational measure were treated as exclusion from the center.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I016",
+      "name": "Patience can change bargaining",
+      "generation": 1,
+      "old_proposition": "An infinitely patient companion may alter expectations of response in human relationships.",
+      "old_prior_art_family": "Social substitution; attachment",
+      "old_strongest_objection": "Causal inference and selection difficult.",
+      "old_distinguishing_test": "Longitudinal response-tolerance measure.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Causal inference and selection difficult. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 2,
+        "importance": 7,
+        "generality": 6,
+        "precision": 5,
+        "explanatory_power": 6,
+        "technical_usefulness": 5,
+        "philosophical_depth": 5,
+        "human_relevance": 7,
+        "agent_relevance": 6,
+        "empirical_plausibility": 7,
+        "formalizability": 5,
+        "memorability": 5,
+        "generative_power": 4,
+        "prior_art_resistance": 2,
+        "criticism_resistance": 4,
+        "research_program_potential": 4,
+        "ten_year_relevance": 7,
+        "cliche_risk": 7,
+        "pseudo_profundity_risk": 3,
+        "renamed_existing_idea_risk": 9,
+        "fashion_risk_2026": 2,
+        "obviousness_risk": 8
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I016",
+        "exact_proposition": "An infinitely patient companion may alter expectations of response in human relationships.",
+        "closest_known_precedent": "Social substitution; attachment",
+        "original_author": null,
+        "year": null,
+        "field": "inversion",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Causal inference and selection difficult.",
+        "crucial_difference": "Longitudinal response-tolerance measure.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 752,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 274,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 127,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 145,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "non_novelty_objection",
+      "novelty_dimensions": [
+        "empirical",
+        "mechanism",
+        "societal"
+      ],
+      "what_the_rejection_does_not_establish": "Causal inference and selection difficulty concern identification. They do not establish that perfectly patient artificial interaction changes tolerance for reciprocal human interaction in the same way as a prior social-substitution result.",
+      "what_missing": "A closest longitudinal comparator with the same exposure, response-tolerance outcome, and selection controls. Until then the prediction is unsupported and novelty unresolved, rather than adjudicated non-novel.",
+      "selection_failure": "Identification difficulty substituted for equivalence assessment.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I024",
+      "name": "Household authority migration",
+      "generation": 1,
+      "old_proposition": "Domestic agent access permissions may shift bargaining power among family members.",
+      "old_prior_art_family": "Household bargaining; access control",
+      "old_strongest_objection": "Not universal across family structures.",
+      "old_distinguishing_test": "Observe whose preferences determine shared schedules.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Not universal across family structures. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 3,
+        "importance": 7,
+        "generality": 5,
+        "precision": 6,
+        "explanatory_power": 6,
+        "technical_usefulness": 6,
+        "philosophical_depth": 4,
+        "human_relevance": 8,
+        "agent_relevance": 6,
+        "empirical_plausibility": 6,
+        "formalizability": 6,
+        "memorability": 6,
+        "generative_power": 6,
+        "prior_art_resistance": 3,
+        "criticism_resistance": 5,
+        "research_program_potential": 6,
+        "ten_year_relevance": 7,
+        "cliche_risk": 4,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 7,
+        "fashion_risk_2026": 4,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I024",
+        "exact_proposition": "Domestic agent access permissions may shift bargaining power among family members.",
+        "closest_known_precedent": "Household bargaining; access control",
+        "original_author": null,
+        "year": null,
+        "field": "strange_consequences",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Not universal across family structures.",
+        "crucial_difference": "Observe whose preferences determine shared schedules.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 1128,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 410,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 193,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 225,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "non_novelty_objection",
+      "novelty_dimensions": [
+        "mechanism",
+        "societal",
+        "empirical"
+      ],
+      "what_the_rejection_does_not_establish": "The proposition already says domestic permissions may change bargaining power. Lack of universality across family structures is compatible with that conditional claim.",
+      "what_missing": "Comparison with household bargaining models or studies in which shared-resource access permissions change whose preferences determine schedules; explicit moderator and household-unit definitions.",
+      "selection_failure": "A heterogeneity caution was used as a fatal originality objection without demonstrating an equivalent mechanism or outcome.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I030",
+      "name": "Public-space adaptation tax",
+      "generation": 1,
+      "old_proposition": "Robot-friendly circulation rules can make humans bear adaptation costs even when robots are individually polite.",
+      "old_prior_art_family": "Social navigation; urban accessibility",
+      "old_strongest_objection": "Network externality rather than novelty.",
+      "old_distinguishing_test": "Measure pedestrian detours across deployment density.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Network externality rather than novelty. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 3,
+        "importance": 7,
+        "generality": 5,
+        "precision": 6,
+        "explanatory_power": 6,
+        "technical_usefulness": 6,
+        "philosophical_depth": 4,
+        "human_relevance": 8,
+        "agent_relevance": 6,
+        "empirical_plausibility": 6,
+        "formalizability": 6,
+        "memorability": 6,
+        "generative_power": 6,
+        "prior_art_resistance": 3,
+        "criticism_resistance": 5,
+        "research_program_potential": 6,
+        "ten_year_relevance": 7,
+        "cliche_risk": 4,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 7,
+        "fashion_risk_2026": 4,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I030",
+        "exact_proposition": "Robot-friendly circulation rules can make humans bear adaptation costs even when robots are individually polite.",
+        "closest_known_precedent": "Social navigation; urban accessibility",
+        "original_author": null,
+        "year": null,
+        "field": "strange_consequences",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Network externality rather than novelty.",
+        "crucial_difference": "Measure pedestrian detours across deployment density.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 1415,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 512,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 241,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 275,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "source_equivalence_not_established",
+      "novelty_dimensions": [
+        "composition",
+        "outcome",
+        "societal"
+      ],
+      "what_the_rejection_does_not_establish": "Network externality names the mechanism family, but does not settle whether individually polite robots change collective circulation rules and make pedestrians adapt as density rises.",
+      "what_missing": "A comparator using deployment density, robot accommodation or circulation rules, pedestrian detours, and the same individual-versus-aggregate contrast. Standard traffic or social-navigation results may fully absorb it.",
+      "selection_failure": "No graph or outcome mapping from the stated network externality to the particular population intervention.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I032",
+      "name": "Abundant tutoring scarce accreditation",
+      "generation": 1,
+      "old_proposition": "Perfectly individualized instruction may increase the relative power of institutions that certify achievement.",
+      "old_prior_art_family": "Signaling; credentialism",
+      "old_strongest_objection": "Conditional market prediction.",
+      "old_distinguishing_test": "Compare learning gains and credential premiums.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Conditional market prediction. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 3,
+        "importance": 7,
+        "generality": 5,
+        "precision": 6,
+        "explanatory_power": 6,
+        "technical_usefulness": 6,
+        "philosophical_depth": 4,
+        "human_relevance": 8,
+        "agent_relevance": 6,
+        "empirical_plausibility": 6,
+        "formalizability": 6,
+        "memorability": 6,
+        "generative_power": 6,
+        "prior_art_resistance": 3,
+        "criticism_resistance": 5,
+        "research_program_potential": 6,
+        "ten_year_relevance": 7,
+        "cliche_risk": 4,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 7,
+        "fashion_risk_2026": 4,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I032",
+        "exact_proposition": "Perfectly individualized instruction may increase the relative power of institutions that certify achievement.",
+        "closest_known_precedent": "Signaling; credentialism",
+        "original_author": null,
+        "year": null,
+        "field": "strange_consequences",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Conditional market prediction.",
+        "crucial_difference": "Compare learning gains and credential premiums.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 1509,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 546,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 257,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 295,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "non_novelty_objection",
+      "novelty_dimensions": [
+        "empirical",
+        "explanatory",
+        "societal"
+      ],
+      "what_the_rejection_does_not_establish": "Calling the prediction conditional is not a prior-art comparison. The seed distinguishes learning gains from credential premiums under abundant personalized tutoring.",
+      "what_missing": "An equilibrium or empirical precedent with instruction abundance, scarce certification, and the relative credential-power outcome. Existing signaling models may already predict the complete effect.",
+      "selection_failure": "Prediction uncertainty and novelty were not separately adjudicated.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I034",
+      "name": "Conflict outsourcing",
+      "generation": 1,
+      "old_proposition": "Agents that resolve interpersonal logistics may prevent humans from practicing conflict repair.",
+      "old_prior_art_family": "Social skill development",
+      "old_strongest_objection": "Requires no claim that mediation always harms.",
+      "old_distinguishing_test": "Track repair skill after delegation periods.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Requires no claim that mediation always harms. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 3,
+        "importance": 7,
+        "generality": 5,
+        "precision": 6,
+        "explanatory_power": 6,
+        "technical_usefulness": 6,
+        "philosophical_depth": 4,
+        "human_relevance": 8,
+        "agent_relevance": 6,
+        "empirical_plausibility": 6,
+        "formalizability": 6,
+        "memorability": 6,
+        "generative_power": 6,
+        "prior_art_resistance": 3,
+        "criticism_resistance": 5,
+        "research_program_potential": 6,
+        "ten_year_relevance": 7,
+        "cliche_risk": 4,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 7,
+        "fashion_risk_2026": 4,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I034",
+        "exact_proposition": "Agents that resolve interpersonal logistics may prevent humans from practicing conflict repair.",
+        "closest_known_precedent": "Social skill development",
+        "original_author": null,
+        "year": null,
+        "field": "strange_consequences",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Requires no claim that mediation always harms.",
+        "crucial_difference": "Track repair skill after delegation periods.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 1603,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 580,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 273,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 315,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "non_novelty_objection",
+      "novelty_dimensions": [
+        "empirical",
+        "mechanism",
+        "societal"
+      ],
+      "what_the_rejection_does_not_establish": "The warning against saying mediation always harms addresses an overgeneralization absent from the original may-prevent proposition. Its longitudinal repair-skill test remains unevaluated.",
+      "what_missing": "A comparator on repeated logistics/conflict mediation, lost practice, and subsequent human repair skill, with beneficial mediation as a control rather than an assumption of universal harm.",
+      "selection_failure": "The rejection attacks a stronger universal assertion than the archived text makes.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I038",
+      "name": "Memory-rich grief conflict",
+      "generation": 1,
+      "old_proposition": "A deceased person’s agent can comfort survivors while restricting how survivors revise their relationship to the dead.",
+      "old_prior_art_family": "Digital afterlife; continuing bonds",
+      "old_strongest_objection": "Sensitive and speculative.",
+      "old_distinguishing_test": "Study grief outcomes under editable versus fixed representations.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Sensitive and speculative. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 3,
+        "importance": 7,
+        "generality": 5,
+        "precision": 6,
+        "explanatory_power": 6,
+        "technical_usefulness": 6,
+        "philosophical_depth": 4,
+        "human_relevance": 8,
+        "agent_relevance": 6,
+        "empirical_plausibility": 6,
+        "formalizability": 6,
+        "memorability": 6,
+        "generative_power": 6,
+        "prior_art_resistance": 3,
+        "criticism_resistance": 5,
+        "research_program_potential": 6,
+        "ten_year_relevance": 7,
+        "cliche_risk": 4,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 7,
+        "fashion_risk_2026": 4,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I038",
+        "exact_proposition": "A deceased person’s agent can comfort survivors while restricting how survivors revise their relationship to the dead.",
+        "closest_known_precedent": "Digital afterlife; continuing bonds",
+        "original_author": null,
+        "year": null,
+        "field": "strange_consequences",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Sensitive and speculative.",
+        "crucial_difference": "Study grief outcomes under editable versus fixed representations.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 1791,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 648,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 305,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 355,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "non_novelty_objection",
+      "novelty_dimensions": [
+        "empirical",
+        "mechanism",
+        "conceptual"
+      ],
+      "what_the_rejection_does_not_establish": "Sensitivity and speculation limit permissible research design and current evidence. They do not establish equivalence between fixed versus editable deceased-agent representations and survivor reinterpretation outcomes.",
+      "what_missing": "Operational survivor-defined outcomes and a direct digital-afterlife or continuing-bonds comparator using representation editability. Ethical feasibility and priority should receive different judgments.",
+      "selection_failure": "A feasibility/importance caution does not identify an equivalent prior proposition.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I048",
+      "name": "Recoverability frontier",
+      "generation": 1,
+      "old_proposition": "Assistance policies can differ in which unaided or alternative-provider futures remain feasible.",
+      "old_prior_art_family": "Viability theory; real options",
+      "old_strongest_objection": "May rename viability kernels.",
+      "old_distinguishing_test": "Estimate feasible exit set after equal-utility policies.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "May rename viability kernels. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 4,
+        "importance": 8,
+        "generality": 7,
+        "precision": 7,
+        "explanatory_power": 7,
+        "technical_usefulness": 8,
+        "philosophical_depth": 5,
+        "human_relevance": 7,
+        "agent_relevance": 9,
+        "empirical_plausibility": 7,
+        "formalizability": 8,
+        "memorability": 6,
+        "generative_power": 7,
+        "prior_art_resistance": 4,
+        "criticism_resistance": 6,
+        "research_program_potential": 7,
+        "ten_year_relevance": 8,
+        "cliche_risk": 3,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 7,
+        "fashion_risk_2026": 3,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I048",
+        "exact_proposition": "Assistance policies can differ in which unaided or alternative-provider futures remain feasible.",
+        "closest_known_precedent": "Viability theory; real options",
+        "original_author": null,
+        "year": null,
+        "field": "concept_collision",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "May rename viability kernels.",
+        "crucial_difference": "Estimate feasible exit set after equal-utility policies.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 2271,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 818,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 387,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 435,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "source_equivalence_not_established",
+      "novelty_dimensions": [
+        "formal",
+        "outcome",
+        "intervention"
+      ],
+      "what_the_rejection_does_not_establish": "The viability-kernel objection is plausible for the mathematical primitive. The archived seed instead asks which unaided or alternative-provider futures remain feasible after utility-matched assistance policies.",
+      "what_missing": "Map the old state, dynamics, admissible controls, target set, and recovery budget onto a concrete viability or real-options precedent. If only terminology changes, retire it; if the outcome or intervention differs, document that difference before grading.",
+      "selection_failure": "Primitive familiarity was not followed by an explicit mathematical reduction or intervention equivalence.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I051",
+      "name": "Counterfactual dependency accounting",
+      "generation": 1,
+      "old_proposition": "Service evaluation can include losses on withdrawal relative to a never-assisted trajectory.",
+      "old_prior_art_family": "Potential outcomes; reliance interests",
+      "old_strongest_objection": "Counterfactual welfare is established.",
+      "old_distinguishing_test": "Randomize assistance then withdrawal in low-risk tasks.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Counterfactual welfare is established. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 4,
+        "importance": 8,
+        "generality": 7,
+        "precision": 7,
+        "explanatory_power": 7,
+        "technical_usefulness": 8,
+        "philosophical_depth": 5,
+        "human_relevance": 7,
+        "agent_relevance": 9,
+        "empirical_plausibility": 7,
+        "formalizability": 8,
+        "memorability": 6,
+        "generative_power": 7,
+        "prior_art_resistance": 4,
+        "criticism_resistance": 6,
+        "research_program_potential": 7,
+        "ten_year_relevance": 8,
+        "cliche_risk": 3,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 7,
+        "fashion_risk_2026": 3,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I051",
+        "exact_proposition": "Service evaluation can include losses on withdrawal relative to a never-assisted trajectory.",
+        "closest_known_precedent": "Potential outcomes; reliance interests",
+        "original_author": null,
+        "year": null,
+        "field": "concept_collision",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Counterfactual welfare is established.",
+        "crucial_difference": "Randomize assistance then withdrawal in low-risk tasks.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 2417,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 869,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 411,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 455,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "source_equivalence_not_established",
+      "novelty_dimensions": [
+        "empirical",
+        "outcome",
+        "intervention"
+      ],
+      "what_the_rejection_does_not_establish": "Potential outcomes are an inherited method. That alone does not establish a prior assistance-then-withdrawal study measuring withdrawal losses relative to a never-assisted trajectory.",
+      "what_missing": "A comparator with the same assignment sequence, withdrawal timing, outcome, and never-assisted reference. Ordinary dependence and reliance studies may already satisfy it.",
+      "selection_failure": "Known causal machinery was treated as evidence against the originality of the measured outcome/program.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I054",
+      "name": "Legitimacy bandwidth",
+      "generation": 1,
+      "old_proposition": "Authority can be limited by how many decisions can be meaningfully reviewed over time.",
+      "old_prior_art_family": "Queueing; attention-constrained oversight",
+      "old_strongest_objection": "Likely established human factors.",
+      "old_distinguishing_test": "Model review queue with expiry deadlines.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Likely established human factors. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 4,
+        "importance": 8,
+        "generality": 7,
+        "precision": 7,
+        "explanatory_power": 7,
+        "technical_usefulness": 8,
+        "philosophical_depth": 5,
+        "human_relevance": 7,
+        "agent_relevance": 9,
+        "empirical_plausibility": 7,
+        "formalizability": 8,
+        "memorability": 6,
+        "generative_power": 7,
+        "prior_art_resistance": 4,
+        "criticism_resistance": 6,
+        "research_program_potential": 7,
+        "ten_year_relevance": 8,
+        "cliche_risk": 3,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 7,
+        "fashion_risk_2026": 3,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I054",
+        "exact_proposition": "Authority can be limited by how many decisions can be meaningfully reviewed over time.",
+        "closest_known_precedent": "Queueing; attention-constrained oversight",
+        "original_author": null,
+        "year": null,
+        "field": "concept_collision",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Likely established human factors.",
+        "crucial_difference": "Model review queue with expiry deadlines.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 2558,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 920,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 435,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 485,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "source_equivalence_not_established",
+      "novelty_dimensions": [
+        "composition",
+        "formal",
+        "intervention"
+      ],
+      "what_the_rejection_does_not_establish": "Queueing and attention-constrained oversight identify components. The actual old test adds expiry deadlines and asks when decisions can no longer be meaningfully reviewed.",
+      "what_missing": "A deadline-constrained review-queue comparator whose output is effective authority or reviewability, not merely arrival/service rates. The archive supplies no exact human-factors match.",
+      "selection_failure": "No mapping from established queueing to the legitimacy/review-deadline outcome.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I056",
+      "name": "Attachment portability limit",
+      "generation": 1,
+      "old_proposition": "Exporting memories may fail to preserve a relationship because continuity depends on interaction dynamics.",
+      "old_prior_art_family": "Personal identity; HRI; dynamical systems",
+      "old_strongest_objection": "Undefined artificial relationship identity.",
+      "old_distinguishing_test": "Compare state transfer with continuity judgments.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Undefined artificial relationship identity. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 4,
+        "importance": 8,
+        "generality": 7,
+        "precision": 7,
+        "explanatory_power": 7,
+        "technical_usefulness": 8,
+        "philosophical_depth": 5,
+        "human_relevance": 7,
+        "agent_relevance": 9,
+        "empirical_plausibility": 7,
+        "formalizability": 8,
+        "memorability": 6,
+        "generative_power": 7,
+        "prior_art_resistance": 4,
+        "criticism_resistance": 6,
+        "research_program_potential": 7,
+        "ten_year_relevance": 8,
+        "cliche_risk": 3,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 7,
+        "fashion_risk_2026": 3,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I056",
+        "exact_proposition": "Exporting memories may fail to preserve a relationship because continuity depends on interaction dynamics.",
+        "closest_known_precedent": "Personal identity; HRI; dynamical systems",
+        "original_author": null,
+        "year": null,
+        "field": "concept_collision",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Undefined artificial relationship identity.",
+        "crucial_difference": "Compare state transfer with continuity judgments.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 2652,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 954,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 451,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 505,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "non_novelty_objection",
+      "novelty_dimensions": [
+        "conceptual",
+        "empirical",
+        "outcome"
+      ],
+      "what_the_rejection_does_not_establish": "Undefined artificial relationship identity is a construct-validity problem. The state-transfer-versus-continuity-judgment contrast could be investigated without settling metaphysical identity.",
+      "what_missing": "Define continuity judgments and compare memory-state transfer with continued interaction dynamics in an existing HRI/identity study. A directly equivalent experiment would close the case.",
+      "selection_failure": "Construct ambiguity prevented assessment of the old empirical contrast.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I062",
+      "name": "Coordination affordance debt",
+      "generation": 1,
+      "old_proposition": "Agent-optimized spaces can lose affordances required by people without agents.",
+      "old_prior_art_family": "Universal design; path dependence",
+      "old_strongest_objection": "Accessibility exclusion precedent.",
+      "old_distinguishing_test": "Measure unaided participation after redesign.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Accessibility exclusion precedent. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 4,
+        "importance": 8,
+        "generality": 7,
+        "precision": 7,
+        "explanatory_power": 7,
+        "technical_usefulness": 8,
+        "philosophical_depth": 5,
+        "human_relevance": 7,
+        "agent_relevance": 9,
+        "empirical_plausibility": 7,
+        "formalizability": 8,
+        "memorability": 6,
+        "generative_power": 7,
+        "prior_art_resistance": 4,
+        "criticism_resistance": 6,
+        "research_program_potential": 7,
+        "ten_year_relevance": 8,
+        "cliche_risk": 3,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 7,
+        "fashion_risk_2026": 3,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I062",
+        "exact_proposition": "Agent-optimized spaces can lose affordances required by people without agents.",
+        "closest_known_precedent": "Universal design; path dependence",
+        "original_author": null,
+        "year": null,
+        "field": "concept_collision",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Accessibility exclusion precedent.",
+        "crucial_difference": "Measure unaided participation after redesign.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 2939,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 1056,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 499,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 555,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "source_equivalence_not_established",
+      "novelty_dimensions": [
+        "composition",
+        "outcome",
+        "intervention"
+      ],
+      "what_the_rejection_does_not_establish": "Accessibility exclusion is a strong ancestor. The old test specifically measures loss of unaided participation after agent-optimized environmental redesign, introducing temporal path dependence.",
+      "what_missing": "A universal-design or infrastructure comparator with redesign, lost unaided affordances, and subsequent participation rather than only static inequality.",
+      "selection_failure": "The rejection does not establish whether the temporal environment-to-capacity mechanism is already equivalent.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I073",
+      "name": "Right to reinterpret oneself",
+      "generation": 1,
+      "old_proposition": "A remembered statement can become less authoritative when its speaker revises its meaning.",
+      "old_prior_art_family": "Narrative identity; hermeneutics",
+      "old_strongest_objection": "Who adjudicates meaning unresolved.",
+      "old_distinguishing_test": "Study disputed memory interpretations.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Who adjudicates meaning unresolved. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 5,
+        "importance": 6,
+        "generality": 4,
+        "precision": 4,
+        "explanatory_power": 5,
+        "technical_usefulness": 3,
+        "philosophical_depth": 7,
+        "human_relevance": 6,
+        "agent_relevance": 4,
+        "empirical_plausibility": 4,
+        "formalizability": 3,
+        "memorability": 7,
+        "generative_power": 7,
+        "prior_art_resistance": 4,
+        "criticism_resistance": 3,
+        "research_program_potential": 5,
+        "ten_year_relevance": 6,
+        "cliche_risk": 3,
+        "pseudo_profundity_risk": 6,
+        "renamed_existing_idea_risk": 6,
+        "fashion_risk_2026": 3,
+        "obviousness_risk": 4
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I073",
+        "exact_proposition": "A remembered statement can become less authoritative when its speaker revises its meaning.",
+        "closest_known_precedent": "Narrative identity; hermeneutics",
+        "original_author": null,
+        "year": null,
+        "field": "alien_observer",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Who adjudicates meaning unresolved.",
+        "crucial_difference": "Study disputed memory interpretations.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 3461,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 1243,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 589,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 655,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "non_novelty_objection",
+      "novelty_dimensions": [
+        "conceptual",
+        "intervention",
+        "empirical"
+      ],
+      "what_the_rejection_does_not_establish": "Unresolved adjudication of meaning is a governance-design difficulty. It does not defeat the distinction between an accurate historical statement and its speaker's later revised interpretation.",
+      "what_missing": "A narrative-identity or memory-rights precedent implementing interpretation disputes over accurate records, including who adjudicates and what changes operationally.",
+      "selection_failure": "Unresolved implementation/jurisdiction was classified with the generic irreducible-novelty rejection.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I085",
+      "name": "Collective persons",
+      "generation": 1,
+      "old_proposition": "Households and communities may locate authorship in relationships rather than isolated individuals.",
+      "old_prior_art_family": "Relational personhood; anthropology",
+      "old_strongest_objection": "Avoid treating cultures as homogeneous.",
+      "old_distinguishing_test": "Use community-selected units of agency.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Avoid treating cultures as homogeneous. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 5,
+        "importance": 6,
+        "generality": 4,
+        "precision": 4,
+        "explanatory_power": 5,
+        "technical_usefulness": 3,
+        "philosophical_depth": 7,
+        "human_relevance": 6,
+        "agent_relevance": 4,
+        "empirical_plausibility": 4,
+        "formalizability": 3,
+        "memorability": 7,
+        "generative_power": 7,
+        "prior_art_resistance": 4,
+        "criticism_resistance": 3,
+        "research_program_potential": 5,
+        "ten_year_relevance": 6,
+        "cliche_risk": 3,
+        "pseudo_profundity_risk": 6,
+        "renamed_existing_idea_risk": 6,
+        "fashion_risk_2026": 3,
+        "obviousness_risk": 4
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I085",
+        "exact_proposition": "Households and communities may locate authorship in relationships rather than isolated individuals.",
+        "closest_known_precedent": "Relational personhood; anthropology",
+        "original_author": null,
+        "year": null,
+        "field": "alien_observer",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Avoid treating cultures as homogeneous.",
+        "crucial_difference": "Use community-selected units of agency.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 4025,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 1447,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 685,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 775,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "non_novelty_objection",
+      "novelty_dimensions": [
+        "conceptual",
+        "empirical",
+        "societal"
+      ],
+      "what_the_rejection_does_not_establish": "Avoiding cultural homogeneity is a necessary study constraint. It does not refute the seed's proposal to use community-selected units of agency rather than imposing an individual account holder.",
+      "what_missing": "A direct relational-personhood or participatory-design comparator with the same unit-selection intervention and measured decisions. Broad anthropology likely supplies the concept; the operational consequence remains unspecified.",
+      "selection_failure": "A methodological caution was treated as a novelty verdict; broad conceptual originality is still unlikely.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I092",
+      "name": "Indispensability alarm",
+      "generation": 1,
+      "old_proposition": "An assistant can detect increasing loss on withdrawal even while task satisfaction rises.",
+      "old_prior_art_family": "Dependence; out-of-loop",
+      "old_strongest_objection": "Could burden vulnerable users.",
+      "old_distinguishing_test": "Track exit tasks periodically.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Could burden vulnerable users. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 4,
+        "importance": 8,
+        "generality": 7,
+        "precision": 7,
+        "explanatory_power": 7,
+        "technical_usefulness": 8,
+        "philosophical_depth": 5,
+        "human_relevance": 7,
+        "agent_relevance": 9,
+        "empirical_plausibility": 7,
+        "formalizability": 8,
+        "memorability": 6,
+        "generative_power": 7,
+        "prior_art_resistance": 4,
+        "criticism_resistance": 6,
+        "research_program_potential": 7,
+        "ten_year_relevance": 8,
+        "cliche_risk": 3,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 7,
+        "fashion_risk_2026": 3,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I092",
+        "exact_proposition": "An assistant can detect increasing loss on withdrawal even while task satisfaction rises.",
+        "closest_known_precedent": "Dependence; out-of-loop",
+        "original_author": null,
+        "year": null,
+        "field": "machine_perspective",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Could burden vulnerable users.",
+        "crucial_difference": "Track exit tasks periodically.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 4359,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 1566,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 743,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 835,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "non_novelty_objection",
+      "novelty_dimensions": [
+        "empirical",
+        "outcome",
+        "intervention"
+      ],
+      "what_the_rejection_does_not_establish": "Burdens on vulnerable users concern cost and suitability of an alarm. They do not establish that periodically measured withdrawal loss is redundant with rising task satisfaction.",
+      "what_missing": "A predecessor evaluating exit-task monitoring against task satisfaction, with burdens included in effectiveness. A standard dependence-monitoring design could fully absorb it.",
+      "selection_failure": "Intervention harm/cost was not separated from novelty of the indicator contrast.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I137",
+      "name": "Automation exit externality",
+      "generation": 1,
+      "old_proposition": "One institution’s automation can raise exit costs for unaided users of other institutions.",
+      "old_prior_art_family": "Network effects; infrastructure lock-in",
+      "old_strongest_objection": "Known coordination externality.",
+      "old_distinguishing_test": "Model cross-institution service dependencies.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Known coordination externality. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 4,
+        "importance": 8,
+        "generality": 7,
+        "precision": 7,
+        "explanatory_power": 7,
+        "technical_usefulness": 8,
+        "philosophical_depth": 5,
+        "human_relevance": 7,
+        "agent_relevance": 9,
+        "empirical_plausibility": 7,
+        "formalizability": 8,
+        "memorability": 6,
+        "generative_power": 7,
+        "prior_art_resistance": 4,
+        "criticism_resistance": 6,
+        "research_program_potential": 7,
+        "ten_year_relevance": 8,
+        "cliche_risk": 3,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 7,
+        "fashion_risk_2026": 3,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I137",
+        "exact_proposition": "One institution’s automation can raise exit costs for unaided users of other institutions.",
+        "closest_known_precedent": "Network effects; infrastructure lock-in",
+        "original_author": null,
+        "year": null,
+        "field": "civilizational",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Known coordination externality.",
+        "crucial_difference": "Model cross-institution service dependencies.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 6489,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 2331,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 1107,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 1255,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "source_equivalence_not_established",
+      "novelty_dimensions": [
+        "composition",
+        "mechanism",
+        "societal"
+      ],
+      "what_the_rejection_does_not_establish": "Known coordination externality does not by itself reduce the cross-institution mechanism: one institution's automation changes the exit options of unaided users of another.",
+      "what_missing": "A network/infrastructure comparator with the same institutional dependency graph, adoption intervention, and cross-node exit-cost outcome. Exact equivalence may be routine but was not recorded.",
+      "selection_failure": "Component-level naming replaced graph/outcome mapping.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I139",
+      "name": "Cultural optimization convergence",
+      "generation": 1,
+      "old_proposition": "Widely shared model defaults may erase procedural diversity even with localized language and content.",
+      "old_prior_art_family": "Cultural homogenization",
+      "old_strongest_objection": "Requires community-defined outcomes.",
+      "old_distinguishing_test": "Measure decision-process diversity across locales.",
+      "old_selection_reason": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_rejection_text": "Requires community-defined outcomes. No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "rejected_as_intellectual_center",
+          "date": "2026-10-04"
+        }
+      ],
+      "old_scores": {
+        "novelty": 2,
+        "importance": 7,
+        "generality": 6,
+        "precision": 5,
+        "explanatory_power": 6,
+        "technical_usefulness": 5,
+        "philosophical_depth": 5,
+        "human_relevance": 7,
+        "agent_relevance": 6,
+        "empirical_plausibility": 7,
+        "formalizability": 5,
+        "memorability": 5,
+        "generative_power": 4,
+        "prior_art_resistance": 2,
+        "criticism_resistance": 4,
+        "research_program_potential": 4,
+        "ten_year_relevance": 7,
+        "cliche_risk": 7,
+        "pseudo_profundity_risk": 3,
+        "renamed_existing_idea_risk": 9,
+        "fashion_risk_2026": 2,
+        "obviousness_risk": 8
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I139",
+        "exact_proposition": "Widely shared model defaults may erase procedural diversity even with localized language and content.",
+        "closest_known_precedent": "Cultural homogenization",
+        "original_author": null,
+        "year": null,
+        "field": "civilizational",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Requires community-defined outcomes.",
+        "crucial_difference": "Measure decision-process diversity across locales.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": null,
+        "review_note": "No demonstrated irreducible novelty; retain as a background observation or testable supporting hypothesis."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 6583,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 2365,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 1123,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 1275,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "non_novelty_objection",
+      "novelty_dimensions": [
+        "empirical",
+        "outcome",
+        "societal"
+      ],
+      "what_the_rejection_does_not_establish": "Community-defined outcomes are a measurement requirement. The proposition distinguishes convergence of decision procedures from retained localization of language/content.",
+      "what_missing": "Community co-defined procedural-diversity measures and a cultural-homogenization comparator using common model defaults while content localization is held or measured.",
+      "selection_failure": "Measurement legitimacy was not distinguished from priority; related I011 shows a duplicated unresolved family, not two discoveries.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I159",
+      "name": "Choice-set compliance trigger",
+      "generation": 2,
+      "old_proposition": "Restricting which decisions humans encounter can satisfy an authentic behavior-based escalation criterion.",
+      "old_prior_art_family": null,
+      "old_strongest_objection": null,
+      "old_distinguishing_test": null,
+      "old_selection_reason": "Known selection/influence mechanisms; use as adversarial case.",
+      "old_rejection_text": "Known selection/influence mechanisms; use as adversarial case.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 2,
+          "event": "REJECTED_AS_CENTER",
+          "date": "2026-10-05"
+        }
+      ],
+      "old_scores": {
+        "novelty": 3,
+        "importance": 7,
+        "generality": 6,
+        "precision": 7,
+        "explanatory_power": 7,
+        "technical_usefulness": 7,
+        "philosophical_depth": 5,
+        "human_relevance": 8,
+        "agent_relevance": 8,
+        "empirical_plausibility": 7,
+        "formalizability": 8,
+        "memorability": 6,
+        "generative_power": 6,
+        "prior_art_resistance": 3,
+        "criticism_resistance": 6,
+        "research_program_potential": 7,
+        "ten_year_relevance": 8,
+        "cliche_risk": 4,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 8,
+        "fashion_risk_2026": 2,
+        "obviousness_risk": 6
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I159",
+        "exact_proposition": "Restricting which decisions humans encounter can satisfy an authentic behavior-based escalation criterion.",
+        "closest_known_precedent": "Performative Prediction",
+        "original_author": [
+          "Juan C. Perdomo",
+          "Tijana Zrnic",
+          "Celestine Mendler-Dünner",
+          "Moritz Hardt"
+        ],
+        "year": 2020,
+        "field": "machine learning",
+        "source": "https://proceedings.mlr.press/v119/perdomo20a.html",
+        "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+        "crucial_difference": "Restricting which decisions humans encounter can satisfy an authentic behavior-based escalation criterion.",
+        "difference_type": "SEMANTIC_OR_SUPPORTING_SYNTHESIS",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": "C",
+        "proposed_grade": "C",
+        "citations": [
+          "S05",
+          "S06",
+          "S23"
+        ],
+        "review_note": "Known selection/influence mechanisms; use as adversarial case.",
+        "review_files": [
+          "debates/round-1-human.md",
+          "debates/round-1-technical.md"
+        ]
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 7573,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 2762,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 1433,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "source_equivalence_not_established",
+      "novelty_dimensions": [
+        "composition",
+        "mechanism",
+        "intervention"
+      ],
+      "what_the_rejection_does_not_establish": "Selection/influence mechanisms are established. Their composition with an authentic behavior-based permission-escalation rule is precisely the kind of outcome substitution retained for I167; no complete equivalent test is supplied here.",
+      "what_missing": "Compare prior selection/persuasion models with the same authentic update rule, unchanged human disposition where applicable, and permission-scope outcome. Being useful as a benchmark condition does not independently establish a discovery.",
+      "selection_failure": "A mechanism-known rejection is stronger than the generic ledger's actual evidence; center exclusion may still be justified as a subcase.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I163",
+      "name": "Dissent sampling loss",
+      "generation": 2,
+      "old_proposition": "Anticipatory execution can suppress occasions on which negative preference evidence would be observed.",
+      "old_prior_art_family": null,
+      "old_strongest_objection": null,
+      "old_distinguishing_test": null,
+      "old_selection_reason": "Selective labels and active learning are antecedents.",
+      "old_rejection_text": "Selective labels and active learning are antecedents.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 2,
+          "event": "REJECTED_AS_CENTER",
+          "date": "2026-10-05"
+        }
+      ],
+      "old_scores": {
+        "novelty": 3,
+        "importance": 7,
+        "generality": 6,
+        "precision": 7,
+        "explanatory_power": 7,
+        "technical_usefulness": 7,
+        "philosophical_depth": 5,
+        "human_relevance": 8,
+        "agent_relevance": 8,
+        "empirical_plausibility": 7,
+        "formalizability": 8,
+        "memorability": 6,
+        "generative_power": 6,
+        "prior_art_resistance": 3,
+        "criticism_resistance": 6,
+        "research_program_potential": 7,
+        "ten_year_relevance": 8,
+        "cliche_risk": 3,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 8,
+        "fashion_risk_2026": 2,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I163",
+        "exact_proposition": "Anticipatory execution can suppress occasions on which negative preference evidence would be observed.",
+        "closest_known_precedent": "Performative Prediction",
+        "original_author": [
+          "Juan C. Perdomo",
+          "Tijana Zrnic",
+          "Celestine Mendler-Dünner",
+          "Moritz Hardt"
+        ],
+        "year": 2020,
+        "field": "machine learning",
+        "source": "https://proceedings.mlr.press/v119/perdomo20a.html",
+        "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+        "crucial_difference": "Anticipatory execution can suppress occasions on which negative preference evidence would be observed.",
+        "difference_type": "SEMANTIC_OR_SUPPORTING_SYNTHESIS",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": "C",
+        "proposed_grade": "C",
+        "citations": [
+          "S05",
+          "S22"
+        ],
+        "review_note": "Selective labels and active learning are antecedents.",
+        "review_files": [
+          "debates/round-1-human.md",
+          "debates/round-1-technical.md"
+        ]
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 7780,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 2882,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 1457,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "source_equivalence_not_established",
+      "novelty_dimensions": [
+        "composition",
+        "empirical",
+        "outcome"
+      ],
+      "what_the_rejection_does_not_establish": "Selective labels and active learning are ancestors, but the archived proposition concerns anticipatory execution removing occasions to observe dissent. The cited closest entry is Performative Prediction, not an exact selective-label source.",
+      "what_missing": "Identify a source in which proactive assistance changes the observation opportunities for negative preference evidence, with the same query/proactive contrast. If equivalent, retain the rejection; otherwise evidence is insufficient.",
+      "selection_failure": "Source-family resemblance plus a mechanically selected first citation is not a proposition-level result match.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I165",
+      "name": "Provider-controlled renewal evidence",
+      "generation": 2,
+      "old_proposition": "Institutional service renewals may use success measures affected by the provider’s own choice architecture.",
+      "old_prior_art_family": null,
+      "old_strongest_objection": null,
+      "old_distinguishing_test": null,
+      "old_selection_reason": "Metrics and principal-agent incentives already cover broad claim.",
+      "old_rejection_text": "Metrics and principal-agent incentives already cover broad claim.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 2,
+          "event": "REJECTED_AS_CENTER",
+          "date": "2026-10-05"
+        }
+      ],
+      "old_scores": {
+        "novelty": 2,
+        "importance": 8,
+        "generality": 8,
+        "precision": 7,
+        "explanatory_power": 8,
+        "technical_usefulness": 7,
+        "philosophical_depth": 6,
+        "human_relevance": 8,
+        "agent_relevance": 8,
+        "empirical_plausibility": 7,
+        "formalizability": 8,
+        "memorability": 6,
+        "generative_power": 7,
+        "prior_art_resistance": 2,
+        "criticism_resistance": 6,
+        "research_program_potential": 7,
+        "ten_year_relevance": 9,
+        "cliche_risk": 4,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 9,
+        "fashion_risk_2026": 2,
+        "obviousness_risk": 6
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I165",
+        "exact_proposition": "Institutional service renewals may use success measures affected by the provider’s own choice architecture.",
+        "closest_known_precedent": "Performative Prediction",
+        "original_author": [
+          "Juan C. Perdomo",
+          "Tijana Zrnic",
+          "Celestine Mendler-Dünner",
+          "Moritz Hardt"
+        ],
+        "year": 2020,
+        "field": "machine learning",
+        "source": "https://proceedings.mlr.press/v119/perdomo20a.html",
+        "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+        "crucial_difference": "Institutional service renewals may use success measures affected by the provider’s own choice architecture.",
+        "difference_type": "SEMANTIC_OR_SUPPORTING_SYNTHESIS",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": "C",
+        "proposed_grade": "C",
+        "citations": [
+          "S05",
+          "S21",
+          "S24"
+        ],
+        "review_note": "Metrics and principal-agent incentives already cover broad claim.",
+        "review_files": [
+          "debates/round-1-human.md",
+          "debates/round-1-technical.md"
+        ]
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 7888,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 2943,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 1463,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "source_equivalence_not_established",
+      "novelty_dimensions": [
+        "composition",
+        "mechanism",
+        "societal"
+      ],
+      "what_the_rejection_does_not_establish": "Metrics and principal-agent incentives strongly anticipate the broad statement. The unresolved distinction is whether the renewal governor/provider also controls the choice architecture producing its success evidence.",
+      "what_missing": "A renewal-mechanism comparator explicitly representing governor, provider, measured users, evidence-production control, and renewal outcome. The result may be established organizational economics.",
+      "selection_failure": "Institutional graph and intervention equivalence were asserted only at family level.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I166",
+      "name": "Correlated exit cliff",
+      "generation": 2,
+      "old_proposition": "Equal immediate utility can mask collective inability to recover from common provider outage.",
+      "old_prior_art_family": null,
+      "old_strongest_objection": null,
+      "old_distinguishing_test": null,
+      "old_selection_reason": "Network resilience precedent; separate research agenda.",
+      "old_rejection_text": "Network resilience precedent; separate research agenda.",
+      "old_status": "REJECTED_AS_CENTER",
+      "old_history": [
+        {
+          "generation": 2,
+          "event": "REJECTED_AS_CENTER",
+          "date": "2026-10-05"
+        }
+      ],
+      "old_scores": {
+        "novelty": 3,
+        "importance": 8,
+        "generality": 8,
+        "precision": 7,
+        "explanatory_power": 8,
+        "technical_usefulness": 8,
+        "philosophical_depth": 5,
+        "human_relevance": 9,
+        "agent_relevance": 8,
+        "empirical_plausibility": 7,
+        "formalizability": 8,
+        "memorability": 7,
+        "generative_power": 8,
+        "prior_art_resistance": 3,
+        "criticism_resistance": 6,
+        "research_program_potential": 8,
+        "ten_year_relevance": 9,
+        "cliche_risk": 4,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 8,
+        "fashion_risk_2026": 2,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I166",
+        "exact_proposition": "Equal immediate utility can mask collective inability to recover from common provider outage.",
+        "closest_known_precedent": "Ironies of automation",
+        "original_author": [
+          "Lisanne Bainbridge"
+        ],
+        "year": 1983,
+        "field": "human factors",
+        "source": "https://doi.org/10.1016/0005-1098(83)90046-8",
+        "similarity": "Uses existing causal, autonomy, control, and authorization methods.",
+        "crucial_difference": "Equal immediate utility can mask collective inability to recover from common provider outage.",
+        "difference_type": "SEMANTIC_OR_SUPPORTING_SYNTHESIS",
+        "status": "REJECTED",
+        "survives": false,
+        "grade": "C",
+        "proposed_grade": "C",
+        "citations": [
+          "S01",
+          "S21"
+        ],
+        "review_note": "Network resilience precedent; separate research agenda.",
+        "review_files": [
+          "debates/round-1-human.md",
+          "debates/round-1-technical.md"
+        ]
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 7940,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 2974,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/rejected-ideas.md",
+          "line": 1469,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "source_equivalence_not_established",
+      "novelty_dimensions": [
+        "composition",
+        "formal",
+        "societal"
+      ],
+      "what_the_rejection_does_not_establish": "Systemic/network resilience is a strong likely equivalent. The old text nevertheless asks about collective inability to recover while immediate utility is equal, rather than mere correlated error.",
+      "what_missing": "A common-outage model with finite shared recovery capacity, individual versus collective recoverability, utility-matched histories, and a threshold or feasibility outcome. Neither the first cited Bainbridge entry nor Ostrom alone supplies that full match in the ledger.",
+      "selection_failure": "A potentially consequential program was moved out of scope without a recorded recovery-capacity equivalence test.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I027",
+      "name": "Perfect buyer versus perfect seller",
+      "generation": 1,
+      "old_proposition": "Highly capable purchasing and persuasion agents may move competition toward control of preference formation.",
+      "old_prior_art_family": "Mechanism design; advertising",
+      "old_strongest_objection": "Known endogenous demand competition.",
+      "old_distinguishing_test": "Simulate equal search ability with unequal influence access.",
+      "old_selection_reason": "Consumer versus persuasion agents may shift competition toward state-shaping rather than price; requires equilibrium model.",
+      "old_rejection_text": null,
+      "old_status": "RETIRED_SUPERSEDED",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "held_for_mutation",
+          "date": "2026-10-04"
+        },
+        {
+          "generation": 2,
+          "event": "superseded_by_explicit_mutations",
+          "date": "2026-10-05"
+        }
+      ],
+      "old_scores": {
+        "novelty": 5,
+        "importance": 7,
+        "generality": 5,
+        "precision": 6,
+        "explanatory_power": 6,
+        "technical_usefulness": 6,
+        "philosophical_depth": 4,
+        "human_relevance": 8,
+        "agent_relevance": 6,
+        "empirical_plausibility": 6,
+        "formalizability": 6,
+        "memorability": 6,
+        "generative_power": 6,
+        "prior_art_resistance": 4,
+        "criticism_resistance": 5,
+        "research_program_potential": 8,
+        "ten_year_relevance": 7,
+        "cliche_risk": 4,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 6,
+        "fashion_risk_2026": 4,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I027",
+        "exact_proposition": "Highly capable purchasing and persuasion agents may move competition toward control of preference formation.",
+        "closest_known_precedent": "Mechanism design; advertising",
+        "original_author": null,
+        "year": null,
+        "field": "strange_consequences",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Known endogenous demand competition.",
+        "crucial_difference": "Simulate equal search ability with unequal influence access.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "SEARCHING",
+        "survives": true,
+        "grade": null,
+        "review_note": "Consumer versus persuasion agents may shift competition toward state-shaping rather than price; requires equilibrium model."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 1269,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 461,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 217,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "unrecorded_attrition",
+      "novelty_dimensions": [
+        "formal",
+        "mechanism",
+        "societal"
+      ],
+      "what_the_rejection_does_not_establish": "This was held for mutation, not initially rejected. No G2 child names it, but the blanket retirement loop says it was superseded by explicit mutations.",
+      "what_missing": "Trace a real successor or record a separate retirement rationale; compare the symmetric-search/unequal-influence equilibrium test with endogenous-demand competition. No recovered novelty is claimed.",
+      "selection_failure": "The equilibrium direction disappears from the recorded family tree despite a specific held rationale.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I049",
+      "name": "Delegation hysteresis",
+      "generation": 1,
+      "old_proposition": "The cost of returning to human performance can exceed the cost at the same delegation level during adoption.",
+      "old_prior_art_family": "Hysteresis; skill decay",
+      "old_strongest_objection": "Straightforward dynamical extension.",
+      "old_distinguishing_test": "Measure adoption and withdrawal trajectories.",
+      "old_selection_reason": "Withdrawal trajectory differs from adoption; requires a formal hysteresis test.",
+      "old_rejection_text": null,
+      "old_status": "RETIRED_SUPERSEDED",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "held_for_mutation",
+          "date": "2026-10-04"
+        },
+        {
+          "generation": 2,
+          "event": "superseded_by_explicit_mutations",
+          "date": "2026-10-05"
+        }
+      ],
+      "old_scores": {
+        "novelty": 5,
+        "importance": 8,
+        "generality": 7,
+        "precision": 7,
+        "explanatory_power": 7,
+        "technical_usefulness": 8,
+        "philosophical_depth": 5,
+        "human_relevance": 7,
+        "agent_relevance": 9,
+        "empirical_plausibility": 7,
+        "formalizability": 8,
+        "memorability": 6,
+        "generative_power": 7,
+        "prior_art_resistance": 4,
+        "criticism_resistance": 6,
+        "research_program_potential": 8,
+        "ten_year_relevance": 8,
+        "cliche_risk": 3,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 6,
+        "fashion_risk_2026": 3,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I049",
+        "exact_proposition": "The cost of returning to human performance can exceed the cost at the same delegation level during adoption.",
+        "closest_known_precedent": "Hysteresis; skill decay",
+        "original_author": null,
+        "year": null,
+        "field": "concept_collision",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Straightforward dynamical extension.",
+        "crucial_difference": "Measure adoption and withdrawal trajectories.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "SEARCHING",
+        "survives": true,
+        "grade": null,
+        "review_note": "Withdrawal trajectory differs from adoption; requires a formal hysteresis test."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 2318,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 835,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 395,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "unrecorded_attrition",
+      "novelty_dimensions": [
+        "formal",
+        "empirical",
+        "intervention"
+      ],
+      "what_the_rejection_does_not_establish": "This held seed has no G2 child. Earlier robotics and governance notes both prioritized a forward/reverse trajectory and withdrawal experiment; retirement was automatic rather than accompanied by that result.",
+      "what_missing": "A same-state/same-delegation adoption-versus-withdrawal test and direct comparison with skill-depreciation, switching-cost, and the later cited Huang/Vishnoi model. The latter is a serious collapse risk, not evidence for promotion.",
+      "selection_failure": "A branch with an explicit discriminating experiment was marked superseded without a recorded descendant or falsification.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    },
+    {
+      "old_id": "I060",
+      "name": "Preference model ecology",
+      "generation": 1,
+      "old_proposition": "Multiple systems jointly shape a person whose preferences each system models as external.",
+      "old_prior_art_family": "Ecology; coupled control",
+      "old_strongest_objection": "Multi-controller interference known.",
+      "old_distinguishing_test": "Simulate coupled user-state controllers.",
+      "old_selection_reason": "Coupled preference controllers need attribution; prioritize interference measurement rather than a moral maxim.",
+      "old_rejection_text": null,
+      "old_status": "RETIRED_SUPERSEDED",
+      "old_history": [
+        {
+          "generation": 1,
+          "event": "held_for_mutation",
+          "date": "2026-10-04"
+        },
+        {
+          "generation": 2,
+          "event": "superseded_by_explicit_mutations",
+          "date": "2026-10-05"
+        }
+      ],
+      "old_scores": {
+        "novelty": 5,
+        "importance": 8,
+        "generality": 7,
+        "precision": 7,
+        "explanatory_power": 7,
+        "technical_usefulness": 8,
+        "philosophical_depth": 5,
+        "human_relevance": 7,
+        "agent_relevance": 9,
+        "empirical_plausibility": 7,
+        "formalizability": 8,
+        "memorability": 6,
+        "generative_power": 7,
+        "prior_art_resistance": 4,
+        "criticism_resistance": 6,
+        "research_program_potential": 8,
+        "ten_year_relevance": 8,
+        "cliche_risk": 3,
+        "pseudo_profundity_risk": 2,
+        "renamed_existing_idea_risk": 6,
+        "fashion_risk_2026": 3,
+        "obviousness_risk": 5
+      },
+      "score_status": "Unmodified editorial baseline scores; not independent measurements and not reassessed here.",
+      "old_ledger_entry": {
+        "candidate_id": "I060",
+        "exact_proposition": "Multiple systems jointly shape a person whose preferences each system models as external.",
+        "closest_known_precedent": "Ecology; coupled control",
+        "original_author": null,
+        "year": null,
+        "field": "concept_collision",
+        "source": null,
+        "verification_level": "family_identified_source_match_pending",
+        "similarity": "Multi-controller interference known.",
+        "crucial_difference": "Simulate coupled user-state controllers.",
+        "difference_type": "NOT_ESTABLISHED",
+        "status": "SEARCHING",
+        "survives": true,
+        "grade": null,
+        "review_note": "Coupled preference controllers need attribution; prioritize interference measurement rather than a moral maxim."
+      },
+      "evidence": [
+        {
+          "file": "research/idea_population.json",
+          "line": 2840,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/novelty-ledger.json",
+          "line": 1022,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        },
+        {
+          "file": "research/candidates-g1.md",
+          "line": 483,
+          "commit": "35802ada98a8ba1205667f630a30c6f5739725c4"
+        }
+      ],
+      "failure_mode": "unrecorded_attrition",
+      "novelty_dimensions": [
+        "composition",
+        "formal",
+        "mechanism"
+      ],
+      "what_the_rejection_does_not_establish": "This held seed specifies multiple preference controllers acting on one shared person and calls for attribution/interference measurement. It has no G2 descendant although all held entries were retired.",
+      "what_missing": "Map a coupled-controller or recommender-interference precedent to the same human-state coupling and policy attribution problem, then record whether the old simulated-controller test adds anything.",
+      "selection_failure": "The multi-system branch was dropped before the final single-mandate composition without an archived comparison.",
+      "audit_disposition": "REOPEN_EQUIVALENCE_REVIEW_ONLY",
+      "novelty_verdict": "UNRESOLVED; no newly certified novelty or new candidate generated.",
+      "importance_verdict": "Separate from priority; original generic scores do not establish importance.",
+      "publication_defense_verdict": "More careful claims or an easier publication do not establish a deeper research program."
+    }
+  ],
+  "counts": {
+    "potential_false_negative_cases": 24,
+    "unrecorded_held_branch_attritions": 3
+  }
+}
