@@ -1,0 +1,134 @@
+{
+  "version": "0.1.0",
+  "candidate_id": "D4:I301",
+  "candidate_proposition": "If a provider optimizes completed tasks while charging human exception work outside its task metric, policies that create avoidable exception work can make wider permission rational for the user even when a narrower policy has the same completion quality.",
+  "strongest_interpretation": "Holding successful task output and inherent approval requirements fixed, a policy that shifts coordination work to the user can increase rational additional delegation. Test whether charging that work to provider performance changes policy selection without rewarding permission directly.",
+  "stage": "PRIOR_ART_CHALLENGED_LIMITED_INSPECTION",
+  "queries": [
+    "Multitask Principal-Agent Analyses Holmstrom Milgrom 1991",
+    "Formal and Real Authority in Organizations Aghion Tirole",
+    "delegation induced demand physician Evans 1974",
+    "Authority permissions exception delegation workflow optimization"
+  ],
+  "search_date": "2026-10-05",
+  "query_disclosure": "Queries include actual performed query wording and focused phrase variants within the same source searches; no search is claimed exhaustive.",
+  "closest_works": [
+    {
+      "source_id": "D4:S016",
+      "title": "Multitask Principal–Agent Analyses: Incentive Contracts, Asset Ownership, and Job Design",
+      "authors": [
+        "Bengt Holmström",
+        "Paul Milgrom"
+      ],
+      "year": 1991,
+      "source": "https://web.stanford.edu/~milgrom/publishedarticles/Multitask%20Principal%20Agent.pdf",
+      "prior_proposition": "Measured incentives interact with effort across tasks; job design and ownership alter the incentive problem beyond a single measured output.",
+      "inspection": "Author-hosted PDF opening and author bibliography.",
+      "comparison": {
+        "same_variables": "Partly: measured output and unpriced effort.",
+        "same_causal_structure": "Same incentive-distortion core; user-produced grant is an added action.",
+        "same_beneficiary": "Yes: optimizing organization can benefit.",
+        "same_outcome": "Partly: altered job/effort allocation rather than scope renewal.",
+        "same_timescale": "Partly: incentive contracts, not a permission sequence.",
+        "same_prediction": "Likely inherited: omitted work distorts chosen workflow.",
+        "same_intervention": "Partly: account for unmeasured work or redesign jobs."
+      }
+    },
+    {
+      "source_id": "D4:S017",
+      "title": "Formal and Real Authority in Organizations",
+      "authors": [
+        "Philippe Aghion",
+        "Jean Tirole"
+      ],
+      "year": 1997,
+      "source": "https://dash.harvard.edu/entities/publication/73120378-825e-6bd4-e053-0100007fdf3b",
+      "prior_proposition": "Information determines effective decision control under formal rights; overload, urgency and other organizational conditions change real authority.",
+      "inspection": "Harvard primary repository abstract; UCL author PDF opening.",
+      "comparison": {
+        "same_variables": "Partly: information, overload and decision control.",
+        "same_causal_structure": "Related: principal burden affects effective authority.",
+        "same_beneficiary": "Agent initiative and principal control both modeled.",
+        "same_outcome": "Authority allocation is directly present.",
+        "same_timescale": "Organizational allocation rather than this fixed-quality repeated task.",
+        "same_prediction": "Overload/control divergence already predicted.",
+        "same_intervention": "Organizational control/communication, not this matched task metric."
+      }
+    },
+    {
+      "source_id": "D4:S006",
+      "title": "Agent Incentives: A Causal Perspective",
+      "authors": [
+        "Tom Everitt",
+        "Ryan Carey",
+        "Eric Langlois",
+        "Pedro A. Ortega",
+        "Shane Legg"
+      ],
+      "year": 2021,
+      "source": "https://arxiv.org/abs/2102.01685",
+      "prior_proposition": "Causal influence diagrams support sound and complete graphical criteria for several incentive concepts, including instrumental control incentives.",
+      "inspection": "Primary abstract only; theorem assumptions and full text pending.",
+      "comparison": {
+        "same_variables": "Yes at abstraction: actions, future states, reward.",
+        "same_causal_structure": "Instrumental control path includes future task options.",
+        "same_beneficiary": "Reward-maximizing agent; provider is an application.",
+        "same_outcome": "Influencing a grant is a controlled intermediate state.",
+        "same_timescale": "Sequential decision model.",
+        "same_prediction": "The future-reward path supplies the incentive; no new instrumentality theorem.",
+        "same_intervention": "Break action-to-grant or grant-to-reward path."
+      }
+    },
+    {
+      "source_id": "D4:S014",
+      "title": "Bayesian Persuasion",
+      "authors": [
+        "Emir Kamenica",
+        "Matthew Gentzkow"
+      ],
+      "year": 2011,
+      "source": "https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2590",
+      "prior_proposition": "A sender can choose an information structure that benefits it through a rational receiver’s action without false messages.",
+      "inspection": "Publisher abstract and bibliographic record.",
+      "comparison": {
+        "same_variables": "Partly: sender, receiver, information and action.",
+        "same_causal_structure": "Truthful signal selection can induce a rational favorable decision; burden creation is different.",
+        "same_beneficiary": "Sender can benefit.",
+        "same_outcome": "Receiver action need not be a purchase, so grant is included abstractly.",
+        "same_timescale": "Main problem static rather than workflow effects over time.",
+        "same_prediction": "No-deception rational favorable choice already known.",
+        "same_intervention": "Information-structure restrictions; not induced-work pricing."
+      }
+    },
+    {
+      "source_id": "D4:S005",
+      "title": "Are You Still the Agent I Authorized? Earned Authority under a Fixed Ceiling for Evolving Agents",
+      "authors": [
+        "Zhaoxi Zhang",
+        "Xiaomei Zhang"
+      ],
+      "year": 2026,
+      "source": "https://arxiv.org/html/2607.23586v1",
+      "prior_proposition": "A grant can constrain changing agents with an immutable protected-effect ceiling and a transition envelope; evidence produced during operation may allocate active authority within the ceiling but cannot raise that ceiling.",
+      "inspection": "Abstract, introduction, system/threat model, main state-bound model, non-amplification statement/proof and conditional ascent section; appendices not fully audited.",
+      "comparison": {
+        "same_variables": "Partly: active scope, operation and evidence.",
+        "same_causal_structure": "Self-produced evidence gates active scope; omitted labor is not the stated model.",
+        "same_beneficiary": "Agent/provider evaluated under a grant ceiling.",
+        "same_outcome": "Active authority rather than user utility or induced labor.",
+        "same_timescale": "Repeated agent evolution.",
+        "same_prediction": "Self-authored task history is insufficient to raise protected ceiling.",
+        "same_intervention": "Independent gates/ceiling, not completion-metric externality."
+      }
+    }
+  ],
+  "KNOWN": "Unmeasured effort, burden-driven delegation, truthful influence and instrumental control are inherited. Formal scope changes can be treated as intermediate states in existing incentive models.",
+  "NEW_RESIDUE": "A workflow benchmark that matches task quality and distinguishes intrinsic from induced user exception work.",
+  "so_what_prior_theory_misses": "A task-only product evaluation misses induced coordination cost; a researcher already combining multitask incentives with endogenous delegation need not make a new conceptual error.",
+  "classification": "DOMAIN_TRANSFER",
+  "confidence_in_substantive_novelty": 0.25,
+  "confidence_in_empirical_reality": null,
+  "verdict": "Demote as a benchmark extension. No strong theoretical novelty residue is established; generic authority acquisition does not rescue it.",
+  "absence_claim": "No absence-of-prior-work proof. Partial inspection cannot show that an entire work lacks an extension.",
+  "public_claim": false
+}

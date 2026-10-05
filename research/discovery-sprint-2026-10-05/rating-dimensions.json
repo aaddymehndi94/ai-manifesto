@@ -1,0 +1,6 @@
+{
+  "version": "0.1.0",
+  "scale": "Ordinal editorial judgments 0–10; no aggregate score or calibrated probability.",
+  "positive": ["novelty", "importance", "generality", "precision", "explanatory_power", "technical_usefulness", "philosophical_depth", "human_relevance", "agent_relevance", "empirical_plausibility", "formalizability", "memorability", "generative_power", "prior_art_resistance", "criticism_resistance", "research_program_potential", "ten_year_relevance", "compositional_novelty", "mechanism_novelty", "outcome_variable_novelty", "interaction_surprise", "counterintuitive_prediction", "explanatory_compression", "new_measurement_required", "empirical_separability", "paradigm_shift_potential", "hard_to_unsee_score", "causal_chain_specificity", "multi_scale_relevance", "equilibrium_novelty", "non_obvious_policy_implication", "cross_field_bridge_novelty"],
+  "risks": ["cliche_risk", "pseudo_profundity_risk", "renamed_existing_idea_risk", "fashion_risk_2026", "obviousness_risk", "analogy_only_risk", "known_components_no_new_interaction_risk", "vague_systemic_risk", "speculative_chain_length_risk", "unfalsifiability_risk", "moral_rebranding_risk", "terminology_without_mechanism_risk", "science_fiction_risk", "current_AI_news_bias", "selection_bias_toward_formalizable_ideas"]
+}

@@ -1,0 +1,134 @@
+{
+  "version": "0.1.0",
+  "candidate_id": "D4:I302",
+  "candidate_proposition": "If wider delegation pays for agent integration with counterparties and those integrations reduce acceptance of non-agent submissions, individually useful expansion can finance a change in the outside option that makes subsequent expansion more attractive.",
+  "strongest_interpretation": "When additional scope funds integrations that change counterparties’ manual-channel acceptance, more competition and perfect context portability need not preserve the no-agent option. Compare integration that complements the manual channel with integration that substitutes for it.",
+  "stage": "PRIOR_ART_CHALLENGED_LIMITED_INSPECTION",
+  "queries": [
+    "endogenous outside options platform dependence learning switching costs",
+    "Network Stability Network Externalities Technology Adoption",
+    "Adoption Social Learning Network Externalities",
+    "Performative Power competition outside option"
+  ],
+  "search_date": "2026-10-05",
+  "query_disclosure": "Queries include actual performed query wording and focused phrase variants within the same source searches; no search is claimed exhaustive.",
+  "closest_works": [
+    {
+      "source_id": "D4:S003",
+      "title": "Performative Power",
+      "authors": [
+        "Moritz Hardt",
+        "Meena Jagadeesan",
+        "Celestine Mendler-Dünner"
+      ],
+      "year": 2022,
+      "source": "https://arxiv.org/html/2203.17232",
+      "prior_proposition": "A firm's capacity to change participant outcomes bounds gains from steering rather than learning alone; the framework also considers simultaneous ex-post optimization by multiple firms.",
+      "inspection": "Abstract, definitions, learning-versus-steering decomposition, ex-post optimization and multiple-firm equilibrium section; all proofs not audited.",
+      "comparison": {
+        "same_variables": "Partly: provider policy, population outcome and outside option.",
+        "same_causal_structure": "Multiple firms jointly shape a population distribution.",
+        "same_beneficiary": "Provider and participants are separate.",
+        "same_outcome": "General power/steering, not specifically manual-channel availability.",
+        "same_timescale": "Repeated ex-post optimization.",
+        "same_prediction": "Competition is already analyzed; loss of no-agent option is not proved absent.",
+        "same_intervention": "Strengthen outside options or constrain steering; detailed channel intervention uninspected."
+      }
+    },
+    {
+      "source_id": "D4:S013",
+      "title": "A Theory of Endogenous Institutional Change",
+      "authors": [
+        "Avner Greif",
+        "David D. Laitin"
+      ],
+      "year": 2004,
+      "source": "https://web.stanford.edu/~avner/Greif_Papers/2004%20A%20Theory%20of%20Endogenous%20Instituitonal%20Change.pdf",
+      "prior_proposition": "Institution-induced behavior can alter quasi-parameters that determine institutional self-enforcement, producing reinforcement or destabilization.",
+      "inspection": "Author PDF abstract and opening framing.",
+      "comparison": {
+        "same_variables": "Yes abstractly: behavior changes institutional quasi-parameters.",
+        "same_causal_structure": "Same self-reinforcing institutional feedback motif.",
+        "same_beneficiary": "Institutional participants; not restricted to providers.",
+        "same_outcome": "Institutional stability/change, broader than a channel metric.",
+        "same_timescale": "Long-run endogenous change.",
+        "same_prediction": "Local behavior changes future feasibility of the institution.",
+        "same_intervention": "Change feedback-driving institutional conditions."
+      }
+    },
+    {
+      "source_id": "D4:S019",
+      "title": "Network Stability, Network Externalities and Technology Adoption",
+      "authors": [
+        "Catherine Tucker"
+      ],
+      "year": 2011,
+      "source": "https://www.nber.org/papers/w17246",
+      "prior_proposition": "Destabilization of a social network can expand adoption externalities; video-calling adoption and use provide an empirical setting.",
+      "inspection": "Primary working-paper abstract.",
+      "comparison": {
+        "same_variables": "Partly: adoption, network structure and usage.",
+        "same_causal_structure": "Others’ adoption changes value and participation conditions.",
+        "same_beneficiary": "Users and adopting organization.",
+        "same_outcome": "Adoption/use, not formal scope.",
+        "same_timescale": "Longitudinal network adoption.",
+        "same_prediction": "No-agent or low-adoption option can differ as network changes; full text pending.",
+        "same_intervention": "Network/adoption design; not evaluated here."
+      }
+    },
+    {
+      "source_id": "D4:S020",
+      "title": "Adoption with Social Learning and Network Externalities",
+      "authors": [
+        "Marcel Fafchamps",
+        "Måns Söderbom",
+        "Monique van den Boogaart"
+      ],
+      "year": 2016,
+      "source": "https://www.nber.org/papers/w22282",
+      "prior_proposition": "Technology adoption can depend on learning from others and benefits generated by their adoption.",
+      "inspection": "Primary working-paper record and abstract framing.",
+      "comparison": {
+        "same_variables": "Partly: adoption, learning and externality benefits.",
+        "same_causal_structure": "Core feedback from other adoption to own adoption.",
+        "same_beneficiary": "Users and technology suppliers.",
+        "same_outcome": "Technology uptake; scope financing is a domain detail until a changed prediction.",
+        "same_timescale": "Diffusion over time.",
+        "same_prediction": "Adoption externality is already a direct ancestor.",
+        "same_intervention": "Not established from the inspected abstract."
+      }
+    },
+    {
+      "source_id": "D4:S018",
+      "title": "Too Much Data: Prices and Inefficiencies in Data Markets",
+      "authors": [
+        "Daron Acemoglu",
+        "Ali Makhdoumi",
+        "Azarakhsh Malekian",
+        "Asuman Ozdaglar"
+      ],
+      "year": 2022,
+      "source": "https://www.nber.org/papers/w26296",
+      "prior_proposition": "Correlated information creates externalities that can induce excessive disclosure; platform competition need not fix the inefficiency.",
+      "inspection": "Primary working-paper abstract and published-version record.",
+      "comparison": {
+        "same_variables": "Partly: many users/platforms, individual choice and externality.",
+        "same_causal_structure": "Individually chosen disclosures change others’ outside options.",
+        "same_beneficiary": "Platforms and users with distinct welfare.",
+        "same_outcome": "Excess sharing/competition welfare, not manual-channel service.",
+        "same_timescale": "Static market model in inspected framing; full dynamic boundary unknown.",
+        "same_prediction": "Competition need not cure a collectively adverse rational-choice equilibrium.",
+        "same_intervention": "Mediated sharing; channel-preservation analogue requires derivation."
+      }
+    }
+  ],
+  "KNOWN": "Adoption externalities, endogenous institutions, multi-provider steering and rational-choice externalities are all known.",
+  "NEW_RESIDUE": "Measure provider-switching viability separately from no-agent participation while tracing who funds channel changes.",
+  "so_what_prior_theory_misses": "A portability-only assessment can confuse provider exit with non-adoption viability. Existing adoption and institutional theories already furnish the main explanation.",
+  "classification": "USEFUL_SYNTHESIS",
+  "confidence_in_substantive_novelty": 0.3,
+  "confidence_in_empirical_reality": null,
+  "verdict": "Retain a possible field-audit synthesis; do not present the loop or the competition caveat as a new theory.",
+  "absence_claim": "No absence-of-prior-work proof. Partial inspection cannot show that an entire work lacks an extension.",
+  "public_claim": false
+}

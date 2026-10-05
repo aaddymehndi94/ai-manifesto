@@ -1,0 +1,130 @@
+{
+  "version": "0.1.0",
+  "candidate_id": "D4:I305",
+  "candidate_proposition": "If a user grants temporary scope to test an agent and the test consumes scarce counterparties’ available slots, successful pilot evidence can coincide with degradation of the later narrow-scope alternative even after test permissions expire.",
+  "strongest_interpretation": "At equal information gain, a temporary permission trial that consumes scarce slots can change the post-trial alternative; a reversible reservation trial need not. Expiry restores executable scope but not an opportunity already used.",
+  "stage": "PRIOR_ART_CHALLENGED_LIMITED_INSPECTION",
+  "queries": [
+    "experimentation outside option irreversible investment pilot",
+    "Pilot Early Commit Late real options enterprise AI",
+    "What Is Not a Real Option Adner Levinthal",
+    "The Value of Waiting to Invest McDonald Siegel"
+  ],
+  "search_date": "2026-10-05",
+  "query_disclosure": "Queries include actual performed query wording and focused phrase variants within the same source searches; no search is claimed exhaustive.",
+  "closest_works": [
+    {
+      "source_id": "D4:S025",
+      "title": "Pilot Early, Commit Late: A Real-Options Model of Enterprise AI Adoption under Rapid Technological Progress",
+      "authors": [
+        "Gaurav Tewari"
+      ],
+      "year": 2026,
+      "source": "https://arxiv.org/html/2609.15919v1",
+      "prior_proposition": "A two-period adoption model distinguishes deploy, pilot and wait; capability accumulation and architecture affect the value of staging under a changing frontier.",
+      "inspection": "Primary arXiv abstract, introduction, related-work sections2.1–2.4.",
+      "comparison": {
+        "same_variables": "Yes: pilot, later choice, capability and irreversibility.",
+        "same_causal_structure": "Pilot changes later deployment payoffs; scarce comparator slots are a possible additional state.",
+        "same_beneficiary": "Firm makes rational adoption decision.",
+        "same_outcome": "Deployment timing rather than grant renewal.",
+        "same_timescale": "Two-period and continuous extension.",
+        "same_prediction": "Pilot/wait/deploy distinction and partial irreversibility already explicit.",
+        "same_intervention": "Stage commitment, preserve transferable learning, improve modularity."
+      }
+    },
+    {
+      "source_id": "D4:S028",
+      "title": "What Is Not a Real Option: Considering Boundaries for the Application of Real Options to Business Strategy",
+      "authors": [
+        "Ron Adner",
+        "Daniel A. Levinthal"
+      ],
+      "year": 2004,
+      "source": "https://journals.aom.org/doi/10.5465/AMR.2004.11851715",
+      "prior_proposition": "Exploration can change the available choice set and abandonment criteria; a sequence of investments alone does not establish a genuine reversible option.",
+      "inspection": "Publisher abstract.",
+      "comparison": {
+        "same_variables": "Yes abstractly: exploration, choice set and abandonment.",
+        "same_causal_structure": "Exploration changes its own later alternatives.",
+        "same_beneficiary": "Exploring firm.",
+        "same_outcome": "Changed option structure, effectively the same warning.",
+        "same_timescale": "Sequential exploration.",
+        "same_prediction": "Exploration does not automatically preserve an abandonment option.",
+        "same_intervention": "Organizational controls needed to make option claims credible."
+      }
+    },
+    {
+      "source_id": "D4:S027",
+      "title": "The Value of Waiting to Invest",
+      "authors": [
+        "Robert L. McDonald",
+        "Daniel Siegel"
+      ],
+      "year": 1986,
+      "source": "https://www.nber.org/papers/w1019",
+      "prior_proposition": "Irreversible investment under stochastic benefits and costs has a waiting option whose value can change the investment threshold.",
+      "inspection": "Primary working-paper abstract and published-version record.",
+      "comparison": {
+        "same_variables": "Partly: resource commitment and outside option.",
+        "same_causal_structure": "Irreversibility changes later decisions; information-matched depletion not inspected.",
+        "same_beneficiary": "Investor.",
+        "same_outcome": "Optimal investment threshold.",
+        "same_timescale": "Stochastic continuous-time investment.",
+        "same_prediction": "Credential expiry is not an investment reversal; application inherited.",
+        "same_intervention": "Wait or stage rather than ignore option value."
+      }
+    },
+    {
+      "source_id": "D4:S030",
+      "title": "Delegating Learning",
+      "authors": [
+        "Juan F. Escobar",
+        "Qiaoxi Zhang"
+      ],
+      "year": 2021,
+      "source": "https://econtheory.org/?f=4191",
+      "prior_proposition": "Private evolving information creates a tradeoff between learning and timely investment; optimal delegation can require delayed action.",
+      "inspection": "Primary publisher introduction, model and section4.1; official paper record.",
+      "comparison": {
+        "same_variables": "Partly: information accumulation and investment decision.",
+        "same_causal_structure": "Investment changes future learning opportunity; slots are not the main state.",
+        "same_beneficiary": "Biased agent and principal.",
+        "same_outcome": "Learning/timing tradeoff rather than depleted appointment inventory.",
+        "same_timescale": "Dynamic until terminal investment.",
+        "same_prediction": "Information and action opportunity interact; exact pilot contrast not present in inspected main setup.",
+        "same_intervention": "Delay rules to sustain information incentives."
+      }
+    },
+    {
+      "source_id": "D4:S005",
+      "title": "Are You Still the Agent I Authorized? Earned Authority under a Fixed Ceiling for Evolving Agents",
+      "authors": [
+        "Zhaoxi Zhang",
+        "Xiaomei Zhang"
+      ],
+      "year": 2026,
+      "source": "https://arxiv.org/html/2607.23586v1",
+      "prior_proposition": "A grant can constrain changing agents with an immutable protected-effect ceiling and a transition envelope; evidence produced during operation may allocate active authority within the ceiling but cannot raise that ceiling.",
+      "inspection": "Abstract, introduction, system/threat model, main state-bound model, non-amplification statement/proof and conditional ascent section; appendices not fully audited.",
+      "comparison": {
+        "same_variables": "Partly: temporary authority and effect bounds.",
+        "same_causal_structure": "Containment prevents new effects but cannot undo completed consumption.",
+        "same_beneficiary": "Principal and evolving agent.",
+        "same_outcome": "Protected-effect containment rather than restoration of opportunities.",
+        "same_timescale": "Repeated state transitions.",
+        "same_prediction": "Scope expiry alone does not supply a restored physical world.",
+        "same_intervention": "Effect ceiling, transition envelope, external ascent evidence."
+      }
+    }
+  ],
+  "KNOWN": "Exploration can change choice sets, consume options and be partly irreversible. Permission termination is distinct from reversing effects.",
+  "NEW_RESIDUE": "An information-matched slot-inventory contrast for temporary agent auditions.",
+  "so_what_prior_theory_misses": "An expiry-only audit misses depleted alternatives. A careful real-options theorist would not expect expiry to restore them.",
+  "classification": "DOMAIN_TRANSFER",
+  "confidence_in_substantive_novelty": 0.2,
+  "confidence_in_empirical_reality": null,
+  "verdict": "Demote to a concrete application/test; no new causal mechanism established.",
+  "absence_claim": "No absence-of-prior-work proof. Partial inspection cannot show that an entire work lacks an extension.",
+  "public_claim": false
+}

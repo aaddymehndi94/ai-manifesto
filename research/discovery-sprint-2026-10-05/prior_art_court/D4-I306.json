@@ -1,0 +1,137 @@
+{
+  "version": "0.1.0",
+  "candidate_id": "D4:I306",
+  "candidate_proposition": "If a product learns which tasks its current permissions cannot accomplish and subsequently stops eliciting those tasks, measured success can rise without capability improvement while users lose evidence relevant to declining or broadening delegation.",
+  "strongest_interpretation": "When an agent controls task elicitation, permissions can change what unmet demand enters its success denominator. Compare fixed independent demand sampling with provider elicitation at unchanged capability and scope.",
+  "stage": "PRIOR_ART_CHALLENGED_LIMITED_INSPECTION",
+  "queries": [
+    "selective labels Lakkaraju Kleinberg Leskovec Ludwig Mullainathan",
+    "Performative Prediction Perdomo Zrnic Mendler Dunner Hardt",
+    "Rankings Reactivity Espeland Sauder",
+    "agent permission success task elicitation unsubmitted demand"
+  ],
+  "search_date": "2026-10-05",
+  "query_disclosure": "Queries include actual performed query wording and focused phrase variants within the same source searches; no search is claimed exhaustive.",
+  "closest_works": [
+    {
+      "source_id": "D4:S021",
+      "title": "The Selective Labels Problem: Evaluating Algorithmic Predictions in the Presence of Unobservables",
+      "authors": [
+        "Himabindu Lakkaraju",
+        "Jon Kleinberg",
+        "Jure Leskovec",
+        "Jens Ludwig",
+        "Sendhil Mullainathan"
+      ],
+      "year": 2017,
+      "source": "https://www.cs.cornell.edu/home/kleinber/kdd17-selective.pdf",
+      "prior_proposition": "Decision-dependent observation prevents straightforward human/model comparison; contraction and decision-maker variation enable particular evaluations.",
+      "inspection": "Author PDF abstract, introduction and available full-text extraction.",
+      "comparison": {
+        "same_variables": "Yes abstractly: selection, observed outcomes, evaluation.",
+        "same_causal_structure": "Decision determines which outcomes are visible.",
+        "same_beneficiary": "Decision-maker/model evaluator; not necessarily commercial.",
+        "same_outcome": "Biased human/model comparison; unelicited demand has a different substantive label.",
+        "same_timescale": "Evaluation on policy-produced observations.",
+        "same_prediction": "Observed performance can improve through selection rather than ability.",
+        "same_intervention": "Independent variation or appropriate selective-label comparison."
+      }
+    },
+    {
+      "source_id": "D4:S031",
+      "title": "Performative Prediction",
+      "authors": [
+        "Juan C. Perdomo",
+        "Tijana Zrnic",
+        "Celestine Mendler-Dünner",
+        "Moritz Hardt"
+      ],
+      "year": 2020,
+      "source": "https://proceedings.mlr.press/v119/perdomo20a.html",
+      "prior_proposition": "Deploying a predictor changes the data distribution; performative stability and optimality characterize feedback-aware learning.",
+      "inspection": "Official proceedings abstract and author PDF opening.",
+      "comparison": {
+        "same_variables": "Partly: policy changes future data.",
+        "same_causal_structure": "The product helps generate the distribution used to judge it.",
+        "same_beneficiary": "Model deployer and affected population.",
+        "same_outcome": "Performative risk/stability rather than scope-renewal rate.",
+        "same_timescale": "Repeated learning/deployment.",
+        "same_prediction": "Data shift is endogenous rather than a fixed background.",
+        "same_intervention": "Feedback-aware evaluation or change deployment."
+      }
+    },
+    {
+      "source_id": "D4:S003",
+      "title": "Performative Power",
+      "authors": [
+        "Moritz Hardt",
+        "Meena Jagadeesan",
+        "Celestine Mendler-Dünner"
+      ],
+      "year": 2022,
+      "source": "https://arxiv.org/html/2203.17232",
+      "prior_proposition": "A firm's capacity to change participant outcomes bounds gains from steering rather than learning alone; the framework also considers simultaneous ex-post optimization by multiple firms.",
+      "inspection": "Abstract, definitions, learning-versus-steering decomposition, ex-post optimization and multiple-firm equilibrium section; all proofs not audited.",
+      "comparison": {
+        "same_variables": "Partly: policy, induced distribution, objective.",
+        "same_causal_structure": "Steering changes the population on which performance is optimized.",
+        "same_beneficiary": "Commercial provider explicitly included.",
+        "same_outcome": "Provider outcome/power, broadly covering elicitation selection.",
+        "same_timescale": "Repeated optimization.",
+        "same_prediction": "Apparent improvement can involve steering rather than better prediction.",
+        "same_intervention": "Distinguish learning from steering; detailed elicitation instrument is application."
+      }
+    },
+    {
+      "source_id": "D4:S012",
+      "title": "Rankings and Reactivity: How Public Measures Recreate Social Worlds",
+      "authors": [
+        "Wendy Nelson Espeland",
+        "Michael Sauder"
+      ],
+      "year": 2007,
+      "source": "https://inequality.stanford.edu/sites/default/files/Espeland-paper.pdf",
+      "prior_proposition": "Public rankings change institutional behavior through self-fulfilling expectations and commensuration; the measurement regime participates in producing what it measures.",
+      "inspection": "Author paper hosted by Stanford; abstract inspected.",
+      "comparison": {
+        "same_variables": "Partly: performance measures and institutional response.",
+        "same_causal_structure": "Measurement participates in producing its reference cases.",
+        "same_beneficiary": "Measured institution and affected participants.",
+        "same_outcome": "Recreated social measures; grant decision is domain-specific.",
+        "same_timescale": "Institutional adaptation.",
+        "same_prediction": "Apparent measured improvement can change the object being measured.",
+        "same_intervention": "Inspect reactivity and measurement-induced effects."
+      }
+    },
+    {
+      "source_id": "D4:S014",
+      "title": "Bayesian Persuasion",
+      "authors": [
+        "Emir Kamenica",
+        "Matthew Gentzkow"
+      ],
+      "year": 2011,
+      "source": "https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2590",
+      "prior_proposition": "A sender can choose an information structure that benefits it through a rational receiver’s action without false messages.",
+      "inspection": "Publisher abstract and bibliographic record.",
+      "comparison": {
+        "same_variables": "Partly: evidence structure and rational action.",
+        "same_causal_structure": "Sender chooses what evidence a receiver sees.",
+        "same_beneficiary": "Sender, potentially provider.",
+        "same_outcome": "A favorable rational action, including approval abstractly.",
+        "same_timescale": "Static signal problem.",
+        "same_prediction": "Truthful evidence need not represent an unselected reference.",
+        "same_intervention": "Restrict evidence selection or independent evidence generation."
+      }
+    }
+  ],
+  "KNOWN": "Selective observation, performative datasets, reactive metrics and sender-controlled evidence are inherited.",
+  "NEW_RESIDUE": "A submitted-versus-unsubmitted scope-relevant-demand evaluation design.",
+  "so_what_prior_theory_misses": "A benchmark that conditions only on submitted requests can be biased; this is precisely what selection-aware theory already warns about.",
+  "classification": "DOMAIN_TRANSFER",
+  "confidence_in_substantive_novelty": 0.2,
+  "confidence_in_empirical_reality": null,
+  "verdict": "Useful data-collection proposal; reject as a new central phenomenon unless a further mechanism survives.",
+  "absence_claim": "No absence-of-prior-work proof. Partial inspection cannot show that an entire work lacks an extension.",
+  "public_claim": false
+}

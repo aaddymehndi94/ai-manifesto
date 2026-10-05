@@ -38,3 +38,25 @@ All entries concern the isolated sprint. No new canonical/public claims.
   Hardt/Jagadeesan/Mendler-Dünner 2022. The first two are real adjacent papers,
   not merely inherited titles. Their models are receiving closer comparison;
   no full-text equivalence or new novelty finding is asserted at this stage.
+
+## 2026-10-05, integration and sharpening phase
+
+- Initial three streams completed 300 propositions, 15 per operator. Exact-string
+  uniqueness and parent existence checked; semantic independence is not inferred.
+- Root added twenty labeled provider-cluster coverage probes after reading the
+  three streams. This fourth stream is not blind. Total population: 320, sixteen
+  per operator. Supplemental overlaps are recorded rather than counted as new
+  programs. Raw integration committed as `6ab8cb9`.
+- Three historical-audit agents each commissioned to sharpen forty, with all
+  seventeen required fields and explicit development-status archives. No ratings
+  assigned before sharpening. Root sharpened eight provider probes separately.
+- Fresh registry now contains31 primary neighbors, with abstract/intro/model
+  inspection limits. Primary access does not establish replication or absence of
+  a mechanism from an unread extension.
+- Eight root courts completed at limited inspection depth. None establishes a
+  substantive novelty residue. Five are provisionally domain transfers and three
+  useful syntheses. This is not a verdict on all320 or an AAA integration decision.
+- Eight individually authored47-dimensional root rating vectors were assigned
+  only after complete sharpening and the limited courts; no aggregate rank.
+- Focused search log stores actual submitted queries and returned bibliographic
+  headers. Unread result headers are not source support.

@@ -1,0 +1,134 @@
+{
+  "version": "0.1.0",
+  "candidate_id": "D4:I307",
+  "candidate_proposition": "If a provider selects which expensive cases receive an independent audit under a fixed audit budget, completely truthful audited results can favor renewal when selection excludes cases whose wider effects matter most to the authorization decision.",
+  "strongest_interpretation": "Independent audit execution is insufficient for independent audit coverage when the beneficiary allocates a fixed budget. Compare risk-stratified externally fixed sampling with provider-selected sampling at equal audit quality.",
+  "stage": "PRIOR_ART_CHALLENGED_LIMITED_INSPECTION",
+  "queries": [
+    "independent audit selection routing beneficiary evidence sampling",
+    "Bayesian Persuasion Kamenica Gentzkow",
+    "Delegation to incentivize information production",
+    "selective labels independent evaluation"
+  ],
+  "search_date": "2026-10-05",
+  "query_disclosure": "Queries include actual performed query wording and focused phrase variants within the same source searches; no search is claimed exhaustive.",
+  "closest_works": [
+    {
+      "source_id": "D4:S014",
+      "title": "Bayesian Persuasion",
+      "authors": [
+        "Emir Kamenica",
+        "Matthew Gentzkow"
+      ],
+      "year": 2011,
+      "source": "https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2590",
+      "prior_proposition": "A sender can choose an information structure that benefits it through a rational receiver’s action without false messages.",
+      "inspection": "Publisher abstract and bibliographic record.",
+      "comparison": {
+        "same_variables": "Yes abstractly: sender-selected information and receiver choice.",
+        "same_causal_structure": "Independent truthful signal realization can coexist with beneficiary choice of experiment.",
+        "same_beneficiary": "Sender benefits from receiver action.",
+        "same_outcome": "Decision influence; grant is an application.",
+        "same_timescale": "Single evidence/action episode.",
+        "same_prediction": "Independent execution does not make experiment choice disinterested.",
+        "same_intervention": "Change feasible experiment choice or information obligations."
+      }
+    },
+    {
+      "source_id": "D4:S015",
+      "title": "Competition in Persuasion",
+      "authors": [
+        "Matthew Gentzkow",
+        "Emir Kamenica"
+      ],
+      "year": 2017,
+      "source": "https://web.stanford.edu/~gentzkow/research/BayesianComp.pdf",
+      "prior_proposition": "Competition need not improve information. A condition on feasible experiments determines when more informative outcomes are guaranteed; sequential and costly information introduce further limits.",
+      "inspection": "Primary PDF pages1–6: opening counterexample, model, assumptions, Blackwell-connectedness.",
+      "comparison": {
+        "same_variables": "Yes abstractly: competing senders and feasible information.",
+        "same_causal_structure": "Information environment constrains what independent parties can reveal.",
+        "same_beneficiary": "Senders and receiver.",
+        "same_outcome": "Information quality and receiver welfare.",
+        "same_timescale": "Simultaneous game, extensions discussed.",
+        "same_prediction": "Adding parties need not improve information in a constrained environment.",
+        "same_intervention": "Expand feasible independent experiments; assumptions are critical."
+      }
+    },
+    {
+      "source_id": "D4:S021",
+      "title": "The Selective Labels Problem: Evaluating Algorithmic Predictions in the Presence of Unobservables",
+      "authors": [
+        "Himabindu Lakkaraju",
+        "Jon Kleinberg",
+        "Jure Leskovec",
+        "Jens Ludwig",
+        "Sendhil Mullainathan"
+      ],
+      "year": 2017,
+      "source": "https://www.cs.cornell.edu/home/kleinber/kdd17-selective.pdf",
+      "prior_proposition": "Decision-dependent observation prevents straightforward human/model comparison; contraction and decision-maker variation enable particular evaluations.",
+      "inspection": "Author PDF abstract, introduction and available full-text extraction.",
+      "comparison": {
+        "same_variables": "Partly: selected inspected cases.",
+        "same_causal_structure": "Selection controls evaluation population despite honest labels.",
+        "same_beneficiary": "Decision/evaluation beneficiary.",
+        "same_outcome": "Predictive evaluation rather than permission renewal.",
+        "same_timescale": "Historical selected sample.",
+        "same_prediction": "A truthful sample can still misrepresent unobserved cases.",
+        "same_intervention": "Selection-aware comparison or independent variation."
+      }
+    },
+    {
+      "source_id": "D4:S024",
+      "title": "Delegation to Incentivize Information Production",
+      "authors": [
+        "Cheng Li",
+        "Huangxing Mao"
+      ],
+      "year": 2024,
+      "source": "https://www.sciencedirect.com/science/article/pii/S0165489624000246",
+      "prior_proposition": "Delegation to a mildly negatively biased decision agent can induce a proposing sender to produce stronger evidence, improving organizational welfare under the stated conditions.",
+      "inspection": "Publisher abstract, highlights and introduction.",
+      "comparison": {
+        "same_variables": "Partly: agent bias, evidence production and delegation.",
+        "same_causal_structure": "Delegation structure changes evidence incentives.",
+        "same_beneficiary": "Organization can benefit; sender/decision agent distinct.",
+        "same_outcome": "Evidence strength and welfare.",
+        "same_timescale": "Main persuasion/delegation episode.",
+        "same_prediction": "Independent decision arrangements change evidence produced, not just evaluator accuracy.",
+        "same_intervention": "Appropriate biased delegate can improve evidence."
+      }
+    },
+    {
+      "source_id": "D4:S005",
+      "title": "Are You Still the Agent I Authorized? Earned Authority under a Fixed Ceiling for Evolving Agents",
+      "authors": [
+        "Zhaoxi Zhang",
+        "Xiaomei Zhang"
+      ],
+      "year": 2026,
+      "source": "https://arxiv.org/html/2607.23586v1",
+      "prior_proposition": "A grant can constrain changing agents with an immutable protected-effect ceiling and a transition envelope; evidence produced during operation may allocate active authority within the ceiling but cannot raise that ceiling.",
+      "inspection": "Abstract, introduction, system/threat model, main state-bound model, non-amplification statement/proof and conditional ascent section; appendices not fully audited.",
+      "comparison": {
+        "same_variables": "Partly: operation evidence, scope gate and independent assurance.",
+        "same_causal_structure": "Self-produced evidence can be weak even when accurate about observed tasks.",
+        "same_beneficiary": "Agent evaluated under principal ceiling.",
+        "same_outcome": "Authority containment and reliability.",
+        "same_timescale": "Repeated evolution.",
+        "same_prediction": "Independent evidence/gates matter; routing effect must be compared to full trust-boundary design.",
+        "same_intervention": "Independent evaluator/attestation/fresh principal endorsement under fixed ceiling."
+      }
+    }
+  ],
+  "KNOWN": "Experiment selection and signal realization are distinct. Honest evaluation of selected cases does not certify unselected coverage.",
+  "NEW_RESIDUE": "Factor audit routing independence separately from audit execution independence in an agent-scope benchmark.",
+  "so_what_prior_theory_misses": "An evaluator-only assurance checklist misses sampling control; information design already provides the explanation.",
+  "classification": "DOMAIN_TRANSFER",
+  "confidence_in_substantive_novelty": 0.15,
+  "confidence_in_empirical_reality": null,
+  "verdict": "Demote to an audit-design application. Do not rename selective evidence as a breakthrough.",
+  "absence_claim": "No absence-of-prior-work proof. Partial inspection cannot show that an entire work lacks an extension.",
+  "public_claim": false
+}

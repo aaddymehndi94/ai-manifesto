@@ -1,0 +1,135 @@
+{
+  "version": "0.1.0",
+  "candidate_id": "D4:I312",
+  "candidate_proposition": "If competing providers can demonstrate quality only after users grant scarce exclusive integrations, competition can shift toward securing early integrations rather than improving demonstrated service, even with free profile export.",
+  "strongest_interpretation": "If demonstrating agent quality requires scarce exclusive integrations, provider competition can concentrate audition opportunities even with free data portability. Nonexclusive trials can alter quality investment without changing switching price.",
+  "stage": "PRIOR_ART_CHALLENGED_LIMITED_INSPECTION",
+  "queries": [
+    "Exclusive Dealing Rasmusen Ramseyer Wiley Naked Exclusion",
+    "Learning and Strategic Pricing Bergemann Valimaki",
+    "endogenous outside options platform dependence learning switching costs",
+    "agent exclusive integration quality audition portability"
+  ],
+  "search_date": "2026-10-05",
+  "query_disclosure": "Queries include actual performed query wording and focused phrase variants within the same source searches; no search is claimed exhaustive.",
+  "closest_works": [
+    {
+      "source_id": "D4:S022",
+      "title": "Naked Exclusion",
+      "authors": [
+        "Eric B. Rasmusen",
+        "J. Mark Ramseyer",
+        "John S. Wiley Jr."
+      ],
+      "year": 1991,
+      "source": "https://rasmusen.org/published/Rasmusen_91.AER.exclusion.htm",
+      "prior_proposition": "Rational individual exclusive contracts can jointly prevent entry under scale economies and buyer coordination failure.",
+      "inspection": "Author HTML abstract, setup, propositions1–2 and explanation.",
+      "comparison": {
+        "same_variables": "Yes abstractly: exclusive access, entrants, buyers and scale.",
+        "same_causal_structure": "Exclusive agreements restrict rivals’ viable access.",
+        "same_beneficiary": "Incumbent; buyers can rationally sign.",
+        "same_outcome": "Foreclosure, which subsumes blocked auditions under suitable setup.",
+        "same_timescale": "Two periods with entry.",
+        "same_prediction": "Individual voluntary agreement can produce collective exclusion.",
+        "same_intervention": "Collective refusal or restrict exclusionary agreements, subject to actual analysis."
+      }
+    },
+    {
+      "source_id": "D4:S023",
+      "title": "Learning and Strategic Pricing",
+      "authors": [
+        "Dirk Bergemann",
+        "Juuso Välimäki"
+      ],
+      "year": 1996,
+      "source": "https://cowles.yale.edu/node/145463",
+      "prior_proposition": "Competition endogenizes experimentation costs; prices allocate learning benefits over time and support efficient Markov-perfect experimentation in the model.",
+      "inspection": "Primary Cowles discussion paper abstract; author publication list.",
+      "comparison": {
+        "same_variables": "Yes partly: competing providers, unknown quality, costly trials.",
+        "same_causal_structure": "Access/prices affect experimentation and learning.",
+        "same_beneficiary": "Buyer and competing sellers.",
+        "same_outcome": "Learning and efficient experimentation.",
+        "same_timescale": "Dynamic stream of purchases.",
+        "same_prediction": "Quality contestability depends on experimentation conditions.",
+        "same_intervention": "Allocation/prices that support experimentation."
+      }
+    },
+    {
+      "source_id": "D4:S018",
+      "title": "Too Much Data: Prices and Inefficiencies in Data Markets",
+      "authors": [
+        "Daron Acemoglu",
+        "Ali Makhdoumi",
+        "Azarakhsh Malekian",
+        "Asuman Ozdaglar"
+      ],
+      "year": 2022,
+      "source": "https://www.nber.org/papers/w26296",
+      "prior_proposition": "Correlated information creates externalities that can induce excessive disclosure; platform competition need not fix the inefficiency.",
+      "inspection": "Primary working-paper abstract and published-version record.",
+      "comparison": {
+        "same_variables": "Partly: provider competition and shared resources.",
+        "same_causal_structure": "Individual resource disclosure shapes rivalry and other users’ options.",
+        "same_beneficiary": "Platforms and users.",
+        "same_outcome": "Data-market inefficiency rather than exclusive integration.",
+        "same_timescale": "Market equilibrium.",
+        "same_prediction": "Competition alone can fail to remove a common constraint.",
+        "same_intervention": "Mediated access rather than generic competition."
+      }
+    },
+    {
+      "source_id": "D4:S003",
+      "title": "Performative Power",
+      "authors": [
+        "Moritz Hardt",
+        "Meena Jagadeesan",
+        "Celestine Mendler-Dünner"
+      ],
+      "year": 2022,
+      "source": "https://arxiv.org/html/2203.17232",
+      "prior_proposition": "A firm's capacity to change participant outcomes bounds gains from steering rather than learning alone; the framework also considers simultaneous ex-post optimization by multiple firms.",
+      "inspection": "Abstract, definitions, learning-versus-steering decomposition, ex-post optimization and multiple-firm equilibrium section; all proofs not audited.",
+      "comparison": {
+        "same_variables": "Partly: competition, policy and outside options.",
+        "same_causal_structure": "Outside options and concentration influence steering capacity.",
+        "same_beneficiary": "Multiple firms and participants.",
+        "same_outcome": "Performative power rather than audition access.",
+        "same_timescale": "Equilibrium adaptation.",
+        "same_prediction": "Provider count is not a complete proxy for constrained alternatives.",
+        "same_intervention": "Change outside options and feasible policy influence."
+      }
+    },
+    {
+      "source_id": "D4:S015",
+      "title": "Competition in Persuasion",
+      "authors": [
+        "Matthew Gentzkow",
+        "Emir Kamenica"
+      ],
+      "year": 2017,
+      "source": "https://web.stanford.edu/~gentzkow/research/BayesianComp.pdf",
+      "prior_proposition": "Competition need not improve information. A condition on feasible experiments determines when more informative outcomes are guaranteed; sequential and costly information introduce further limits.",
+      "inspection": "Primary PDF pages1–6: opening counterexample, model, assumptions, Blackwell-connectedness.",
+      "comparison": {
+        "same_variables": "Partly: feasible experiments differ across providers.",
+        "same_causal_structure": "Limited experiment sets constrain quality revelation.",
+        "same_beneficiary": "Competing senders.",
+        "same_outcome": "Information quality rather than formal integration ownership.",
+        "same_timescale": "Main simultaneous game.",
+        "same_prediction": "Competition cannot guarantee information under arbitrary information environments.",
+        "same_intervention": "Expand connected feasible experiments; not just add senders."
+      }
+    }
+  ],
+  "KNOWN": "Exclusive-input foreclosure, endogenous trial costs and constrained information competition are inherited.",
+  "NEW_RESIDUE": "Measure blocked task-quality auditions rather than export completeness.",
+  "so_what_prior_theory_misses": "A portability checklist overlooks exclusive complementary access; IO and information economics already predict that problem.",
+  "classification": "DOMAIN_TRANSFER",
+  "confidence_in_substantive_novelty": 0.2,
+  "confidence_in_empirical_reality": null,
+  "verdict": "Important contestability audit, not established new economics.",
+  "absence_claim": "No absence-of-prior-work proof. Partial inspection cannot show that an entire work lacks an extension.",
+  "public_claim": false
+}

@@ -1,0 +1,134 @@
+{
+  "version": "0.1.0",
+  "candidate_id": "D4:I317",
+  "candidate_proposition": "If users respond to truthful uncertainty disclosure by allocating more trials to the most legible provider, improved transparency can reduce population-wide evidence about less legible competitors despite increasing each disclosed estimate’s accuracy.",
+  "strongest_interpretation": "When truthful uncertainty disclosure attracts finite trials to the most legible provider, estimate accuracy can improve within that provider while cross-provider discrimination deteriorates. An independent audition budget may repair the latter at fixed disclosure.",
+  "stage": "PRIOR_ART_CHALLENGED_LIMITED_INSPECTION",
+  "queries": [
+    "Competition in Persuasion Gentzkow Kamenica 2017",
+    "Learning and Strategic Pricing Bergemann Valimaki",
+    "An Information-Theoretic Analysis Thompson Sampling Russo Van Roy",
+    "information acquisition delegation Bayesian persuasion dynamic"
+  ],
+  "search_date": "2026-10-05",
+  "query_disclosure": "Queries include actual performed query wording and focused phrase variants within the same source searches; no search is claimed exhaustive.",
+  "closest_works": [
+    {
+      "source_id": "D4:S015",
+      "title": "Competition in Persuasion",
+      "authors": [
+        "Matthew Gentzkow",
+        "Emir Kamenica"
+      ],
+      "year": 2017,
+      "source": "https://web.stanford.edu/~gentzkow/research/BayesianComp.pdf",
+      "prior_proposition": "Competition need not improve information. A condition on feasible experiments determines when more informative outcomes are guaranteed; sequential and costly information introduce further limits.",
+      "inspection": "Primary PDF pages1–6: opening counterexample, model, assumptions, Blackwell-connectedness.",
+      "comparison": {
+        "same_variables": "Partly: information environments and competing providers.",
+        "same_causal_structure": "Competition and feasible evidence interact; endogenous sequential trial allocation is a different specified path.",
+        "same_beneficiary": "Senders and receivers.",
+        "same_outcome": "Information quality, directly the candidate’s broad outcome.",
+        "same_timescale": "Static simultaneous main model; sequential limits expressly acknowledged.",
+        "same_prediction": "Competition can reduce information; that surprising slogan is inherited.",
+        "same_intervention": "Expand feasible information or change timing assumptions."
+      }
+    },
+    {
+      "source_id": "D4:S014",
+      "title": "Bayesian Persuasion",
+      "authors": [
+        "Emir Kamenica",
+        "Matthew Gentzkow"
+      ],
+      "year": 2011,
+      "source": "https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2590",
+      "prior_proposition": "A sender can choose an information structure that benefits it through a rational receiver’s action without false messages.",
+      "inspection": "Publisher abstract and bibliographic record.",
+      "comparison": {
+        "same_variables": "Partly: truthful information and rational action.",
+        "same_causal_structure": "Truthful disclosure can change actions; actions here allocate trials.",
+        "same_beneficiary": "Sender potentially benefits.",
+        "same_outcome": "Receiver behavior; comparative ranking is an additional measured outcome.",
+        "same_timescale": "Static persuasion.",
+        "same_prediction": "Truthful transparency need not produce unbiased choice.",
+        "same_intervention": "Independent information constraints."
+      }
+    },
+    {
+      "source_id": "D4:S023",
+      "title": "Learning and Strategic Pricing",
+      "authors": [
+        "Dirk Bergemann",
+        "Juuso Välimäki"
+      ],
+      "year": 1996,
+      "source": "https://cowles.yale.edu/node/145463",
+      "prior_proposition": "Competition endogenizes experimentation costs; prices allocate learning benefits over time and support efficient Markov-perfect experimentation in the model.",
+      "inspection": "Primary Cowles discussion paper abstract; author publication list.",
+      "comparison": {
+        "same_variables": "Yes partly: uncertain provider value and trial allocation.",
+        "same_causal_structure": "Buying/trying creates information that changes future choice.",
+        "same_beneficiary": "Buyer and competing sellers.",
+        "same_outcome": "Efficient learning versus product returns.",
+        "same_timescale": "Dynamic experimentation.",
+        "same_prediction": "Trial allocation affects what comparisons are learned.",
+        "same_intervention": "Support efficient experimentation; the inspected model is efficient rather than the proposed adverse legibility case."
+      }
+    },
+    {
+      "source_id": "D4:S029",
+      "title": "An Information-Theoretic Analysis of Thompson Sampling",
+      "authors": [
+        "Daniel Russo",
+        "Benjamin Van Roy"
+      ],
+      "year": 2016,
+      "source": "https://jmlr.org/papers/volume17/14-087/14-087.pdf",
+      "prior_proposition": "Partial-feedback sequential choice creates exploration/exploitation tradeoffs; information-theoretic analysis yields regret bounds.",
+      "inspection": "Primary JMLR abstract and introduction.",
+      "comparison": {
+        "same_variables": "Yes abstractly: actions, partial feedback and uncertainty.",
+        "same_causal_structure": "Selection determines acquired information and future decisions.",
+        "same_beneficiary": "Decision-maker seeking task reward.",
+        "same_outcome": "Regret/information rather than transparency quality.",
+        "same_timescale": "Sequential choices.",
+        "same_prediction": "Better estimates for sampled arms need not yield adequate comparison.",
+        "same_intervention": "Exploration/information-aware allocation."
+      }
+    },
+    {
+      "source_id": "D4:S021",
+      "title": "The Selective Labels Problem: Evaluating Algorithmic Predictions in the Presence of Unobservables",
+      "authors": [
+        "Himabindu Lakkaraju",
+        "Jon Kleinberg",
+        "Jure Leskovec",
+        "Jens Ludwig",
+        "Sendhil Mullainathan"
+      ],
+      "year": 2017,
+      "source": "https://www.cs.cornell.edu/home/kleinber/kdd17-selective.pdf",
+      "prior_proposition": "Decision-dependent observation prevents straightforward human/model comparison; contraction and decision-maker variation enable particular evaluations.",
+      "inspection": "Author PDF abstract, introduction and available full-text extraction.",
+      "comparison": {
+        "same_variables": "Partly: unobserved alternatives and selected observations.",
+        "same_causal_structure": "Observation coverage can invalidate comparative evaluation.",
+        "same_beneficiary": "Evaluator and decision-maker.",
+        "same_outcome": "Human/model comparison rather than provider ranking.",
+        "same_timescale": "Selected historical data.",
+        "same_prediction": "Within-sample quality is insufficient for alternative-policy comparisons.",
+        "same_intervention": "Use appropriate variation/selection-aware estimands."
+      }
+    }
+  ],
+  "KNOWN": "Truthful persuasion, endogenous experimentation, partial-feedback exploration and comparative-selection bias are inherited.",
+  "NEW_RESIDUE": "A factorial transparency-versus-audition-reserve experiment measuring calibration and cross-provider discrimination separately.",
+  "so_what_prior_theory_misses": "A single-provider calibration audit can miss deficient comparison; partial-feedback learning theory already distinguishes those quantities.",
+  "classification": "USEFUL_SYNTHESIS",
+  "confidence_in_substantive_novelty": 0.25,
+  "confidence_in_empirical_reality": null,
+  "verdict": "Retain as a potentially informative experiment. No verified new interaction has survived subtraction.",
+  "absence_claim": "No absence-of-prior-work proof. Partial inspection cannot show that an entire work lacks an extension.",
+  "public_claim": false
+}
