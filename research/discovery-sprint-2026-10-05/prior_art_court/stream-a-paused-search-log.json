@@ -1,0 +1,21 @@
+{
+  "version": "0.1.0",
+  "stream": "a",
+  "status": "PAUSED_BY_USER_BEFORE_COURTS",
+  "date": "2026-10-05",
+  "disclosure": "One preliminary search batch was issued after ratings and before the user override. No full text was opened, no seven-equivalence comparison or novelty classification was performed, and no additional search/court work followed the pause. Preserved as process history, not a negative judgment or selection outcome.",
+  "batches": [
+    {
+      "date": "2026-10-05",
+      "queries": [
+        "Salmoni Schmidt Walter 1984 knowledge results motor learning review guidance hypothesis augmented feedback",
+        "Wegner 1987 transactive memory contemporary analysis group mind original chapter",
+        "Collins interaction ritual chains 2004 mutual obligations preparation ritual book pdf",
+        "Hacking 1995 looping effects human kinds chapter pdf"
+      ],
+      "inspection_level": "Search results only; no full text opened",
+      "purpose": "Find primary neighbors for possible later comparison",
+      "candidate_dispositions": []
+    }
+  ]
+}

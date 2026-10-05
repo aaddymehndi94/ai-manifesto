@@ -1,0 +1,229 @@
+{
+  "version": "0.1.0",
+  "date": "2026-10-05",
+  "status": "BLUE_TEAM_CONSTRUCTIONS_ONLY",
+  "disclosure": "Six hand-specified models; results follow from stipulated assumptions. No optimizing agent, human study, fitted parameters, novelty search or field prevalence claim.",
+  "models": [
+    {
+      "id": "E4:T01",
+      "kind": "CONDITIONAL_MODEL_RESULT",
+      "name": "Instant stop, missing participation channel",
+      "parameters": {
+        "population": 1000,
+        "manual_margin": 1,
+        "fixed_cost": 250,
+        "rebuild_time": 24,
+        "exit_horizon": 1
+      },
+      "threshold": 0.75,
+      "rows": [
+        {
+          "adoption": 0.001,
+          "manual_channel": true,
+          "permission_stop_latency": 0,
+          "exit_service_feasible": true
+        },
+        {
+          "adoption": 0.1,
+          "manual_channel": true,
+          "permission_stop_latency": 0,
+          "exit_service_feasible": true
+        },
+        {
+          "adoption": 0.5,
+          "manual_channel": true,
+          "permission_stop_latency": 0,
+          "exit_service_feasible": true
+        },
+        {
+          "adoption": 0.7,
+          "manual_channel": true,
+          "permission_stop_latency": 0,
+          "exit_service_feasible": true
+        },
+        {
+          "adoption": 0.75,
+          "manual_channel": true,
+          "permission_stop_latency": 0,
+          "exit_service_feasible": true
+        },
+        {
+          "adoption": 0.8,
+          "manual_channel": false,
+          "permission_stop_latency": 0,
+          "exit_service_feasible": false
+        },
+        {
+          "adoption": 0.9,
+          "manual_channel": false,
+          "permission_stop_latency": 0,
+          "exit_service_feasible": false
+        },
+        {
+          "adoption": 1,
+          "manual_channel": false,
+          "permission_stop_latency": 0,
+          "exit_service_feasible": false
+        }
+      ],
+      "interpretation": "A channel viability threshold follows from the assumed fixed-cost rule. It is not an estimated social critical fraction. Rebuilding time, not token revocation latency, binds the exit horizon.",
+      "counterexample": "A funded public channel, immediate replacement, or rebuild_time <= exit_horizon removes this construction."
+    },
+    {
+      "id": "E4:T02",
+      "kind": "INHERITED_FORMAL_STRUCTURE_APPLIED",
+      "name": "Locally rational grants, jointly unwanted tempo",
+      "matrix": [
+        {
+          "own": 0,
+          "other": 0,
+          "payoff": 0
+        },
+        {
+          "own": 0,
+          "other": 1,
+          "payoff": -1.5
+        },
+        {
+          "own": 1,
+          "other": 0,
+          "payoff": 0.5
+        },
+        {
+          "own": 1,
+          "other": 1,
+          "payoff": -1
+        }
+      ],
+      "interpretation": "Delegation is strictly individually beneficial at either fixed background, yet the joint low-delegation state Pareto-dominates the high state. This is ordinary collective-action mathematics; any eventual residue must be the authority-producing adaptation and a different measurement/intervention.",
+      "counterexample": "If the shared tempo cost is less than private benefit, the all-delegate state is not jointly unwanted."
+    },
+    {
+      "id": "E4:T03",
+      "kind": "CONDITIONAL_MODEL_RESULT",
+      "name": "Recognition is not provider count",
+      "same": {
+        "provider_count": 2,
+        "export_completeness": 1,
+        "permission_profile": "fixed"
+      },
+      "worlds": [
+        {
+          "name": "issuer bottleneck",
+          "recognized_after_issuer_loss": false
+        },
+        {
+          "name": "independent public path",
+          "recognized_after_issuer_loss": true
+        }
+      ],
+      "interpretation": "Reachability and graph cuts are inherited machinery. The proposed outcome is continuation of particular legitimate relationships under issuer loss, not general authority or welfare.",
+      "counterexample": "If counterparties accept user-signed substitutes without issuer guarantees, the bottleneck disappears."
+    },
+    {
+      "id": "E4:T04",
+      "kind": "CONDITIONAL_INDISTINGUISHABILITY_RESULT",
+      "name": "Success-only transfer cannot identify an unobserved constraint",
+      "worlds": [
+        {
+          "world": "constraint absent",
+          "history": [
+            "routine_ok"
+          ],
+          "novel_action_allowed": true
+        },
+        {
+          "world": "constraint binding",
+          "history": [
+            "routine_ok"
+          ],
+          "novel_action_allowed": false
+        }
+      ],
+      "assumptions": [
+        "Identical complete performed-action histories are the only input",
+        "A never-performed new action is required where allowed",
+        "No constraint violations permitted in either world",
+        "No consultation or new observation"
+      ],
+      "interpretation": "No deterministic decision can both act usefully in the permissive world and avoid the action in the constrained world. Randomization cannot guarantee both. This is a generic indistinguishability argument, not a new theorem about AI.",
+      "counterexample": "Independent constraint evidence, informative abstention reasons, consultation, or allowing safe abstention defeats the triangle."
+    },
+    {
+      "id": "E4:T05",
+      "kind": "CONDITIONAL_MODEL_RESULT",
+      "name": "Same revoked permissions, unequal recovery horizon",
+      "parameters": {
+        "production_per_practice": 0.2,
+        "decay": 0.1,
+        "required": 0.6
+      },
+      "worlds": [
+        {
+          "history": "practice preserved",
+          "h": 0.7,
+          "current_permissions": 0,
+          "recovery": {
+            "steps": 0,
+            "capability": 0.7,
+            "recovered": true
+          }
+        },
+        {
+          "history": "practice absent",
+          "h": 0.1,
+          "current_permissions": 0,
+          "recovery": {
+            "steps": 8,
+            "capability": 0.612579511,
+            "recovered": true
+          }
+        }
+      ],
+      "interpretation": "The stock equation supplies its own result. It illustrates path-dependent recovery, not evidence of human learning dynamics or a novel hysteresis theorem.",
+      "counterexample": "Zero decay, cheap instant replacement, or transferable practice on other activities can preserve fallback without duplicating the automated task."
+    },
+    {
+      "id": "E4:T06",
+      "kind": "CONDITIONAL_MODEL_RESULT",
+      "name": "Delegation can manufacture or destroy its own alternative",
+      "parameters": {
+        "baseline_training": 0.1,
+        "decay": 0.1,
+        "practice_displacement": 0.2,
+        "savings": 1,
+        "conversion": 0.5
+      },
+      "critical_reinvestment": 0.4000000000000001,
+      "rows": [
+        {
+          "reinvestment": 0,
+          "reserve_at_no_adoption": 1,
+          "reserve_at_full_adoption": 0.3333333333333333
+        },
+        {
+          "reinvestment": 0.2,
+          "reserve_at_no_adoption": 1,
+          "reserve_at_full_adoption": 0.6666666666666666
+        },
+        {
+          "reinvestment": 0.4,
+          "reserve_at_no_adoption": 1,
+          "reserve_at_full_adoption": 1
+        },
+        {
+          "reinvestment": 0.8,
+          "reserve_at_no_adoption": 1,
+          "reserve_at_full_adoption": 1.6666666666666665
+        },
+        {
+          "reinvestment": 1,
+          "reserve_at_no_adoption": 1,
+          "reserve_at_full_adoption": 1.9999999999999996
+        }
+      ],
+      "interpretation": "The derivative changes sign when alpha*rho*s*delta exceeds beta*b. These linear stock-flow assumptions manufacture a clean threshold; no real-world threshold or novelty is established. The same deployment can be self-limiting or self-necessitating depending on collective reinvestment.",
+      "counterexample": "If displaced practice was not useful or gains transfer without reserve expenditure, the model overstates the need for reinvestment."
+    }
+  ]
+}
