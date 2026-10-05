@@ -7,7 +7,7 @@ from definitions is identified as such; it cannot carry the intellectual center.
 
 The executable constructions are in
 [conditional-models.mjs](emergence/conditional-models.mjs). Their assumptions are
-chosen, not measured. Five models pass internal assertions; this is consistency
+chosen, not measured. Six models pass internal assertions; this is consistency
 checking, not scientific confirmation. A sixth model adds a beneficial sign
 reversal: reinvesting enough savings in independent reserve production can make
 the same delegation improve, rather than erode, its own alternatives. Its clean

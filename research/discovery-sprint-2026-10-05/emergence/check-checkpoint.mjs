@@ -1,0 +1,25 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+const here=path.dirname(fileURLToPath(import.meta.url)),root=path.dirname(here);
+const read=name=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8'));
+const snapshot=read('emergence/pause-snapshot.json');
+for(const item of snapshot.files)assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,item.path))).digest('hex'),item.sha256,`Paused input changed: ${item.path}`);
+const population=read('emergence/compound_population.json');
+const paradoxes=read('emergence/paradox_population.json');
+const scales=read('emergence/scale_transition_population.json');
+const choices=read('emergence/checkpoint-selection.json');
+const compounds=new Set(population.compounds.map(x=>x.id)),paradoxIds=new Set(paradoxes.paradoxes.map(x=>x.id));
+assert.equal(choices.compounds.length,25);
+assert.equal(choices.paradoxes.length,20);
+for(const c of choices.compounds)assert(compounds.has(c.id),`Unknown compound ${c.id}`);
+for(const c of choices.paradoxes)assert(paradoxIds.has(c.id),`Unknown paradox ${c.id}`);
+for(const [name,arr] of Object.entries(choices.portfolios)){assert.equal(arr.length,5,`${name} must have five`);assert.equal(new Set(arr.map(x=>x.id)).size,5,`${name}: duplicate`);for(const c of arr)assert(compounds.has(c.id),`${name}: unknown compound ${c.id}`);}
+const reports=['blue_team_emergence.md','paradox_candidates.md','scale_transitions.md','unowned_power.md','impossibility_search.md','new_state_variables.md'];
+for(const name of reports)assert(fs.readFileSync(path.join(root,name),'utf8').length>1000,`Missing substantive report: ${name}`);
+assert(scales.scale_transitions.length>=15);
+assert(population.compounds.length>=150);
+assert(paradoxes.paradoxes.length>=50);
+console.log(JSON.stringify({checkpoint:'passed',compounds:population.compounds.length,paradoxes:paradoxes.paradoxes.length,scale_transitions:scales.scale_transitions.length,developed_compounds:choices.compounds.length,developed_paradoxes:choices.paradoxes.length,portfolios:Object.fromEntries(Object.entries(choices.portfolios).map(([k,v])=>[k,v.length])),reports:reports.length,paused_inputs_changed:0,novelty_certified:false}));
