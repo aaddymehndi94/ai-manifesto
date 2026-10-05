@@ -1,7 +1,7 @@
 # New state-variable attempts
 
 Blue-team checkpoint, 2026-10-05. Names are provisional; measurements are not
-validated. These are candidate objects, not fourteen discoveries. Each paired
+validated. These are candidate objects, not seventeen discoveries. Each paired
 example specifies which conventional metrics are held equal. Existing disciplines
 may already measure the distinction; that comparison is deferred until this
 checkpoint is complete. No variable establishes welfare or legitimacy by itself.
@@ -184,6 +184,59 @@ vetoes are equal; capacity to revise the macro-rule differs.
 
 **Limit:** no single principal is required. Legislatures, associations, unions,
 customary bodies or federated institutions may already supply the missing function.
+
+## V15. Endorsement-conditioned departure cost
+
+For a creator who currently endorses their previous work, measure the external
+cost of a specified equally good desired departure: audience response, financing,
+distribution and contractual requirements. Pair it with perceived authorship;
+do not subtract one from the other or assume a creator must want to change.
+
+**Pair:** equally satisfied artists, equal work quality and accurate attribution.
+In A, earlier assistance induced acquisitions that fund the next model's stylistic
+canon and an audience's identity-specific expectations. In B, support preserves
+funding for departures. Felt authorship matches; the price of a requested change
+does not. Compound E4:M003 adds self-reasons and external reproduction together.
+
+**Limit:** a valued tradition can benefit from stable expectations. A higher
+departure cost is not intrinsically wrong, and the creator's desired comparison
+must be specified.
+
+## V16. Comparative measurement coverage
+
+For a fixed set of policy–response regions, record independent calibration error,
+uncertainty and reachable experimental support by region. A provider's own
+prediction accuracy is not the whole matrix. Measure between-policy uncertainty
+under an explicit evaluator; do not assume precision automatically improves rank.
+
+**Pair:** equal true task quality, truthful disclosures and the same total
+calibration budget. In A, trials fund only the incumbent's regions; in B, some
+fund comparative alternatives. Under a lower-confidence-bound ranking rule,
+the better-measured service may rank higher without a true quality advantage.
+Comparative uncertainty can be worse than the balanced-budget counterfactual.
+
+**Limit:** cumulative observations do not ordinarily make Bayesian knowledge
+worse. Specify opportunity cost, finite calibration windows or context drift
+if claiming temporal deterioration. A pure exploit-only rule may simply be an
+ordinary inadequate exploration strategy. E4:M005 is under blue-team refinement.
+
+## V17. Representation-conditioned evidence coverage
+
+For a stated administrative grouping, record which divergent claim histories
+are independently observable and eligible for assessment. Compare this with
+the grouping's apparent adequacy among the cases its procedure retained.
+No assertion about artificial consciousness or welfare is required to audit
+contractual identity and claim handling.
+
+**Pair:** equal branch count and truthful reports. In A, aligned, schema-readable
+histories are retained while divergent ones leave assessment; in B, independent
+sampling covers both. The same administrative unit appears increasingly adequate
+in A despite different excluded-claim coverage. E4:M084 closes the selection and
+validation loop.
+
+**Limit:** independently justified grouping may be efficient and appropriate.
+Different putative moral claims must not be counted as established moral interests.
+Disclosure burdens and assessment cost belong in the comparison too.
 
 ## Metrics set aside
 

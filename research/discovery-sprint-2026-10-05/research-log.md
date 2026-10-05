@@ -60,3 +60,27 @@ All entries concern the isolated sprint. No new canonical/public claims.
   only after complete sharpening and the limited courts; no aggregate rank.
 - Focused search log stores actual submitted queries and returned bibliographic
   headers. Unread result headers are not source support.
+
+## 2026-10-05, blue-team emergence intervention and checkpoint
+
+- At 02:53 UTC, switched from nearest-ancestor screening to compound construction.
+  No additional literature search or novelty court ran during this phase. All
+  120 sharpened inputs and eight supplemental probes remained available.
+- Three construction streams supplied 150 compound drafts, 51 paradox drafts and
+  17 scale probes. Integration checks validate identified components and required
+  fields, not semantic independence, historical novelty or empirical truth.
+- Developed 25 compounds and 20 paradoxes; retained three five-item development
+  portfolios. All other drafts remain genetic material, not rejected candidates.
+- Investigated 21 recorded tradeoff attempts. No broad impossibility triangle
+  was established; generic information/resource obstructions and escaping
+  constructions are identified as such.
+- Strengthened M005 with explicit precision-sensitive allocation and a matched
+  budget comparison. Removed the unsupported absolute-deterioration reading.
+- Strengthened M087 with receipt-funded entry and a demand-to-entry ablation.
+  A matched plural-guarantee arm separates certificate use from indispensability.
+- Seven root toy checks and two dedicated constructions pass their assertions.
+  They contain no optimizing agent, fitted parameters, real user or prevalence
+  estimate. T07 requires compressed arrivals, not a mere earlier stop time.
+- Required six-report checkpoint completed at 03:44:51 UTC. Six paused input
+  hashes and 100 baseline files remain unchanged. This permits subsequent
+  whole-composition courts; it is no publication, pruning or winner decision.

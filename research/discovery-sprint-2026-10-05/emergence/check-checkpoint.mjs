@@ -18,7 +18,7 @@ for(const c of choices.compounds)assert(compounds.has(c.id),`Unknown compound ${
 for(const c of choices.paradoxes)assert(paradoxIds.has(c.id),`Unknown paradox ${c.id}`);
 for(const [name,arr] of Object.entries(choices.portfolios)){assert.equal(arr.length,5,`${name} must have five`);assert.equal(new Set(arr.map(x=>x.id)).size,5,`${name}: duplicate`);for(const c of arr)assert(compounds.has(c.id),`${name}: unknown compound ${c.id}`);}
 const reports=['blue_team_emergence.md','paradox_candidates.md','scale_transitions.md','unowned_power.md','impossibility_search.md','new_state_variables.md'];
-for(const name of reports)assert(fs.readFileSync(path.join(root,name),'utf8').length>1000,`Missing substantive report: ${name}`);
+for(const name of reports){const body=fs.readFileSync(path.join(root,name),'utf8');assert(body.length>1000,`Missing substantive report: ${name}`);assert(!body.includes('Not specified'),`Rendering omitted a required field in ${name}`);}
 assert(scales.scale_transitions.length>=15);
 assert(population.compounds.length>=150);
 assert(paradoxes.paradoxes.length>=50);

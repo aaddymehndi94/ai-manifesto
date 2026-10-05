@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-05",
+  "status": "BLUE_TEAM_DERIVATION_LIMITS_NOT_PRUNING",
+  "raw_population_unchanged": true,
+  "entries": [
+    {
+      "id": "E4:P002",
+      "display_title": "More experts need not raise independent recovery coverage",
+      "caution": "The construction establishes failure to improve an independent recovery cut. Absolute shrinkage requires displacement of previously independent paths; adding dependent experts alone does not prove that stronger claim. The raw headline is preserved but not treated as derived."
+    },
+    {
+      "id": "E4:P004",
+      "caution": "Comparative knowledge can be worse relative to a same-budget balanced allocation without worsening absolutely. Precision must enter an explicit risk-sensitive choice rule; truthful posterior means alone do not supply that edge. See strengthened-M005.md."
+    },
+    {
+      "id": "E4:P035",
+      "caution": "Fixed scope means unchanged local per-agent ceilings. Adding valid agents or commitments does change the whole-population grant vector. The relevant divergence is collective reserve feasibility at the same local ceiling, not literally no new authorization anywhere."
+    },
+    {
+      "id": "E4:P036",
+      "caution": "More discovered origins or a larger unresolved fraction can reflect better detection and a changed denominator rather than worse control. A test needs a fixed source-error cohort, a specified remedy horizon, and lower timely remedy on that cohort, not just more open cases."
+    },
+    {
+      "id": "E4:P039",
+      "caution": "Uniformly shifting every stop earlier does not increase stop clustering. The adverse construction requires compression of a previously dispersed stop wave, limited disposition capacity, and delay-generated follow-on obligations. E4:T07 tests these extra premises and removes each. Local stop is always honored; the result is no recommendation to delay safety shutdowns."
+    }
+  ]
+}

@@ -68,5 +68,31 @@ assert(steadyReserve(1,.8)>steadyReserve(0,.8));
 assert(Math.abs(steadyReserve(1,criticalReinvestment)-1)<1e-12);
 rows.push({id:'E4:T06',kind:'CONDITIONAL_MODEL_RESULT',name:'Delegation can manufacture or destroy its own alternative',parameters:reserve,critical_reinvestment:criticalReinvestment,rows:[0,.2,.4,.8,1].map(rho=>({reinvestment:rho,reserve_at_no_adoption:steadyReserve(0,rho),reserve_at_full_adoption:steadyReserve(1,rho)})),interpretation:'The derivative changes sign when alpha*rho*s*delta exceeds beta*b. These linear stock-flow assumptions manufacture a clean threshold; no real-world threshold or novelty is established. The same deployment can be self-limiting or self-necessitating depending on collective reinvestment.',counterexample:'If displaced practice was not useful or gains transfer without reserve expenditure, the model overstates the need for reinvestment.'});
 
-fs.writeFileSync(path.join(here,'conditional-model-results.json'),JSON.stringify({version:'0.1.0',date:'2026-10-05',status:'BLUE_TEAM_CONSTRUCTIONS_ONLY',disclosure:'Six hand-specified models; results follow from stipulated assumptions. No optimizing agent, human study, fitted parameters, novelty search or field prevalence claim.',models:rows},null,2)+'\n');
+// Local actions stop immediately in every arm. This queue contains lawful
+// disposition work: reconciling outstanding obligations, not continued agent action.
+// Compression, not merely an earlier time origin, changes the arrival pattern.
+const settle=(arrivals,capacity,followOnRate,horizon=30)=>{
+  let backlog=0,originalArrivals=0,releaseStep=null;
+  const trace=[];
+  for(let t=0;t<horizon;t++){
+    const arrival=arrivals[t]||0;originalArrivals+=arrival;
+    const unserved=Math.max(0,backlog+arrival-capacity);
+    backlog=unserved*(1+followOnRate);
+    if(backlog===0&&originalArrivals===100&&releaseStep===null)releaseStep=t;
+    trace.push({step:t,arrival,backlog});
+  }
+  return {capacity,followOnRate,releaseStep,finalBacklog:backlog,trace};
+};
+const dispersed=settle(Array(10).fill(10),10,.5);
+const compressed=settle([100],10,.5);
+const noFollowOn=settle([100],10,0);
+const burstReserve=settle([100],100,.5);
+assert.equal(dispersed.releaseStep,9);
+assert.equal(compressed.releaseStep,null);
+assert(compressed.finalBacklog>100);
+assert.equal(noFollowOn.releaseStep,9);
+assert.equal(burstReserve.releaseStep,0);
+rows.push({id:'E4:T07',kind:'CONDITIONAL_MODEL_RESULT',name:'Instant local stops, delayed collective release',parameters:{obligations:100,capacity:10,followOnRate:.5,horizon:30},unstable_backlog_boundary:30,arms:{dispersed,compressed,noFollowOn,burstReserve},interpretation:'After original arrivals cease, q(next)=(1+beta)*max(0,q-mu), with unstable boundary mu*(1+beta)/beta. Compression plus delay-generated work can keep a stop disposition queue growing in this stipulated fluid model. Remove the return edge or provision burst capacity and the adverse persistence disappears. This is inherited queue mathematics, not a new theorem or empirical result.',counterexample:'Uniform earlier time shifts do not compress arrivals. Bounded follow-on obligations, spare disposition capacity, or independent reconciliation can remove persistence.',safety_limit:'All local stops are honored immediately. Continued counterparty obligations are not continued AI execution. No immediate safety cost is modeled and slower safety shutdowns are not recommended.'});
+
+fs.writeFileSync(path.join(here,'conditional-model-results.json'),JSON.stringify({version:'0.1.0',date:'2026-10-05',status:'BLUE_TEAM_CONSTRUCTIONS_ONLY',disclosure:'Seven hand-specified models; results follow from stipulated assumptions. No optimizing agent, human study, fitted parameters, novelty search or field prevalence claim.',models:rows},null,2)+'\n');
 console.log(JSON.stringify({models:rows.length,assertions:'passed',authority_rewards:'not applicable; no optimizer',empirical_evidence:false}));

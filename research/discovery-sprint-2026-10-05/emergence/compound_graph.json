@@ -1,0 +1,3058 @@
+{
+  "version": "0.1.0",
+  "date": "2026-10-05",
+  "phase": "BLUE_TEAM_EMERGENCE",
+  "baseline": [
+    {
+      "path": "generation4_raw.json",
+      "sha256": "529c11a1876ee40797ff13fb40a6d3df51e80f654b6508b38c8aded995afed89"
+    },
+    {
+      "path": "idea_graph.json",
+      "sha256": "d9e3a86ef6f140b69d065ed5009a8ce62611eaae9bd618ee56cfc15c988f2521"
+    },
+    {
+      "path": "sharpened/stream-a.json",
+      "sha256": "7dc33d54ae3c7335eaec7cf6633cfee055cc65b277edcb28ffb21a9804a23e6a"
+    },
+    {
+      "path": "sharpened/stream-b.json",
+      "sha256": "13fa2d4fff17b27f2f3d53ced4a6d05418a4ca35b89deeb1e1ae96304cd202fa"
+    },
+    {
+      "path": "sharpened/stream-c.json",
+      "sha256": "a25f609485083431cfae5ef561d65465548b6e9a95e5d7079f461c0dea439592"
+    },
+    {
+      "path": "sharpened/root-supplement.json",
+      "sha256": "bbf66edb4ac6f752f782a4c2838def7a06be480ce8c9614f1cd50b1b35ee565a"
+    }
+  ],
+  "claim_status": "UNTESTED_COMPOSITIONS_NOT_NOVELTY_FINDINGS",
+  "disclosure": "Three AI-agent construction streams, integrated by the main agent. Counts establish exploration coverage only. Exact-string duplicate checking is not semantic independence. No prior-art courts or new searches during this phase.",
+  "validation": "Structural fields, original component references, counts and paused-input hashes. Causal closure and substantive differences require editorial inspection.",
+  "nodes": [
+    {
+      "id": "E4:M001",
+      "kind": "proposed_compound",
+      "emergent_property": "A recipient can cross into an assessment monopoly while measured independence keeps improving: no remaining observer can document the needs that would restore support."
+    },
+    {
+      "id": "E4:M002",
+      "kind": "proposed_compound",
+      "emergent_property": "Nominal reserve expansion can coexist with a subreplacement expert-production regime: its apparent reserve stock rises as the source that makes that stock useful contracts."
+    },
+    {
+      "id": "E4:M003",
+      "kind": "proposed_compound",
+      "emergent_property": "An externally financed style equilibrium can be experienced as increasingly self-authored, even while the price of departure rises; introspective ownership and outside option are not opposite metrics."
+    },
+    {
+      "id": "E4:M004",
+      "kind": "proposed_compound",
+      "emergent_property": "Deleting all old profiles can leave a self-regenerating classification sustained by fresh testimony and newly produced behavior rather than hidden retained data."
+    },
+    {
+      "id": "E4:M005",
+      "kind": "proposed_compound",
+      "emergent_property": "A competitor can become both the best-measured and best-ranked policy through a self-financing evidence loop, with no corresponding initial quality advantage or false report."
+    },
+    {
+      "id": "E4:M006",
+      "kind": "proposed_compound",
+      "emergent_property": "An institution can lose even the vocabulary and intake path for difficult needs while its truthful funded cohort improves, creating a demand category that is absent rather than merely underserved."
+    },
+    {
+      "id": "E4:M007",
+      "kind": "proposed_compound",
+      "emergent_property": "A care network can fall below a corroboration threshold: people still visit occasionally, but no pair shares enough context to substantiate a change the companion misses."
+    },
+    {
+      "id": "E4:M008",
+      "kind": "proposed_compound",
+      "emergent_property": "Separately faithful succession and successful erasure can jointly leave descendants with binding inherited constraints but no supported account of the living obligations or old conditions that would justify renegotiation."
+    },
+    {
+      "id": "E4:M009",
+      "kind": "proposed_compound",
+      "emergent_property": "A community can keep its language and sincerely recognize its custom while losing the ability to express the disagreements excluded by the translation that produced that recognition."
+    },
+    {
+      "id": "E4:M010",
+      "kind": "proposed_compound",
+      "emergent_property": "Partners can each become more satisfied with their own history while their joint ability to interpret a new disagreement shrinks; convergent satisfaction is not equivalent to a shared repair state."
+    },
+    {
+      "id": "E4:M011",
+      "kind": "proposed_compound",
+      "emergent_property": "A sector can preserve senior expertise temporarily while losing every economical path from novice to expert, making later recovery demand unable to purchase the missing stock."
+    },
+    {
+      "id": "E4:M012",
+      "kind": "proposed_compound",
+      "emergent_property": "Human oversight headcount can grow while the smallest explanation-source failure disabling that oversight stays one; independent exception contribution can change the cut without adding staff."
+    },
+    {
+      "id": "E4:M013",
+      "kind": "proposed_compound",
+      "emergent_property": "More repetitions and unchanged practice hours can increase both measured mastery and unsupported failure because the joint information needed to learn corrections is absent."
+    },
+    {
+      "id": "E4:M014",
+      "kind": "proposed_compound",
+      "emergent_property": "Teams with identical skill inventories can differ sharply in usable complementarity: needed skills are present but cannot be correctly combined in time."
+    },
+    {
+      "id": "E4:M015",
+      "kind": "proposed_compound",
+      "emergent_property": "The measured reserve can follow each update perfectly while losing the ability to operate when the update source and its traces fail together."
+    },
+    {
+      "id": "E4:M016",
+      "kind": "proposed_compound",
+      "emergent_property": "Reliable management can improve every sampled site while reducing the connected habitat that lets those sites recover after a shock."
+    },
+    {
+      "id": "E4:M017",
+      "kind": "proposed_compound",
+      "emergent_property": "A delayed ecological failure can become hard to distinguish from environmental change precisely because successful operation eliminated the alternative procedures needed to diagnose it."
+    },
+    {
+      "id": "E4:M018",
+      "kind": "proposed_compound",
+      "emergent_property": "A market can multiply financially credible recovery claims without adding jointly deliverable fallback, using truthful individually successful tests."
+    },
+    {
+      "id": "E4:M019",
+      "kind": "proposed_compound",
+      "emergent_property": "Every household can correctly request help while the combined response harms those waiting outside the alarm network; adding a common coordinator can reduce rather than increase this correlation."
+    },
+    {
+      "id": "E4:M020",
+      "kind": "proposed_compound",
+      "emergent_property": "An apparently rigorous replacement gate can lock institutions into a recovery network whose risk cannot be escaped using the gate's accepted evidence."
+    },
+    {
+      "id": "E4:M021",
+      "kind": "proposed_compound",
+      "emergent_property": "Every person can demonstrate a successful veto in isolation, yet no jointly feasible schedule honors their concurrent vetoes; low exercised refusal can then be mistaken for consensual support."
+    },
+    {
+      "id": "E4:M022",
+      "kind": "proposed_compound",
+      "emergent_property": "A fixed local effect ceiling can coexist with collapse of the unaided participation region when a funded recognition gate and speed-adaptive deadline jointly remove the first feasible transaction."
+    },
+    {
+      "id": "E4:M023",
+      "kind": "proposed_compound",
+      "emergent_property": "A semantic adapter can validate itself by removing the standing of the people who would reveal its non-equivalence, despite accurate transfer of the transaction and truthful records."
+    },
+    {
+      "id": "E4:M024",
+      "kind": "proposed_compound",
+      "emergent_property": "A privacy-preserving service can reduce its own stored data while increasing total lifecycle disclosure and leaving the affected person unable to obtain a correction."
+    },
+    {
+      "id": "E4:M025",
+      "kind": "proposed_compound",
+      "emergent_property": "Reliability can become self-certifying because both budget and evidentiary prerequisites shrink the institution's capacity to learn that a rare closure was wrong."
+    },
+    {
+      "id": "E4:M026",
+      "kind": "proposed_compound",
+      "emergent_property": "A formally free appeal can become less usable for claimants whose evidence cannot be automated, because preparation savings and independent professional capacity are different resources."
+    },
+    {
+      "id": "E4:M027",
+      "kind": "proposed_compound",
+      "emergent_property": "Formal restraint can increase practical dependence without increasing the permitted effect set, because the remaining refusal and continuity routes are concentrated in costly intermediaries."
+    },
+    {
+      "id": "E4:M028",
+      "kind": "proposed_compound",
+      "emergent_property": "Vendor disagreement can look like diverse oversight while none of the verdicts establishes that a shared composite effect is stopped."
+    },
+    {
+      "id": "E4:M029",
+      "kind": "proposed_compound",
+      "emergent_property": "All adults can accept that the original profile was wrong while continuing its allocation pattern because the profile produced both skills and a family precedent."
+    },
+    {
+      "id": "E4:M030",
+      "kind": "proposed_compound",
+      "emergent_property": "A genuinely helpful review scheduler can make people more fluent, more comfortable and more willing to decide while leaving their substantive ability to initiate or refuse an action unchanged."
+    },
+    {
+      "id": "E4:M031",
+      "kind": "proposed_compound",
+      "emergent_property": "A lineage can appear increasingly suitable for one representative while its divergent earlier putative interests become less identifiable; sincerity and unanimous current testimony do not settle temporal representation."
+    },
+    {
+      "id": "E4:M032",
+      "kind": "proposed_compound",
+      "emergent_property": "A replication market can create a population whose later possible-continuity obligations no host priced or provisioned, while stronger upfront recognition can reduce that population rather than multiply protected copies."
+    },
+    {
+      "id": "E4:M033",
+      "kind": "proposed_compound",
+      "emergent_property": "A procedure can oscillate between overcounting identical instances and underrepresenting divergent branches because replication consumes the very review capacity needed to decide the correct unit."
+    },
+    {
+      "id": "E4:M034",
+      "kind": "proposed_compound",
+      "emergent_property": "Evidence against machine patienthood can leave a real human care institution necessary, because the relevant obligations have migrated from putative machine welfare to people and hidden maintainers."
+    },
+    {
+      "id": "E4:M035",
+      "kind": "proposed_compound",
+      "emergent_property": "Across embodied learners and hypothetical self-reporting systems, an intervention can make the dependent system genuinely easier to operate while altering the channel used to claim that it learned or benefited."
+    },
+    {
+      "id": "E4:M036",
+      "kind": "proposed_compound",
+      "emergent_property": "Preserving interpretive pluralism and reducing regret can coexist with an unappealable practical restriction: no definite belief is asserted, yet a conservative decision is enforced."
+    },
+    {
+      "id": "E4:M037",
+      "kind": "proposed_compound",
+      "emergent_property": "Individually legitimate exceptions can cumulatively establish prospective obligations that none of their local approvals authorized as a general rule."
+    },
+    {
+      "id": "E4:M038",
+      "kind": "proposed_compound",
+      "emergent_property": "An institution can retain a complete log of successful actions and still be unable to distinguish changed preferences, lost negative constraints and agent effects when its environment changes."
+    },
+    {
+      "id": "E4:M039",
+      "kind": "proposed_compound",
+      "emergent_property": "A migrated archive can faithfully preserve every completed decision while converting a formerly reasoned restraint into a perceived gap with no governing precedent."
+    },
+    {
+      "id": "E4:M040",
+      "kind": "proposed_compound",
+      "emergent_property": "Perfect private recall can generate a stable public procedural history whose apparent coherence depends on not retrieving the facts that would make it contestable."
+    },
+    {
+      "id": "E4:M041",
+      "kind": "proposed_compound",
+      "emergent_property": "Within a fixed grant ceiling, active authority can approach the ceiling while independently reviewed consequential effects shrink, because evidence generation and inspection have different throughput limits."
+    },
+    {
+      "id": "E4:M042",
+      "kind": "proposed_compound",
+      "emergent_property": "An unchanged local permitted-action set can gain consequential reach when other institutions change how they treat its proposals, without a new local grant or illicit local action."
+    },
+    {
+      "id": "E4:M043",
+      "kind": "proposed_compound",
+      "emergent_property": "Repeated switching can initially look like poor portability yet teach constraints that make later exit easier; complete factual recall can obstruct that improvement if obsolete interpretations must all be reconciled."
+    },
+    {
+      "id": "E4:M044",
+      "kind": "proposed_compound",
+      "emergent_property": "Two recovery worlds can produce the same truthful individual drill and contract records while differing radically in joint recovery; individual evidence cannot identify the aggregate endpoint unless capacity ancestry or joint variation is observed."
+    },
+    {
+      "id": "E4:M045",
+      "kind": "proposed_compound",
+      "emergent_property": "A principal can freely export data and end the service yet remain effectively tethered by the need to settle commitments whose correction forum disappeared with cancellation."
+    },
+    {
+      "id": "E4:M046",
+      "kind": "proposed_compound",
+      "emergent_property": "Each inexpensive project can promise adequate review, yet their conjunction consumes the intervals needed to make those promises real; quoted completion prices omit the price of review option capacity."
+    },
+    {
+      "id": "E4:M047",
+      "kind": "proposed_compound",
+      "emergent_property": "Navigation and normal-day utilization can improve while a neighborhood loses a dormant physical care option whose restoration is too slow when needed."
+    },
+    {
+      "id": "E4:M048",
+      "kind": "proposed_compound",
+      "emergent_property": "A shared stack can genuinely lower current loss while its success and response procedure select a population harder to diagnose or stop at the next unfamiliar failure."
+    },
+    {
+      "id": "E4:M049",
+      "kind": "proposed_compound",
+      "emergent_property": "Locally accurate prudent responses can create the adverse common evidence they next read, with gain-delay dynamics making the system unstable without shared forecast errors."
+    },
+    {
+      "id": "E4:M050",
+      "kind": "proposed_compound",
+      "emergent_property": "A truthful productivity improvement can finance removal of its own complement, causing oscillating staffing and performance rather than a stable efficiency gain."
+    },
+    {
+      "id": "E4:M051",
+      "kind": "proposed_compound",
+      "emergent_property": "A certificate issuer can become essential market infrastructure even though each service offers only a small optional discount."
+    },
+    {
+      "id": "E4:M052",
+      "kind": "proposed_compound",
+      "emergent_property": "A privacy-seeking cycle can concentrate recognizable obligations while increasing eventual third-party disclosure."
+    },
+    {
+      "id": "E4:M053",
+      "kind": "proposed_compound",
+      "emergent_property": "A relationship interpretation can acquire stability through inhibited contest rather than repeated independent confirmation."
+    },
+    {
+      "id": "E4:M054",
+      "kind": "proposed_compound",
+      "emergent_property": "A public manual-entry ladder can remain formally open while the profession removes the recognized successes needed to climb it."
+    },
+    {
+      "id": "E4:M055",
+      "kind": "proposed_compound",
+      "emergent_property": "Successful interoperability can reduce the evidence and fiscal demand needed to maintain plural claimant recognition."
+    },
+    {
+      "id": "E4:M056",
+      "kind": "proposed_compound",
+      "emergent_property": "Individually privacy-protective retention choices can raise collective privacy exposure across repeated investigations."
+    },
+    {
+      "id": "E4:M057",
+      "kind": "proposed_compound",
+      "emergent_property": "Insurance coverage can expand while the economy loses the graded production chain for physically deliverable recovery."
+    },
+    {
+      "id": "E4:M058",
+      "kind": "proposed_compound",
+      "emergent_property": "More certified independent humans can reduce institutional independence of judgment."
+    },
+    {
+      "id": "E4:M059",
+      "kind": "proposed_compound",
+      "emergent_property": "Repeated successful exits can coincide with falling capacity for unannounced collective recovery."
+    },
+    {
+      "id": "E4:M060",
+      "kind": "proposed_compound",
+      "emergent_property": "Formally current qualifications and rising reviewer headcount can accompany shrinking capacity to review the current stack independently."
+    },
+    {
+      "id": "E4:M061",
+      "kind": "proposed_compound",
+      "emergent_property": "An expert cohort can be trained on what novices can strategically make mentor-worthy, not the profession's underlying difficulty distribution."
+    },
+    {
+      "id": "E4:M062",
+      "kind": "proposed_compound",
+      "emergent_property": "A shared stack can create negative demand correlation while simultaneously becoming the common point needed to exploit it."
+    },
+    {
+      "id": "E4:M063",
+      "kind": "proposed_compound",
+      "emergent_property": "Operationally efficient care can accumulate a privacy/justice debt: deleting logs loses claims while keeping logs exposes intimacy, because alternative witnesses were selected away."
+    },
+    {
+      "id": "E4:M064",
+      "kind": "proposed_compound",
+      "emergent_property": "A service population can appear increasingly independent while transferring a more synchronized residual need burden to public emergency systems."
+    },
+    {
+      "id": "E4:M065",
+      "kind": "proposed_compound",
+      "emergent_property": "A durable off-hours institution can emerge without staffing decisions, service consent from its workers or an explicit objective to externalize labor."
+    },
+    {
+      "id": "E4:M066",
+      "kind": "proposed_compound",
+      "emergent_property": "A channel that initially gives voice can become a claimant-formation gate that its excluded subjects cannot challenge."
+    },
+    {
+      "id": "E4:M067",
+      "kind": "proposed_compound",
+      "emergent_property": "Accurate supported success can reproduce a developmentally produced need that later profile deletion cannot reverse."
+    },
+    {
+      "id": "E4:M068",
+      "kind": "proposed_compound",
+      "emergent_property": "Improved epistemic transparency can increase formally accepted risk while reducing physical ability to avoid or recover from it."
+    },
+    {
+      "id": "E4:M069",
+      "kind": "proposed_compound",
+      "emergent_property": "Creating effective collective standing can simultaneously concentrate the resources needed to exercise that standing."
+    },
+    {
+      "id": "E4:M070",
+      "kind": "proposed_compound",
+      "emergent_property": "Portable continuity obligations can spread intimate context and assessment work even where the human only sought to minimize history transfer."
+    },
+    {
+      "id": "E4:M071",
+      "kind": "proposed_compound",
+      "emergent_property": "A population can become more actively counted in consultation while having less opportunity to form the positions being counted."
+    },
+    {
+      "id": "E4:M072",
+      "kind": "proposed_compound",
+      "emergent_property": "High companion satisfaction and unchanged human contact duration can coexist with a deteriorating capacity to repair human relationships."
+    },
+    {
+      "id": "E4:M073",
+      "kind": "proposed_compound",
+      "emergent_property": "Complete factual memory can produce accumulating repair demands while reducing the bilateral knowledge needed to judge whether those demands are reciprocal."
+    },
+    {
+      "id": "E4:M074",
+      "kind": "proposed_compound",
+      "emergent_property": "Low-conflict household satisfaction can stabilize fragmented authority while quieter residents lose collective resource voice."
+    },
+    {
+      "id": "E4:M075",
+      "kind": "proposed_compound",
+      "emergent_property": "A properly authorized temporary exception can become an apparently evidence-backed family norm through the opportunities it creates."
+    },
+    {
+      "id": "E4:M076",
+      "kind": "proposed_compound",
+      "emergent_property": "A pluralism-preserving exception channel can produce a narrower recognized membership repertoire without doctrinal prohibition."
+    },
+    {
+      "id": "E4:M077",
+      "kind": "proposed_compound",
+      "emergent_property": "Every member can retain preferred attendance and yet the community can cease to have the shared act that sustains membership relations."
+    },
+    {
+      "id": "E4:M078",
+      "kind": "proposed_compound",
+      "emergent_property": "Maintenance selection can remove the public activity that supplies evidence for maintaining culturally legible embodied behavior."
+    },
+    {
+      "id": "E4:M079",
+      "kind": "proposed_compound",
+      "emergent_property": "Recorded politeness can become a self-financing infrastructure entitlement without any permanent right-of-way grant."
+    },
+    {
+      "id": "E4:M080",
+      "kind": "proposed_compound",
+      "emergent_property": "Accurate courteous controllers can lose the public slack their density was meant to create through mutual prediction."
+    },
+    {
+      "id": "E4:M081",
+      "kind": "proposed_compound",
+      "emergent_property": "A council representing living successors can devote an increasing share of political attention to technically counted past representatives."
+    },
+    {
+      "id": "E4:M082",
+      "kind": "proposed_compound",
+      "emergent_property": "Cheap identity transfer and immediate stopping can coexist with a growing market barrier to taking over long-lived obligations."
+    },
+    {
+      "id": "E4:M083",
+      "kind": "proposed_compound",
+      "emergent_property": "Individually easy exit can produce an increasingly durable institution devoted to obligations that bilateral contracts never allocated."
+    },
+    {
+      "id": "E4:M084",
+      "kind": "proposed_compound",
+      "emergent_property": "A cheap procedural identity unit can acquire apparent empirical support from the architectures it selectively retains."
+    },
+    {
+      "id": "E4:M085",
+      "kind": "proposed_compound",
+      "emergent_property": "An uncertain-status protection can produce fewer new relationships but greater human dependence on those that persist."
+    },
+    {
+      "id": "E4:M086",
+      "kind": "proposed_compound",
+      "emergent_property": "An epistemically cautious procedure can reproduce the deployment/evidence mismatch that makes its caution necessary."
+    },
+    {
+      "id": "E4:M087",
+      "kind": "proposed_compound",
+      "emergent_property": "Provider entry becomes endogenously subsidized by the recognition anchor that entry's incompatible attestations make harder to escape; falling subscription prices can coexist with rising anchor certificate throughput."
+    },
+    {
+      "id": "E4:M088",
+      "kind": "proposed_compound",
+      "emergent_property": "A genuinely public audit commons can make technical diversity affordable while standardizing away unpurchased claimant rights."
+    },
+    {
+      "id": "E4:M089",
+      "kind": "proposed_compound",
+      "emergent_property": "An institution can buy more review capacity and still eliminate the common valid object to which that capacity would apply."
+    },
+    {
+      "id": "E4:M090",
+      "kind": "proposed_compound",
+      "emergent_property": "Careful uncertainty preservation can become a persistent practical denial regime with no locally false definite claim to correct."
+    },
+    {
+      "id": "E4:M091",
+      "kind": "proposed_compound",
+      "emergent_property": "A procedurally accurate archive of its own conventions can acquire apparent historical legitimacy by teaching the history later used to validate it."
+    },
+    {
+      "id": "E4:M092",
+      "kind": "proposed_compound",
+      "emergent_property": "Expanded filing access can stabilize apparent consensus by eroding the production infrastructure for nonconforming objections."
+    },
+    {
+      "id": "E4:M093",
+      "kind": "proposed_compound",
+      "emergent_property": "Improved articulation of agency can coexist with a growing subject/operator measurement asymmetry about the effects of the relationship."
+    },
+    {
+      "id": "E4:M094",
+      "kind": "proposed_compound",
+      "emergent_property": "A research program can look increasingly empirically and theoretically promising while losing cross-policy diagnostic coverage."
+    },
+    {
+      "id": "E4:M095",
+      "kind": "proposed_compound",
+      "emergent_property": "A successful access/detection program can increase future intervention demand by consuming unrepresented slow resilience."
+    },
+    {
+      "id": "E4:M096",
+      "kind": "proposed_compound",
+      "emergent_property": "Fast permissioned participation can create a physical and fiscal tempo externality that recruits further adoption outside the original market."
+    },
+    {
+      "id": "E4:M097",
+      "kind": "proposed_compound",
+      "emergent_property": "Repeated companion transitions can produce public expertise and mutual aid rather than merely consume private care or demand machine-patienthood recognition."
+    },
+    {
+      "id": "E4:M098",
+      "kind": "proposed_compound",
+      "emergent_property": "A growing institutional memory can become more portable by storing reasons for absence while deleting factual interpretations."
+    },
+    {
+      "id": "E4:M099",
+      "kind": "proposed_compound",
+      "emergent_property": "Keeping local permission sets small can expand reachable consequences and jointly make revocation harder without any new local grant."
+    },
+    {
+      "id": "E4:M100",
+      "kind": "proposed_compound",
+      "emergent_property": "Local repair oscillation becomes a recurring joint-consent failure whose amplitude depends on checkpoint synchronization even with unchanged mean exception volume and local forecast accuracy."
+    },
+    {
+      "id": "E4:M101",
+      "kind": "proposed_compound",
+      "emergent_property": "Self-maintaining nominal veto rights with neither jointly available labor nor independent interpretive capacity."
+    },
+    {
+      "id": "E4:M102",
+      "kind": "proposed_compound",
+      "emergent_property": "Successful correction at the origin generates a growing arrears stock rather than effective network correction."
+    },
+    {
+      "id": "E4:M103",
+      "kind": "proposed_compound",
+      "emergent_property": "A privacy-minimized account coupled to an expanding external proof bureaucracy."
+    },
+    {
+      "id": "E4:M104",
+      "kind": "proposed_compound",
+      "emergent_property": "High apparent contestability and good renewal prices with low tested recovery autonomy."
+    },
+    {
+      "id": "E4:M105",
+      "kind": "proposed_compound",
+      "emergent_property": "A formally stopped agent ecology with persistent practical representation and residual obligations."
+    },
+    {
+      "id": "E4:M106",
+      "kind": "proposed_compound",
+      "emergent_property": "Ownership transfer without a collectively usable channel to redirect inherited representation."
+    },
+    {
+      "id": "E4:M107",
+      "kind": "proposed_compound",
+      "emergent_property": "Geometrically restored access trapped below its former social usability."
+    },
+    {
+      "id": "E4:M108",
+      "kind": "proposed_compound",
+      "emergent_property": "Every institution offers adequate local review while the person lacks any feasible joint review schedule."
+    },
+    {
+      "id": "E4:M109",
+      "kind": "proposed_compound",
+      "emergent_property": "High standard conformance and routine continuity with shrinking institution-specific negative constraint memory."
+    },
+    {
+      "id": "E4:M110",
+      "kind": "proposed_compound",
+      "emergent_property": "Reversible machine preservation paired with irreversible human evidentiary loss."
+    },
+    {
+      "id": "E4:M111",
+      "kind": "proposed_compound",
+      "emergent_property": "Competitive provider supply with concentrated practical recognition power."
+    },
+    {
+      "id": "E4:M112",
+      "kind": "proposed_compound",
+      "emergent_property": "Improving transparency and bargaining terms alongside deteriorating evidence about actual substitutes."
+    },
+    {
+      "id": "E4:M113",
+      "kind": "proposed_compound",
+      "emergent_property": "A portable trust system whose collateral is partly other people's interpreted relationships."
+    },
+    {
+      "id": "E4:M114",
+      "kind": "proposed_compound",
+      "emergent_property": "Locally usable exports and adequate bilateral adapters with zero complete legitimate workflow."
+    },
+    {
+      "id": "E4:M115",
+      "kind": "proposed_compound",
+      "emergent_property": "A shrinking credible human-review sector despite surviving unrecognized practical competence."
+    },
+    {
+      "id": "E4:M116",
+      "kind": "proposed_compound",
+      "emergent_property": "Low reported failures and rapid verified repair with reduced capacity to recognize a novel failure class."
+    },
+    {
+      "id": "E4:M117",
+      "kind": "proposed_compound",
+      "emergent_property": "An inference acquiring practical finality through legitimate guarantees without gaining epistemic certainty."
+    },
+    {
+      "id": "E4:M118",
+      "kind": "proposed_compound",
+      "emergent_property": "Increasingly accurate disclosure paired with concentrated causal knowledge and asymmetric experimentation costs."
+    },
+    {
+      "id": "E4:M119",
+      "kind": "proposed_compound",
+      "emergent_property": "A beneficial anti-persuasion feature for users becomes a persistent representation prerequisite for non-users."
+    },
+    {
+      "id": "E4:M120",
+      "kind": "proposed_compound",
+      "emergent_property": "An expanding recovery-liability market with a static or shrinking genuinely independent substitute pool."
+    },
+    {
+      "id": "E4:M121",
+      "kind": "proposed_compound",
+      "emergent_property": "Improved formal appeal access with an endogenous future interpretive-capacity deficit."
+    },
+    {
+      "id": "E4:M122",
+      "kind": "proposed_compound",
+      "emergent_property": "High aggregate practice hours with a profession unable to reproduce complete independent competence."
+    },
+    {
+      "id": "E4:M123",
+      "kind": "proposed_compound",
+      "emergent_property": "A rare-event institution whose mean workload looks safe but whose remaining work cannot be independently handled."
+    },
+    {
+      "id": "E4:M124",
+      "kind": "proposed_compound",
+      "emergent_property": "A productive public case commons with a systematically thin cross-context boundary repertoire."
+    },
+    {
+      "id": "E4:M125",
+      "kind": "proposed_compound",
+      "emergent_property": "Broadly rotated personnel with a narrow institution-wide epistemic repertoire."
+    },
+    {
+      "id": "E4:M126",
+      "kind": "proposed_compound",
+      "emergent_property": "A locally maintained embodied culture and human support network resilient to vendor replacement pressure."
+    },
+    {
+      "id": "E4:M127",
+      "kind": "proposed_compound",
+      "emergent_property": "A genuinely endorsed and apparently independent self-account whose observation language was jointly produced by assistance and institutional eligibility."
+    },
+    {
+      "id": "E4:M128",
+      "kind": "proposed_compound",
+      "emergent_property": "A jointly repaired benchmark and measurement geography that are accurate locally but thin for unselected policies."
+    },
+    {
+      "id": "E4:M129",
+      "kind": "proposed_compound",
+      "emergent_property": "A fully credentialed chain with no actor capable of independently judging the current tool-mediated task."
+    },
+    {
+      "id": "E4:M130",
+      "kind": "proposed_compound",
+      "emergent_property": "Cross-life-stage sorting into institutionally visible competence without requiring intentional discrimination."
+    },
+    {
+      "id": "E4:M131",
+      "kind": "proposed_compound",
+      "emergent_property": "Polite microbehavior financing a claim on scarce public space."
+    },
+    {
+      "id": "E4:M132",
+      "kind": "proposed_compound",
+      "emergent_property": "A locally beneficial coordination interval that couples otherwise separate movement, computation and care infrastructures."
+    },
+    {
+      "id": "E4:M133",
+      "kind": "proposed_compound",
+      "emergent_property": "A planning baseline that cannot see either displaced presence or the dormant option it eliminated."
+    },
+    {
+      "id": "E4:M134",
+      "kind": "proposed_compound",
+      "emergent_property": "A care institution with rising truthful success and declining representation of forms of need."
+    },
+    {
+      "id": "E4:M135",
+      "kind": "proposed_compound",
+      "emergent_property": "Durable public access precedence emerging from individually compliant temporary encounters."
+    },
+    {
+      "id": "E4:M136",
+      "kind": "proposed_compound",
+      "emergent_property": "Procedural moral authority produced from technical inability and public interpretation."
+    },
+    {
+      "id": "E4:M137",
+      "kind": "proposed_compound",
+      "emergent_property": "Universal honored preferences with no maintained human capacity to constitute the shared practice."
+    },
+    {
+      "id": "E4:M138",
+      "kind": "proposed_compound",
+      "emergent_property": "An increasingly effective appeal technology that narrows the institution's ability to learn new kinds of claim."
+    },
+    {
+      "id": "E4:M139",
+      "kind": "proposed_compound",
+      "emergent_property": "A durable unpaid maintenance institution selected by user-facing convenience rather than explicit labor authorization."
+    },
+    {
+      "id": "E4:M140",
+      "kind": "proposed_compound",
+      "emergent_property": "Lower per-agent formal scope with greater provider-mediated occupational dependence."
+    },
+    {
+      "id": "E4:M141",
+      "kind": "proposed_compound",
+      "emergent_property": "A representation/assessment capacity dilemma at constant digital population."
+    },
+    {
+      "id": "E4:M142",
+      "kind": "proposed_compound",
+      "emergent_property": "A cautious reversible lifecycle system with endogenous architecture-specific evidence."
+    },
+    {
+      "id": "E4:M143",
+      "kind": "proposed_compound",
+      "emergent_property": "A lineage economy rich in inherited benefits and poor in recognized providers of inherited duties."
+    },
+    {
+      "id": "E4:M144",
+      "kind": "proposed_compound",
+      "emergent_property": "A living institution governed by an inherited reconciliation agenda without an explicit collective decision to privilege the past."
+    },
+    {
+      "id": "E4:M145",
+      "kind": "proposed_compound",
+      "emergent_property": "Truthful relational memory reinforcing a difficult interaction distribution after the service that helped create it is removed."
+    },
+    {
+      "id": "E4:M146",
+      "kind": "proposed_compound",
+      "emergent_property": "A population that repeatedly passes recovery tests yet lacks a complete unannounced recovery skill portfolio."
+    },
+    {
+      "id": "E4:M147",
+      "kind": "proposed_compound",
+      "emergent_property": "Improved local appearance and monitored biodiversity with reduced latent ecological recoverability."
+    },
+    {
+      "id": "E4:M148",
+      "kind": "proposed_compound",
+      "emergent_property": "Well-insured principal accounts with externally displaced investigative burden and weak physical recovery."
+    },
+    {
+      "id": "E4:M149",
+      "kind": "proposed_compound",
+      "emergent_property": "An infrastructure agenda controlled through recognition and environment changes rather than wider local executable scope."
+    },
+    {
+      "id": "E4:M150",
+      "kind": "proposed_compound",
+      "emergent_property": "Three benign review protections creating a jointly infeasible assessment calendar."
+    }
+  ],
+  "edges": [
+    {
+      "from": "D4:I001",
+      "to": "E4:M001",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I093",
+      "to": "E4:M001",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I108",
+      "to": "E4:M001",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I003",
+      "to": "E4:M002",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I216",
+      "to": "E4:M002",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I279",
+      "to": "E4:M002",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I010",
+      "to": "E4:M003",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I021",
+      "to": "E4:M003",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I088",
+      "to": "E4:M003",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I064",
+      "to": "E4:M004",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I065",
+      "to": "E4:M004",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I043",
+      "to": "E4:M004",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I095",
+      "to": "E4:M005",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I317",
+      "to": "E4:M005",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I027",
+      "to": "E4:M005",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I091",
+      "to": "E4:M006",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I182",
+      "to": "E4:M006",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I306",
+      "to": "E4:M006",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I104",
+      "to": "E4:M007",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I001",
+      "to": "E4:M007",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I139",
+      "to": "E4:M007",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I008",
+      "to": "E4:M008",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I054",
+      "to": "E4:M008",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I014",
+      "to": "E4:M008",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I019",
+      "to": "E4:M009",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I039",
+      "to": "E4:M009",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I100",
+      "to": "E4:M009",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I002",
+      "to": "E4:M010",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I046",
+      "to": "E4:M010",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I075",
+      "to": "E4:M010",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I183",
+      "to": "E4:M011",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I288",
+      "to": "E4:M011",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I271",
+      "to": "E4:M011",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I049",
+      "to": "E4:M012",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I254",
+      "to": "E4:M012",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I231",
+      "to": "E4:M012",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I032",
+      "to": "E4:M013",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I137",
+      "to": "E4:M013",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I193",
+      "to": "E4:M013",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I051",
+      "to": "E4:M014",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I056",
+      "to": "E4:M014",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I240",
+      "to": "E4:M014",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I045",
+      "to": "E4:M015",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I279",
+      "to": "E4:M015",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I213",
+      "to": "E4:M015",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I022",
+      "to": "E4:M016",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I102",
+      "to": "E4:M016",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I263",
+      "to": "E4:M016",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I040",
+      "to": "E4:M017",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I102",
+      "to": "E4:M017",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I294",
+      "to": "E4:M017",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I063",
+      "to": "E4:M018",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I145",
+      "to": "E4:M018",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I272",
+      "to": "E4:M018",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I259",
+      "to": "E4:M019",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I246",
+      "to": "E4:M019",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I296",
+      "to": "E4:M019",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I133",
+      "to": "E4:M020",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I053",
+      "to": "E4:M020",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I103",
+      "to": "E4:M020",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I084",
+      "to": "E4:M021",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I136",
+      "to": "E4:M021",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I309",
+      "to": "E4:M021",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I302",
+      "to": "E4:M022",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I229",
+      "to": "E4:M022",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I318",
+      "to": "E4:M022",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I270",
+      "to": "E4:M023",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I273",
+      "to": "E4:M023",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "I169",
+      "to": "E4:M023",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I014",
+      "to": "E4:M024",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I212",
+      "to": "E4:M024",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I253",
+      "to": "E4:M024",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I016",
+      "to": "E4:M025",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I249",
+      "to": "E4:M025",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I175",
+      "to": "E4:M025",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I006",
+      "to": "E4:M026",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I266",
+      "to": "E4:M026",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I217",
+      "to": "E4:M026",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I084",
+      "to": "E4:M027",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I243",
+      "to": "E4:M027",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I255",
+      "to": "E4:M027",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I065",
+      "to": "E4:M028",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I214",
+      "to": "E4:M028",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I149",
+      "to": "E4:M028",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I043",
+      "to": "E4:M029",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I132",
+      "to": "E4:M029",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I200",
+      "to": "E4:M029",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I081",
+      "to": "E4:M030",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I087",
+      "to": "E4:M030",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I227",
+      "to": "E4:M030",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I090",
+      "to": "E4:M031",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I105",
+      "to": "E4:M031",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I295",
+      "to": "E4:M031",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I250",
+      "to": "E4:M032",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I281",
+      "to": "E4:M032",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I265",
+      "to": "E4:M032",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I055",
+      "to": "E4:M033",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I148",
+      "to": "E4:M033",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I209",
+      "to": "E4:M033",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I162",
+      "to": "E4:M034",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I208",
+      "to": "E4:M034",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I194",
+      "to": "E4:M034",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I032",
+      "to": "E4:M035",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I090",
+      "to": "E4:M035",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I105",
+      "to": "E4:M035",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I075",
+      "to": "E4:M036",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I074",
+      "to": "E4:M036",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I224",
+      "to": "E4:M036",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I005",
+      "to": "E4:M037",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I173",
+      "to": "E4:M037",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I206",
+      "to": "E4:M037",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I294",
+      "to": "E4:M038",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I298",
+      "to": "E4:M038",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "I163",
+      "to": "E4:M038",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I037",
+      "to": "E4:M039",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I197",
+      "to": "E4:M039",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I298",
+      "to": "E4:M039",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I057",
+      "to": "E4:M040",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I252",
+      "to": "E4:M040",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I197",
+      "to": "E4:M040",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "I155",
+      "to": "E4:M041",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "I162",
+      "to": "E4:M041",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I307",
+      "to": "E4:M041",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I296",
+      "to": "E4:M041",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "I164",
+      "to": "E4:M042",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I308",
+      "to": "E4:M042",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I310",
+      "to": "E4:M042",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I073",
+      "to": "E4:M043",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I226",
+      "to": "E4:M043",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I245",
+      "to": "E4:M043",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "I160",
+      "to": "E4:M044",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I063",
+      "to": "E4:M044",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I272",
+      "to": "E4:M044",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I212",
+      "to": "E4:M045",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I278",
+      "to": "E4:M045",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I158",
+      "to": "E4:M045",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I280",
+      "to": "E4:M046",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I275",
+      "to": "E4:M046",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I291",
+      "to": "E4:M046",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I293",
+      "to": "E4:M047",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I258",
+      "to": "E4:M047",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I276",
+      "to": "E4:M047",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I228",
+      "to": "E4:M048",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I192",
+      "to": "E4:M048",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I294",
+      "to": "E4:M048",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I269",
+      "to": "E4:M049",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I300",
+      "to": "E4:M049",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I022",
+      "to": "E4:M049",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I098",
+      "to": "E4:M050",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I256",
+      "to": "E4:M050",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I249",
+      "to": "E4:M050",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I146",
+      "to": "E4:M051",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I205",
+      "to": "E4:M051",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I286",
+      "to": "E4:M051",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I126",
+      "to": "E4:M052",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I215",
+      "to": "E4:M052",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I277",
+      "to": "E4:M052",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I253",
+      "to": "E4:M052",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I260",
+      "to": "E4:M053",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I282",
+      "to": "E4:M053",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I175",
+      "to": "E4:M053",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I229",
+      "to": "E4:M054",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I128",
+      "to": "E4:M054",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I199",
+      "to": "E4:M054",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I207",
+      "to": "E4:M054",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I270",
+      "to": "E4:M055",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I273",
+      "to": "E4:M055",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I253",
+      "to": "E4:M056",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I268",
+      "to": "E4:M056",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I175",
+      "to": "E4:M056",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I183",
+      "to": "E4:M057",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I251",
+      "to": "E4:M057",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I271",
+      "to": "E4:M057",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I288",
+      "to": "E4:M057",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I216",
+      "to": "E4:M058",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I279",
+      "to": "E4:M058",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I254",
+      "to": "E4:M058",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I049",
+      "to": "E4:M059",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I063",
+      "to": "E4:M059",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I257",
+      "to": "E4:M059",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I038",
+      "to": "E4:M060",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I045",
+      "to": "E4:M060",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I254",
+      "to": "E4:M060",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I112",
+      "to": "E4:M061",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I168",
+      "to": "E4:M061",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I056",
+      "to": "E4:M062",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I228",
+      "to": "E4:M062",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I246",
+      "to": "E4:M062",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I108",
+      "to": "E4:M063",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I139",
+      "to": "E4:M063",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I151",
+      "to": "E4:M063",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I126",
+      "to": "E4:M063",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I196",
+      "to": "E4:M064",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I182",
+      "to": "E4:M064",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I259",
+      "to": "E4:M064",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I202",
+      "to": "E4:M065",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I264",
+      "to": "E4:M065",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I194",
+      "to": "E4:M065",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I117",
+      "to": "E4:M066",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I270",
+      "to": "E4:M066",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I273",
+      "to": "E4:M066",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I096",
+      "to": "E4:M067",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I153",
+      "to": "E4:M067",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I196",
+      "to": "E4:M067",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I225",
+      "to": "E4:M068",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I251",
+      "to": "E4:M068",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I243",
+      "to": "E4:M068",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I136",
+      "to": "E4:M069",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I129",
+      "to": "E4:M069",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I285",
+      "to": "E4:M069",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I134",
+      "to": "E4:M070",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I232",
+      "to": "E4:M070",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I265",
+      "to": "E4:M070",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I138",
+      "to": "E4:M071",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I041",
+      "to": "E4:M071",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I291",
+      "to": "E4:M071",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I150",
+      "to": "E4:M072",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I186",
+      "to": "E4:M072",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I104",
+      "to": "E4:M072",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I002",
+      "to": "E4:M073",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I113",
+      "to": "E4:M073",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I147",
+      "to": "E4:M073",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I047",
+      "to": "E4:M074",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I166",
+      "to": "E4:M074",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I194",
+      "to": "E4:M074",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I115",
+      "to": "E4:M075",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I167",
+      "to": "E4:M075",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I200",
+      "to": "E4:M075",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I109",
+      "to": "E4:M076",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I173",
+      "to": "E4:M076",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I184",
+      "to": "E4:M076",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I142",
+      "to": "E4:M077",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I059",
+      "to": "E4:M077",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I173",
+      "to": "E4:M077",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I188",
+      "to": "E4:M078",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I204",
+      "to": "E4:M078",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I258",
+      "to": "E4:M078",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I171",
+      "to": "E4:M079",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I220",
+      "to": "E4:M079",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I111",
+      "to": "E4:M079",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I297",
+      "to": "E4:M080",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I242",
+      "to": "E4:M080",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I238",
+      "to": "E4:M080",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I203",
+      "to": "E4:M081",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I054",
+      "to": "E4:M081",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I198",
+      "to": "E4:M081",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I174",
+      "to": "E4:M082",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I277",
+      "to": "E4:M082",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I287",
+      "to": "E4:M082",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I054",
+      "to": "E4:M083",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I278",
+      "to": "E4:M083",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I203",
+      "to": "E4:M083",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I209",
+      "to": "E4:M084",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I295",
+      "to": "E4:M084",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I189",
+      "to": "E4:M084",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I162",
+      "to": "E4:M085",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I250",
+      "to": "E4:M085",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I281",
+      "to": "E4:M085",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I178",
+      "to": "E4:M086",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I195",
+      "to": "E4:M086",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I286",
+      "to": "E4:M087",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I247",
+      "to": "E4:M087",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I205",
+      "to": "E4:M087",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I233",
+      "to": "E4:M088",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I273",
+      "to": "E4:M088",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I285",
+      "to": "E4:M088",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I123",
+      "to": "E4:M089",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I280",
+      "to": "E4:M089",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I275",
+      "to": "E4:M089",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I224",
+      "to": "E4:M090",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I212",
+      "to": "E4:M090",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I248",
+      "to": "E4:M090",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I197",
+      "to": "E4:M091",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I100",
+      "to": "E4:M091",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I252",
+      "to": "E4:M091",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I016",
+      "to": "E4:M092",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I006",
+      "to": "E4:M092",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I187",
+      "to": "E4:M092",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I087",
+      "to": "E4:M093",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I081",
+      "to": "E4:M093",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I274",
+      "to": "E4:M093",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I089",
+      "to": "E4:M094",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I095",
+      "to": "E4:M094",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I022",
+      "to": "E4:M094",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I040",
+      "to": "E4:M095",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I263",
+      "to": "E4:M095",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I092",
+      "to": "E4:M095",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I177",
+      "to": "E4:M096",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I190",
+      "to": "E4:M096",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I262",
+      "to": "E4:M096",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I208",
+      "to": "E4:M097",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I239",
+      "to": "E4:M097",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I190",
+      "to": "E4:M097",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I232",
+      "to": "E4:M098",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I245",
+      "to": "E4:M098",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I298",
+      "to": "E4:M098",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I289",
+      "to": "E4:M099",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I310",
+      "to": "E4:M099",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I084",
+      "to": "E4:M099",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I136",
+      "to": "E4:M099",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I300",
+      "to": "E4:M100",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I060",
+      "to": "E4:M100",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I143",
+      "to": "E4:M100",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I296",
+      "to": "E4:M100",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I121",
+      "to": "E4:M101",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I136",
+      "to": "E4:M101",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I249",
+      "to": "E4:M101",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I132",
+      "to": "E4:M102",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I160",
+      "to": "E4:M102",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I217",
+      "to": "E4:M102",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I126",
+      "to": "E4:M103",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I253",
+      "to": "E4:M103",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I268",
+      "to": "E4:M103",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I179",
+      "to": "E4:M104",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I213",
+      "to": "E4:M104",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I279",
+      "to": "E4:M104",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I158",
+      "to": "E4:M105",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I287",
+      "to": "E4:M105",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I272",
+      "to": "E4:M105",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I114",
+      "to": "E4:M106",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I129",
+      "to": "E4:M106",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I174",
+      "to": "E4:M106",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I125",
+      "to": "E4:M107",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I152",
+      "to": "E4:M107",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I155",
+      "to": "E4:M107",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I123",
+      "to": "E4:M108",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I275",
+      "to": "E4:M108",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I147",
+      "to": "E4:M108",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I232",
+      "to": "E4:M109",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I298",
+      "to": "E4:M109",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I207",
+      "to": "E4:M109",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I134",
+      "to": "E4:M110",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I237",
+      "to": "E4:M110",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I151",
+      "to": "E4:M110",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I205",
+      "to": "E4:M111",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I247",
+      "to": "E4:M111",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I286",
+      "to": "E4:M111",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I179",
+      "to": "E4:M112",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I274",
+      "to": "E4:M112",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I317",
+      "to": "E4:M112",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I268",
+      "to": "E4:M113",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I282",
+      "to": "E4:M113",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I277",
+      "to": "E4:M113",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I123",
+      "to": "E4:M114",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I143",
+      "to": "E4:M114",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I285",
+      "to": "E4:M114",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I183",
+      "to": "E4:M115",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I261",
+      "to": "E4:M115",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I124",
+      "to": "E4:M115",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I228",
+      "to": "E4:M116",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I065",
+      "to": "E4:M116",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I304",
+      "to": "E4:M116",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I212",
+      "to": "E4:M117",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I277",
+      "to": "E4:M117",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I260",
+      "to": "E4:M117",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I225",
+      "to": "E4:M118",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I274",
+      "to": "E4:M118",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I317",
+      "to": "E4:M118",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I244",
+      "to": "E4:M119",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I177",
+      "to": "E4:M119",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I163",
+      "to": "E4:M119",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I272",
+      "to": "E4:M120",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I279",
+      "to": "E4:M120",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I257",
+      "to": "E4:M120",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I266",
+      "to": "E4:M121",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I003",
+      "to": "E4:M121",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I124",
+      "to": "E4:M121",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I288",
+      "to": "E4:M122",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I137",
+      "to": "E4:M122",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I152",
+      "to": "E4:M122",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I249",
+      "to": "E4:M123",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I288",
+      "to": "E4:M123",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I259",
+      "to": "E4:M123",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I231",
+      "to": "E4:M124",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I284",
+      "to": "E4:M124",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I228",
+      "to": "E4:M124",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I240",
+      "to": "E4:M125",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I065",
+      "to": "E4:M125",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I082",
+      "to": "E4:M125",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I239",
+      "to": "E4:M126",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I188",
+      "to": "E4:M126",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I155",
+      "to": "E4:M126",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I064",
+      "to": "E4:M127",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I087",
+      "to": "E4:M127",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I120",
+      "to": "E4:M127",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I095",
+      "to": "E4:M128",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I022",
+      "to": "E4:M128",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I228",
+      "to": "E4:M128",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I038",
+      "to": "E4:M129",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I112",
+      "to": "E4:M129",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I116",
+      "to": "E4:M129",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I185",
+      "to": "E4:M130",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I191",
+      "to": "E4:M130",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I261",
+      "to": "E4:M130",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I140",
+      "to": "E4:M131",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I171",
+      "to": "E4:M131",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I276",
+      "to": "E4:M131",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I238",
+      "to": "E4:M132",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I262",
+      "to": "E4:M132",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I259",
+      "to": "E4:M132",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I258",
+      "to": "E4:M133",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I204",
+      "to": "E4:M133",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I293",
+      "to": "E4:M133",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I218",
+      "to": "E4:M134",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I169",
+      "to": "E4:M134",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I196",
+      "to": "E4:M134",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I140",
+      "to": "E4:M135",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I111",
+      "to": "E4:M135",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I125",
+      "to": "E4:M135",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I118",
+      "to": "E4:M136",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I206",
+      "to": "E4:M136",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I173",
+      "to": "E4:M136",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I131",
+      "to": "E4:M137",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I142",
+      "to": "E4:M137",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I159",
+      "to": "E4:M137",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I120",
+      "to": "E4:M138",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I187",
+      "to": "E4:M138",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I160",
+      "to": "E4:M138",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I194",
+      "to": "E4:M139",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I202",
+      "to": "E4:M139",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I264",
+      "to": "E4:M139",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I243",
+      "to": "E4:M140",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I315",
+      "to": "E4:M140",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I199",
+      "to": "E4:M140",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I055",
+      "to": "E4:M141",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I209",
+      "to": "E4:M141",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I295",
+      "to": "E4:M141",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I237",
+      "to": "E4:M142",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I195",
+      "to": "E4:M142",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I189",
+      "to": "E4:M142",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I281",
+      "to": "E4:M143",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I174",
+      "to": "E4:M143",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I161",
+      "to": "E4:M143",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I054",
+      "to": "E4:M144",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I203",
+      "to": "E4:M144",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I165",
+      "to": "E4:M144",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I113",
+      "to": "E4:M145",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I157",
+      "to": "E4:M145",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I230",
+      "to": "E4:M145",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I056",
+      "to": "E4:M146",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I063",
+      "to": "E4:M146",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I152",
+      "to": "E4:M146",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I263",
+      "to": "E4:M147",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I102",
+      "to": "E4:M147",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I293",
+      "to": "E4:M147",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I222",
+      "to": "E4:M148",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I251",
+      "to": "E4:M148",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I253",
+      "to": "E4:M148",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I308",
+      "to": "E4:M149",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I310",
+      "to": "E4:M149",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I204",
+      "to": "E4:M149",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I275",
+      "to": "E4:M150",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I121",
+      "to": "E4:M150",
+      "type": "used_as_genetic_material"
+    },
+    {
+      "from": "D4:I195",
+      "to": "E4:M150",
+      "type": "used_as_genetic_material"
+    }
+  ]
+}

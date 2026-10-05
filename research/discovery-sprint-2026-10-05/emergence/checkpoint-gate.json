@@ -1,0 +1,55 @@
+{
+  "version": "0.1.0",
+  "completed_at": "2026-10-05T03:44:51Z",
+  "phase": "BLUE_TEAM_EMERGENCE",
+  "status": "REQUIRED_CHECKPOINT_COMPLETE_NOT_FINAL_DISCOVERY",
+  "counts": {
+    "compound_drafts": 150,
+    "paradox_drafts": 51,
+    "scale_probes": 17,
+    "developed_compounds": 25,
+    "developed_paradoxes": 20,
+    "development_portfolios": [5, 5, 5],
+    "tradeoff_attempts_not_distinct_results": 21,
+    "root_conditional_models": 7
+  },
+  "required_reports": [
+    "blue_team_emergence.md",
+    "paradox_candidates.md",
+    "scale_transitions.md",
+    "unowned_power.md",
+    "impossibility_search.md",
+    "new_state_variables.md"
+  ],
+  "preservation": {
+    "paused_population_files_checked": 6,
+    "paused_population_changes": 0,
+    "all_120_sharpened_candidates_retained": true,
+    "frozen_baseline_files_checked": 100,
+    "frozen_baseline_changes": 0,
+    "public_claim_changes": 0
+  },
+  "inspection": {
+    "all_150_compact_projections_read": true,
+    "developed_25_full_fields_read": true,
+    "all_17_scale_reports_read": true,
+    "additional_M005_and_M087_strengthenings_read": true,
+    "semantic_independence_certified": false
+  },
+  "checks": {
+    "integrate": "PASS",
+    "render": "PASS",
+    "checkpoint": "PASS",
+    "baseline": "PASS",
+    "conditional_models": "PASS",
+    "M005_model": "PASS",
+    "M087_model": "PASS"
+  },
+  "novelty_courts_during_blue_phase": 0,
+  "additional_literature_searches_during_blue_phase": 0,
+  "winner_selected": false,
+  "broad_impossibility_established": false,
+  "historical_novelty_established": false,
+  "empirical_prevalence_established": false,
+  "permission_now_available": "Resume adversarial whole-composition prior-art comparison; do not publish, rewrite v0.5, prune the paused 120 or choose a winner."
+}

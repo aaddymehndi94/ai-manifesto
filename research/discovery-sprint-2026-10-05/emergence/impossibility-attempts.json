@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-05",
+  "main_attempts": 13,
+  "stream_attempts": 8,
+  "distinct_results_not_claimed": true,
+  "attempts": [
+    {
+      "id": "E4:A001",
+      "connected_compounds": [
+        "E4:M044"
+      ],
+      "attempt": "Identify simultaneous recovery from only individual truthful tests and contract outcomes.",
+      "conditional_obstruction": "Disjoint and common-capacity worlds can share those observables while having different joint delivery.",
+      "escape": "Observe authenticated capacity overlap or run a simultaneous probe.",
+      "status": "CONDITIONAL_NONIDENTIFICATION_CONSTRUCTION; NOT A NEW OR UNIVERSAL THEOREM",
+      "stream": "a"
+    },
+    {
+      "id": "E4:A002",
+      "connected_compounds": [
+        "E4:M021"
+      ],
+      "attempt": "Guarantee joint service-preserving veto exercise using individually tested rights and a fixed shared substitute.",
+      "conditional_obstruction": "Concurrent minimum substitute demand exceeds the same finite capacity.",
+      "escape": "Provision capacity, stagger genuinely deferrable exercise, preserve disjoint substitutes or relax an agreed continuity constraint.",
+      "status": "RESOURCE_CONSTRAINT_WITH_ESCAPES; NOT A BROAD IMPOSSIBILITY CLAIM",
+      "stream": "a"
+    },
+    {
+      "id": "E4:A003",
+      "connected_compounds": [
+        "E4:M038",
+        "E4:M039"
+      ],
+      "attempt": "Recover all operative constraints and causal states from a complete success-only migrated action history.",
+      "conditional_obstruction": "Different negative-rule/causal states can generate identical successful transactions.",
+      "escape": "Retain independently interpretable abstention reasons, working contrasts or adequate side-channel evidence.",
+      "status": "INFORMATION_SET_RELATIVE_OBSTRUCTION; FULL_HISTORY_INSUFFICIENCY_ONLY",
+      "stream": "a"
+    },
+    {
+      "id": "E4:A004",
+      "connected_compounds": [
+        "E4:M024"
+      ],
+      "attempt": "A broad triangle claiming privacy minimization, portability and effective correction cannot coexist.",
+      "conditional_obstruction": "A specific design deletes narrow proof and loses the challenge forum.",
+      "escape": "Minimal selectively revealable commitment evidence plus durable affected-party standing can preserve all three goals in the construction.",
+      "status": "BROAD_TRIANGLE_FAILED; RETAINED_FAILED_ATTEMPT",
+      "stream": "a"
+    },
+    {
+      "id": "E4:A005",
+      "connected_compounds": [
+        "E4:M042"
+      ],
+      "attempt": "A broad claim that fixed local effect ceilings cannot coexist with stable cross-institution consequence containment.",
+      "conditional_obstruction": "External automatic execution can change consequence reach if absent from the local abstraction.",
+      "escape": "A sound protected-effect abstraction may already include counterpart-mediated consequences, or require separate execution consent.",
+      "status": "BROAD_IMPOSSIBILITY_NOT_ESTABLISHED; DESIGN_ESCAPE_RETAINED",
+      "stream": "a"
+    },
+    {
+      "id": "E4:SB-A01",
+      "links": [
+        "E4:P018",
+        "E4:P031"
+      ],
+      "attempt": "Full local deletion, zero third-party disclosure and full retrospective redress conflict if the erased record is stipulated to be uniquely sufficient.",
+      "status": "NO_GENERAL_IMPOSSIBILITY_PROVED",
+      "escape": "Independent testimony or selective functional/evidence certificates.",
+      "lesson": "Unique-evidence assumptions can create tautology; no general privacy theorem follows.",
+      "stream": "b"
+    },
+    {
+      "id": "E4:SB-A02",
+      "links": [
+        "E4:P020"
+      ],
+      "attempt": "Always fresh asynchronous terms, sufficient local review and jointly binding approval can conflict without a common snapshot.",
+      "status": "NO_GENERAL_IMPOSSIBILITY_PROVED",
+      "escape": "Binding snapshots, coordinated renewal or flexible validity requirements.",
+      "lesson": "An interval obstruction is not impossibility of human review generally.",
+      "stream": "b"
+    },
+    {
+      "id": "E4:SB-A03",
+      "links": [
+        "E4:P021"
+      ],
+      "attempt": "All vetoes individually viable, shared substitutes fully committed and all vetoes jointly executable can conflict in a finite schedule.",
+      "status": "NO_GENERAL_IMPOSSIBILITY_PROVED",
+      "escape": "Capacity-backed complements, releases or independent routes.",
+      "lesson": "A contradiction in a chosen resource model is not a new theorem or claim about all authority systems.",
+      "stream": "b"
+    }
+  ]
+}

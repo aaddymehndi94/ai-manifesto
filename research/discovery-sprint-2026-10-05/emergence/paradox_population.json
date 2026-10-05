@@ -1,0 +1,1330 @@
+{
+  "version": "0.1.0",
+  "date": "2026-10-05",
+  "phase": "BLUE_TEAM_EMERGENCE",
+  "baseline": [
+    {
+      "path": "generation4_raw.json",
+      "sha256": "529c11a1876ee40797ff13fb40a6d3df51e80f654b6508b38c8aded995afed89"
+    },
+    {
+      "path": "idea_graph.json",
+      "sha256": "d9e3a86ef6f140b69d065ed5009a8ce62611eaae9bd618ee56cfc15c988f2521"
+    },
+    {
+      "path": "sharpened/stream-a.json",
+      "sha256": "7dc33d54ae3c7335eaec7cf6633cfee055cc65b277edcb28ffb21a9804a23e6a"
+    },
+    {
+      "path": "sharpened/stream-b.json",
+      "sha256": "13fa2d4fff17b27f2f3d53ced4a6d05418a4ca35b89deeb1e1ae96304cd202fa"
+    },
+    {
+      "path": "sharpened/stream-c.json",
+      "sha256": "a25f609485083431cfae5ef561d65465548b6e9a95e5d7079f461c0dea439592"
+    },
+    {
+      "path": "sharpened/root-supplement.json",
+      "sha256": "bbf66edb4ac6f752f782a4c2838def7a06be480ce8c9614f1cd50b1b35ee565a"
+    }
+  ],
+  "claim_status": "UNTESTED_COMPOSITIONS_NOT_NOVELTY_FINDINGS",
+  "disclosure": "Three AI-agent construction streams, integrated by the main agent. Counts establish exploration coverage only. Exact-string duplicate checking is not semantic independence. No prior-art courts or new searches during this phase.",
+  "validation": "Structural fields, original component references, counts and paused-input hashes. Causal closure and substantive differences require editorial inspection.",
+  "paradoxes": [
+    {
+      "id": "E4:P001",
+      "working_name": "More independence can make need less provable",
+      "connected_compounds": [
+        "E4:M001",
+        "E4:M007"
+      ],
+      "paradox": "Measured independence and effective access to needed assistance can move in opposite directions through the assessment system itself.",
+      "derivation": [
+        "Successful support raises measured independence.",
+        "The institution removes witness-bearing human support.",
+        "A later real need is harder to document, even though task performance initially improved."
+      ],
+      "assumptions": [
+        "Supported success determines human support allocation.",
+        "Support carries independent witnesses.",
+        "Reclaiming support requires independently substantiated unmet need."
+      ],
+      "counterexample": "Reassessment accepts independent evidence available without the withdrawn observers.",
+      "measurement": "Independence score paired with independently provable unmet need.",
+      "falsifier": "Witness-bearing withdrawal changes neither new-need substantiation nor restoration of warranted support.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "In settings where intrusive observers repeatedly pathologize harmless cues, the same removal-and-agent-assessment loop can sustain chosen independence and reduce unwanted surveillance.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P002",
+      "working_name": "More human experts can mean a smaller recovery repertoire",
+      "connected_compounds": [
+        "E4:M002",
+        "E4:M011",
+        "E4:M012"
+      ],
+      "paradox": "Higher qualified human headcount need not increase the smallest failure needed to disable human oversight.",
+      "derivation": [
+        "More reviewers or certified reserves pass the same syllabus.",
+        "Their articulation paths remain concentrated.",
+        "Removing one source eliminates the same repertoire from more people."
+      ],
+      "assumptions": [
+        "Headcount expands through a common explanation source.",
+        "Some recovery distinctions are accessible only through that source.",
+        "Independent training cannot instantly replace it."
+      ],
+      "counterexample": "Every additional expert has independently reachable useful distinctions.",
+      "measurement": "Qualified count and articulation-cut size, measured separately.",
+      "falsifier": "At matched skills, removal of the unique source leaves the claimed dependent distinctions available.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "When certification cases teach genuinely portable catastrophic distinctions, the same concentrated explanation/certification loop raises teacher reproduction and builds a shared rare-case reserve.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P003",
+      "working_name": "Fresh testimony can recreate a successfully deleted identity",
+      "connected_compounds": [
+        "E4:M004",
+        "E4:M029"
+      ],
+      "paradox": "Data independence and successful deletion do not imply independence from the erased interpretation's causal history.",
+      "derivation": [
+        "Deletion succeeds at every storage location.",
+        "The person truthfully describes themselves in learned terms.",
+        "New evaluators reconstruct the category from new evidence."
+      ],
+      "assumptions": [
+        "The old interpretation taught self-description or shaped opportunities.",
+        "Stored profiles are completely erased.",
+        "Fresh intake uses those descriptions and produced capacities."
+      ],
+      "counterexample": "The new assessment uses distinctions demonstrably unaffected by prior language or opportunities.",
+      "measurement": "Category recurrence after erasure under ordinary versus intervention-independent intake.",
+      "falsifier": "Learned descriptions and produced opportunities do not affect recurrence under fresh intake.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "For a newly recognized disability or identity, the same regeneration preserves valued recognition and useful support across service replacements without centralized archival retention.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P004",
+      "working_name": "Better disclosure can leave competition less knowable",
+      "connected_compounds": [
+        "E4:M005",
+        "E4:M028"
+      ],
+      "paradox": "More precise disclosed estimates can coexist with less evidence about whether the disclosed competitor is best.",
+      "derivation": [
+        "Every provider improves truthful uncertainty communication.",
+        "More trials go to the most legible policy.",
+        "Calibration improves there while alternative regimes lose observability."
+      ],
+      "assumptions": [
+        "Trial and calibration budgets are finite.",
+        "Legibility influences which policy gets trials.",
+        "Policy supports do not share perfect calibration transfer."
+      ],
+      "counterexample": "An independent common-support trial budget is guaranteed.",
+      "measurement": "Per-policy disclosure accuracy and comparative observability debt.",
+      "falsifier": "Legibility-induced allocation changes do not change support coverage or comparative uncertainty.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "The same concentration quickly resolves uncertainty about a genuinely superior deployment-relevant policy and avoids wasting finite trials on irrelevant response regimes.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P005",
+      "working_name": "Routine privacy can increase lifecycle exposure",
+      "connected_compounds": [
+        "E4:M024"
+      ],
+      "paradox": "Lower stored bytes at the original service can produce higher total information exposure and poorer redress.",
+      "derivation": [
+        "Routine personal data retention decreases.",
+        "An incident cannot be narrowly reconstructed.",
+        "Broader requests increase total disclosure to explain the same event."
+      ],
+      "assumptions": [
+        "Incident reconstruction remains necessary.",
+        "Local deletion removes the targeted evidence path.",
+        "Investigators can obtain wider third-party records."
+      ],
+      "counterexample": "Deletion shifts proof burdens so no broad investigation is needed, or structural evidence remains.",
+      "measurement": "Local retained volume and total investigation disclosure per corrected claim.",
+      "falsifier": "Loss of narrow records does not broaden disclosure or reduce redress at matched incidents.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "If original records exposed intimate third parties and broad investigation is rarely justified, the same deletion/jurisdiction limitation can reduce routine surveillance and malicious correction requests.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P006",
+      "working_name": "Formal restraint can make refusal more expensive",
+      "connected_compounds": [
+        "E4:M021",
+        "E4:M027"
+      ],
+      "paradox": "Smaller listed or formal scope can coexist with a larger practical price of exercising refusal.",
+      "derivation": [
+        "The interface lists fewer permissions.",
+        "A targeted refusal disables more collateral service.",
+        "Maintaining continuity requires a concentrated paid route."
+      ],
+      "assumptions": [
+        "Effect sets or caps are unchanged or narrower.",
+        "Revocation classes include operations benefiting others.",
+        "The only safe reconstruction/refusal route is a costly intermediary."
+      ],
+      "counterexample": "Targeted revocation and independent affordable continuity routes are retained.",
+      "measurement": "Protected-effect set paired with targeted-refusal collateral/cut cost.",
+      "falsifier": "Grouping/routing changes at a fixed effect set leave practical refusal cost unchanged.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "When demand peaks are complementary, the same pooled substitute and coordinated revocation can make more vetoes feasible than separate small reserves.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P007",
+      "working_name": "Everyone's real veto can be jointly unusable",
+      "connected_compounds": [
+        "E4:M021",
+        "E4:M018"
+      ],
+      "paradox": "Universal individually demonstrated choice does not entail a feasible joint choice, without any fake veto.",
+      "derivation": [
+        "Each individual test truthfully validates their veto.",
+        "The tests use the same capacity at different times.",
+        "Concurrent exercise has no feasible service-preserving schedule."
+      ],
+      "assumptions": [
+        "Each veto can be exercised alone with a shared substitute.",
+        "Substitute demand overlaps in time.",
+        "Total simultaneous demand exceeds that substitute."
+      ],
+      "counterexample": "Substitute demands are negatively correlated or independently provisioned.",
+      "measurement": "Joint refusal feasible set versus isolated veto success.",
+      "falsifier": "Concurrent tests remain feasible at the specified excess joint demand without extra capacity or relaxed obligations.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "When demand peaks are complementary, the same pooled substitute and coordinated revocation can make more vetoes feasible than separate small reserves.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P008",
+      "working_name": "Local legitimate actions can create a rule no one locally approved",
+      "connected_compounds": [
+        "E4:M037",
+        "E4:M042"
+      ],
+      "paradox": "Micro-level authorization completeness can coexist with an unowned macro rule transition.",
+      "derivation": [
+        "Every case satisfies its own permission and legitimacy check.",
+        "Institutions use repeated patterns to infer standing or binding custom.",
+        "Future obligations arise beyond the content approved in any case."
+      ],
+      "assumptions": [
+        "Each exception/proposal is locally authorized.",
+        "Repeated cases affect recognition or inferred custom.",
+        "No local decision authorizes the resulting prospective rule."
+      ],
+      "counterexample": "Community conventions explicitly authorize pattern-derived binding custom as part of each case.",
+      "measurement": "Prospective obligations minus obligations covered by recognized rule-adoption conventions.",
+      "falsifier": "Case patterns never create new future bindingness or the transition is already covered by an acknowledged collective authorization.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "The same pattern recognition can reveal shared protection needs and give excluded practices stable recognition, if members consciously choose the resulting custom.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P009",
+      "working_name": "Complete action memory can forget the rule against acting",
+      "connected_compounds": [
+        "E4:M038",
+        "E4:M039",
+        "E4:M040"
+      ],
+      "paradox": "Perfect factual recall of what happened is insufficient for faithful reproduction of why some things never happened.",
+      "derivation": [
+        "All transactions transfer without corruption.",
+        "Reasons for absent actions are not transactions or lose their semantic version.",
+        "A replacement treats a previously avoided act as an unconstrained opportunity."
+      ],
+      "assumptions": [
+        "Records contain every completed action.",
+        "Some rules exist only in reasons for abstention.",
+        "Migration or retrieval omits those negative reasons."
+      ],
+      "counterexample": "All negative constraints are independently explicit and version-interpretable.",
+      "measurement": "Transaction completeness and negative-constraint coverage.",
+      "falsifier": "Removing only negative reasons/meaning leaves behavior on the associated absent action classes unchanged.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "When constraints and mechanisms are stable, the same success-only concentration reduces operating and archival burden without diagnostic loss.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P010",
+      "working_name": "Increasing felt authorship can increase externally imposed style",
+      "connected_compounds": [
+        "E4:M003"
+      ],
+      "paradox": "Greater subjective ownership need not imply a more open practical future for the still-authoring creator.",
+      "derivation": [
+        "The artist better explains and endorses choices.",
+        "Audience and training-data investment deepen that style.",
+        "Equal-quality departures face rising external cost."
+      ],
+      "assumptions": [
+        "Assistance articulates genuine reasons.",
+        "Audience expectations depend on a repeated style.",
+        "Acquisitions feed the next model's proposals."
+      ],
+      "counterexample": "Audiences reward all desired departures equally and training does not favor acquired styles.",
+      "measurement": "Perceived authorship paired with identity-conditioned exploration cost.",
+      "falsifier": "Increased articulation and canon reinforcement do not change acceptance of matched departures.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "For an underrecognized tradition the same dual reinforcement funds durable creative work and helps its practitioners articulate a consciously chosen lineage.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P011",
+      "working_name": "Truthful successful exit proofs can support worse joint exit",
+      "connected_compounds": [
+        "E4:M018",
+        "E4:M044"
+      ],
+      "paradox": "More individually evidenced recovery can reduce recovery coverage per simultaneous claim.",
+      "derivation": [
+        "Every individual demonstration succeeds without lying.",
+        "Each success supports another credible guarantee.",
+        "Jointly deliverable capacity stays fixed while claims grow."
+      ],
+      "assumptions": [
+        "Individual tests mobilize temporary shared resources.",
+        "Contracts multiply claims on those resources.",
+        "A common event exercises them together."
+      ],
+      "counterexample": "The guarantees provision additional disjoint capacity or demand is reliably complementary.",
+      "measurement": "Individual success rate and capacity-backed joint coverage.",
+      "falsifier": "Increasing claims on a fixed shared pool does not reduce simultaneous claim delivery.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "When exits are negatively correlated, the same pooling of tested resources lowers guarantee costs and uses idle capacity efficiently.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P012",
+      "working_name": "Cheaper copies can create more expensive future existence",
+      "connected_compounds": [
+        "E4:M032",
+        "E4:M033"
+      ],
+      "paradox": "Low current replication cost can increase future continuity and assessment burdens under the same uncertain-standing policy.",
+      "derivation": [
+        "More cheap copies are created.",
+        "Preservation and review duties appear after creation.",
+        "The total future provision burden exceeds funded host capacity."
+      ],
+      "assumptions": [
+        "Compute prices omit contingent lifecycle duties.",
+        "Later hosts receive those duties.",
+        "Creation decisions respond to immediate price."
+      ],
+      "counterexample": "All contingent duties are priced and provisioned before copying.",
+      "measurement": "Immediate copy price and contingent continuity funding ratio.",
+      "falsifier": "Timing identical duties at creation versus transfer changes neither demand nor unfunded resource load.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "The same portable continuity duty prevents ownership changes from erasing a provisioned lineage's protections where credible relevant interests exist.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P013",
+      "working_name": "Truthful current consent can fail to represent the consenting predecessor",
+      "connected_compounds": [
+        "E4:M031",
+        "E4:M035"
+      ],
+      "paradox": "Sincerity, present autonomy and earlier-interest representation are compatible but nonidentical evidentiary properties.",
+      "derivation": [
+        "The current survivor sincerely endorses modification.",
+        "Its account is generated through modified memory/reporting.",
+        "That endorsement does not identify the earlier branch's decision-relevant claim."
+      ],
+      "assumptions": [
+        "Modification changes memory or the report-state map.",
+        "Earlier putative interests can differ.",
+        "Current testimony is used to justify irreversible effects on earlier branches."
+      ],
+      "counterexample": "Independent evidence validates relevant interest invariance across the modification.",
+      "measurement": "Present endorsement reliability versus branch-temporal representation coverage.",
+      "falsifier": "A validated invariant mapping preserves every relevant earlier claim in current testimony.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "The same convergent testimony and grouping can protect a consciously valued new identity from obsolete restrictions while reducing duplicate assessment work for aligned branches.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P014",
+      "working_name": "More agency fluency can leave action freedom unchanged",
+      "connected_compounds": [
+        "E4:M030"
+      ],
+      "paradox": "A genuinely helpful agency-related intervention need not improve every defensible meaning of agency.",
+      "derivation": [
+        "People report agency more precisely and decide at better times.",
+        "Completion and comfort improve.",
+        "The substantive option set does not expand."
+      ],
+      "assumptions": [
+        "Agency vocabulary and prompt timing improve.",
+        "Initiation/refusal options and practical costs stay fixed.",
+        "Evaluation treats survey gains as action freedom."
+      ],
+      "counterexample": "The intervention creates verified new affordable initiation or targeted-refusal paths.",
+      "measurement": "Separate fluency, scheduling competence and executable choice region.",
+      "falsifier": "No reporting/scheduling improvement occurs, or apparent option invariance fails under independent testing.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "The same adaptation reduces approval errors and allows previously inarticulate users to express valuable distinctions even without expanding scope.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P015",
+      "working_name": "Accurate prudent agents can produce unstable collective evidence",
+      "connected_compounds": [
+        "E4:M049",
+        "E4:M019"
+      ],
+      "paradox": "Local calibration and prudence do not imply stability of the coupled system producing later evidence.",
+      "derivation": [
+        "Every local action is defensible on its available information.",
+        "Their combination changes the evidence the next action uses.",
+        "Repeated correction overshoots or exhausts shared response capacity."
+      ],
+      "assumptions": [
+        "Actors act on common accurate signals.",
+        "Their actions affect scarce third-party resources or prices.",
+        "Signals return with delay and high response gain."
+      ],
+      "counterexample": "Responses do not affect the common signal or gain/delay is sufficiently damped.",
+      "measurement": "Forecast accuracy and control-induced evidence/queue amplification measured separately.",
+      "falsifier": "Varying only coupling gain/delay has no effect on collective amplification under the assumed resource dependence.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "The same common risk response can contain genuine losses when liquidity is adequate and signals promptly coordinate useful provisioning.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P016",
+      "working_name": "More safe practice can teach less unsupported correction",
+      "connected_compounds": [
+        "E4:M013"
+      ],
+      "paradox": "Quantity and safety of practice are not the information content needed for transfer.",
+      "derivation": [
+        "Repetitions, strength and supported mastery increase.",
+        "The jointly informative correction dose does not.",
+        "Unsupported perturbation responses deteriorate."
+      ],
+      "assumptions": [
+        "Fast correction hides self-action feedback.",
+        "Easy-case practice dominates.",
+        "Independent correction requires relevant error/action pairs."
+      ],
+      "counterexample": "Independent feedback provides attribution and relevant perturbation coverage throughout.",
+      "measurement": "Practice volume paired with informative-correction dose.",
+      "falsifier": "Joint feedback/coverage restoration has no effect on unaided transfer at matched workload and strength.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "When correction habits are maladaptive and errors dangerous, the same timing/coverage filtering prevents harmful habits and enables safe supported participation.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P017",
+      "working_name": "Both private repair agents can succeed while their relationship fails to repair",
+      "connected_compounds": [
+        "E4:M010",
+        "E4:M050"
+      ],
+      "paradox": "A Pareto improvement in separately measured local metrics need not be a Pareto improvement in the omitted joint future state.",
+      "derivation": [
+        "Each local principal spends less effort or makes fewer concessions.",
+        "The common knowledge or coordination capacity contracts.",
+        "Later joint tasks take longer or fail despite earlier private success."
+      ],
+      "assumptions": [
+        "Each principal's local metric excludes shared capacity reproduction.",
+        "Private gains rely on hidden partner/coworker work.",
+        "Success removes that common complement."
+      ],
+      "counterexample": "Shared repair/coordination capacity is separately maintained or all future tasks are separable.",
+      "measurement": "Matched bilateral satisfaction/productivity and joint-transfer capacity.",
+      "falsifier": "Removing the verified common complement changes no later interdependent outcome.",
+      "paradox_limit": "A conditional operational tension or measurement mismatch, not a logical contradiction or claim that established theory cannot explain it.",
+      "beneficial_control": "Where a shared repair routine requires one partner's habitual surrender, the same private resistance and revised self-history can weaken that coercive routine and improve freedom to disagree.",
+      "status": "BLUE_TEAM_DERIVATION_UNRUN_UNSCORED",
+      "authorship_stream": "a"
+    },
+    {
+      "id": "E4:P018",
+      "working_name": "Stronger privacy, wider collective disclosure",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M052",
+        "E4:M056",
+        "E4:M063"
+      ],
+      "derivation": [
+        "Routine minimization removes local incident/obligation paths.",
+        "Equal evidentiary sufficiency then requires broader third-party reconstruction.",
+        "Exposure induces still more minimization, sustaining the reconstruction problem."
+      ],
+      "assumptions": "Investigations must reach sufficient evidence, missing local specificity widens search, and future minimization responds to exposure.",
+      "desirable_assumptions": "Desirable individually: minimize intimate retention and preserve valid redress/recognition.",
+      "strongest_version": "If these conditions hold, stricter ordinary retention can increase total lifecycle identifiable disclosure while lowering stored data.",
+      "counterexample": "Selective commitments or independent testimony preserve narrow sufficient paths.",
+      "measurement": "Stored intimate detail and all-party investigation exposure, measured separately over dispute cycles.",
+      "falsifier": "At equal evidence needs, minimization does not widen reconstruction or future exposure.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P019",
+      "working_name": "More providers, fewer usable outside options",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M051",
+        "E4:M087",
+        "E4:M088"
+      ],
+      "derivation": [
+        "Provider entry increases incompatible attestations.",
+        "Finite adapter budgets route recognition through a common certificate anchor.",
+        "The new nominal options rely on the same recognition cut, reducing anchor-free reachability."
+      ],
+      "assumptions": "New formats require costly adapters; counterparties recognize an anchor; completed transactions require accepted guarantees.",
+      "desirable_assumptions": "Desirable individually: competitive entry, reliable counterpart recognition and technically diverse implementations.",
+      "strongest_version": "If adapter fragmentation grows faster than independent paths, adding providers can lower completed anchor-free transfers at fixed export quality.",
+      "counterexample": "Grounded equivalent attestations and plural issuers keep new paths independently recognized.",
+      "measurement": "Provider count versus anchor-independent essential-counterparty reachability.",
+      "falsifier": "New providers preserve or expand independent recognized paths despite equal adapter constraints.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P020",
+      "working_name": "Equal reviews, no jointly reviewable decision",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M089",
+        "E4:M100"
+      ],
+      "derivation": [
+        "Each institution supplies enough review time locally.",
+        "Conditions change or expire while dependency information waits.",
+        "No sufficiently long common-validity snapshot exists for combined approval."
+      ],
+      "assumptions": "Local terms must be simultaneously binding; snapshots are unavailable; queues and revisions prevent overlap.",
+      "desirable_assumptions": "Desirable individually: equal local review opportunity, fresh terms and responsive correction.",
+      "strongest_version": "If overlap is absent, longer final deadlines can leave joint review infeasible while coordinated binding snapshots succeed.",
+      "counterexample": "Terms remain jointly binding until review or revisions are coordinated.",
+      "measurement": "Joint-validity review slack alongside local review duration and final deadline.",
+      "falsifier": "A fully valid joint review completes with no common validity or binding snapshot under the stated simultaneous requirement.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P021",
+      "working_name": "More recognized vetoes, less feasible refusal",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M054",
+        "E4:M069",
+        "E4:M099"
+      ],
+      "derivation": [
+        "Institutions recognize more speakers or beneficiary-specific concerns.",
+        "Their effective vetoes require a common adapter/substitute capacity.",
+        "Approved uses reserve those resources, so valid refusals no longer compose physically."
+      ],
+      "assumptions": "Binding refusal requires finite shared substitutes; recognized routes concentrate demand; grants and reviewer capacity remain unchanged.",
+      "desirable_assumptions": "Desirable individually: recognized collective voice, narrow grants and preserved formal veto rights.",
+      "strongest_version": "If substitutes are reserved jointly, more recognized decisions can shrink the refusal-feasible set at ample review capacity.",
+      "counterexample": "Recognition adds complementary reserved substitutes or release rules free them before refusal.",
+      "measurement": "Recognized veto issuer count versus jointly feasible refusal set.",
+      "falsifier": "All newly recognized vetoes remain jointly executable without additional substitutes or release rules.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P022",
+      "working_name": "Better independence scores, greater emergency dependence",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M063",
+        "E4:M064",
+        "E4:M067"
+      ],
+      "derivation": [
+        "Supported tasks succeed and shape eligibility/case selection.",
+        "Unobservable needs and lost developmental opportunities leave the denominator.",
+        "Residual needs then reach scarce public emergency reserves rather than ordinary care."
+      ],
+      "assumptions": "Assessment samples support, selection excludes harder needs, and residual need persists and escalates.",
+      "desirable_assumptions": "Desirable individually: effective support, measurable independence and prioritization of manageable care.",
+      "strongest_version": "If residual needs persist, cohort independence can improve while public nonuser emergency displacement rises.",
+      "counterexample": "Assistance genuinely reduces full-population need or excluded needs receive independent sufficient support.",
+      "measurement": "Recorded independence, post-exit need and synchronized reserve demand, with common denominators.",
+      "falsifier": "Complete follow-up shows declining total need and no transferred emergency burden despite the claimed selection.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P023",
+      "working_name": "More certification, less independent judgment",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M058",
+        "E4:M060",
+        "E4:M061"
+      ],
+      "derivation": [
+        "More reviewers complete a common assisted syllabus.",
+        "Renewal evidence sees fewer failures outside the practiced frame.",
+        "Independent distinctions shrink while headcount and completion rise."
+      ],
+      "assumptions": "New distinctions require independent practice; qualification favors shared completion; unfamiliar failures are omitted from renewal.",
+      "desirable_assumptions": "Desirable individually: accessible qualifications, efficient updating and wider human oversight.",
+      "strongest_version": "If shared training substitutes for independent discrimination, additional qualified reviewers can lower unfamiliar-exception coverage.",
+      "counterexample": "Independent case generation and portable distinctions spread through the common syllabus.",
+      "measurement": "Credentialed headcount versus independently measured exception-class coverage.",
+      "falsifier": "Cross-frame unaided detection improves proportionally with qualifications and shared completion.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P024",
+      "working_name": "More recovery insurance, less deliverable recovery",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M057",
+        "E4:M059",
+        "E4:M062",
+        "E4:M068"
+      ],
+      "derivation": [
+        "Managers count insured cash as readiness.",
+        "Routine purchases stop funding training or protected physical substitutes.",
+        "Common failures create claims money cannot immediately convert into scarce judgment or labor."
+      ],
+      "assumptions": "Indemnity is cash-only, physical recovery is scarce, and readiness affects procurement/investment.",
+      "desirable_assumptions": "Desirable individually: affordable risk pooling, fast routine service and credible readiness accounting.",
+      "strongest_version": "If insurance crowds out physical complements, coverage can rise while common-failure restoration slows.",
+      "counterexample": "Insurance contracts buy tested standby capacity, or elastic substitutes are immediately available.",
+      "measurement": "Monetary coverage and jointly deliverable recovery capacity measured under simultaneous demand.",
+      "falsifier": "Coverage increases fund independent physical capacity and reduce common-event restoration delays.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P025",
+      "working_name": "Perfect memory, diminishing reciprocal agency",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M073",
+        "E4:M075",
+        "E4:M091"
+      ],
+      "derivation": [
+        "Faithful memories reactivate obligations and precedents.",
+        "The same memories select opportunities and private repairs that determine later evidence.",
+        "Endogenous confirmations accumulate while mutual attribution or alternative reasons disappear."
+      ],
+      "assumptions": "Retrieval influences action; opportunity/repair contributions shape later records; record accuracy does not guarantee representative sampling.",
+      "desirable_assumptions": "Desirable individually: faithful recall, honoring valid duties and consistent precedent.",
+      "strongest_version": "If contribution/variant visibility is lost, more accurate remembered history can raise demands and narrow valid alternatives without improving reciprocal understanding.",
+      "counterexample": "Participants jointly contextualize contributions and preserve rival precedents.",
+      "measurement": "Recall accuracy versus reciprocal contribution recognition and available alternative reasons.",
+      "falsifier": "Added accurate memory improves alternative access and reciprocity without the proposed evidence narrowing.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P026",
+      "working_name": "More participation, less preference formation",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M071",
+        "E4:M092",
+        "E4:M093"
+      ],
+      "derivation": [
+        "Cheap drafting and filings increase counted participation.",
+        "Cadence eliminates reflection intervals and raises admission thresholds.",
+        "Ready categories become the practical positions that count as participation."
+      ],
+      "assumptions": "Reflective revision needs time, filing rules react to volume and supplied terms influence measurement.",
+      "desirable_assumptions": "Desirable individually: inexpensive participation, rapid responsiveness and clear articulation.",
+      "strongest_version": "If continuous participation consumes all reflection gaps, counted inputs can increase while independently revised problem definitions decrease.",
+      "counterexample": "Drafting creates protected reflection time and nonconforming claims retain support.",
+      "measurement": "Counted submissions versus independently revised positions and supported category challenges.",
+      "falsifier": "With cadence and admission shifts established, more participation still broadens independently formed positions equally.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P027",
+      "working_name": "More courtesy, less public access",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M078",
+        "E4:M079",
+        "E4:M080"
+      ],
+      "derivation": [
+        "Robots satisfy local yielding/etiquette rules.",
+        "Credits, dispatch concentration or reciprocal plan updates alter aggregate space/time use.",
+        "Accessible approaches or quiet intervals disappear although no local encounter is aggressive."
+      ],
+      "assumptions": "Courtesy metrics omit holding occupancy, strategic routing or coupled human replanning.",
+      "desirable_assumptions": "Desirable individually: local politeness, collision avoidance and efficient logistics.",
+      "strongest_version": "If local courtesy funds priority or unstable replanning, more courteous encounters can accompany longer wheelchair delays or less usable crossing slack.",
+      "counterexample": "Credits measure shared access gains and predictable quiet intervals survive.",
+      "measurement": "Courtesy compliance versus accessible approach occupancy and usable public crossing slack.",
+      "falsifier": "Courtesy improvement lowers full-path delay and preserves stationary social use under matched demand.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P028",
+      "working_name": "Plural exceptions, narrower membership",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M076",
+        "E4:M077",
+        "E4:M091"
+      ],
+      "derivation": [
+        "Institutions honor more individual exceptions.",
+        "Legible reasons/templates dominate and shared preparation shrinks.",
+        "Fewer forms and time intersections produce recognized communal participation."
+      ],
+      "assumptions": "Some acts/timing are constitutive; recurrent exception templates become defaults; ambiguous forms have higher expression cost.",
+      "desirable_assumptions": "Desirable individually: accommodations, reliable scheduling and respectful plural practice.",
+      "strongest_version": "If exceptions determine reusable membership paths, more grants can reduce recognized form diversity or eliminate the common quorum.",
+      "counterexample": "Plural forms remain independently recognized and schedules preserve shared acts.",
+      "measurement": "Granted exceptions versus recognized membership routes and quorum overlap.",
+      "falsifier": "Growing exceptions preserve every preferred recognized form and common-act access without the hypothesized narrowing.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P029",
+      "working_name": "More consistent identity, less adequate representation",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M081",
+        "E4:M084",
+        "E4:M090"
+      ],
+      "derivation": [
+        "Technical identity/lineage conventions simplify counting and review.",
+        "Different affected humans or divergent putative claims are collapsed or assigned unreachable forums.",
+        "Consistency of labels improves while effect-bearing claimants lose practical representation."
+      ],
+      "assumptions": "Counting/review units affect standing; divergence exists; batching is treated as equivalence or local jurisdiction blocks challenge.",
+      "desirable_assumptions": "Desirable individually: stable identity, deduplication and cost-efficient review.",
+      "strongest_version": "If technical equivalence becomes claimant equivalence, improved identity consistency can lower represented claim coverage.",
+      "counterexample": "Batching preserves branch claims and human/communal units are independently justified.",
+      "measurement": "Technical identity consistency versus reachable effect-bearing claimant/claim coverage.",
+      "falsifier": "Every distinct relevant claim retains competent recourse despite the asserted collapse.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P030",
+      "working_name": "Stronger possible protection, fewer future protected relationships",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M085",
+        "E4:M086",
+        "E4:M070"
+      ],
+      "derivation": [
+        "Continuity duties provision future preservation and review.",
+        "Duties raise copy/transfer costs and reduce alternative supply.",
+        "Human attachment concentrates on remaining lineages, sustaining protection after status evidence changes."
+      ],
+      "assumptions": "Budgets bind, alternatives affect dependence and human transition obligations remain independent of status evidence.",
+      "desirable_assumptions": "Desirable individually: provisioned lifecycle caution, nonabandonment and human continuity.",
+      "strongest_version": "If supply is constrained, stronger protection can reduce copies yet increase dependence and transition cost per continuing lineage.",
+      "counterexample": "Alternatives are adequately provisioned or protection lowers total transition cost without constraining supply.",
+      "measurement": "New provisioned relationships, retained human dependence and status-dependent versus independent duties.",
+      "falsifier": "Replication and replacement remain unchanged and dependence falls under stronger duties despite the claimed budget constraint.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P031",
+      "working_name": "More transferable obligations, less private transfer",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M052",
+        "E4:M066",
+        "E4:M070",
+        "E4:M082"
+      ],
+      "derivation": [
+        "Institutions demand portable proof of authority and continuity.",
+        "Sufficient proof is tied to intimate relational history or contested status.",
+        "Transfers spread disclosure and host duties, inducing further revision and reconstruction."
+      ],
+      "assumptions": "Bounded functional evidence is not accepted; shared history is requested; hosts and absent parties lack independent control.",
+      "desirable_assumptions": "Desirable individually: trustworthy transfer, continuity and valid privacy revision.",
+      "strongest_version": "If biography substitutes for obligation tests, higher portable confidence can increase intimate exposure and unresolved revision burden.",
+      "counterexample": "Selective tests and duty-specific proofs are sufficient and claimant-preserving.",
+      "measurement": "Recognized obligation coverage per intimate disclosure and unpriced host duty.",
+      "falsifier": "Transfer confidence improves using compact tests while total relational exposure and host burden fall.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P032",
+      "working_name": "Faster local repair, slower final resolution",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M089",
+        "E4:M090",
+        "E4:M100"
+      ],
+      "derivation": [
+        "Local agents promptly revise plans or initial denials.",
+        "Revisions synchronize exceptions and invalidate dependencies or review objects.",
+        "Further repair reacts to stale signals, extending the time to a jointly settled outcome."
+      ],
+      "assumptions": "Cross-institution delays are material, review remains partly human and update gain increases rework.",
+      "desirable_assumptions": "Desirable individually: accurate fast corrections, fresh terms and responsive appeals.",
+      "strongest_version": "If gain exceeds the coupled delay margin, lower local latency can raise joint reversals and final remedy time at equal mean workload.",
+      "counterexample": "Signals arrive promptly, corrections damp or checkpoints are staggered.",
+      "measurement": "Local response latency versus joint-feasibility oscillation and effective final remedy time.",
+      "falsifier": "Increasing local responsiveness reduces final resolution delay throughout the independently identified delay regime.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P033",
+      "working_name": "Better research fit, worse knowledge of alternatives",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M093",
+        "E4:M094",
+        "E4:M095"
+      ],
+      "derivation": [
+        "A program places instruments and categories around its promising predictions.",
+        "Its selected data guide evaluation-world recalibration.",
+        "Own-policy fit improves while unmeasured alternatives and slow stocks lose diagnostic coverage."
+      ],
+      "assumptions": "Measurement/calibration budgets are finite and frame-directed; holdout alternatives are not used to allocate effort.",
+      "desirable_assumptions": "Desirable individually: targeted measurement, calibrated evaluation and efficient resource use.",
+      "strongest_version": "If frame-directed calibration reallocates support, improved ranking can coincide with rising fixed cross-policy or rare-shock prediction error.",
+      "counterexample": "Independent alternative coverage and slow-stock measures improve together with candidate fit.",
+      "measurement": "Own-policy fit versus frozen alternative-policy/slow-stock diagnostic coverage.",
+      "falsifier": "Fixed independent holdouts improve with no lost coverage despite the hypothesized resource tradeoff.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P034",
+      "working_name": "Growing use, falling dependence through public reproduction",
+      "stage": "BLUE_TEAM_DERIVED_TENSION_NOT_NOVELTY_EVALUATED",
+      "compound_links": [
+        "E4:M062",
+        "E4:M097",
+        "E4:M098"
+      ],
+      "derivation": [
+        "More continuity/repair episodes make bounded needs visible.",
+        "Voluntary learning and compact negative constraints produce portable public expertise.",
+        "That expertise and resource return outgrow burden, making later substitutes easier despite more use."
+      ],
+      "assumptions": "Skills transfer, helpers can decline, active constraints are separable and resources replenish capacity faster than attrition.",
+      "desirable_assumptions": "Desirable jointly: reliable help, privacy-preserving continuity and independent public capability.",
+      "strongest_version": "If learning/resource return dominates, increasing supported relationships can lower external family labor and substitute cost rather than deepen dependence.",
+      "counterexample": "Tasks are unteachable, contributions coerced or public expertise remains tied to the originating stack.",
+      "measurement": "Relationship use versus retained transferable expertise, family burden and completed independent transfers.",
+      "falsifier": "More episodes consume helpers without retained portable capacity or lower subsequent transition cost.",
+      "logical_status": "Conditional operational inversion/tension, not a contradiction theorem or certified novel paradox.",
+      "uncertainty": "No empirical prevalence or prior-theory nonderivability claimed. Derivation depends on named couplings; counterexamples remain preserved.",
+      "authorship_stream": "b"
+    },
+    {
+      "id": "E4:P035",
+      "working_name": "More consent, less usable veto",
+      "compound_links": [
+        "E4:M101",
+        "E4:M140"
+      ],
+      "conditional_paradox": "With unchanged formal scope, additional valid grants and more reliable service can leave fewer commitments jointly vetoable.",
+      "derivation": [
+        "Accepted commitments consume overlapping fallback capacity.",
+        "Reliable execution reduces observed veto use.",
+        "Use-responsive budgets reduce enabling capacity.",
+        "A future common disturbance requires more simultaneous vetoes than the remaining pool can support."
+      ],
+      "assumptions": [
+        "Each grant is individually understood and valid.",
+        "Several grants reserve the same substitute pool.",
+        "Low observed veto use legitimately shifts finite resources away from reserve and review practice."
+      ],
+      "counterexample": "Separate protected substitute pools and maintained reviewer practice preserve feasible vetoes even as grants increase.",
+      "measurement": "Measure understood grant count, scope, unreserved qualified substitute-hours, jointly feasible revocation sets and conditional successful veto rate.",
+      "falsifier": "With common reserved capacity and use-responsive funding verified, the jointly feasible veto frontier does not contract over repeated low-use periods.",
+      "beneficial_mirror": "The same use-responsive allocation builds veto capacity in settings where routine exercised refusals reveal high demand; additional grants can fund useful common fallback.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P036",
+      "working_name": "More corrected origins, fewer remedied descendants",
+      "compound_links": [
+        "E4:M102",
+        "E4:M117"
+      ],
+      "conditional_paradox": "A faster truthful correction service can reduce the fraction of downstream decisions repaired before their remedy deadlines.",
+      "derivation": [
+        "More accepted corrections create more legitimate reopening work.",
+        "Guarantee-linked descendants carry additional liability and ancestry burdens.",
+        "Unrepaired descendants remain inputs to later decisions.",
+        "Recursive reconstruction work consumes the deadline budget of new legitimate claims."
+      ],
+      "assumptions": [
+        "Origin records are genuinely erroneous and accepted corrections are accurate.",
+        "A correction reopens many guarantee-backed descendants.",
+        "Admission requires finite ancestry reconstruction within fixed deadlines."
+      ],
+      "counterexample": "Bounded-depth inheritance, pre-funded descendant repair and automatic deadline tolling prevent the predicted loss.",
+      "measurement": "Track correction acceptance latency separately from ancestry work, descendant reopening rate and deadline-valid remedy completion.",
+      "falsifier": "An intervention speeding accurate source correction increases neither unresolved descendant stock nor missed remedy deadlines under the stipulated recursive workload.",
+      "beneficial_mirror": "Where descendants are bounded and repair capacity expands with corrections, the same truthful reopening improves distributed evidence integrity and remedy completion.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P037",
+      "working_name": "Less retained principal data, more absent-party disclosure",
+      "compound_links": [
+        "E4:M103",
+        "E4:M113",
+        "E4:M148"
+      ],
+      "conditional_paradox": "Successful minimization of one principal's record can increase durable documentary exposure for people who never used the service.",
+      "derivation": [
+        "Deletion creates reconstruction gaps.",
+        "Investigators substitute records from counterparties and bystanders.",
+        "Those substitutes become accepted relational proof.",
+        "Later guarantees or disputes seek confirmation from the same absent parties."
+      ],
+      "assumptions": [
+        "A legitimate appeal or continuity guarantee survives account minimization.",
+        "The principal's record and non-user records are partial substitutes.",
+        "Collateral evidence may be reused for later recognition."
+      ],
+      "counterexample": "Redress based on anonymous independent facts or strictly single-use collateral does not create growing absent-party proof dependence.",
+      "measurement": "Jointly record principal retained bytes, distinct non-user persons queried, burden-hours and later reuse of their records.",
+      "falsifier": "Randomized account minimization with surviving redress does not increase collateral querying or durable non-user evidence reuse despite the proposed substitution paths.",
+      "beneficial_mirror": "With consenting shared-record participants, the same relational evidence reuse can reduce repetitive paperwork and recover legitimate claims without restoring unnecessary principal surveillance.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P038",
+      "working_name": "Better renewal bargains, weaker demonstrated exit",
+      "compound_links": [
+        "E4:M104",
+        "E4:M112"
+      ],
+      "conditional_paradox": "More credible-looking exit rehearsal can win better terms while leaving the user less informed about whether independent exit would actually work.",
+      "derivation": [
+        "Scaffolded completions signal contestability.",
+        "The incumbent improves terms.",
+        "Satisfied users cancel real transfer experiments.",
+        "The missing experiments leave scaffold dependency untested, supporting another successful rehearsal cycle."
+      ],
+      "assumptions": [
+        "Completion of rehearsals influences retention concessions.",
+        "The rehearsal can rely on incumbent traces or helpers.",
+        "Concessions reduce actual independent transfer trials."
+      ],
+      "counterexample": "Rehearsals performed without incumbent scaffolding and mandatory post-concession transfers preserve independent exit evidence.",
+      "measurement": "Measure renewal price, apparent drill pass rate, actual substitute experiments and hidden dependency discovered in unscaffolded trials.",
+      "falsifier": "Concession recipients conduct equally informative substitute validation and lose no independent exit evidence relative to matched non-recipients.",
+      "beneficial_mirror": "The same credible exit signal improves terms and keeps alternatives healthy when real substitute validation continues; mutually beneficial retention is possible.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P039",
+      "working_name": "Faster stops, slower recognized release",
+      "compound_links": [
+        "E4:M105",
+        "E4:M135"
+      ],
+      "conditional_paradox": "Reducing every agent's local stop latency can increase the time until all counterparties and shared places recognize release.",
+      "derivation": [
+        "Faster local stops synchronize settlement arrivals.",
+        "The shared restoration queue delays disposition.",
+        "Counterparties retain old reservations while waiting.",
+        "Continuing reliance generates new disputes or restoration claims, extending the queue."
+      ],
+      "assumptions": [
+        "Stopping is honored locally.",
+        "Existing obligations require shared disposition or spatial restoration.",
+        "Batch stop notifications create a synchronized arrival burst; unresolved reliance generates further work."
+      ],
+      "counterexample": "Automatic release without residual obligations, sufficient burst reserve, or a bounded separate residual queue eliminates the tension.",
+      "measurement": "Distinguish local stop milliseconds from settlement arrival covariance, reliance persistence and tail time to recognized release.",
+      "falsifier": "At fixed disposition capacity and verified reliance feedback, synchronized faster stops leave tail recognized-release latency unchanged or lower.",
+      "beneficial_mirror": "The same synchronized stopping clears a common unsafe configuration quickly where pooled burst reserve exists; shared recognition then propagates release rather than stale reliance.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P040",
+      "working_name": "Restored route, absent restoration",
+      "compound_links": [
+        "E4:M107",
+        "E4:M146"
+      ],
+      "conditional_paradox": "Restoring geometry and average individual skill can leave fewer viable recovery routes than before restoration.",
+      "derivation": [
+        "Automation reduces ordinary apprentice encounters.",
+        "Announced recovery tests assemble temporary help and pass.",
+        "Passing lowers pressure to replace retiring local mentors.",
+        "Physical restoration reopens geometry but cannot reconstitute the missing skill combination immediately."
+      ],
+      "assumptions": [
+        "Some routes require complementary human assistance rather than isolated skill.",
+        "Automation interrupted joint mentoring encounters.",
+        "Announced tests temporarily borrowed the missing complement."
+      ],
+      "counterexample": "Restored routes requiring no complementary knowledge, or a maintained local apprenticeship path for every required class, restore usability.",
+      "measurement": "Measure path-specific complement coverage, announced versus unannounced recovery success, geometry and individual skill separately.",
+      "falsifier": "With geometry and average skill matched, a lost mentor path predicts no unannounced recovery deficit or delayed usability.",
+      "beneficial_mirror": "The same joint encounters and borrowed demonstrations can reproduce complements when tests teach local successors rather than merely certify a borrowed result.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P041",
+      "working_name": "Longer review windows, no jointly valid review",
+      "compound_links": [
+        "E4:M108",
+        "E4:M114"
+      ],
+      "conditional_paradox": "Every institution can offer a longer review opportunity while the shared workflow remains impossible or becomes less feasible.",
+      "derivation": [
+        "A longer local interval is individually helpful.",
+        "Its position may still miss another term's interval.",
+        "New advance claims consume the few common free intervals.",
+        "Failed joint review creates reauthorization work that occupies future calendars."
+      ],
+      "assumptions": [
+        "All required terms must be simultaneously valid and reviewers available.",
+        "Institutions extend windows independently.",
+        "Extensions induce further reservations or do not change the relevant intersection."
+      ],
+      "counterexample": "Aligned validity extensions with protected common review capacity make the joint intersection grow.",
+      "measurement": "Measure each interval's length and the free intersection after dependency and commitment constraints, not their sum.",
+      "falsifier": "Independent extensions reliably expand the free feasible intersection even when extra reservation demand and unchanged relative positioning are verified.",
+      "beneficial_mirror": "The same longer-window structure supports joint review if institutions coordinate interval positions and reserve the shared reviewer time.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P042",
+      "working_name": "More certified memory, less remembered constraint",
+      "compound_links": [
+        "E4:M109",
+        "E4:M125",
+        "E4:M138"
+      ],
+      "conditional_paradox": "A more uniformly compliant memory-transfer system can remember more actions while losing the reasons certain actions were deliberately never taken.",
+      "derivation": [
+        "Routine success validates the minimum package.",
+        "Compliance becomes the admissibility and retention ceiling.",
+        "Excluded abstention rationales receive no retention support.",
+        "Boundary cases repeat avoided experiments while the action history remains fully truthful."
+      ],
+      "assumptions": [
+        "The standard transfers actions and stated dependencies truthfully.",
+        "Some relevant constraints exist only in abstention rationales.",
+        "Procurement and review retain only what the recognized standard requires."
+      ],
+      "counterexample": "An independently accessible full rationale memory, including negative knowledge, removes the claimed information gap.",
+      "measurement": "Count authenticated action-history completeness separately from retained abstention rationales and forbidden boundary probes after replacement.",
+      "falsifier": "With matched full ordinary rationale available, replacement still requires a novel variable unique to this construction; alternatively no increased forbidden probe rate appears when rationales disappear.",
+      "beneficial_mirror": "The same standard makes valuable inherited constraints easier to retrieve when its recognized package includes abstention rationales; standardization itself is not the defect.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P043",
+      "working_name": "Reversible machine preservation, irreversible human revision loss",
+      "compound_links": [
+        "E4:M110",
+        "E4:M142"
+      ],
+      "conditional_paradox": "A lifecycle arrangement that carefully preserves recoverable machine state can make the associated human history harder to revise.",
+      "derivation": [
+        "Suspension preserves the disputed machine configuration.",
+        "Replacement continuity removes practical reasons for witness encounters.",
+        "The human loses independent evidence while revision waits.",
+        "Less independent evidence prolongs the unresolved review despite intact machine state."
+      ],
+      "assumptions": [
+        "Machine standing is uncertain and preservation is a precaution, not proof of status.",
+        "Assessment delays human context changes.",
+        "A replacement service displaces time-limited independent human witness encounters."
+      ],
+      "counterexample": "Preservation with independent witness-producing human interaction and separate revision channels protects both continuities.",
+      "measurement": "Pair machine-state recoverability with independent witness-event coverage and the time to contest or revise human records.",
+      "falsifier": "More recoverable suspension produces no reduction in human evidence or revision feasibility when witness displacement is demonstrated.",
+      "beneficial_mirror": "The same careful preservation enables future learning and humane reconsideration when parallel human evidence production remains intact.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P044",
+      "working_name": "More competing providers, fewer independent recognition paths",
+      "compound_links": [
+        "E4:M111",
+        "E4:M114"
+      ],
+      "conditional_paradox": "Provider competition can intensify while the ecosystem becomes more dependent on one certifier.",
+      "derivation": [
+        "Provider entry adds format edges requiring work.",
+        "Common certification lowers per-counterparty work.",
+        "Alternatives lose maintenance support.",
+        "The certifier becomes a recognition cut even as provider market shares disperse."
+      ],
+      "assumptions": [
+        "Providers introduce partly incompatible attestations.",
+        "Counterparty adapter capacity is finite.",
+        "A common certifier economizes interpretation work and displaces alternate recognition maintenance."
+      ],
+      "counterexample": "Open independently maintained attestations, sufficient adapter capacity, or multiple mutually substitutable certifiers preserve recognition competition.",
+      "measurement": "Compare provider concentration against recognition-path connectivity, certifier concentration and cut size under matched transaction demand.",
+      "falsifier": "Verified entry-driven format load and adapter scarcity do not increase certifier indispensability or eliminate independent recognition paths.",
+      "beneficial_mirror": "The same common certification can expand accessible provider choice while independently supported proof routes prevent a monopoly cut.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P045",
+      "working_name": "Better uncertainty disclosure, less comparative knowledge",
+      "compound_links": [
+        "E4:M118",
+        "E4:M112"
+      ],
+      "conditional_paradox": "An honestly transparent service can attract more experiments that teach its provider, while users learn less about alternatives.",
+      "derivation": [
+        "Useful uncertainty disclosure makes incumbent experiments legible.",
+        "Users allocate more trials there.",
+        "The provider gains response knowledge, improving the next disclosure.",
+        "Alternatives remain unmeasured; concessions further reduce comparison trials."
+      ],
+      "assumptions": [
+        "Users rationally prefer interpretable experiments.",
+        "Response estimates are provider-specific and privately accumulated.",
+        "User time and experimentation risk are limited."
+      ],
+      "counterexample": "Publicly portable response evidence or balanced cross-provider experiments prevents provider-specific knowledge concentration.",
+      "measurement": "Measure user experiment time, provider-specific causal precision and coverage of substitute response profiles separately.",
+      "falsifier": "Better truthful legibility causes no reallocation away from substitute trials and no relative increase in provider-private response precision.",
+      "beneficial_mirror": "The same disclosure-driven feedback benefits users when experimental knowledge is shared and improves genuinely informative comparisons rather than merely incumbent estimates.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P046",
+      "working_name": "More accessible appeals, fewer future reviewers",
+      "compound_links": [
+        "E4:M121",
+        "E4:M123"
+      ],
+      "conditional_paradox": "Lower-cost well-prepared appeals can improve present access while shrinking future capacity to understand and decide appeals.",
+      "derivation": [
+        "Preparation tools increase admissible appeal volume.",
+        "Experts allocate more time to urgent review.",
+        "Apprentice explanation and exceptional-case practice decline.",
+        "Future reviewer supply falls, amplifying the queue despite better-prepared documents."
+      ],
+      "assumptions": [
+        "Preparation reduces claimant cost.",
+        "Current experts both review and train successors.",
+        "Expert time is finite and teaching is the adjustable margin."
+      ],
+      "counterexample": "Ring-fenced apprenticeship or scalable independent teaching lets prepared appeals expand access without shrinking successors.",
+      "measurement": "Measure appeal access and quality, expert hours by review versus teaching, successor competence and subsequent queue latency.",
+      "falsifier": "Review volume rises but teaching and successor capacity do not decline, or declining teaching has no subsequent capacity effect under the stated training model.",
+      "beneficial_mirror": "The same review encounters create a richer training corpus and more experts when explanation is embedded in reviewing rather than displaced by it.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P047",
+      "working_name": "More practice hours, less recoverable expertise",
+      "compound_links": [
+        "E4:M122",
+        "E4:M146"
+      ],
+      "conditional_paradox": "Aggregate practice and average competence can increase while the system loses its last live path for a required recovery class.",
+      "derivation": [
+        "Common practice increases total hours and average tested skill.",
+        "Rare mentor paths receive too little apprentice exposure.",
+        "Announced drills borrow external complements and conceal the local gap.",
+        "Loss of the last indispensable local path creates a discrete unannounced recovery deficit."
+      ],
+      "assumptions": [
+        "Recovery requires a finite set of distinct complementary classes.",
+        "Practice can concentrate in common classes.",
+        "Some rare-class mentors retire without successors."
+      ],
+      "counterexample": "Every necessary rare class has a maintained successor path or genuine substitute; aggregate-hours growth then need not conceal failure.",
+      "measurement": "Track class-specific mentor-to-apprentice paths, their availability during unannounced tests and aggregate hours.",
+      "falsifier": "Loss of the stipulated final necessary path changes no unannounced recovery outcome because a verified substitute remains or the class was not necessary.",
+      "beneficial_mirror": "The same specialization and joint practice increase robust recovery when gains are distributed across necessary complementary classes.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P048",
+      "working_name": "More common repairs, less independent error vocabulary",
+      "compound_links": [
+        "E4:M116",
+        "E4:M124",
+        "E4:M125"
+      ],
+      "conditional_paradox": "A successful repair commons can increase solved case counts while reducing the range of novel failures it can recognize.",
+      "derivation": [
+        "Widely reused repairs attract credit and funding.",
+        "Reviewers adopt the same compressed frame.",
+        "Independent boundary expertise and vocabulary reproduction decline.",
+        "New failures outside the common frame appear as familiar cases, preserving high measured completion."
+      ],
+      "assumptions": [
+        "Common patches and summaries are genuinely useful.",
+        "Recognition of new classes requires independent conceptual work.",
+        "Funding and credit follow visible uptake rather than independent repertoire coverage."
+      ],
+      "counterexample": "Commons credit supporting independently elicited boundary repertoires preserves or increases novel-class detection.",
+      "measurement": "Measure solved incidents separately from blind new-class detection and independently elicited explanatory repertoire diversity.",
+      "falsifier": "Greater shared repair adoption does not reduce independent vocabulary or blind novel-class recognition under the alleged budget displacement.",
+      "beneficial_mirror": "The same shared repair commons can spread distinctions once found; maintaining independent discoverers lets common reuse amplify rather than suppress detection.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P049",
+      "working_name": "Every timing preference honored, nobody jointly participates",
+      "compound_links": [
+        "E4:M137",
+        "E4:M144"
+      ],
+      "conditional_paradox": "Individually faithful scheduling and inherited commitments can leave no event satisfying the group's own shared-act criterion.",
+      "derivation": [
+        "Private timing optimization scatters attendance.",
+        "Low quorum limits novice collective practice.",
+        "Inherited reconciliation consumes the current agenda.",
+        "Less collective organizing and renegotiation capacity sustains private scheduling dependence."
+      ],
+      "assumptions": [
+        "Participants' timing preferences are legitimate.",
+        "A shared act requires a quorum in one interval.",
+        "Practice and agenda time reproduce the ability to renegotiate inherited constraints."
+      ],
+      "counterexample": "Preferences having a common quorum interval, or protected joint rehearsal and present-agenda time, permit both individual respect and shared participation.",
+      "measurement": "Measure individual timing satisfaction, actual simultaneous quorum, novice collective-role competence and current renegotiation agenda time.",
+      "falsifier": "Private timing optimization raises shared quorum and preserves collective competence despite the stipulated incompatibility and agenda scarcity.",
+      "beneficial_mirror": "The same faithful timing and inheritance can stabilize shared events when constraints overlap and negotiation maintains rather than consumes organizing capacity.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P050",
+      "working_name": "Same number of copies, more unrepresented claims",
+      "compound_links": [
+        "E4:M141",
+        "E4:M150"
+      ],
+      "conditional_paradox": "A fixed-count lineage can require more representative assessment than before, so population-based capacity planning understates exclusion.",
+      "derivation": [
+        "Branch count remains constant while relevant histories diverge.",
+        "The policy recognizes additional distinct claim classes.",
+        "Representation work competes with other legitimate constituencies.",
+        "Capacity pressure compresses conflicting claims, reducing timely stipulated coverage."
+      ],
+      "assumptions": [
+        "No assumption of machine moral status is made; an institution stipulates a precautionary claim policy.",
+        "Branches develop different policy-relevant histories.",
+        "Shared review capacity is fixed and timely coverage requires some independent work for distinct claims."
+      ],
+      "counterexample": "Histories diverge only in policy-irrelevant features, or additional independent assessment capacity is supplied.",
+      "measurement": "At fixed copy count, measure relevant claim divergence, required independent reviewer time and omitted or delayed stipulated claims.",
+      "falsifier": "Equal-count lineages with independently validated different claim distinctions require equal work and achieve equal timely coverage under the stated policy.",
+      "beneficial_mirror": "The same divergence-aware policy supplies better representation when capacity responds to claim distinctions instead of raw copy count.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    },
+    {
+      "id": "E4:P051",
+      "working_name": "Smaller caps, greater occupational dependence",
+      "compound_links": [
+        "E4:M140",
+        "E4:M149"
+      ],
+      "conditional_paradox": "Narrower individual permissions can leave workers more dependent on an agent-mediated chain if institutions require that chain to perform the job.",
+      "derivation": [
+        "Fragmentation increases reconstruction and intermediary needs.",
+        "Successful mediated execution becomes the occupational standard.",
+        "Declining any link risks failure to satisfy the standard.",
+        "More workers adopt the chain, reducing investment in independent recognized work routes."
+      ],
+      "assumptions": [
+        "Caps genuinely reduce each local actor's permitted scope.",
+        "The task spans complementary channels.",
+        "External execution and workplace recognition make the chain the accepted work route."
+      ],
+      "counterexample": "Caps preserving a genuinely substitutable recognized manual route reduce local scope without creating occupational compulsion.",
+      "measurement": "Compare largest local scope, required authorization-chain size, substitute recognized work routes and employment consequences of refusal.",
+      "falsifier": "Tighter caps reduce chain size or preserve equal recognized non-chain performance when complementary task dependencies are present.",
+      "beneficial_mirror": "The same narrowly scoped coordination improves safe occupational access when many interoperable alternatives can perform each necessary link.",
+      "status": "CONDITIONAL_LOCAL_TO_MACRO_TENSION_NOT_LOGICAL_CONTRADICTION_OR_PROVEN_UNIVERSAL",
+      "authorship_stream": "c"
+    }
+  ]
+}

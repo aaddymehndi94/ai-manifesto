@@ -7,11 +7,15 @@ from definitions is identified as such; it cannot carry the intellectual center.
 
 The executable constructions are in
 [conditional-models.mjs](emergence/conditional-models.mjs). Their assumptions are
-chosen, not measured. Six models pass internal assertions; this is consistency
+chosen, not measured. Seven models pass internal assertions; this is consistency
 checking, not scientific confirmation. A sixth model adds a beneficial sign
 reversal: reinvesting enough savings in independent reserve production can make
 the same delegation improve, rather than erode, its own alternatives. Its clean
 threshold follows from linear stock-flow assumptions, not empirical estimation.
+A seventh check compresses a stop-disposition wave. With delay-generated follow-on
+work it can overload collective release; removing that return or reserving burst
+capacity defeats persistence. It honors every local stop and does not recommend
+slower safety shutdowns. Uniformly earlier stops alone cannot produce the result.
 
 ## 1. Complete successful-action transfer, guaranteed safety, useful novel action
 
@@ -205,3 +209,90 @@ measurement targets: unidentified negative constraints, finite joint refusal
 capacity, and reserve production under decay. Their mathematics is inherited.
 The strongest emergence prospects require *endogenous* constraints: adoption
 changes what can be learned, recognized, substituted or collectively restored.
+
+<!-- EMERGENCE_ATTEMPT_APPENDIX -->
+
+## Additional stream attempts and escapes
+
+The thirteen main-agent attempts above and these eight stream records are twenty-one investigated attempts, not twenty-one distinct results. Several share the same resource or identification obstruction. Stream C investigated no additional impossibility triangle and preserved four failed compound constructions separately.
+
+### E4:A001 (stream a)
+
+**Attempt.** Identify simultaneous recovery from only individual truthful tests and contract outcomes.
+
+**Restricted obstruction.** Disjoint and common-capacity worlds can share those observables while having different joint delivery.
+
+**Escape.** Observe authenticated capacity overlap or run a simultaneous probe.
+
+**Status.** CONDITIONAL_NONIDENTIFICATION_CONSTRUCTION; NOT A NEW OR UNIVERSAL THEOREM
+
+### E4:A002 (stream a)
+
+**Attempt.** Guarantee joint service-preserving veto exercise using individually tested rights and a fixed shared substitute.
+
+**Restricted obstruction.** Concurrent minimum substitute demand exceeds the same finite capacity.
+
+**Escape.** Provision capacity, stagger genuinely deferrable exercise, preserve disjoint substitutes or relax an agreed continuity constraint.
+
+**Status.** RESOURCE_CONSTRAINT_WITH_ESCAPES; NOT A BROAD IMPOSSIBILITY CLAIM
+
+### E4:A003 (stream a)
+
+**Attempt.** Recover all operative constraints and causal states from a complete success-only migrated action history.
+
+**Restricted obstruction.** Different negative-rule/causal states can generate identical successful transactions.
+
+**Escape.** Retain independently interpretable abstention reasons, working contrasts or adequate side-channel evidence.
+
+**Status.** INFORMATION_SET_RELATIVE_OBSTRUCTION; FULL_HISTORY_INSUFFICIENCY_ONLY
+
+### E4:A004 (stream a)
+
+**Attempt.** A broad triangle claiming privacy minimization, portability and effective correction cannot coexist.
+
+**Restricted obstruction.** A specific design deletes narrow proof and loses the challenge forum.
+
+**Escape.** Minimal selectively revealable commitment evidence plus durable affected-party standing can preserve all three goals in the construction.
+
+**Status.** BROAD_TRIANGLE_FAILED; RETAINED_FAILED_ATTEMPT
+
+### E4:A005 (stream a)
+
+**Attempt.** A broad claim that fixed local effect ceilings cannot coexist with stable cross-institution consequence containment.
+
+**Restricted obstruction.** External automatic execution can change consequence reach if absent from the local abstraction.
+
+**Escape.** A sound protected-effect abstraction may already include counterpart-mediated consequences, or require separate execution consent.
+
+**Status.** BROAD_IMPOSSIBILITY_NOT_ESTABLISHED; DESIGN_ESCAPE_RETAINED
+
+### E4:SB-A01 (stream b)
+
+**Attempt.** Full local deletion, zero third-party disclosure and full retrospective redress conflict if the erased record is stipulated to be uniquely sufficient.
+
+**Escape.** Independent testimony or selective functional/evidence certificates.
+
+**Status.** NO_GENERAL_IMPOSSIBILITY_PROVED
+
+**Lesson.** Unique-evidence assumptions can create tautology; no general privacy theorem follows.
+
+### E4:SB-A02 (stream b)
+
+**Attempt.** Always fresh asynchronous terms, sufficient local review and jointly binding approval can conflict without a common snapshot.
+
+**Escape.** Binding snapshots, coordinated renewal or flexible validity requirements.
+
+**Status.** NO_GENERAL_IMPOSSIBILITY_PROVED
+
+**Lesson.** An interval obstruction is not impossibility of human review generally.
+
+### E4:SB-A03 (stream b)
+
+**Attempt.** All vetoes individually viable, shared substitutes fully committed and all vetoes jointly executable can conflict in a finite schedule.
+
+**Escape.** Capacity-backed complements, releases or independent routes.
+
+**Status.** NO_GENERAL_IMPOSSIBILITY_PROVED
+
+**Lesson.** A contradiction in a chosen resource model is not a new theorem or claim about all authority systems.
+
